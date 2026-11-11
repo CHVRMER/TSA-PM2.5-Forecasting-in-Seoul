@@ -43,7 +43,7 @@
 
 가설별 판정, 시드 구성(계획 177회 중 168회 완료), 그림 전체는 [results/C/RESULTS_C.md](../results/C/RESULTS_C.md)에 있습니다.
 
-## 코드 (`C_graph/`)
+## 코드 (`C/`)
 
 | 파일 | 역할 |
 |---|---|
@@ -62,11 +62,11 @@
 
 ```bash
 pip install -r requirements.txt
-python C_graph/experiments.py --workers 2     # 전체 학습, 이어서 실행 가능 (GPU 권장)
-python C_graph/occlude.py
-python C_graph/score_all.py --split validation
-python C_graph/region_contribution.py --split validation
-python C_graph/plot_map.py && python C_graph/plot_summary.py
+python C/experiments.py --workers 2     # 전체 학습, 이어서 실행 가능 (GPU 권장)
+python C/occlude.py
+python C/score_all.py --split validation
+python C/region_contribution.py --split validation
+python C/plot_map.py && python C/plot_summary.py
 ```
 
 학습된 가중치(`model.pt`, 168개, 134 MB)는 용량 때문에 올리지 않았습니다.

@@ -11,7 +11,13 @@ import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
 
-import common as c
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+import common as c  # noqa: E402
+
+c.setup(__file__)
 from plot_map import EXTENT, LAND, land
 
 

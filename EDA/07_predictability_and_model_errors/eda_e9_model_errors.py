@@ -8,7 +8,13 @@ Outputs: tables/e9_rmse_by_cluster.csv, e9_rmse_by_season.csv, e9_bias_by_level.
 import numpy as np
 import pandas as pd
 
-import common as c
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+import common as c  # noqa: E402
+
+c.setup(__file__)
 
 RUNS = c.REPO / "results" / "C" / "runs" / "C_GRU"
 H = (3, 6, 12, 24)
@@ -29,7 +35,7 @@ def main():
                         columns=["origin_time_kst", "split", "horizon", "y_true", "eligible", "persistence_y_hat"])
     g = g[g.split.eq("validation") & g.eligible].set_index(["origin_time_kst", "horizon"])
     d = g.join(preds("F")).join(preds("DN")).dropna(subset=["F", "DN"]).reset_index()
-    cl = pd.read_csv(c.TAB / "e5_traj_clusters_2021_2023.csv", index_col=0, parse_dates=True).cluster
+    cl = pd.read_csv(c.CLUSTERS, index_col=0, parse_dates=True).cluster
     cl.index = pd.DatetimeIndex(cl.index).tz_convert("Asia/Seoul")
     d["origin"] = pd.DatetimeIndex(d.origin_time_kst).tz_convert("Asia/Seoul")
     d["cluster"] = cl.reindex(d.origin).to_numpy()

@@ -1,4 +1,4 @@
-"""Shared loaders for the EDA scripts (training period 2021-22 unless a script says otherwise).
+"""Shared loaders for the EDA scripts in the group folders (training period 2021-22 unless a script says otherwise).
 
 Station PM2.5 comes from the C data cache (work/c_universe.npz: Seoul Jung-gu + 650 stations, hourly, flag != 0 -> NaN).
 It is built once from data_v5 by C/cdata.py if missing.
@@ -16,10 +16,20 @@ REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO / "C"))
 import cdata  # noqa: E402
 
-FIG = REPO / "EDA" / "figures"
-TAB = REPO / "EDA" / "tables"
-FIG.mkdir(parents=True, exist_ok=True)
-TAB.mkdir(parents=True, exist_ok=True)
+EDA = REPO / "EDA"
+FIG = TAB = None            # set per script by setup(__file__): <group folder>/figures, <group folder>/tables
+CLUSTERS = EDA / "05_transport_pathways_and_events" / "tables" / "e5_traj_clusters_2021_2023.csv"
+
+
+def setup(script):
+    """write figures/tables next to the calling script (its EDA group folder)."""
+    global FIG, TAB
+    d = Path(script).resolve().parent
+    FIG, TAB = d / "figures", d / "tables"
+    FIG.mkdir(exist_ok=True)
+    TAB.mkdir(exist_ok=True)
+
+
 TARGET = cdata.TARGET
 # region priority: the first match wins (JP_WEST25 overlaps JP)
 REGION_ORDER = ["KR_CAPITAL", "KR_GANGWON", "KR_CHUNGCHEONG", "KR_HONAM", "KR_DAEGYEONG", "KR_DONGNAM", "KR_JEJU",
@@ -75,3 +85,16 @@ def save(fig, name):
 def table(df, name, index=True):
     df.to_csv(TAB / f"{name}.csv", index=index, encoding="utf-8-sig")
     print("table", name, df.shape)
+
+
+def clusters():
+    """E5 route cluster of the trajectory arriving at each 3-hourly time (2021-23; run 05 first)."""
+    s = pd.read_csv(CLUSTERS, index_col=0).cluster
+    s.index = pd.DatetimeIndex(pd.to_datetime(s.index, utc=True)).tz_convert("Asia/Seoul")
+    return s
+
+
+def region_means(pm, st, log=True):
+    """hourly mean PM2.5 per region (log1p of each station first when log=True)."""
+    x = np.log1p(pm) if log else pm
+    return x.T.groupby(st.region.reindex(x.columns)).mean().T

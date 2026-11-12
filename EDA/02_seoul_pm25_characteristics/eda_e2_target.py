@@ -10,7 +10,13 @@ from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 from statsmodels.tsa.seasonal import MSTL
 from statsmodels.tsa.stattools import adfuller, kpss
 
-import common as c
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+import common as c  # noqa: E402
+
+c.setup(__file__)
 
 HOLIDAYS = {"Seollal 2021": "2021-02-12", "Chuseok 2021": "2021-09-21", "Seollal 2022": "2022-02-01", "Chuseok 2022": "2022-09-10"}
 

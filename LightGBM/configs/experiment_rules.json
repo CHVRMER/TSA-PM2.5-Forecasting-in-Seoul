@@ -1,0 +1,108 @@
+{
+  "scope": "확정된 공통 규칙; 이번 실행은 Stage 2 M2만",
+  "target": {
+    "station_id": "111121",
+    "pollutant": "PM2.5",
+    "target": "exact t+h",
+    "horizons": [
+      3,
+      6,
+      12,
+      24
+    ],
+    "primary_horizon": 6,
+    "origin_frequency_hours": 3,
+    "feature_table_rows": 11688
+  },
+  "splits": {
+    "train": [
+      2021,
+      2022
+    ],
+    "validation": [
+      2023
+    ],
+    "test": [
+      2024
+    ],
+    "refit_with_2023": false,
+    "test_project_evaluations": 1,
+    "test_current_stage_enabled": false
+  },
+  "transform": "log1p -> expm1; 시드별 원 단위 예측 평균",
+  "missing": {
+    "target": "미대체, eligible_h 사용",
+    "lightgbm": "그대로 유지",
+    "neural": "0 + 결측 표시; 정규화는 2021-22",
+    "SARIMAX": "과거로만 최대 24시간 채운 뒤 2021-22 중앙값"
+  },
+  "lightgbm_base_config": "configs/m1_6h.json",
+  "seed_ensemble": [
+    0,
+    1,
+    2
+  ],
+  "information_availability": "t 이하 관측·도착 궤적. 공개 지연 미재현은 승인된 사후 연구 한계.",
+  "feature_definitions": {
+    "M1": 1142,
+    "M2": 1478,
+    "M3": 2118,
+    "M4": 2518,
+    "M3T": {
+      "approved_count": 2424,
+      "all_path_scope_includes_JP_MN": true
+    },
+    "M4T": {
+      "approved_count": 2924,
+      "excluded_training_all_missing_path_columns": 28
+    }
+  },
+  "scoring": {
+    "module": "src/common_scoring.py",
+    "same_rows": "비교 모델·persistence 모두 유효한 eligible_h 공통 행",
+    "negative_predictions": "채점 때 0 절단·건수 기록",
+    "metrics": [
+      "RMSE",
+      "MAE",
+      "MBE",
+      "RMSE skill vs persistence"
+    ],
+    "DM": "제곱오차, Bartlett HAC lag=h/3, 실제 3h 격자",
+    "bootstrap": "56개 달력 슬롯=7일 이동 블록, paired, 1000회, seed 0",
+    "holm_scope": "기존 규칙: 해당 실행 전에 고정한 모든 비교쌍 x Horizon. 전체 최종 실행 비교군은 동결 manifest에서 기록.",
+    "stage2_pairs": [
+      "M1:persistence",
+      "M2:persistence",
+      "M2:M1"
+    ],
+    "stage2_holm_tests": 12,
+    "improved": "RMSE candidate-reference CI upper < 0 AND Holm p < 0.05",
+    "conditions": [
+      "season",
+      "route_group",
+      "wind_sector",
+      "PM2.5>=35"
+    ]
+  },
+  "paths": {
+    "new_validation": "results/validation_2023/{model}/",
+    "models": "Models/{model}/h{h}/",
+    "old_M1": "preserve existing registered paths",
+    "test": "results/test_2024/ (not created/used in Stage2)",
+    "shap": "results/shap/ (future stage)",
+    "overwrite": false,
+    "reorganization": "모델 개발 후 별도 승인"
+  },
+  "M1_official_manifest": "results/M1_allhorizon_validation_20261108_182422/completion.json",
+  "M2_official_manifest": "results/validation_2023/M2/manifest.json",
+  "adaptive_future_only": {
+    "models": [
+      "M1",
+      "M3"
+    ],
+    "cell_min_samples": 100,
+    "small_cell": "season weight fallback",
+    "degenerate_denominator_weight": 0.5,
+    "near_zero_threshold": "2023 M1/M3 예측 차이 분포 확인 후 제안·승인; 현재 미확정, M2에는 미적용"
+  }
+}

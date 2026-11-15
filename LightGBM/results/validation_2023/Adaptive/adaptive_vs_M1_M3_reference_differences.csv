@@ -1,0 +1,9 @@
+horizon,model,RMSE_minus_M1,RMSE_minus_M3,evaluation_type,formal_improvement_assessed
+3,Adaptive_wind,-0.04915513637742652,-0.03557042219937312,in_sample_reference,False
+3,Adaptive_route,-0.04138625023489606,-0.027801536056842657,in_sample_reference,False
+6,Adaptive_wind,-0.23125115664522333,-0.019610203293110473,in_sample_reference,False
+6,Adaptive_route,-0.22771744367669022,-0.016076490324577364,in_sample_reference,False
+12,Adaptive_wind,-0.4418828797001204,-0.06366926585324428,in_sample_reference,False
+12,Adaptive_route,-0.4592024396799328,-0.08098882583305667,in_sample_reference,False
+24,Adaptive_wind,-0.961523637727959,-0.06405622699004887,in_sample_reference,False
+24,Adaptive_route,-0.9572409251374907,-0.05977351439958056,in_sample_reference,False

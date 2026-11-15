@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "analysis_manifest_sha256": "7710774c78f0fb5daadd560b7726b590e621c0743636bbb257e5f99befc71515",
+  "features_version": "origin-features-3.0.0",
+  "feature_manifest_sha256": "15b0a6b809c046ef999b6b45aa842782cf187ba5cd5f0830a0d5754f5fa6c0aa",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "split": "validation",
+  "report_code_sha256": "bf8d5cb5eec57ba3c3357573f6138f675a3b2eb1267d5c6708dd4b8eb7b43323",
+  "figures": [
+    "figures/h6_country_group_permutation.png",
+    "figures/h6_country_group_shap.png",
+    "figures/all_horizons_country_permutation.png",
+    "figures/h6_trajectory_permutation.png",
+    "figures/all_horizons_country_shap.png"
+  ],
+  "test_executed": false,
+  "adaptive_executed": false,
+  "raw_readback_verification": "raw_readback_verification.json",
+  "visual_QA": [
+    "h6_country_group_permutation.png",
+    "all_horizons_country_permutation.png",
+    "h6_trajectory_permutation.png",
+    "all_horizons_country_shap.png"
+  ]
+}

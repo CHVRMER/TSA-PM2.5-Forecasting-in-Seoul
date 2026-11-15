@@ -1,0 +1,17 @@
+scope,model,horizon,n,season_fallback,small_cell_fallback,unknown_fallback,frozen_near_zero_exception_applied
+all_test_origins,Adaptive_route,3,2928,313,313,0,0
+all_test_origins,Adaptive_route,6,2928,313,313,0,0
+all_test_origins,Adaptive_route,12,2928,313,313,0,0
+all_test_origins,Adaptive_route,24,2928,313,313,0,0
+all_test_origins,Adaptive_wind,3,2928,153,143,10,0
+all_test_origins,Adaptive_wind,6,2928,153,143,10,0
+all_test_origins,Adaptive_wind,12,2928,153,143,10,0
+all_test_origins,Adaptive_wind,24,2928,153,143,10,0
+common_scoring_rows,Adaptive_route,3,2840,310,310,0,0
+common_scoring_rows,Adaptive_route,6,2835,311,311,0,0
+common_scoring_rows,Adaptive_route,12,2828,310,310,0,0
+common_scoring_rows,Adaptive_route,24,2816,306,306,0,0
+common_scoring_rows,Adaptive_wind,3,2840,146,136,10,0
+common_scoring_rows,Adaptive_wind,6,2835,146,136,10,0
+common_scoring_rows,Adaptive_wind,12,2828,151,141,10,0
+common_scoring_rows,Adaptive_wind,24,2816,148,139,9,0

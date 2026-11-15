@@ -1,0 +1,17 @@
+scope,model,horizon,n_predictions,small_cell_fallback_rows,unknown_condition_fallback_rows,total_season_fallback_rows,near_zero_exception_prediction_rows,clipped_weight_prediction_rows,negative_predictions_clipped
+all_validation_origins,Adaptive_route,3,2920,162,0,162,0,252,0
+all_validation_origins,Adaptive_route,6,2920,162,0,162,0,2368,0
+all_validation_origins,Adaptive_route,12,2920,162,0,162,0,183,0
+all_validation_origins,Adaptive_route,24,2920,162,0,162,0,1208,0
+all_validation_origins,Adaptive_wind,3,2920,184,12,196,0,1132,0
+all_validation_origins,Adaptive_wind,6,2920,184,12,196,0,1646,0
+all_validation_origins,Adaptive_wind,12,2920,184,12,196,0,870,0
+all_validation_origins,Adaptive_wind,24,2920,184,12,196,0,1018,0
+common_evaluation_rows,Adaptive_route,3,2509,98,0,98,0,241,0
+common_evaluation_rows,Adaptive_route,6,2504,97,0,97,0,1967,0
+common_evaluation_rows,Adaptive_route,12,2497,97,0,97,0,127,0
+common_evaluation_rows,Adaptive_route,24,2486,95,0,95,0,826,0
+common_evaluation_rows,Adaptive_wind,3,2509,154,12,166,0,1105,0
+common_evaluation_rows,Adaptive_wind,6,2504,154,12,166,0,1408,0
+common_evaluation_rows,Adaptive_wind,12,2497,154,12,166,0,582,0
+common_evaluation_rows,Adaptive_wind,24,2486,154,12,166,0,692,0

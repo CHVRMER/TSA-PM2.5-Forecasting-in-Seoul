@@ -1,0 +1,77 @@
+{
+  "M2": {
+    "base_feature_set": "local_plus_station_history_kr",
+    "additional_feature_set": "station_history_cn",
+    "station_keys": [
+      "CN:1099A",
+      "CN:1110A",
+      "CN:1118A",
+      "CN:1598A",
+      "CN:1600A",
+      "CN:1601A",
+      "CN:1605A",
+      "CN:1606A",
+      "CN:1645A",
+      "CN:1662A",
+      "CN:1663A",
+      "CN:1749A",
+      "CN:1751A",
+      "CN:1761A",
+      "CN:1764A",
+      "CN:2229A",
+      "CN:2230A",
+      "CN:2897A",
+      "CN:3057A",
+      "CN:3379A",
+      "CN:3505A"
+    ],
+    "selection": "기존 서울(126.98E,37.57N) Haversine, R=6371km, 거리<600km. 경계상 관측소가 없어 <=600과 동일.",
+    "expected_count": 1478
+  },
+  "M3T": {
+    "union_feature_sets": [
+      "local_plus_trajectory_kr_cn_scopes_without_optional_gases",
+      "station_history_kr",
+      "station_history_cn"
+    ],
+    "expected_count": 2424,
+    "excluded_features": []
+  },
+  "M4T": {
+    "union_feature_sets": [
+      "local_plus_trajectory_and_station_history_balanced_without_optional_gases"
+    ],
+    "excluded_features": [
+      "pm25_jp_b01_06_mean",
+      "pm25_jp_b01_06_std",
+      "pm25_jp_b01_06_max",
+      "pm25_jp_b01_06_inside_mix_mean",
+      "pm25_jp_b01_06_above_mix_mean",
+      "pm10_jp_b01_06_mean",
+      "pm25_mn_b01_06_mean",
+      "pm25_mn_b01_06_std",
+      "pm25_mn_b01_06_max",
+      "pm25_mn_b01_06_inside_mix_mean",
+      "pm25_mn_b01_06_above_mix_mean",
+      "pm10_mn_b01_06_mean",
+      "pm10_jp_b07_12_mean",
+      "pm25_mn_b07_12_mean",
+      "pm25_mn_b07_12_std",
+      "pm25_mn_b07_12_max",
+      "pm25_mn_b07_12_inside_mix_mean",
+      "pm25_mn_b07_12_above_mix_mean",
+      "pm10_mn_b07_12_mean",
+      "pm10_jp_b13_24_mean",
+      "pm25_mn_b13_24_mean",
+      "pm25_mn_b13_24_std",
+      "pm25_mn_b13_24_max",
+      "pm25_mn_b13_24_inside_mix_mean",
+      "pm25_mn_b13_24_above_mix_mean",
+      "pm10_mn_b13_24_mean",
+      "pm10_jp_b25_48_mean",
+      "pm10_mn_b25_48_mean"
+    ],
+    "expected_count": 2924,
+    "exclusion_basis": "2021-2022 training origins only, validation_results_final.json feature_value_scan"
+  }
+}

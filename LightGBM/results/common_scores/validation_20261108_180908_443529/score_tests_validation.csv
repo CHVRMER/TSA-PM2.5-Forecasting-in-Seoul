@@ -1,0 +1,2 @@
+horizon,model,versus,n,rmse_diff,dm_stat,p,ci95_low,ci95_high,skill_ci95_low_pct,skill_ci95_high_pct,bootstrap_valid_reps,bootstrap_sample_n_min,bootstrap_sample_n_max,p_holm,improved
+6,M1,persistence,2504,-1.655897735376266,-4.453521075447596,8.447341207107743e-06,-2.2494111066668108,-0.9636918138387541,10.347707614099031,22.581536782819775,1000,1942,2843,8.447341207107743e-06,True

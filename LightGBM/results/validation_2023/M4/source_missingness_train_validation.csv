@@ -1,0 +1,5 @@
+dataset,period,rows,pm25_missing,pm25_missing_pct
+Japan,train,420480,11136,2.6484018264840183
+Japan,validation,210240,9110,4.333143074581431
+Mongolia,train,17520,4821,27.51712328767123
+Mongolia,validation,8760,7217,82.38584474885845

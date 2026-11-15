@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "stage": 9,
+  "reporting_only": true,
+  "new_inference_or_fitting": false,
+  "new_statistical_tests_or_rescoring": false,
+  "run_id": "6ffc3f5790d44ab79d5ac305955f6a26",
+  "execution_manifest_sha256": "c68ba87277c04b0ec7a4ecf020a63c832939933a43764f6d2f063c878887530c",
+  "plan_sha256": "cd2a9e25f8a7a0639f5e71a09dfef60e100a9094f0b08b4f662483a6e4718bbd",
+  "report_code_sha256": "36aea0cb5b6fc9c361349f19687ab3d51be3d7fb6e1afa5811afa4f772b1ac41",
+  "input_score_metrics_sha256": "e6e89c81ceffd155ca78cef5fb116ce7a310e3b27d38865c59523c7165b6b0ab",
+  "input_score_tests_sha256": "813499e61cd4cba038daea513e0842b02c9232bc1e3cf3be6ddf64ef65fa5def",
+  "holm_family_size": 144,
+  "core_subset_uses_same_holm": true,
+  "prior_artifacts_preserved": 827,
+  "final_locks_retained": true,
+  "figures": [
+    "results/test_2024/report/figures/final_rmse_improvement_primary_models.png",
+    "results/test_2024/report/figures/final_rmse_improvement_all_models.png"
+  ]
+}

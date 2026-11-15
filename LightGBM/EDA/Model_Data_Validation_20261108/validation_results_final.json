@@ -1,0 +1,520 @@
+{
+  "status": "passed",
+  "started_kst": "2026-11-08T17:31:40.376088+09:00",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "platform": "macOS-15.1-arm64-arm-64bit-Mach-O",
+  "checks": {
+    "input_integrity": {
+      "manifest_source_hashes_matched": 18,
+      "producer_code_hashes_matched": 3
+    },
+    "schema_and_allowlists": {
+      "rows": 11688,
+      "columns": 5678,
+      "roles": {
+        "metadata": 6,
+        "label": 32,
+        "feature": 5640
+      },
+      "allowlists_checked": 16,
+      "model_feature_counts": {
+        "M1": 1142,
+        "M2": 1478,
+        "M3": 2118,
+        "M4": 2518,
+        "M3T": 2424,
+        "M4T": 2952
+      },
+      "country_counts": {
+        "CN": 61,
+        "JP": 188,
+        "KR": 67,
+        "MN": 1
+      },
+      "near_china_count": 21,
+      "near_china_keys": [
+        "CN:1099A",
+        "CN:1110A",
+        "CN:1118A",
+        "CN:1598A",
+        "CN:1600A",
+        "CN:1601A",
+        "CN:1605A",
+        "CN:1606A",
+        "CN:1645A",
+        "CN:1662A",
+        "CN:1663A",
+        "CN:1749A",
+        "CN:1751A",
+        "CN:1761A",
+        "CN:1764A",
+        "CN:2229A",
+        "CN:2230A",
+        "CN:2897A",
+        "CN:3057A",
+        "CN:3379A",
+        "CN:3505A"
+      ],
+      "balanced_japan_count": 24,
+      "target": "중구"
+    },
+    "targets_and_splits": {
+      "origins": 11688,
+      "start": "2021-01-01 00:00:00+09:00",
+      "last": "2024-12-31 21:00:00+09:00",
+      "rows_by_year": {
+        "2021": 2920,
+        "2022": 2920,
+        "2023": 2920,
+        "2024": 2928
+      },
+      "target_cells_recomputed": 46752,
+      "eligible_rows": {
+        "3": {
+          "train": 5762,
+          "validation": 2531,
+          "test": 2874
+        },
+        "6": {
+          "train": 5761,
+          "validation": 2530,
+          "test": 2873
+        },
+        "12": {
+          "train": 5759,
+          "validation": 2528,
+          "test": 2871
+        },
+        "24": {
+          "train": 5755,
+          "validation": 2524,
+          "test": 2867
+        }
+      },
+      "eligible_cross_boundary_rows": 0,
+      "eligible_missing_targets": 0
+    },
+    "feature_value_scan": {
+      "feature_columns": 5640,
+      "row_groups": 48,
+      "cells_checked": 65920320,
+      "infinite_cells": 0,
+      "missing_counts_match_manifest": true,
+      "model_quality": {
+        "M1": {
+          "features": 1142,
+          "null_cell_pct": 4.8005888057384585,
+          "all_missing_training_columns": []
+        },
+        "M2": {
+          "features": 1478,
+          "null_cell_pct": 4.120750241506967,
+          "all_missing_training_columns": []
+        },
+        "M3": {
+          "features": 2118,
+          "null_cell_pct": 3.3545014248328755,
+          "all_missing_training_columns": []
+        },
+        "M4": {
+          "features": 2518,
+          "null_cell_pct": 3.2878877829117013,
+          "all_missing_training_columns": []
+        },
+        "M3T": {
+          "features": 2424,
+          "null_cell_pct": 4.701385500459697,
+          "all_missing_training_columns": []
+        },
+        "M4T": {
+          "features": 2952,
+          "null_cell_pct": 6.041467263577496,
+          "all_missing_training_columns": [
+            "pm25_jp_b01_06_mean",
+            "pm25_jp_b01_06_std",
+            "pm25_jp_b01_06_max",
+            "pm25_jp_b01_06_inside_mix_mean",
+            "pm25_jp_b01_06_above_mix_mean",
+            "pm10_jp_b01_06_mean",
+            "pm25_mn_b01_06_mean",
+            "pm25_mn_b01_06_std",
+            "pm25_mn_b01_06_max",
+            "pm25_mn_b01_06_inside_mix_mean",
+            "pm25_mn_b01_06_above_mix_mean",
+            "pm10_mn_b01_06_mean",
+            "pm10_jp_b07_12_mean",
+            "pm25_mn_b07_12_mean",
+            "pm25_mn_b07_12_std",
+            "pm25_mn_b07_12_max",
+            "pm25_mn_b07_12_inside_mix_mean",
+            "pm25_mn_b07_12_above_mix_mean",
+            "pm10_mn_b07_12_mean",
+            "pm10_jp_b13_24_mean",
+            "pm25_mn_b13_24_mean",
+            "pm25_mn_b13_24_std",
+            "pm25_mn_b13_24_max",
+            "pm25_mn_b13_24_inside_mix_mean",
+            "pm25_mn_b13_24_above_mix_mean",
+            "pm10_mn_b13_24_mean",
+            "pm10_jp_b25_48_mean",
+            "pm10_mn_b25_48_mean"
+          ]
+        }
+      }
+    },
+    "seoul_history": {
+      "columns": 17,
+      "rows_each": 11688,
+      "source_station": "111121",
+      "mismatches": 0
+    },
+    "station_histories": {
+      "Korea_Air": {
+        "stations": 33,
+        "columns": 528,
+        "rows_each": 11688,
+        "mismatches": 0
+      },
+      "Korea_East_Candidates": {
+        "stations": 34,
+        "columns": 544,
+        "rows_each": 11688,
+        "mismatches": 0
+      },
+      "China": {
+        "stations": 48,
+        "columns": 768,
+        "rows_each": 11688,
+        "mismatches": 0
+      },
+      "China_Border_Proxy": {
+        "stations": 13,
+        "columns": 208,
+        "rows_each": 11688,
+        "mismatches": 0
+      },
+      "Japan": {
+        "stations": 24,
+        "columns": 384,
+        "rows_each": 11688,
+        "mismatches": 0
+      },
+      "Mongolia": {
+        "stations": 1,
+        "columns": 16,
+        "rows_each": 11688,
+        "mismatches": 0
+      }
+    },
+    "asos_and_calendar": {
+      "asos_columns": 46,
+      "calendar_columns": 7,
+      "rows_each": 11688,
+      "mismatches": 0,
+      "ASOS_2020_buffer_absent": "preserved as reduced early-window availability, not filled"
+    },
+    "trajectory_times_and_direction": {
+      "points_checked": 561024,
+      "matched_edges_checked": 3203668,
+      "future_or_misaligned_observation_rows": 0,
+      "route_sector_rows_recomputed": 11688,
+      "direction_counts": {
+        "NW": 3162,
+        "W": 1741,
+        "SW": 1984,
+        "S": 1145,
+        "SE": 827,
+        "N": 800,
+        "LOCAL": 197,
+        "NE": 852,
+        "E": 980
+      }
+    },
+    "trajectory_concentration_samples": {
+      "origins": [
+        "2021-01-01 00:00:00+09:00",
+        "2021-05-06 00:00:00+09:00",
+        "2021-12-31 21:00:00+09:00",
+        "2022-01-01 00:00:00+09:00",
+        "2022-05-06 00:00:00+09:00",
+        "2022-12-31 21:00:00+09:00",
+        "2023-01-01 00:00:00+09:00",
+        "2023-05-06 00:00:00+09:00",
+        "2023-12-31 21:00:00+09:00",
+        "2024-01-01 00:00:00+09:00",
+        "2024-05-05 00:00:00+09:00",
+        "2024-12-31 21:00:00+09:00"
+      ],
+      "values_recomputed": 1200,
+      "scope": "PM2.5/PM10 mean and coverage; geographic fractions; all 5 country scopes",
+      "mismatches": 0
+    },
+    "adaptive_condition_support": {
+      "validation_counts": {
+        "3": [
+          {
+            "season": "cold",
+            "route": "west",
+            "n": 642,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "cold",
+            "route": "north",
+            "n": 69,
+            "requires_season_fallback": true
+          },
+          {
+            "season": "cold",
+            "route": "east",
+            "n": 130,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "cold",
+            "route": "local",
+            "n": 5,
+            "requires_season_fallback": true
+          },
+          {
+            "season": "warm",
+            "route": "west",
+            "n": 898,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "north",
+            "n": 244,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "east",
+            "n": 518,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "local",
+            "n": 25,
+            "requires_season_fallback": true
+          }
+        ],
+        "6": [
+          {
+            "season": "cold",
+            "route": "west",
+            "n": 642,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "cold",
+            "route": "north",
+            "n": 69,
+            "requires_season_fallback": true
+          },
+          {
+            "season": "cold",
+            "route": "east",
+            "n": 129,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "cold",
+            "route": "local",
+            "n": 5,
+            "requires_season_fallback": true
+          },
+          {
+            "season": "warm",
+            "route": "west",
+            "n": 898,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "north",
+            "n": 245,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "east",
+            "n": 517,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "local",
+            "n": 25,
+            "requires_season_fallback": true
+          }
+        ],
+        "12": [
+          {
+            "season": "cold",
+            "route": "west",
+            "n": 641,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "cold",
+            "route": "north",
+            "n": 69,
+            "requires_season_fallback": true
+          },
+          {
+            "season": "cold",
+            "route": "east",
+            "n": 128,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "cold",
+            "route": "local",
+            "n": 5,
+            "requires_season_fallback": true
+          },
+          {
+            "season": "warm",
+            "route": "west",
+            "n": 897,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "north",
+            "n": 246,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "east",
+            "n": 517,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "local",
+            "n": 25,
+            "requires_season_fallback": true
+          }
+        ],
+        "24": [
+          {
+            "season": "cold",
+            "route": "west",
+            "n": 639,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "cold",
+            "route": "north",
+            "n": 68,
+            "requires_season_fallback": true
+          },
+          {
+            "season": "cold",
+            "route": "east",
+            "n": 126,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "cold",
+            "route": "local",
+            "n": 6,
+            "requires_season_fallback": true
+          },
+          {
+            "season": "warm",
+            "route": "west",
+            "n": 899,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "north",
+            "n": 246,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "east",
+            "n": 516,
+            "requires_season_fallback": false
+          },
+          {
+            "season": "warm",
+            "route": "local",
+            "n": 24,
+            "requires_season_fallback": true
+          }
+        ]
+      },
+      "weight_estimation_performed": false,
+      "later_decision": "Near-zero denominator rule requires approval at Adaptive stage; existing code silently chooses 0."
+    },
+    "source_preservation": {
+      "files_rehashed_unchanged": 39,
+      "model_code_imported_or_executed": false
+    }
+  },
+  "scope": "Data validation only; no model training, prediction, tuning, imputation, or source edits.",
+  "accepted_conventions": {
+    "japan": "README hour-ending convention, 24h -> next-day 00:00; JST=KST; not externally revalidated",
+    "M3T": "Existing 2424-column allowlist union, including all-path summaries over KR/CN/JP/MN",
+    "availability": "Retrospective research; publication latency is not recreated"
+  },
+  "input_sha256": {
+    "Dataset/Trajectory_Matching_2021_2024_v3/trajectory_point_coverage.parquet": "0ec3f9c228111837f3981f430f26529c00a37c1e1703c5ffe54324333fa79dcb",
+    "Dataset/Trajectory_Matching_2021_2024_v3/trajectory_station_neighbors.parquet": "a2fbd9e79fec5254fe4f3d62050619007c6971ae82493cc739d1974ec5fa16f0",
+    "Dataset/Trajectory_Matching_2021_2024_v3/station_registry.csv": "b7d20b16c686b250b1ab0ad81ad86a095a181881f6208e7f4022793996bbe87d",
+    "Dataset/Trajectory_Matching_2021_2024_v3/matching_manifest.json": "a17aa554da86da81dc637cf4c0099499d18f35a2eab563f9bd3918be99319913",
+    "Dataset/Korea_Air/korea_34stations_hourly_2021_2024_kst.parquet": "26e96a0202414ef9540a17b65b1886325ed8a68dce94026af656fbb7accbc6e4",
+    "Dataset/Korea_Air/korea_context_buffer.parquet": "87cdbd597583314fa0004256d3475da79551b846229f852f5daae22eb1bb6e99",
+    "Dataset/ASOS/asos_102_108_hourly_2021_2024_kst.parquet": "c835d2fffecfb17e8bdeea7b29be452418dcd032eaf09358d0e3ea135079675b",
+    "Dataset/ASOS/asos_context_after.parquet": "fe724c435776a4c65939de77d55445850123e733b48fc15f34379448db7b4dac",
+    "Dataset/China/china_48stations_hourly_2021_2024_kst.parquet": "deac609b362b19bbf06f08440708ab1ef16bdeb671d087837e476835db2a96c9",
+    "Dataset/China/china_48stations_context_buffer.parquet": "b8f0beb9ddd3cb988ae55bd3ba1d52585b459eba40ba848560f7542dfd5dfa16",
+    "Dataset/Korea_East_Candidates/korea_east_36stations_hourly_2021_2024_kst.parquet": "66f5ea75e6335be904e9333054400080b9875db6d6be855cfc36bd6aa91da581",
+    "Dataset/Korea_East_Candidates/korea_east_context_buffer.parquet": "1fbd9c3632f6d36c5d22977954d76f400b2fcb131a11f988495916bdeaa1fff9",
+    "Dataset/Japan/japan_west_hourly_2021_2024_kst.parquet": "0925d636ab7a55e6d9bdcdbb79a13516e82697c04c40307a924822018b67bfec",
+    "Dataset/Japan/japan_west_context_buffer.parquet": "60ce82edb4f8100b0b8bd5dfd591bf20fb2651e414f81898b6ace807142226ce",
+    "Dataset/Mongolia/mongolia_ub_embassy_hourly_2021_2024_kst.parquet": "10dd4d0010b1d3757871a5940c1c8cf0e0d70d94a241fd2e42764e20b833da5e",
+    "Dataset/Mongolia/mongolia_ub_embassy_context_buffer.parquet": "de0f11b7b1be50c6263d2c2684ae2c1712b9f64e08fe8515ca1d8dd2cc516f58",
+    "Dataset/China_Border_Proxy/china_border_cities_hourly_2021_2024_kst.parquet": "163bfdc7db0291e9b66f22c617663b8e69de50ded843b06b802a7e8adea56120",
+    "Dataset/China_Border_Proxy/china_border_cities_context_buffer.parquet": "cd33c235a1faebb6d8213b9f3c4955b4798ae14360410d5f66b53c43cc73b3cb",
+    "Dataset/Origin_Features_2021_2024_v3/origin_features_2021_2024_kst.parquet": "fd0c9c3c746b41a07956c3612218d6596170b6ca6f17b547884dc3de9e6ae1ec",
+    "Dataset/Origin_Features_2021_2024_v3/feature_sets.json": "dae1727f8baf5bed69d071bd4c84723100b40ccca8e5a09c3a32ba393156355a",
+    "Dataset/Origin_Features_2021_2024_v3/feature_manifest.json": "15b0a6b809c046ef999b6b45aa842782cf187ba5cd5f0830a0d5754f5fa6c0aa",
+    "Dataset/Origin_Features_2021_2024_v3/feature_dictionary.csv": "c463f3cdaa195c093fb50a8463eacd82f3b961513562a5966be7cdc26f128732",
+    "Dataset/Origin_Features_2021_2024_v3/japan_balanced_stations.csv": "1cfcbc867156425765f333c424b7e179af15e58417a407c2486b81b30696f4f4",
+    "Models/baselines.py": "ecb40626f1ecf79fcd0a6dda8fc65ab3ef3d884c9005dc23c0f2d4dc918e47e4",
+    "Models/grid.py": "98b4926b0b34b8fad8aed826a2ca9b97dfae6f4e33c5f8b189621ec63350c9ea",
+    "Models/config.py": "35d87ba4d50cbaa80f8915a9227b457ff1f017e80d190f57168201b750c6549d",
+    "Models/node_matrix.py": "f551d38e1e8844cb0506729f45954bc06d2298d653f0ea3339af16fc41e19e05",
+    "Models/a_sarimax.py": "c727db43ce2d5a8ffa78d24a5dba28c3e359dad4affe4cc3620cf7c4ae513b61",
+    "Models/region_hourly.py": "497a2dc61aa2b114de116956d281e9c483d8ca9b11560b98867cbee9987ea56a",
+    "Models/predictions_io.py": "20da839e18cc626620e3097b91f13af291665df93ab75913c8d58e2b18e26172",
+    "Models/b_adaptive.py": "53dff9f3cc159af80b9375f629eaf44785cb1714edb08b057fea75a9b739a180",
+    "Models/data_access.py": "8f38a87889bdd2d4814ed508b5c747c2d2aa754f909c3fdbd15449577c6c55bf",
+    "Models/b_lgbm.py": "2d4c930140cd751b3a5923d96a1f77ab603262cf7d139ed8f05e831f1a675c2b",
+    "Models/graphs.py": "af315cb2e04de76bb174564bcf1e07f3234d31cf02f805eb3df23ee6fe64377f",
+    "Models/cd_graph_nets.py": "6a8c3b971dcbb7505fa3c1c0e6fee9a51f0e378cd333dc3f5237a85ea8196431",
+    "Models/score.py": "8bb32c6a78a4166a3610322b0a51a97a8a4c90eecbcd9faaac9d21477ada9364",
+    "Dataset/Codes/Origin_Features_v3/build_origin_features.py": "1e01f0a1b65fdf5af508509d7c9523e3d6be6cdf8f8be58211c1ce25b7be3fec",
+    "Dataset/Codes/Origin_Features_v3/feature_spec.py": "be3dd6c05e82139f0848509208bf39374e9ac2bcbc6680e404df9d801817f75b",
+    "Dataset/Codes/Origin_Features_v3/station_history.py": "1585bcdfa792bae0fe051f35c895cd62ab28b494d54308b1a7f0058eac96e6ee"
+  },
+  "limitations": [
+    "No external validation of Japanese hour-ending interpretation; user accepted README convention.",
+    "GDAS/finalized observations publication latency is not recreated; retrospective experiment only.",
+    "Full all-candidate feature/null scan; station histories independently recomputed for 153 model-selected stations, not all 188 Japan candidates.",
+    "All trajectory point/edge timestamps checked; concentration aggregation independently spot-checked at 12 origins, not fully recomputed.",
+    "2024 data inspected only for schema, alignment, source consistency and eligibility; no feature selection/tuning/performance evaluation.",
+    "Existing Models/config.py creates directories at import; not imported during audit."
+  ],
+  "elapsed_seconds": 11.861,
+  "finished_kst": "2026-11-08T17:31:52.249859+09:00"
+}

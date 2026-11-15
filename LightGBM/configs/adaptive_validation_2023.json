@@ -1,0 +1,92 @@
+{
+  "stage": 8,
+  "models": [
+    "Adaptive_wind",
+    "Adaptive_route"
+  ],
+  "base_models": [
+    "M1",
+    "M3"
+  ],
+  "base_model_retraining": false,
+  "horizons": [
+    3,
+    6,
+    12,
+    24
+  ],
+  "primary_horizon": 6,
+  "fit_year": 2023,
+  "evaluation_type": "in_sample_reference",
+  "formal_improvement_assessed": false,
+  "test_enabled": false,
+  "formula": "(1-w)*M1+w*M3; original units, raw base predictions, clip mixture only for scoring",
+  "seasons": {
+    "cold": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "warm": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "conditions": {
+    "wind": [
+      "west",
+      "north",
+      "east",
+      "south",
+      "calm"
+    ],
+    "route": [
+      "west",
+      "north",
+      "east",
+      "local"
+    ]
+  },
+  "minimum_cell_rows": 100,
+  "small_cell_rule": "n_cell<100: season weight; denominator exception is applied to the chosen estimation pool",
+  "unknown_condition_rule": "season weight, no extra learned condition",
+  "threshold_approval": {
+    "status": "approved",
+    "user_reply": "제안 기준 승인",
+    "definition": "epsilon_h=max(1e-6, median_2023_common(abs(M3-M1))*1e-4); denominator<=n_estimation_pool*epsilon_h**2 -> w=0.5",
+    "calibration_uses_y": false,
+    "epsilon_unit": "ug/m3",
+    "denominator_unit": "(ug/m3)^2",
+    "zero_denominator_weight": 0.5,
+    "historical_pending_record": "EDA/Model_Data_Validation_20261108/modeling_decisions_20261108.json; superseded only by this Stage8 approved config"
+  },
+  "fit_rows_source": "results/validation_2023/M4T/common_scores/validation_20261108_215546_660945/score_rows_validation.parquet",
+  "fit_rows_sha256": "3485525f5ee41f047bcb73516fd6686e60b7f97cc2804566e61a90dd4abbd8dd",
+  "source_stage_manifest_sha256": "9a03b0a35de2e59721aa335729be15f4f1ae335353643dfb124e56bc8fd4e0df",
+  "predictions": {
+    "M1": {
+      "prediction": "results/validation_2023/M4T/predictions/M1.parquet",
+      "sha256": "de3b0ad548c541515ab390261e28fe966cf42bbe02b85c2b03c7767ebf900c6c",
+      "meta_sha256": "e81097a291ae46060822c718b09ae7afa0d43d3ccd9341f363e29256cc607450"
+    },
+    "M3": {
+      "prediction": "results/validation_2023/M4T/predictions/M3.parquet",
+      "sha256": "f00553249225c547d4803b5cfebaea580aba40fd99f44fc91467cdce19c91ded",
+      "meta_sha256": "52e73c86d19e8396bd95e7d114740fcd7394adf0160170e6d2fd2dfd21e268bf"
+    }
+  },
+  "test_lock_unconsumed": true,
+  "epsilon_by_horizon": {
+    "3": 4.4321873606433475e-05,
+    "6": 7.865627669776197e-05,
+    "12": 0.00013673733462856499,
+    "24": 0.0001888850330575731
+  }
+}

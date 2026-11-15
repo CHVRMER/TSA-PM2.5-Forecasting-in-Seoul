@@ -1,0 +1,823 @@
+﻿station_key,station_id,country,station_name,city,region_group,longitude,latitude,network,source_dataset,map_group,plot_group,legacy_kr67,new_national_kr
+CN:1008A,1008A,CN,顺义新城,北京,Beijing_Tianjin_Hebei,116.6636,40.135,,China,CN,CN,False,False
+CN:1010A,1010A,CN,昌平镇,北京,Beijing_Tianjin_Hebei,116.2296,40.217,,China,CN,CN,False,False
+CN:1012A,1012A,CN,古城,北京,Beijing_Tianjin_Hebei,116.184,39.9136,,China,CN,CN,False,False
+CN:1026A,1026A,CN,汉北路,天津,Beijing_Tianjin_Hebei,117.764,39.1587,,China,CN,CN,False,False
+CN:1042A,1042A,CN,北戴河环保局,秦皇岛,Beijing_Tianjin_Hebei,119.5134,39.8207,,China,CN,CN,False,False
+CN:1044A,1044A,CN,监测站,秦皇岛,Beijing_Tianjin_Hebei,119.5897,39.9499,,China,CN,CN,False,False
+CN:1099A,1099A,CN,浑南东路,沈阳,Liaoning_inland,123.505,41.7406,,China,CN,CN,False,False
+CN:1110A,1110A,CN,周水子,大连,Liaodong_peninsula,121.565,38.9511,,China,CN,CN,False,False
+CN:1118A,1118A,CN,双D港,大连,Liaodong_peninsula,121.9762,39.0631,,China,CN,CN,False,False
+CN:1121A,1121A,CN,邮电学院,长春,Jilin_central,125.2841,43.8463,,China,CN,CN,False,False
+CN:1124A,1124A,CN,净月潭,长春,Jilin_central,125.4605,43.79,,China,CN,CN,False,False
+CN:1313A,1313A,CN,崂山区子站,青岛,Shandong_coast,120.4581,36.0858,,China,CN,CN,False,False
+CN:1315A,1315A,CN,城阳区子站,青岛,Shandong_coast,120.3999,36.3083,,China,CN,CN,False,False
+CN:1598A,1598A,CN,镜湖西路,营口,Bohai_Liaoning,122.215,40.6511,,China,CN,CN,False,False
+CN:1600A,1600A,CN,江湾东路,丹东,Liaoning_east_coast,124.3303,40.0625,,China,CN,CN,False,False
+CN:1601A,1601A,CN,临江后街,丹东,Liaoning_east_coast,124.4256,40.1503,,China,CN,CN,False,False
+CN:1605A,1605A,CN,兴隆台,盘锦,Bohai_Liaoning,122.0485,41.0883,,China,CN,CN,False,False
+CN:1606A,1606A,CN,新生街道,盘锦,Bohai_Liaoning,121.8297,41.1028,,China,CN,CN,False,False
+CN:1645A,1645A,CN,莱山环保局,烟台,Shandong_coast,121.4478,37.4822,,China,CN,CN,False,False
+CN:1662A,1662A,CN,华夏技校,威海,Shandong_coast,122.1214,37.4236,,China,CN,CN,False,False
+CN:1663A,1663A,CN,山大分校,威海,Shandong_coast,122.0508,37.5236,,China,CN,CN,False,False
+CN:1746A,1746A,CN,天义路,赤峰,Inner_Mongolia_northeast,118.8788,42.2554,,China,CN,CN,False,False
+CN:1749A,1749A,CN,太阳城,鞍山,Liaoning_inland,123.011,41.0931,,China,CN,CN,False,False
+CN:1751A,1751A,CN,铁西三道街,鞍山,Liaoning_inland,122.9642,41.0971,,China,CN,CN,False,False
+CN:1761A,1761A,CN,大峪,本溪,Liaoning_inland,123.8275,41.3064,,China,CN,CN,False,False
+CN:1764A,1764A,CN,东明,本溪,Liaoning_inland,123.7669,41.2864,,China,CN,CN,False,False
+CN:1768A,1768A,CN,开发区,锦州,Bohai_Liaoning,121.0533,40.8434,,China,CN,CN,False,False
+CN:1771A,1771A,CN,北湖公园,锦州,Bohai_Liaoning,121.1303,41.1386,,China,CN,CN,False,False
+CN:2191A,2191A,CN,艺术职业学校,通辽,Inner_Mongolia_northeast,122.2532,43.6801,,China,CN,CN,False,False
+CN:2201A,2201A,CN,科右前旗环保局,兴安盟,Inner_Mongolia_northeast,121.9504,46.0741,,China,CN,CN,False,False
+CN:2209A,2209A,CN,农业园区,阜新,Liaoning_west,121.6673,42.0705,,China,CN,CN,False,False
+CN:2210A,2210A,CN,东苑,阜新,Liaoning_west,121.6717,42.0224,,China,CN,CN,False,False
+CN:2225A,2225A,CN,一商场,四平,Jilin_southwest,124.4002,43.1713,,China,CN,CN,False,False
+CN:2229A,2229A,CN,光明,通化,Jilin_southeast,125.9358,41.7173,,China,CN,CN,False,False
+CN:2230A,2230A,CN,铁路,通化,Jilin_southeast,125.9446,41.7325,,China,CN,CN,False,False
+CN:2235A,2235A,CN,洮北区环保局,白城,Jilin_west,122.7911,45.6077,,China,CN,CN,False,False
+CN:2236A,2236A,CN,市环保局,白城,Jilin_west,122.8738,45.5725,,China,CN,CN,False,False
+CN:2897A,2897A,CN,沈辽西路,沈阳,Liaoning_inland,123.2444,41.7347,,China,CN,CN,False,False
+CN:3035A,3035A,CN,北滨河,兴安盟,Inner_Mongolia_northeast,122.0931,46.0707,,China,CN,CN,False,False
+CN:3057A,3057A,CN,牟平检察院,烟台,Shandong_coast,121.5992,37.4014,,China,CN,CN,False,False
+CN:3058A,3058A,CN,银河街,赤峰,Inner_Mongolia_northeast,119.2658,42.0353,,China,CN,CN,False,False
+CN:3379A,3379A,CN,鲅鱼圈市民活动中心,营口,Bohai_Liaoning,122.1139,40.2278,,China,CN,CN,False,False
+CN:3462A,3462A,CN,滨水东路,天津,Beijing_Tianjin_Hebei,117.8199,39.3521,,China,CN,CN,False,False
+CN:3505A,3505A,CN,临港区管委会,威海,Shandong_coast,122.1379,37.3414,,China,CN,CN,False,False
+CN:3578A,3578A,CN,政府服务中心,唐山,Beijing_Tianjin_Hebei,118.24498,39.66941,,China,CN,CN,False,False
+CN:3693A,3693A,CN,路南电大,唐山,Beijing_Tianjin_Hebei,118.1436,39.6202,,China,CN,CN,False,False
+CN:3706A,3706A,CN,老干部活动中心,通辽,Inner_Mongolia_northeast,122.2584,43.6333,,China,CN,CN,False,False
+CN:3713A,3713A,CN,世纪城,四平,Jilin_southwest,124.3419,43.1666,,China,CN,CN,False,False
+CN:city_baotou,city_baotou,CN,Baotou,包头,Mongolia_border_proxy,109.84,40.66,,China_Border_Proxy,CN_MN,CN_BORDER,False,False
+CN:city_bayannur,city_bayannur,CN,Bayannur (Linhe),巴彦淖尔,Mongolia_border_proxy,107.39,40.74,,China_Border_Proxy,CN_MN,CN_BORDER,False,False
+CN:city_heihe,city_heihe,CN,Heihe,黑河,Russia_border_proxy,127.53,50.25,,China_Border_Proxy,CN_RU,CN_BORDER,False,False
+CN:city_hohhot,city_hohhot,CN,Hohhot,呼和浩特,Mongolia_border_proxy,111.75,40.84,,China_Border_Proxy,CN_MN,CN_BORDER,False,False
+CN:city_hulunbuir,city_hulunbuir,CN,Hulunbuir (Hailar),呼伦贝尔,Mongolia_border_proxy,119.77,49.21,,China_Border_Proxy,CN_MN,CN_BORDER,False,False
+CN:city_jiamusi,city_jiamusi,CN,Jiamusi,佳木斯,Russia_border_proxy,130.32,46.8,,China_Border_Proxy,CN_RU,CN_BORDER,False,False
+CN:city_jixi,city_jixi,CN,Jixi,鸡西,Russia_border_proxy,130.97,45.3,,China_Border_Proxy,CN_RU,CN_BORDER,False,False
+CN:city_mudanjiang,city_mudanjiang,CN,Mudanjiang,牡丹江,Russia_border_proxy,129.63,44.55,,China_Border_Proxy,CN_RU,CN_BORDER,False,False
+CN:city_qitaihe,city_qitaihe,CN,Qitaihe,七台河,Russia_border_proxy,131.0,45.77,,China_Border_Proxy,CN_RU,CN_BORDER,False,False
+CN:city_shuangyashan,city_shuangyashan,CN,Shuangyashan,双鸭山,Russia_border_proxy,131.16,46.65,,China_Border_Proxy,CN_RU,CN_BORDER,False,False
+CN:city_ulanqab,city_ulanqab,CN,Ulanqab (Jining),乌兰察布,Mongolia_border_proxy,113.13,41.03,,China_Border_Proxy,CN_MN,CN_BORDER,False,False
+CN:city_xilingol,city_xilingol,CN,Xilingol (Xilinhot),锡林郭勒盟,Mongolia_border_proxy,116.09,43.93,,China_Border_Proxy,CN_MN,CN_BORDER,False,False
+CN:city_yanbian,city_yanbian,CN,Yanbian (Yanji),延边朝鲜族自治州,Russia_border_proxy,129.51,42.89,,China_Border_Proxy,CN_RU,CN_BORDER,False,False
+JP:31201040,31201040,JP,Tottorikenchounishimachibunchyousha,Tottori-shi,Japan_Chugoku,134.236111,35.503611,,Japan,JP,JP,False,False
+JP:31202020,31202020,JP,Yonagohokenjo,Yonago-shi,Japan_Chugoku,133.341667,35.437778,,Japan,JP,JP,False,False
+JP:31203020,31203020,JP,Kurayoshihokenjo,Kurayoshi-shi,Japan_Chugoku,133.844167,35.438611,,Japan,JP,JP,False,False
+JP:31204010,31204010,JP,Sakaiminatoshiseidouchou,Sakaiminato-shi,Japan_Chugoku,133.235722,35.514278,,Japan,JP,JP,False,False
+JP:32201060,32201060,JP,Kokusetsumatsuetaikikankyousokuteisho,Matsue-shi,Japan_Chugoku,133.013056,35.474722,,Japan,JP,JP,False,False
+JP:32202040,32202040,JP,Hamadagoudouchoushaippankankyoutaikisokuteikyoku,Hamada-shi,Japan_Chugoku,132.071389,34.897222,,Japan,JP,JP,False,False
+JP:32203040,32203040,JP,Izumohokenshoippankankyoutaikisokuteikyoku,Izumo-shi,Japan_Chugoku,132.751111,35.346944,,Japan,JP,JP,False,False
+JP:32204040,32204040,JP,Masudagoudouchoushaippankankyoutaikisokuteikyoku,Masuda-shi,Japan_Chugoku,131.850556,34.677222,,Japan,JP,JP,False,False
+JP:32205010,32205010,JP,Oodaippankankyoutaikisokuteikyoku,Ooda-shi,Japan_Chugoku,132.510278,35.192222,,Japan,JP,JP,False,False
+JP:32206040,32206040,JP,Yasugiippankankyoutaikisokuteikyoku,Yasugi-shi,Japan_Chugoku,133.241944,35.418611,,Japan,JP,JP,False,False
+JP:32207060,32207060,JP,Goutsushiyakushoippankankyoutaikisokuteikyoku,Goutsu-shi,Japan_Chugoku,132.222222,35.011667,,Japan,JP,JP,False,False
+JP:32209010,32209010,JP,Unnangoudouchoushaippankankyoutaikisokuteikyoku,Unnan-shi,Japan_Chugoku,132.900556,35.308889,,Japan,JP,JP,False,False
+JP:33201040,33201040,JP,Taikikanshi_Enamisokuteikyoku,Okayama-shi Naka-ku,Japan_Chugoku,133.973056,34.603653,,Japan,JP,JP,False,False
+JP:33201060,33201060,JP,Taikikanshi_Nankisokuteikyoku,Okayama-shi Minami-ku,Japan_Chugoku,133.934806,34.606114,,Japan,JP,JP,False,False
+JP:33201120,33201120,JP,Taikikanshi_Saidaijisokuteikyoku,Okayama-shi Higashi-ku,Japan_Chugoku,134.033508,34.657275,,Japan,JP,JP,False,False
+JP:33201160,33201160,JP,Taikikanshi_Higashiokayamasokuteikyoku,Okayama-shi Naka-ku,Japan_Chugoku,133.985425,34.684444,,Japan,JP,JP,False,False
+JP:33201190,33201190,JP,Taikikanshi_Koujosokuteikyoku,Okayama-shi Minami-ku,Japan_Chugoku,133.852603,34.589967,,Japan,JP,JP,False,False
+JP:33201210,33201210,JP,Taikikanshi_Kibisokuteikyoku,Okayama-shi Kita-ku,Japan_Chugoku,133.862861,34.652111,,Japan,JP,JP,False,False
+JP:33202060,33202060,JP,Matsue,Kurashiki-shi,Japan_Chugoku,133.759167,34.511667,,Japan,JP,JP,False,False
+JP:33202090,33202090,JP,Shionasu,Kurashiki-shi,Japan_Chugoku,133.770556,34.476944,,Japan,JP,JP,False,False
+JP:33202110,33202110,JP,Kurashikimiwa,Kurashiki-shi,Japan_Chugoku,133.777778,34.600278,,Japan,JP,JP,False,False
+JP:33202140,33202140,JP,Chayamachi,Kurashiki-shi,Japan_Chugoku,133.836944,34.583889,,Japan,JP,JP,False,False
+JP:33202170,33202170,JP,Tamashima,Kurashiki-shi,Japan_Chugoku,133.668611,34.547778,,Japan,JP,JP,False,False
+JP:33202180,33202180,JP,Kojima,Kurashiki-shi,Japan_Chugoku,133.809444,34.469444,,Japan,JP,JP,False,False
+JP:33202400,33202400,JP,Kanshisenta,Kurashiki-shi,Japan_Chugoku,133.739722,34.527778,,Japan,JP,JP,False,False
+JP:33202420,33202420,JP,Shou,Kurashiki-shi,Japan_Chugoku,133.823056,34.6475,,Japan,JP,JP,False,False
+JP:33203020,33203020,JP,Tsuyama,Tsuyama-shi,Japan_Chugoku,134.008611,35.071389,,Japan,JP,JP,False,False
+JP:33204040,33204040,JP,Uno,Tamano-shi,Japan_Chugoku,133.946389,34.490833,,Japan,JP,JP,False,False
+JP:33205020,33205020,JP,Mobira,Kasaoka-shi,Japan_Chugoku,133.460833,34.493889,,Japan,JP,JP,False,False
+JP:33208010,33208010,JP,Souja,Soujiya-shi,Japan_Chugoku,133.744167,34.673889,,Japan,JP,JP,False,False
+JP:33209010,33209010,JP,Takahashi,Takahashi-shi,Japan_Chugoku,133.610833,34.791389,,Japan,JP,JP,False,False
+JP:33210010,33210010,JP,Niimi,Niimi-shi,Japan_Chugoku,133.468333,34.973333,,Japan,JP,JP,False,False
+JP:33211060,33211060,JP,Mitsuishi,Bizen-shi,Japan_Chugoku,134.2725,34.803333,,Japan,JP,JP,False,False
+JP:33423010,33423010,JP,Hayashima,Hayashima-cho,Japan_Chugoku,133.825,34.598333,,Japan,JP,JP,False,False
+JP:33503010,33503010,JP,Mabi,Kurashiki-shi,Japan_Chugoku,133.689167,34.628056,,Japan,JP,JP,False,False
+JP:33681010,33681010,JP,Kibikougen,Kibichuuou-cho,Japan_Chugoku,133.761667,34.834444,,Japan,JP,JP,False,False
+JP:34102020,34102020,JP,Fukukishougakkou,Hiroshima-shi Higashi-ku,Japan_Chugoku,132.536667,34.446111,,Japan,JP,JP,False,False
+JP:34105010,34105010,JP,Asaminamikuyakusho,Hiroshima-shi Asaminami-ku,Japan_Chugoku,132.471111,34.452222,,Japan,JP,JP,False,False
+JP:34105020,34105020,JP,Tomoshougakkou,Hiroshima-shi Asaminami-ku,Japan_Chugoku,132.407222,34.461944,,Japan,JP,JP,False,False
+JP:34201010,34201010,JP,Misasashougakkou,Hiroshima-shi Nishi-ku,Japan_Chugoku,132.451389,34.412222,,Japan,JP,JP,False,False
+JP:34201020,34201020,JP,Minamishougakkou,Hiroshima-shi Minami-ku,Japan_Chugoku,132.468056,34.378889,,Japan,JP,JP,False,False
+JP:34201250,34201250,JP,Inokuchishougakkou,Hiroshima-shi Nishi-ku,Japan_Chugoku,132.383611,34.372778,,Japan,JP,JP,False,False
+JP:34201260,34201260,JP,Kabeshougakkou,Hiroshima-shi Asakita-ku,Japan_Chugoku,132.51,34.518611,,Japan,JP,JP,False,False
+JP:34202010,34202010,JP,Meiritsushougakkou,Kure-shi,Japan_Chugoku,132.5775,34.254444,,Japan,JP,JP,False,False
+JP:34202040,34202040,JP,Shiratakeshougakkou,Kure-shi,Japan_Chugoku,132.628333,34.231111,,Japan,JP,JP,False,False
+JP:34203010,34203010,JP,Takeharakoukou,Takehara-shi,Japan_Chugoku,132.903444,34.342278,,Japan,JP,JP,False,False
+JP:34207040,34207040,JP,Baienchuugakkou,Fukuyama-shi,Japan_Chugoku,133.412222,34.511111,,Japan,JP,JP,False,False
+JP:34207060,34207060,JP,Mukaigaokachuugakkou,Fukuyama-shi,Japan_Chugoku,133.381389,34.440278,,Japan,JP,JP,False,False
+JP:34207090,34207090,JP,Akebonoshougakkou,Fukuyama-shi,Japan_Chugoku,133.395,34.468889,,Japan,JP,JP,False,False
+JP:34207310,34207310,JP,Ekiyakitashougakkou,Fukuyama-shi,Japan_Chugoku,133.330833,34.554722,,Japan,JP,JP,False,False
+JP:34207320,34207320,JP,Matsunagashougakkou,Fukuyama-shi,Japan_Chugoku,133.256667,34.443889,,Japan,JP,JP,False,False
+JP:34209020,34209020,JP,Miyoshishitoukaichimachi,Miyoshi-shi,Japan_Chugoku,132.854444,34.79675,,Japan,JP,JP,False,False
+JP:34211200,34211200,JP,Ootakeyuumikouen,Ootake-shi,Japan_Chugoku,132.219861,34.218889,,Japan,JP,JP,False,False
+JP:34212030,34212030,JP,Higashihiroshimasaijoushougakkou,Higashihiroshima-shi,Japan_Chugoku,132.741444,34.42125,,Japan,JP,JP,False,False
+JP:34369010,34369010,JP,Kitahiroshimachou,Kitahiroshima-cho,Japan_Chugoku,132.541694,34.688389,,Japan,JP,JP,False,False
+JP:35201020,35201020,JP,Choufukyoku,Shimonoseki-shi,Japan_Chugoku,130.988611,34.003889,,Japan,JP,JP,False,False
+JP:35201030,35201030,JP,Hikoshimakyoku,Shimonoseki-shi,Japan_Chugoku,130.895833,33.942778,,Japan,JP,JP,False,False
+JP:35201040,35201040,JP,Yamanotakyoku,Shimonoseki-shi,Japan_Chugoku,130.927222,33.988889,,Japan,JP,JP,False,False
+JP:35201250,35201250,JP,Toyourakyoku,Shimonoseki-shi,Japan_Chugoku,130.934167,34.171389,,Japan,JP,JP,False,False
+JP:35202020,35202020,JP,Ubesougouchousha,Ube-shi,Japan_Chugoku,131.25,33.955556,,Japan,JP,JP,False,False
+JP:35202360,35202360,JP,Kounanshiminsenta,Ube-shi,Japan_Chugoku,131.218056,33.994167,,Japan,JP,JP,False,False
+JP:35203010,35203010,JP,Kankyouhokensenta,Yamaguchi-shi,Japan_Chugoku,131.433889,34.153056,,Japan,JP,JP,False,False
+JP:35204010,35204010,JP,Hagikenkoufukushisenta,Hagi-shi,Japan_Chugoku,131.395583,34.408278,,Japan,JP,JP,False,False
+JP:35205010,35205010,JP,Shuunansougouchousha,Syuunan-shi,Japan_Chugoku,131.810278,34.055833,,Japan,JP,JP,False,False
+JP:35206010,35206010,JP,Houfukoukou,Houfu-shi,Japan_Chugoku,131.568611,34.048333,,Japan,JP,JP,False,False
+JP:35207090,35207090,JP,Kudamatsushiyakusho,Kudamatsu-shi,Japan_Chugoku,131.870556,34.015278,,Japan,JP,JP,False,False
+JP:35208010,35208010,JP,Marifushougakkou,Iwakuni-shi,Japan_Chugoku,132.216667,34.169444,,Japan,JP,JP,False,False
+JP:35208030,35208030,JP,Atagoshougakkou,Iwakuni-shi,Japan_Chugoku,132.213861,34.144694,,Japan,JP,JP,False,False
+JP:35209010,35209010,JP,Suekenkoukouen,Sanyouonoda-shi,Japan_Chugoku,131.181111,33.974167,,Japan,JP,JP,False,False
+JP:35210040,35210040,JP,Hikarikoukou,Hikari-shi,Japan_Chugoku,131.951111,33.961667,,Japan,JP,JP,False,False
+JP:35211010,35211010,JP,Nagatodobokukenchikujimusho,Nagato-shi,Japan_Chugoku,131.184167,34.369167,,Japan,JP,JP,False,False
+JP:35212010,35212010,JP,Yanaishiyakusho,Yanai-shi,Japan_Chugoku,132.101944,33.964333,,Japan,JP,JP,False,False
+JP:35213010,35213010,JP,Minesakurakouen,Mine-shi,Japan_Chugoku,131.203333,34.164167,,Japan,JP,JP,False,False
+JP:35214020,35214020,JP,Miyanomaejidoukouen,Syuunan-shi,Japan_Chugoku,131.765278,34.072778,,Japan,JP,JP,False,False
+JP:35321010,35321010,JP,Wakikomyunithisenta,Waki-cho,Japan_Chugoku,132.221444,34.207639,,Japan,JP,JP,False,False
+JP:40101020,40101020,JP,Matsugaekyoku,Kitakyuusyuu-shi Moji-ku,Japan_Kyushu,130.976389,33.871944,,Japan,JP,JP,False,False
+JP:40103010,40103010,JP,Wakamatsukyoku,Kitakyuusyuu-shi Wakamatsu-ku,Japan_Kyushu,130.8075,33.901389,,Japan,JP,JP,False,False
+JP:40103120,40103120,JP,Egawakyoku,Kitakyuusyuu-shi Wakamatsu-ku,Japan_Kyushu,130.693611,33.893611,,Japan,JP,JP,False,False
+JP:40103130,40103130,JP,Wakamatsuhibikikyoku,Kitakyuusyuu-shi Wakamatsu-ku,Japan_Kyushu,130.786667,33.920556,,Japan,JP,JP,False,False
+JP:40105010,40105010,JP,Tobatakyoku,Kitakyuusyuu-shi Tobata-ku,Japan_Kyushu,130.829167,33.895278,,Japan,JP,JP,False,False
+JP:40106010,40106010,JP,Kitakyuushuukyoku,Kitakyuusyuu-shi Kokurakita-ku,Japan_Kyushu,130.851389,33.886944,,Japan,JP,JP,False,False
+JP:40107020,40107020,JP,Sonekyoku,Kitakyuusyuu-shi Kokuraminami-ku,Japan_Kyushu,130.939722,33.83,,Japan,JP,JP,False,False
+JP:40107040,40107040,JP,Kikugaokakyoku,Kitakyuusyuu-shi Kokuraminami-ku,Japan_Kyushu,130.875556,33.822222,,Japan,JP,JP,False,False
+JP:40109010,40109010,JP,Kurosakikyoku,Kitakyuusyuu-shi Yahatanishi-ku,Japan_Kyushu,130.770833,33.859722,,Japan,JP,JP,False,False
+JP:40109030,40109030,JP,Tounokyoku,Kitakyuusyuu-shi Yahatanishi-ku,Japan_Kyushu,130.737778,33.825278,,Japan,JP,JP,False,False
+JP:40131030,40131030,JP,Kashii,Fukuoka-shi Higashi-ku,Japan_Kyushu,130.438333,33.672778,,Japan,JP,JP,False,False
+JP:40132010,40132010,JP,Yoshiduka,Fukuoka-shi Hakata-ku,Japan_Kyushu,130.428056,33.607222,,Japan,JP,JP,False,False
+JP:40135020,40135020,JP,Nagao,Fukuoka-shi Jyounan-ku,Japan_Kyushu,130.380833,33.557222,,Japan,JP,JP,False,False
+JP:40135060,40135060,JP,Motooka,Fukuoka-shi Nishi-ku,Japan_Kyushu,130.252778,33.586111,,Japan,JP,JP,False,False
+JP:40202010,40202010,JP,Kokusetsuoomuta,Oomuta-shi,Japan_Kyushu,130.445833,33.03,,Japan,JP,JP,False,False
+JP:40203070,40203070,JP,Mizumachuugakkou,Kurume-shi,Japan_Kyushu,130.466667,33.254444,,Japan,JP,JP,False,False
+JP:40203100,40203100,JP,Jounanchuugakkou,Kurume-shi,Japan_Kyushu,130.506944,33.320833,,Japan,JP,JP,False,False
+JP:40203110,40203110,JP,Tanushimaruchuugakkou,Kurume-shi,Japan_Kyushu,130.690278,33.349444,,Japan,JP,JP,False,False
+JP:40204010,40204010,JP,Noogata,Noogata-shi,Japan_Kyushu,130.724833,33.740778,,Japan,JP,JP,False,False
+JP:40205010,40205010,JP,Iiduka,Iizuka-shi,Japan_Kyushu,130.7,33.611667,,Japan,JP,JP,False,False
+JP:40206010,40206010,JP,Tagawa,Tagawa-shi,Japan_Kyushu,130.773611,33.633611,,Japan,JP,JP,False,False
+JP:40210010,40210010,JP,Yame,Yame-shi,Japan_Kyushu,130.594444,33.197778,,Japan,JP,JP,False,False
+JP:40214010,40214010,JP,Buzen,Buzen-shi,Japan_Kyushu,131.130833,33.610556,,Japan,JP,JP,False,False
+JP:40216010,40216010,JP,Chikugoogoori,Ogoori-shi,Japan_Kyushu,130.580278,33.4075,,Japan,JP,JP,False,False
+JP:40220010,40220010,JP,Munakata,Munakata-shi,Japan_Kyushu,130.540556,33.804167,,Japan,JP,JP,False,False
+JP:40221010,40221010,JP,Dazaifu,Dazaifu-shi,Japan_Kyushu,130.501944,33.508333,,Japan,JP,JP,False,False
+JP:40222010,40222010,JP,Itoshima,Itoshima-shi,Japan_Kyushu,130.208611,33.563611,,Japan,JP,JP,False,False
+JP:40228010,40228010,JP,Asakura,Asakura-shi,Japan_Kyushu,130.8175,33.36,,Japan,JP,JP,False,False
+JP:40342010,40342010,JP,Sasaguri,Sasaguri-machi,Japan_Kyushu,130.526389,33.622222,,Japan,JP,JP,False,False
+JP:40563010,40563010,JP,Yanagawa,Yanagawa-shi,Japan_Kyushu,130.416389,33.1575,,Japan,JP,JP,False,False
+JP:40621010,40621010,JP,Kanda,Kanda-machi,Japan_Kyushu,130.980556,33.776111,,Japan,JP,JP,False,False
+JP:41201030,41201030,JP,Saga,Saga-shi,Japan_Kyushu,130.308611,33.256389,,Japan,JP,JP,False,False
+JP:41201040,41201040,JP,Mitsuse,Saga-shi,Japan_Kyushu,130.280389,33.427694,,Japan,JP,JP,False,False
+JP:41202160,41202160,JP,Hizen,Karatsu-shi,Japan_Kyushu,129.818889,33.440833,,Japan,JP,JP,False,False
+JP:41202200,41202200,JP,Karatsu,Karatsu-shi,Japan_Kyushu,129.955278,33.459722,,Japan,JP,JP,False,False
+JP:41203010,41203010,JP,Tosu,Tosu-shi,Japan_Kyushu,130.499722,33.373333,,Japan,JP,JP,False,False
+JP:41204010,41204010,JP,Taku,Taku-shi,Japan_Kyushu,130.111111,33.286667,,Japan,JP,JP,False,False
+JP:41205080,41205080,JP,Ootsubo,Imari-shi,Japan_Kyushu,129.8875,33.274722,,Japan,JP,JP,False,False
+JP:41206010,41206010,JP,Takeo,Takeo-shi,Japan_Kyushu,130.025556,33.196389,,Japan,JP,JP,False,False
+JP:41207010,41207010,JP,Kashima,Kashima-shi,Japan_Kyushu,130.1,33.103056,,Japan,JP,JP,False,False
+JP:41209010,41209010,JP,Ureshino,Ureshino-shi,Japan_Kyushu,129.982222,33.101389,,Japan,JP,JP,False,False
+JP:41210010,41210010,JP,Kanzaki,Kanzaki-shi,Japan_Kyushu,130.374,33.305,,Japan,JP,JP,False,False
+JP:41425010,41425010,JP,Shiroishi,Shiroishi-cho,Japan_Kyushu,130.149389,33.184583,,Japan,JP,JP,False,False
+JP:42201030,42201030,JP,Inasashougakkou,Nagasaki-shi,Japan_Kyushu,129.860556,32.756667,,Japan,JP,JP,False,False
+JP:42201280,42201280,JP,Kogakura,Nagasaki-shi,Japan_Kyushu,129.850556,32.706389,,Japan,JP,JP,False,False
+JP:42201300,42201300,JP,Higashinagasaki,Nagasaki-shi,Japan_Kyushu,129.955,32.774722,,Japan,JP,JP,False,False
+JP:42202160,42202160,JP,Daitou,Sasebo-shi,Japan_Kyushu,129.778889,33.145833,,Japan,JP,JP,False,False
+JP:42203010,42203010,JP,Shimabara,Shimabara-shi,Japan_Kyushu,130.374722,32.788889,,Japan,JP,JP,False,False
+JP:42204060,42204060,JP,Isahaya,Isahaya-shi,Japan_Kyushu,130.016667,32.8425,,Japan,JP,JP,False,False
+JP:42205010,42205010,JP,Oomura,Oomura-shi,Japan_Kyushu,129.972222,32.892222,,Japan,JP,JP,False,False
+JP:42208040,42208040,JP,Matsuurashisa,Matsuura-shi,Japan_Kyushu,129.710556,33.341667,,Japan,JP,JP,False,False
+JP:42209010,42209010,JP,Tsushima,Tsushima-shi,Japan_Kyushu,129.289444,34.210278,,Japan,JP,JP,False,False
+JP:42210010,42210010,JP,Iki,Iki-shi,Japan_Kyushu,129.690833,33.75,,Japan,JP,JP,False,False
+JP:42211010,42211010,JP,Gotou,Gotou-shi,Japan_Kyushu,128.84,32.696389,,Japan,JP,JP,False,False
+JP:42213010,42213010,JP,Obama,Unzen-shi,Japan_Kyushu,130.211944,32.747222,,Japan,JP,JP,False,False
+JP:42308040,42308040,JP,Togitsushougakkou,Togitsu-cho,Japan_Kyushu,129.847778,32.828889,,Japan,JP,JP,False,False
+JP:42309010,42309010,JP,Muramatsu,Nagasaki-shi,Japan_Kyushu,129.787222,32.864722,,Japan,JP,JP,False,False
+JP:42314020,42314020,JP,Yukinoura,Saikai-shi,Japan_Kyushu,129.665556,32.922222,,Japan,JP,JP,False,False
+JP:42322060,42322060,JP,Kawatana,Kawatana-cho,Japan_Kyushu,129.857778,33.066389,,Japan,JP,JP,False,False
+JP:42392020,42392020,JP,Yoshii,Sasebo-shi,Japan_Kyushu,129.689722,33.265833,,Japan,JP,JP,False,False
+JP:43201140,43201140,JP,Nirenoki,Kumamoto-shi Kita-ku,Japan_Kyushu,130.753889,32.848056,,Japan,JP,JP,False,False
+JP:43201150,43201150,JP,Kyoumachi,Kumamoto-shi Chuuou-ku,Japan_Kyushu,130.702778,32.816667,,Japan,JP,JP,False,False
+JP:43201160,43201160,JP,Kitakuyakusho,Kumamoto-shi Kita-ku,Japan_Kyushu,130.693611,32.903889,,Japan,JP,JP,False,False
+JP:43201170,43201170,JP,Akitsu,Kumamoto-shi Higashi-ku,Japan_Kyushu,130.771111,32.770833,,Japan,JP,JP,False,False
+JP:43201180,43201180,JP,Nakashima,Kumamoto-shi Nishi-ku,Japan_Kyushu,130.626389,32.766111,,Japan,JP,JP,False,False
+JP:43201190,43201190,JP,Jounanmachi,Kumamoto-shi Minami-ku,Japan_Kyushu,130.713889,32.726111,,Japan,JP,JP,False,False
+JP:43202020,43202020,JP,Yatsushirohigashikoukou,Yatsushiro-shi,Japan_Kyushu,130.604028,32.509583,,Japan,JP,JP,False,False
+JP:43203011,43203011,JP,Hitoyoshihokensho,Hitoyoshi-shi,Japan_Kyushu,130.758889,32.206389,,Japan,JP,JP,False,False
+JP:43204200,43204200,JP,Araoundokouen,Arao-shi,Japan_Kyushu,130.467222,32.980556,,Japan,JP,JP,False,False
+JP:43205160,43205160,JP,Minamatahokensho,Minamata-shi,Japan_Kyushu,130.401444,32.21675,,Japan,JP,JP,False,False
+JP:43206020,43206020,JP,Ariakehokensho,Tamana-shi,Japan_Kyushu,130.558611,32.931111,,Japan,JP,JP,False,False
+JP:43210010,43210010,JP,Kikuchishiyakusho,Kikuchi-shi,Japan_Kyushu,130.813056,32.98,,Japan,JP,JP,False,False
+JP:43211050,43211050,JP,Utoundoukouen,Uto-shi,Japan_Kyushu,130.664444,32.684722,,Japan,JP,JP,False,False
+JP:43212010,43212010,JP,Kamiamakusashiaidu,Kamiamakusa-shi,Japan_Kyushu,130.432778,32.516111,,Japan,JP,JP,False,False
+JP:43214011,43214011,JP,Asohokensho,Aso-shi,Japan_Kyushu,131.114167,32.938611,,Japan,JP,JP,False,False
+JP:43403010,43403010,JP,Oodumachihikimizu,Oozu-machi,Japan_Kyushu,130.877222,32.876111,,Japan,JP,JP,False,False
+JP:43444010,43444010,JP,Kousamachiiwashita,Kousa-machi,Japan_Kyushu,130.808333,32.652778,,Japan,JP,JP,False,False
+JP:43531010,43531010,JP,Reihokutomioka,Reihoku-machi,Japan_Kyushu,130.037806,32.511972,,Japan,JP,JP,False,False
+JP:43532010,43532010,JP,Amakusatakahama,Amakusa-shi,Japan_Kyushu,129.996444,32.37925,,Japan,JP,JP,False,False
+JP:44201080,44201080,JP,Oozaishougakkou,Oita-shi,Japan_Kyushu,131.718889,33.2475,,Japan,JP,JP,False,False
+JP:44201100,44201100,JP,Hetsugichuugakkou,Oita-shi,Japan_Kyushu,131.658056,33.155833,,Japan,JP,JP,False,False
+JP:44201130,44201130,JP,Higashiooitashougakkou,Oita-shi,Japan_Kyushu,131.639167,33.243611,,Japan,JP,JP,False,False
+JP:44201350,44201350,JP,Seibuseisoujigyousho,Oita-shi,Japan_Kyushu,131.550278,33.188889,,Japan,JP,JP,False,False
+JP:44201370,44201370,JP,Oujichuugakkou,Oita-shi,Japan_Kyushu,131.594167,33.235833,,Japan,JP,JP,False,False
+JP:44202020,44202020,JP,Aoyamachuugakkou,Beppu-shi,Japan_Kyushu,131.484444,33.288333,,Japan,JP,JP,False,False
+JP:44203070,44203070,JP,Nakatsusougouchousha,Nakatsu-shi,Japan_Kyushu,131.196111,33.592222,,Japan,JP,JP,False,False
+JP:44204010,44204010,JP,Seibushinkoukyoku,Hita-shi,Japan_Kyushu,130.940556,33.326389,,Japan,JP,JP,False,False
+JP:44205020,44205020,JP,Nanbushinkoukyoku,Saiki-shi,Japan_Kyushu,131.904167,32.964722,,Japan,JP,JP,False,False
+JP:44206010,44206010,JP,Usukishiyakusho,Usuki-shi,Japan_Kyushu,131.805,33.126389,,Japan,JP,JP,False,False
+JP:44207010,44207010,JP,Tsukumishiyakusho,Tsukumi-shi,Japan_Kyushu,131.860833,33.0725,,Japan,JP,JP,False,False
+JP:44212010,44212010,JP,Houhihokensho,Bungooono-shi,Japan_Kyushu,131.580556,32.975278,,Japan,JP,JP,False,False
+JP:44213010,44213010,JP,Chuubuhokenshoyufuhokenbu,Yufu-shi,Japan_Kyushu,131.426389,33.179444,,Japan,JP,JP,False,False
+JP:44214010,44214010,JP,Kunisakikoutougakkou,Kunisak-ishi,Japan_Kyushu,131.731667,33.5575,,Japan,JP,JP,False,False
+JP:44341020,44341020,JP,Hijimachitakajou,Hiji-machi,Japan_Kyushu,131.528333,33.368889,,Japan,JP,JP,False,False
+JP:44381010,44381010,JP,Saganosekishougakkou,Oita-shi,Japan_Kyushu,131.874167,33.245278,,Japan,JP,JP,False,False
+JP:45201040,45201040,JP,Sadowara,Miyazaki-shi,Japan_Kyushu,131.473611,32.024167,,Japan,JP,JP,False,False
+JP:45201050,45201050,JP,Gion,Miyazaki-shi,Japan_Kyushu,131.41083,31.932523,,Japan,JP,JP,False,False
+JP:45202020,45202020,JP,Miyakonojoukousen,Miyakonojyou-shi,Japan_Kyushu,131.081389,31.759722,,Japan,JP,JP,False,False
+JP:45203100,45203100,JP,Nobeokahokensho,Nobeoka-shi,Japan_Kyushu,131.656944,32.578889,,Japan,JP,JP,False,False
+JP:45204010,45204010,JP,Nichinanhokensho,Nichinan-shi,Japan_Kyushu,131.375278,31.606667,,Japan,JP,JP,False,False
+JP:45205010,45205010,JP,Kobayashihokensho,Kobayashi-shi,Japan_Kyushu,130.997778,31.981111,,Japan,JP,JP,False,False
+JP:45206030,45206030,JP,Hyuugashiritsutoshokan,Hyuuga-shi,Japan_Kyushu,131.622778,32.423056,,Japan,JP,JP,False,False
+JP:45401010,45401010,JP,Takanabechoukenkoudukurisenta,Takanabe-cho,Japan_Kyushu,131.505833,32.130556,,Japan,JP,JP,False,False
+JP:45441010,45441010,JP,Takachihohokensho,Takachiho-cho,Japan_Kyushu,131.305278,32.705556,,Japan,JP,JP,False,False
+JP:46201010,46201010,JP,Kagoshimashiyakusho,Kagoshima-shi,Japan_Kyushu,130.556944,31.597222,,Japan,JP,JP,False,False
+JP:46201130,46201130,JP,Taniyamashisho,Kagoshima-shi,Japan_Kyushu,130.517778,31.521389,,Japan,JP,JP,False,False
+JP:46202050,46202050,JP,Kumanojou,Satsumasendai-shi,Japan_Kyushu,130.305556,31.8,,Japan,JP,JP,False,False
+JP:46203010,46203010,JP,Kanoya,Kanoya-shi,Japan_Kyushu,130.851944,31.376111,,Japan,JP,JP,False,False
+JP:46205010,46205010,JP,Hashima,Ichikikushikino-shi,Japan_Kyushu,130.201944,31.758611,,Japan,JP,JP,False,False
+JP:46208010,46208010,JP,Izumi,Izumi-shi,Japan_Kyushu,130.351389,32.088889,,Japan,JP,JP,False,False
+JP:46212010,46212010,JP,Kirishima,Kirishima-shi,Japan_Kyushu,130.760556,31.736944,,Japan,JP,JP,False,False
+JP:46220010,46220010,JP,Minamisatsuma,Minamisatsuma-shi,Japan_Kyushu,130.3225,31.416667,,Japan,JP,JP,False,False
+JP:46321010,46321010,JP,Kiire,Kagoshima-shi,Japan_Kyushu,130.5425,31.376111,,Japan,JP,JP,False,False
+KR:111123,111123,KR,종로구,서울,서울북동부,127.00499,37.57203,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:111151,111151,KR,중랑구,서울,서울북동부,127.09401,37.58486,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:111152,111152,KR,동대문구,서울,서울북동부,127.02889,37.57575,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:111161,111161,KR,성북구,서울,서울북동부,127.02728,37.60673,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:111171,111171,KR,도봉구,서울,서울북동부,127.029,37.6542,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:111291,111291,KR,강북구,서울,서울북동부,127.01186,37.6479,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:111311,111311,KR,노원구,서울,서울북동부,127.06788,37.65742,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131241,131241,KR,금곡동,남양주시,경기북동부,127.21619,37.63561,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131242,131242,KR,오남읍,남양주시,경기북동부,127.20473,37.69867,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131243,131243,KR,별내동,남양주시,경기북동부,127.11586,37.65292,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131244,131244,KR,화도읍,남양주시,경기북동부,127.3007,37.65782,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131246,131246,KR,와부읍,남양주시,경기북동부,127.2268,37.5809,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131247,131247,KR,진접읍,남양주시,경기북동부,127.1898,37.7264,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131371,131371,KR,금촌동,파주시,경기,126.7739,37.75631,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:131374,131374,KR,파주읍,파주시,경기,126.8332,37.8308,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:131453,131453,KR,선단동,포천시,경기북동부,127.15919,37.85347,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131454,131454,KR,일동면,포천시,경기북동부,127.31727,37.96119,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131471,131471,KR,사우동,김포시,경기,126.71675,37.61934,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:131473,131473,KR,월곶면,김포시,경기,126.5529,37.7151,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:131571,131571,KR,보산동,동두천시,경기북동부,127.06129,37.9176,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131601,131601,KR,연천,연천군,경기북동부,127.07484,38.09644,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131611,131611,KR,가평읍,가평군,경기북동부,127.50977,37.83122,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131612,131612,KR,설악면,가평군,경기북동부,127.4947,37.6762,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:131991,131991,KR,연천(DMZ),연천군,경기북동부,126.9737,38.1296,교외대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:132401,132401,KR,방산면,양구군,강원내륙,127.95856,38.22439,교외대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:132402,132402,KR,양구읍,양구군,강원내륙,127.98978,38.10924,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:132991,132991,KR,철원(DMZ),철원군,강원내륙,127.1695,38.30321,교외대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:132992,132992,KR,화천(DMZ),화천군,강원내륙,127.78132,38.22735,교외대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:132993,132993,KR,인제(DMZ),고성군,강원동해안,128.24814,38.38956,교외대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:132994,132994,KR,고성(DMZ),고성군,강원동해안,128.28025,38.56651,교외대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:336462,336462,KR,안마도,영광군,전남,126.02108,35.34575,국가배경농도(도서) 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:336522,336522,KR,홍도,신안군,전남,125.2016,34.6971,국가배경농도(도서) 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:336523,336523,KR,가거도,신안군,전남,125.0989,34.0949,국가배경농도(도서) 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:339312,339312,KR,고산리,제주시,제주,126.16216,33.29247,국가배경농도(도서) 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:437541,437541,KR,태하리,울릉군,경북,130.79667,37.52233,국가배경농도(도서) 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:534423,534423,KR,대산리,서산시,충남,126.43394,36.93797,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:534433,534433,KR,송산면,당진시,충남,126.71641,36.9765,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:534461,534461,KR,파도리,태안군,충남,126.13437,36.73818,교외대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:534463,534463,KR,태안읍,태안군,충남,126.30151,36.74671,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:534464,534464,KR,격렬비열도,태안군,충남,125.55788,36.62614,국가배경농도(도서) 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:534465,534465,KR,원북면,태안군,충남,126.2572,36.8242,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:534472,534472,KR,삽교읍,예산군,충남,126.7392,36.6881,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:534484,534484,KR,외연도,보령시,충남,126.08247,36.22903,국가배경농도(도서) 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:534491,534491,KR,홍성읍,홍성군,충남,126.655133,36.597702,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:534492,534492,KR,내포,홍성군,충남,126.66802,36.6533,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:632421,632421,KR,간성읍,고성군,강원동해안,128.38521,38.28744,교외대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:632431,632431,KR,치악산,횡성군,강원,128.12509,37.36014,교외대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:632441,632441,KR,상리,고성군,강원동해안,128.463653,38.381078,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:632451,632451,KR,양양읍,양양군,강원동해안,128.61835,38.075,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:632461,632461,KR,금호동,속초시,강원동해안,128.588238,38.206903,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:632472,632472,KR,갈말읍,철원군,강원내륙,127.31252,38.14706,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:632481,632481,KR,홍천읍,홍천군,강원내륙,127.88025,37.68375,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:632501,632501,KR,화천군,화천군,강원내륙,127.7084,38.1064,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:632521,632521,KR,인제읍,인제군,강원내륙,128.16682,38.06021,도시대기 측정망,Korea_East_Candidates,KR_OLD,KR_OLD,True,False
+KR:633122,633122,KR,호암동,충주시,충북,127.92616,36.96457,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:633123,633123,KR,칠금동,충주시,충북,127.91921,36.98209,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:633481,633481,KR,도안면,증평군,충북,127.61301,36.81335,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:735126,735126,KR,말도,군산시,전북,126.3157,35.8584,국가배경농도(도서) 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:823613,823613,KR,영종,인천,인천,126.56393,37.49466,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:823651,823651,KR,연희,인천,인천,126.68087,37.54166,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:823691,823691,KR,송해,인천,인천,126.46341,37.76452,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:823802,823802,KR,길상,인천,인천,126.4913,37.6406,도시대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:831481,831481,KR,석모리,강화군,인천,126.28349,37.70536,교외대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:831491,831491,KR,덕적도,웅진군,인천,126.14927,37.23304,교외대기 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:831492,831492,KR,백령도,옹진군,인천,124.63401111111112,37.96474722222222,국가배경농도(도서) 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:831494,831494,KR,연평도,옹진군,인천,125.6996,37.6662,국가배경농도(도서) 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+KR:831495,831495,KR,울도,옹진군,인천,125.99605,37.02495,국가배경농도(도서) 측정망,Korea_Air,KR_OLD,KR_OLD,True,False
+MN:UB1010001,UB1010001,MN,U.S. Embassy Ulaanbaatar,Ulaanbaatar,Mongolia_UB,106.929,47.928,,Mongolia,MN,MN,False,False
+KR:111131,111131,KR,용산구,서울,수도권,127.00482,37.54004,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111141,111141,KR,광진구,서울,수도권,127.09248,37.5472,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111142,111142,KR,성동구,서울,수도권,127.0494,37.5419,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111181,111181,KR,은평구,서울,수도권,126.93484,37.60983,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111191,111191,KR,서대문구,서울,수도권,126.94972,37.59378,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111201,111201,KR,마포구,서울,수도권,126.9056,37.5556,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111212,111212,KR,강서구,서울,수도권,126.83514,37.54466,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111221,111221,KR,구로구,서울,수도권,126.88968,37.49853,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111231,111231,KR,영등포구,서울,수도권,126.8961,37.5258,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111241,111241,KR,동작구,서울,수도권,126.97146,37.48094,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111251,111251,KR,관악구,서울,수도권,126.92709,37.48738,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111261,111261,KR,강남구,서울,수도권,127.04805,37.51756,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111262,111262,KR,서초구,서울,수도권,126.99446,37.50456,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111273,111273,KR,송파구,서울,수도권,127.0925,37.50273,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111274,111274,KR,강동구,서울,수도권,127.1368,37.545,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111281,111281,KR,금천구,서울,수도권,126.9083,37.45239,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:111301,111301,KR,양천구,서울,수도권,126.85657,37.52596,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131111,131111,KR,신풍동,수원시,수도권,127.01047,37.2838,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131112,131112,KR,인계동,수원시,수도권,127.02917,37.26342,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131113,131113,KR,광교동,수원시,수도권,127.064,37.29084,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131114,131114,KR,영통동,수원시,수도권,127.0563,37.24696,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131115,131115,KR,천천동,수원시,수도권,126.9753,37.29276,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131117,131117,KR,고색동,수원시,수도권,126.9766,37.25257,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131118,131118,KR,(폐쇄) 호매실동,수원시,수도권,126.95722,37.26622,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131119,131119,KR,호매실,수원시,수도권,126.9345,37.2687,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131121,131121,KR,단대동,성남시,수도권,127.15536,37.44944,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131123,131123,KR,정자동,성남시,수도권,127.11143,37.36145,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131124,131124,KR,수내동,성남시,수도권,127.11897,37.38256,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131126,131126,KR,복정동,성남시,수도권,127.13117,37.45719,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131128,131128,KR,운중동,성남시,수도권,127.0807,37.39054,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131129,131129,KR,상대원동,성남시,수도권,127.1645,37.43286,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131131,131131,KR,의정부동,의정부시,수도권,127.04081,37.73558,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131132,131132,KR,의정부1동,의정부시,수도권,127.04769,37.74633,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131133,131133,KR,송산3동,의정부시,수도권,127.1059,37.7481,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131141,131141,KR,안양8동,안양시,수도권,126.93146,37.38494,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131142,131142,KR,부림동,안양시,수도권,126.958,37.3941,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131144,131144,KR,호계동,안양시,수도권,126.95868,37.36762,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131145,131145,KR,안양2동,안양시,수도권,126.91763,37.4051,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131161,131161,KR,철산동,광명시,수도권,126.86523,37.47859,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131163,131163,KR,소하동,광명시,수도권,126.88801,37.44549,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131191,131191,KR,고잔동,안산시,수도권,126.8304,37.32205,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131192,131192,KR,원시동,안산시,수도권,126.81221,37.33464,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131193,131193,KR,본오동,안산시,수도권,126.86444,37.28917,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131194,131194,KR,원곡동,안산시,수도권,126.80188,37.33155,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131195,131195,KR,부곡동,안산시,수도권,126.86113,37.33195,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131196,131196,KR,대부동,안산시,수도권,126.5853,37.24368,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131197,131197,KR,호수동,안산시,수도권,126.83352,37.30489,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131201,131201,KR,별양동,과천시,수도권,126.99425,37.42392,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131202,131202,KR,과천동,과천시,수도권,127.00233,37.44908,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131211,131211,KR,교문동,구리시,수도권,127.12974,37.59446,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131212,131212,KR,동구동,구리시,수도권,127.13811,37.61856,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131222,131222,KR,부곡3동,의왕시,수도권,126.95718,37.31773,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131223,131223,KR,고천동,의왕시,수도권,126.969,37.3442,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131231,131231,KR,정왕동,시흥시,수도권,126.74008,37.34681,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131232,131232,KR,시화산단,시흥시,수도권,126.7241,37.33718,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131233,131233,KR,대야동,시흥시,수도권,126.7884,37.44306,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131234,131234,KR,목감동,시흥시,수도권,126.8618,37.3861,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131235,131235,KR,장현동,시흥시,수도권,126.804,37.3801,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131237,131237,KR,배곧동,시흥시,수도권,126.7334,37.3734,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131341,131341,KR,비전동,평택시,수도권,127.11278,36.99231,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131342,131342,KR,안중,평택시,수도권,126.93144,36.98594,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131343,131343,KR,평택항,평택시,수도권,126.84554,36.97461,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131344,131344,KR,송북동,평택시,수도권,127.06012,37.08156,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131345,131345,KR,청북읍,평택시,수도권,126.9182,37.0203,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131346,131346,KR,고덕동,평택시,수도권,127.0462,37.0533,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131372,131372,KR,운정,파주시,수도권,126.75643,37.72315,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131373,131373,KR,파주,파주시,수도권,126.73108,37.906227,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131381,131381,KR,행신동,고양시,수도권,126.84193,37.62491,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131382,131382,KR,식사동,고양시,수도권,126.81344,37.68551,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131384,131384,KR,신원동,고양시,수도권,126.88671,37.66636,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131385,131385,KR,주엽동,고양시,수도권,126.7564,37.66829,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131392,131392,KR,경안동,광주시,수도권,127.25789,37.41116,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131394,131394,KR,오포1동,광주시,수도권,127.2286,37.3662,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131395,131395,KR,곤지암,광주시,수도권,127.3523,37.351,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131411,131411,KR,김량장동,용인시,수도권,127.20141,37.23448,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131412,131412,KR,수지,용인시,수도권,127.09506,37.32787,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131413,131413,KR,기흥,용인시,수도권,127.11514,37.28023,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131415,131415,KR,모현읍,용인시,수도권,127.24234,37.32954,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131416,131416,KR,이동읍,용인시,수도권,127.19618,37.14109,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131417,131417,KR,백암면,용인시,수도권,127.37504,37.1631,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131441,131441,KR,설성면,이천시,수도권,127.55359,37.13749,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131442,131442,KR,창전동,이천시,수도권,127.44086,37.28348,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131443,131443,KR,장호원읍,이천시,수도권,127.62966,37.11425,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131444,131444,KR,부발읍,이천시,수도권,127.4867,37.2833,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131451,131451,KR,관인면,포천시,수도권,127.25258,38.12384,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131472,131472,KR,고촌읍,김포시,수도권,126.76283,37.60673,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131474,131474,KR,한강신도시,김포시,수도권,126.6291,37.6533,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131501,131501,KR,당동,군포시,수도권,126.94516,37.35368,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131502,131502,KR,산본동,군포시,수도권,126.93364,37.36166,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131531,131531,KR,오산동,오산시,수도권,127.07706,37.15919,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131541,131541,KR,신장동,하남시,수도권,127.21461,37.53911,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131542,131542,KR,미사,하남시,수도권,127.18606,37.56701,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131551,131551,KR,남양읍,화성시,수도권,126.824,37.21148,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131552,131552,KR,향남읍,화성시,수도권,126.92019,37.13236,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131553,131553,KR,동탄,화성시,수도권,127.0723,37.19692,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131554,131554,KR,우정읍,화성시,수도권,126.81538,37.0898,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131555,131555,KR,청계동,화성시,수도권,127.119515,37.196131,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131556,131556,KR,새솔동,화성시,수도권,126.8187,37.2814,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131557,131557,KR,봉담읍,화성시,수도권,126.94908,37.21955,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131558,131558,KR,서신면,화성시,수도권,126.70884,37.16653,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131561,131561,KR,백석읍,양주시,수도권,126.98717,37.79239,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131562,131562,KR,고읍,양주시,수도권,127.08434,37.79258,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131581,131581,KR,봉산동,안성시,수도권,127.27986,37.00759,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131583,131583,KR,공도읍,안성시,수도권,127.1726,37.0012,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131584,131584,KR,죽산면,안성시,수도권,127.4244,37.0745,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131591,131591,KR,중앙동,여주시,수도권,127.62894,37.29866,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131592,131592,KR,대신면,여주시,수도권,127.5847,37.3712,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131593,131593,KR,가남읍,여주시,수도권,127.5452,37.2019,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131602,131602,KR,전곡,연천군,수도권,127.0619,38.0266,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131621,131621,KR,용문면,양평군,수도권,127.5962,37.4872,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:131622,131622,KR,양평읍,양평군,수도권,127.4866,37.4971,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:132112,132112,KR,중앙로,춘천시,강원권,127.72048,37.87564,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:132113,132113,KR,석사동,춘천시,강원권,127.7495,37.85707,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:132118,132118,KR,신사우동,춘천시,강원권,127.7282,37.9054,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221112,221112,KR,광복동,부산,동남권,129.03053,35.09993,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221141,221141,KR,태종대,부산,동남권,129.07987,35.05978,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221142,221142,KR,청학동,부산,동남권,129.0596,35.0908,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221152,221152,KR,전포동,부산,동남권,129.06377,35.15603,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221163,221163,KR,명장동,부산,동남권,129.10433,35.20487,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221172,221172,KR,대연동,부산,동남권,129.087685,35.130321,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221174,221174,KR,용호동,부산,동남권,129.116,35.1279,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221181,221181,KR,학장동,부산,동남권,128.98421,35.14615,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221182,221182,KR,덕천동,부산,동남권,129.00615,35.20784,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221183,221183,KR,화명동,부산,동남권,129.0102,35.2334,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221191,221191,KR,청룡동,부산,동남권,129.08952,35.27548,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221192,221192,KR,좌동,부산,동남권,129.17415,35.17063,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221193,221193,KR,재송동,부산,동남권,129.121,35.1832,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221202,221202,KR,장림동,부산,동남권,128.96688,35.08299,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221211,221211,KR,대저동,부산,동남권,128.97308,35.2087,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221212,221212,KR,녹산동,부산,동남권,128.86307,35.08637,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221213,221213,KR,명지동,부산,동남권,128.92649,35.10655,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221221,221221,KR,연산동,부산,동남권,129.07462,35.18113,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221231,221231,KR,기장읍,부산,동남권,129.21582,35.23874,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221233,221233,KR,용수리,부산,동남권,129.18023,35.32562,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221241,221241,KR,수정동,부산,동남권,129.0454,35.1294,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221251,221251,KR,부곡동,부산,동남권,129.09265,35.22977,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221253,221253,KR,회동동,부산,동남권,129.12081,35.22947,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221271,221271,KR,광안동,부산,동남권,129.1181,35.1575,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221281,221281,KR,대신동,부산,동남권,129.01573,35.11737,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221282,221282,KR,덕포동,부산,동남권,128.98508,35.17441,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221283,221283,KR,개금동,부산,동남권,129.022982,35.15515,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:221284,221284,KR,당리동,부산,동남권,128.97374,35.105221,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238111,238111,KR,회원동,창원시,동남권,128.5739,35.21811,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238112,238112,KR,봉암동,창원시,동남권,128.60249,35.21759,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238113,238113,KR,내서읍,창원시,동남권,128.5033,35.2259,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238120,238120,KR,대송동,울산,동남권,129.41836,35.50283,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238121,238121,KR,성남동,울산,동남권,129.32049,35.55628,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238122,238122,KR,부곡동,울산,동남권,129.33897,35.49727,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238123,238123,KR,여천동,울산,동남권,129.36711,35.5156,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238124,238124,KR,야음동,울산,동남권,129.3262,35.529,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238125,238125,KR,삼산동,울산,동남권,129.3318,35.54437,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238127,238127,KR,신정동,울산,동남권,129.30806,35.53472,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238128,238128,KR,덕신리,울산,동남권,129.3079,35.4363,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238129,238129,KR,무거동,울산,동남권,129.26078,35.55933,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238130,238130,KR,효문동,울산,동남권,129.37112,35.55947,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238131,238131,KR,상봉동,진주시,동남권,128.07449,35.1959,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238132,238132,KR,대안동,진주시,동남권,128.0837,35.19209,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238133,238133,KR,상대동,진주시,동남권,128.12246,35.18086,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238134,238134,KR,정촌면,진주시,동남권,128.0997,35.1248,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238141,238141,KR,명서동,창원시,동남권,128.64401,35.24032,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238142,238142,KR,웅남동,창원시,동남권,128.65749,35.21152,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238143,238143,KR,성주동,창원시,동남권,128.71108,35.19937,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238144,238144,KR,용지동,창원시,동남권,128.68399,35.23631,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238146,238146,KR,사파동,창원시,동남권,128.69825,35.22173,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238151,238151,KR,경화동,창원시,동남권,128.68954,35.15499,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238152,238152,KR,월영동,창원시,동남권,128.5629,35.1831,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238161,238161,KR,하동읍,하동군,동남권,127.75139,35.06769,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238162,238162,KR,금성면,하동군,동남권,127.7943,34.9659,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238181,238181,KR,동상동,김해시,동남권,128.88336,35.23694,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238182,238182,KR,삼방동,김해시,동남권,128.91179,35.24429,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238183,238183,KR,장유동,김해시,동남권,128.80722,35.20236,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238184,238184,KR,진영읍,김해시,동남권,128.7312,35.3078,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238186,238186,KR,진례면,김해시,동남권,128.7478,35.2492,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238191,238191,KR,저구리,거제시,동남권,128.58733,34.71009,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238201,238201,KR,아주동,거제시,동남권,128.6903,34.8636,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238203,238203,KR,고현동,거제시,동남권,128.6211,34.8808,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238211,238211,KR,사천읍,사천시,동남권,128.09124,35.08277,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238212,238212,KR,향촌동,사천시,동남권,128.0933,34.9338,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238241,238241,KR,대산면,창원시,동남권,128.6757,35.37305,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238361,238361,KR,북부동,양산시,동남권,129.04095,35.34581,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238362,238362,KR,삼호동,양산시,동남권,129.172,35.41441,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238363,238363,KR,물금읍,양산시,동남권,128.9872,35.3106,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238371,238371,KR,화산리,울산,동남권,129.33763,35.4381,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238373,238373,KR,상남리,울산,동남권,129.30592,35.49311,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238374,238374,KR,농소동,울산,동남권,129.35803,35.62032,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238375,238375,KR,삼남면,울산,동남권,129.11377,35.55833,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238376,238376,KR,약사동,울산,동남권,129.31945,35.56792,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238377,238377,KR,웅촌면,울산,동남권,129.2091,35.4615,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238378,238378,KR,범서읍,울산,동남권,129.22192,35.5706,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238380,238380,KR,송정동,울산,동남권,129.3651,35.5924,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238381,238381,KR,전하동,울산,동남권,129.42667,35.50884,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238401,238401,KR,내일동,밀양시,동남권,128.75417,35.49368,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238411,238411,KR,무전동,통영시,동남권,128.43239,34.85717,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238421,238421,KR,고성읍,고성군,동남권,128.32426,34.9745,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238431,238431,KR,거창읍,거창군,동남권,127.91788,35.68138,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238441,238441,KR,가야읍,함안군,동남권,128.4081,35.2723,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238451,238451,KR,함양읍,함양군,동남권,127.72497,35.52031,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238461,238461,KR,남해읍,남해군,동남권,127.89902,34.83189,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238471,238471,KR,산청읍,산청군,동남권,127.8741,35.415,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238481,238481,KR,남상면,거창군,동남권,127.9102,35.64319,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238491,238491,KR,의령읍,의령군,동남권,128.2538,35.3158,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238501,238501,KR,창녕읍,창녕군,동남권,128.4905,35.5438,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:238511,238511,KR,합천읍,합천군,동남권,128.16539,35.56752,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:324115,324115,KR,서석동,광주,호남권,126.92333,35.14583,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:324121,324121,KR,농성동,광주,호남권,126.88849,35.15494,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:324124,324124,KR,노대동,광주,호남권,126.8961,35.099,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:324125,324125,KR,유촌동,광주,호남권,126.8442,35.1619,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:324133,324133,KR,두암동,광주,호남권,126.93215,35.17388,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:324135,324135,KR,건국동,광주,호남권,126.86032,35.22933,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:324136,324136,KR,일곡동,광주,호남권,126.8924,35.2181,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:324142,324142,KR,오선동,광주,호남권,126.80776,35.20436,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:324143,324143,KR,우산동,광주,호남권,126.8101,35.1576,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:324148,324148,KR,평동,광주,호남권,126.7696,35.1238,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:324155,324155,KR,주월동,광주,호남권,126.8933,35.13192,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:335115,335115,KR,노송동,전주시,호남권,127.148,35.8287,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336111,336111,KR,용당동,목포시,호남권,126.39162,34.80598,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336112,336112,KR,부흥동,목포시,호남권,126.43457,34.80428,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336121,336121,KR,서강동,여수시,호남권,127.72597,34.74114,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336124,336124,KR,월내동,여수시,호남권,127.72464,34.85019,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336125,336125,KR,문수동,여수시,호남권,127.70288,34.75459,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336127,336127,KR,여천동,여수시,호남권,127.65244,34.77743,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336128,336128,KR,덕충동,여수시,호남권,127.74678,34.75389,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336131,336131,KR,장천동,순천시,호남권,127.48913,34.94759,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336132,336132,KR,연향동,순천시,호남권,127.51858,34.9471,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336133,336133,KR,순천만,순천시,호남권,127.50979,34.88549,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336134,336134,KR,호두리,순천시,호남권,127.57299,34.89349,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336135,336135,KR,신대,순천시,호남권,127.54836,34.93644,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336141,336141,KR,빛가람동,나주시,호남권,126.79041,35.02174,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336151,336151,KR,담양읍,담양군,호남권,126.98824,35.32099,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336161,336161,KR,장성읍,장성군,호남권,126.78542,35.30324,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336221,336221,KR,화양면,여수시,호남권,127.59745,34.68574,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336222,336222,KR,율촌면,여수시,호남권,127.57878,34.88193,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336223,336223,KR,삼일동,여수시,호남권,127.73176,34.82503,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336352,336352,KR,중동,광양시,호남권,127.69769,34.93992,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336353,336353,KR,태인동,광양시,호남권,127.75707,34.94187,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336354,336354,KR,(폐쇄)진상면,광양시,호남권,127.71962,35.02,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336355,336355,KR,광양읍,광양시,호남권,127.58229,34.9808,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336357,336357,KR,봉강면,광양시,호남권,127.5813,35.0115,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336358,336358,KR,진월면,광양시,호남권,127.7581,34.9784,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336361,336361,KR,해남읍,해남군,호남권,126.5992,34.56517,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336441,336441,KR,대불,영암군,호남권,126.45269,34.75743,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336442,336442,KR,영암읍,영암군,호남권,126.70061,34.80749,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336451,336451,KR,송단리,화순군,호남권,127.17505,35.17694,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336452,336452,KR,화순읍,화순군,호남권,126.98592,35.06533,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336461,336461,KR,영광읍,영광군,호남권,126.51199,35.278,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336471,336471,KR,장흥읍,장흥군,호남권,126.9067,34.67498,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336481,336481,KR,진도읍,진도군,호남권,126.26881,34.47929,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336491,336491,KR,신지면,완도군,호남권,126.82856,34.334431,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336501,336501,KR,함평읍,함평군,호남권,126.52275,35.06205,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336511,336511,KR,고흥읍,고흥군,호남권,127.28067,34.60628,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336521,336521,KR,신안군,신안군,호남권,126.12612,34.75554,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336531,336531,KR,무안읍,무안군,호남권,126.47648,34.9905,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336532,336532,KR,남악오룡,무안군,호남권,126.4815,34.8141,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336541,336541,KR,강진읍,강진군,호남권,126.463,34.3826,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336551,336551,KR,곡성읍,곡성군,호남권,127.2899,35.2833,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336561,336561,KR,구례읍,구례군,호남권,127.46095,35.21566,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336571,336571,KR,벌교읍,보성군,호남권,127.347,34.8415,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:336572,336572,KR,보성읍,보성군,호남권,127.0782,34.7649,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:339111,339111,KR,이도동,제주시,제주권,126.53237,33.50012,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:339112,339112,KR,연동,제주시,제주권,126.50006,33.48863,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:339113,339113,KR,조천읍,제주시,제주권,126.6424,33.5379,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:339114,339114,KR,한림읍,제주시,제주권,126.2681,33.4094,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:339116,339116,KR,화북동,제주시,제주권,126.5703,33.5171,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:339117,339117,KR,애월읍,제주시,제주권,126.3315,33.4647,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:339121,339121,KR,동홍동,서귀포시,제주권,126.565322,33.246453,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:339122,339122,KR,성산읍,서귀포시,제주권,126.91007,33.46023,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:339123,339123,KR,남원읍,서귀포시,제주권,126.7149,33.2843,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:339124,339124,KR,강정동,서귀포시,제주권,126.49,33.2511,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:339131,339131,KR,대정읍,서귀포시,제주권,126.24751,33.22789,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422112,422112,KR,남산1동,대구,대경권,128.59,35.8583,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422114,422114,KR,수창동,대구,대경권,128.58414,35.8743,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422115,422115,KR,지산동,대구,대경권,128.63156,35.83047,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422121,422121,KR,서호동,대구,대경권,128.71101,35.8691,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422132,422132,KR,이현동,대구,대경권,128.54533,35.86955,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422141,422141,KR,대명동,대구,대경권,128.57107,35.8455,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422154,422154,KR,신암동,대구,대경권,128.63306,35.88976,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422155,422155,KR,태전동,대구,대경권,128.55065,35.92303,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422158,422158,KR,산격동,대구,대경권,128.6021,35.8933,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422161,422161,KR,만촌동,대구,대경권,128.64003,35.86528,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422171,422171,KR,호림동,대구,대경권,128.48873,35.83788,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422201,422201,KR,유가읍,대구,대경권,128.46,35.7,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422203,422203,KR,시지동,대구,대경권,128.69756,35.83763,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422204,422204,KR,진천동,대구,대경권,128.52873,35.81673,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422205,422205,KR,다사읍,대구,대경권,128.45716,35.86492,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422206,422206,KR,본동,대구,대경권,128.5411,35.8344,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422207,422207,KR,내당동,대구,대경권,128.5519,35.859,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422208,422208,KR,침산동,대구,대경권,128.5844,35.8876,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422209,422209,KR,화원읍,대구,대경권,128.505,35.7973,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:422212,422212,KR,군위읍,대구,대경권,128.5746,36.2379,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437112,437112,KR,장흥동,포항시,대경권,129.37479,35.98018,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437113,437113,KR,장량동,포항시,대경권,129.380278,36.070725,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437114,437114,KR,대도동,포항시,대경권,129.36575,36.01883,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437115,437115,KR,대송면,포항시,대경권,129.35998,35.96839,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437116,437116,KR,3공단,포항시,대경권,129.37679,35.96307,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437117,437117,KR,송도동,포항시,대경권,129.3756,36.0301,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437118,437118,KR,오천읍,포항시,대경권,129.4087,35.9668,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437119,437119,KR,청림동,포항시,대경권,129.4054,35.9974,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437120,437120,KR,연일읍,포항시,대경권,129.3522,35.9963,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437121,437121,KR,제철동,포항시,대경권,129.3977,35.99,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437122,437122,KR,성건동,경주시,대경권,129.20757,35.85067,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437123,437123,KR,보덕동,경주시,대경권,129.287,35.8351,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437124,437124,KR,안강읍,경주시,대경권,129.227,35.9907,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437125,437125,KR,외동읍,경주시,대경권,129.3236,35.7157,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437126,437126,KR,양덕동,포항시,대경권,129.3967,36.0912,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437131,437131,KR,평화남산동,김천시,대경권,128.11613,36.12057,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437132,437132,KR,대광동,김천시,대경권,128.13715,36.14406,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437133,437133,KR,율곡동,김천시,대경권,128.1839,36.1215,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437141,437141,KR,명륜동,안동시,대경권,128.72801,36.568276,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437151,437151,KR,공단동,구미시,대경권,128.38583,36.10194,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437152,437152,KR,원평동,구미시,대경권,128.32583,36.13084,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437153,437153,KR,형곡동,구미시,대경권,128.33861,36.11083,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437154,437154,KR,4공단,구미시,대경권,128.43944,36.13722,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437156,437156,KR,진미동,구미시,대경권,128.4188,36.1061,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437161,437161,KR,가흥동,영주시,대경권,128.6132,36.8212,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437162,437162,KR,영주동,영주시,대경권,128.6262,36.8287,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437171,437171,KR,중방동,경산시,대경권,128.74329,35.82503,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437172,437172,KR,하양읍,경산시,대경권,128.8145,35.9126,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437173,437173,KR,진량읍,경산시,대경권,128.8125,35.8758,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437181,437181,KR,상주시,상주시,대경권,128.15776,36.42892,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437191,437191,KR,칠곡군,칠곡군,대경권,128.41849,35.9907,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437201,437201,KR,영덕읍,영덕군,대경권,129.3638,36.4201,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437202,437202,KR,강구면,영덕군,대경권,129.39022,36.36289,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437203,437203,KR,영해면,영덕군,대경권,129.4072,36.5375,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437211,437211,KR,문경시,문경시,대경권,128.1862,36.5868,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437221,437221,KR,성주군,성주군,대경권,128.2901,35.9175,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437371,437371,KR,(폐쇄) 지품면,영덕군,대경권,129.287,36.44773,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437401,437401,KR,화북면,영천시,대경권,128.92778,36.11273,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437402,437402,KR,영천시,영천시,대경권,128.937789,35.972941,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437411,437411,KR,안계,의성군,대경권,128.45642,36.36884,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437412,437412,KR,의성읍,의성군,대경권,128.697,36.3527,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437413,437413,KR,안계면사무소,의성군,대경권,128.4403,36.3839,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437421,437421,KR,울진군,울진군,대경권,129.40292,36.99723,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437431,437431,KR,석포면,봉화군,대경권,129.06533,37.04859,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437432,437432,KR,봉화군,봉화군,대경권,128.7316,36.8927,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437542,437542,KR,울릉읍,울릉군,대경권,130.90562,37.48409,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437551,437551,KR,대가야읍,고령군,대경권,128.2817,35.7262,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437561,437561,KR,군위군,군위군,대경권,128.5746,36.2379,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437571,437571,KR,영양군,영양군,대경권,129.1124,36.6667,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437581,437581,KR,예천군,예천군,대경권,128.4732,36.5768,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:437591,437591,KR,화양읍,청도군,대경권,128.7063,35.6498,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:525111,525111,KR,읍내동,대전,충청권,127.41722,36.37278,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:525112,525112,KR,문평동,대전,충청권,127.40472,36.44694,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:525121,525121,KR,문창동,대전,충청권,127.43778,36.31611,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:525141,525141,KR,구성동,대전,충청권,127.37394,36.37241,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:525142,525142,KR,노은동,대전,충청권,127.3185,36.36824,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:525143,525143,KR,상대동,대전,충청권,127.33451,36.33515,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:525144,525144,KR,관평동,대전,충청권,127.3959,36.4252,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:525161,525161,KR,성남동,대전,충청권,127.43722,36.34444,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:525162,525162,KR,대성동,대전,충청권,127.46006,36.30253,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:525171,525171,KR,정림동,대전,충청권,127.36672,36.30447,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:525172,525172,KR,둔산동,대전,충청권,127.38347,36.35444,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:533112,533112,KR,송정동,청주시,충청권,127.43680833333332,36.64469722222222,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:533113,533113,KR,사천동,청주시,충청권,127.47493,36.66608,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:533114,533114,KR,용담동,청주시,충청권,127.5036,36.6358,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:533115,533115,KR,용암동,청주시,충청권,127.50129,36.60882,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534111,534111,KR,성황동,천안시,충청권,127.15206,36.81425,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534112,534112,KR,백석동,천안시,충청권,127.11064,36.82514,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534115,534115,KR,성거읍,천안시,충청권,127.20738,36.88344,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534116,534116,KR,신방동,천안시,충청권,127.1229,36.7844,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534341,534341,KR,사곡면,공주시,충청권,127.03085,36.52628,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534342,534342,KR,공주,공주시,충청권,127.119209,36.4469541,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534343,534343,KR,탄천면,공주시,충청권,127.0671,36.3086,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534411,534411,KR,부여읍,부여군,충청권,126.911297,36.275495,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534421,534421,KR,독곶리,서산시,충청권,126.38528,36.98972,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534422,534422,KR,동문동,서산시,충청권,126.45608,36.77989,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534424,534424,KR,성연면,서산시,충청권,126.4609,36.8391,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534434,534434,KR,당진시청사,당진시,충청권,126.6458,36.88994,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534435,534435,KR,합덕읍,당진시,충청권,126.7851,36.7914,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534441,534441,KR,모종동,아산시,충청권,127.0145,36.78292,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534442,534442,KR,배방읍,아산시,충청권,127.05385,36.7738,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534443,534443,KR,도고면,아산시,충청권,126.88873,36.76249,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534444,534444,KR,둔포면,아산시,충청권,127.0596,36.91428,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534445,534445,KR,인주면,아산시,충청권,126.87978,36.8734,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534448,534448,KR,송악면,아산시,충청권,127.009,36.7316,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534451,534451,KR,논산,논산시,충청권,127.0871205,36.1994019,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534452,534452,KR,연무읍,논산시,충청권,127.0991,36.12508,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534453,534453,KR,성동면,논산시,충청권,127.0439,36.2154,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534462,534462,KR,이원면,태안군,충청권,126.280501,36.869719,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534471,534471,KR,예산군,예산군,충청권,126.84894,36.67736,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534473,534473,KR,고덕면,예산군,충청권,126.7321,36.766,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534481,534481,KR,대천2동,보령시,충청권,126.589735,36.353148,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534482,534482,KR,주교면,보령시,충청권,126.56925,36.39084,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534501,534501,KR,금산읍,금산군,충청권,127.49069,36.10718,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534502,534502,KR,청양읍,청양군,충청권,126.80493,36.45515,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534503,534503,KR,정산면,청양군,충청권,126.94539,36.41495,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:534510,534510,KR,엄사면,계룡시,충청권,127.23792,36.28699,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:541111,541111,KR,신흥동,세종,충청권,127.29213,36.59249,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:541112,541112,KR,아름동,세종,충청권,127.24716,36.51186,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:541113,541113,KR,한솔동,세종,충청권,127.25142,36.47611,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:541114,541114,KR,부강면,세종,충청권,127.37034,36.52704,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:541116,541116,KR,전의면,세종,충청권,127.1958,36.6813,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632121,632121,KR,중앙동,원주시,강원권,127.94746,37.35279,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632122,632122,KR,반곡동,원주시,강원권,127.9771,37.3356,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632124,632124,KR,문막읍,원주시,강원권,127.81728,37.31277,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632126,632126,KR,지정면,원주시,강원권,127.8751,37.3723,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632131,632131,KR,주문진읍,강릉시,강원권,128.823,37.8937,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632132,632132,KR,옥천동,강릉시,강원권,128.90297,37.76003,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632133,632133,KR,초당동,강릉시,강원권,128.9071,37.7876,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632151,632151,KR,천곡동,동해시,강원권,129.11449,37.52503,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632161,632161,KR,남양동,삼척시,강원권,129.16842,37.44261,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632171,632171,KR,평창읍,평창군,강원권,128.38903,37.36071,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632371,632371,KR,북평면,정선군,강원권,128.66476,37.43023,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632372,632372,KR,정선읍사무소,정선군,강원권,128.661558,37.379735,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632432,632432,KR,횡성읍,횡성군,강원권,127.9829,37.4899,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632491,632491,KR,영월읍,영월군,강원권,128.46253,37.17397,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632511,632511,KR,황지동,태백시,강원권,128.98674,37.16286,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:632532,632532,KR,우천면,횡성군,강원권,128.0634,37.4602,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633124,633124,KR,중앙탑면,충주시,충청권,127.8227,37.0165,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633125,633125,KR,살미면,충주시,충청권,127.9641,36.9052,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633131,633131,KR,장락동,제천시,충청권,128.22066,37.14514,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633132,633132,KR,영천동,제천시,충청권,128.20059,37.12409,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633133,633133,KR,청풍면,제천시,충청권,128.16772,37.0002,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633134,633134,KR,송학면,제천시,충청권,128.2684,37.1859,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633211,633211,KR,오창읍,청주시,충청권,127.41723,36.71337,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633213,633213,KR,산남동,청주시,충청권,127.46736,36.61366,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633214,633214,KR,오송읍,청주시,충청권,127.32512,36.63249,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633215,633215,KR,가덕면,청주시,충청권,127.5485,36.5536,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633311,633311,KR,매포읍,단양군,충청권,128.29573,37.03336,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633312,633312,KR,단성면,단양군,충청권,128.3207,36.9392,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633313,633313,KR,단양읍,단양군,충청권,128.3656,36.9872,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633361,633361,KR,청천면,괴산군,충청권,127.804682,36.730926,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633362,633362,KR,괴산읍,괴산군,충청권,127.78933,36.80754,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633363,633363,KR,감물면,괴산군,충청권,127.8745,36.8369,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633411,633411,KR,진천읍,진천군,충청권,127.4414,36.8551,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633412,633412,KR,덕산읍,진천군,충청권,127.539,36.902,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633461,633461,KR,금왕,음성군,충청권,127.604512,36.994135,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633462,633462,KR,음성읍,음성군,충청권,127.68892,36.92885,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633463,633463,KR,소이면,음성군,충청권,127.7574,36.9227,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633471,633471,KR,영동읍,영동군,충청권,127.77784,36.17277,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633472,633472,KR,황간면,영동군,충청권,127.9132,36.2295,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633482,633482,KR,증평읍,증평군,충청권,127.6049,36.7677,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:633491,633491,KR,보은읍,보은군,충청권,127.71684,36.48344,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:634111,634111,KR,옥천읍,옥천군,충청권,127.57123,36.30638,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735111,735111,KR,삼천동,전주시,호남권,127.12176,35.79898,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735114,735114,KR,팔복동,전주시,호남권,127.087,35.85153,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735115,735115,KR,송천동,전주시,호남권,127.11752,35.8674,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735117,735117,KR,혁신동,전주시,호남권,127.0627,35.8465,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735118,735118,KR,여의동,전주시,호남권,127.0757,35.8714,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735119,735119,KR,효자동,전주시,호남권,127.0897,35.8014,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735121,735121,KR,신풍동,군산시,호남권,126.70073,35.97285,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735122,735122,KR,소룡동,군산시,호남권,126.65142,35.97333,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735123,735123,KR,사정동,군산시,호남권,126.75321,35.96394,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735124,735124,KR,옥산면,군산시,호남권,126.7484,35.9395,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735125,735125,KR,비응도동,군산시,호남권,126.5411,35.9438,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735127,735127,KR,소룡동2,군산시,호남권,126.597,35.9585,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735131,735131,KR,삼기면,익산시,호남권,126.9841,36.0203,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735133,735133,KR,팔봉동,익산시,호남권,127.00423,35.96163,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735134,735134,KR,모현동,익산시,호남권,126.9414,35.95457,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735135,735135,KR,용동면,익산시,호남권,126.992986,36.109638,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735136,735136,KR,함열읍,익산시,호남권,126.966117,36.078508,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735137,735137,KR,춘포면,익산시,호남권,127.0053,35.9011,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735138,735138,KR,여산면,익산시,호남권,127.0835,36.0598,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735141,735141,KR,연지동,정읍시,호남권,126.84594,35.56842,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735142,735142,KR,신태인,정읍시,호남권,126.88678,35.68801,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735143,735143,KR,영파동,정읍시,호남권,126.8528,35.609,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735151,735151,KR,죽항동,남원시,호남권,127.3846,35.40765,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735152,735152,KR,운봉읍,남원시,호남권,127.5289,35.4398,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735161,735161,KR,고창읍,고창군,호남권,126.71304,35.43725,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735162,735162,KR,심원면,고창군,호남권,126.55109,35.52458,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735171,735171,KR,부안읍,부안군,호남권,126.7199,35.72944,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735172,735172,KR,새만금,부안군,호남권,126.5592,35.6971,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735173,735173,KR,계화면,부안군,호남권,126.6981,35.7916,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735181,735181,KR,요촌동,김제시,호남권,126.89142,35.80491,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735182,735182,KR,광활면,김제시,호남권,126.7406,35.8359,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735191,735191,KR,고산면,완주군,호남권,127.20552,35.9764,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735192,735192,KR,봉동읍,완주군,호남권,127.1661,35.9418,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735193,735193,KR,구이면,완주군,호남권,127.1355,35.7291,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735201,735201,KR,진안읍,진안군,호남권,127.43489,35.79719,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735351,735351,KR,운암면,임실군,호남권,127.18626,35.61045,교외대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735361,735361,KR,임실읍,임실군,호남권,127.27936,35.61343,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735362,735362,KR,관촌면,임실군,호남권,127.2707,35.6738,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735371,735371,KR,무주읍,무주군,호남권,127.66208,36.00872,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735372,735372,KR,안성면,무주군,호남권,127.6522,35.8635,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735381,735381,KR,순창읍,순창군,호남권,127.137417,35.37443,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735391,735391,KR,장수읍,장수군,호남권,127.521215,35.647377,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735392,735392,KR,장계면,장수군,호남권,127.5858,35.7313,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735520,735520,KR,서천읍,서천군,충청권,126.69791,36.07617,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735521,735521,KR,서면,서천군,충청권,126.54934,36.152877,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735522,735522,KR,장항읍,서천군,충청권,126.69414,36.00907,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:735601,735601,KR,청송군,청송군,대경권,129.0564,36.4293,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823611,823611,KR,신흥,인천,수도권,126.63483,37.4684,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823621,823621,KR,송림,인천,수도권,126.64358,37.47399,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823631,823631,KR,구월동,인천,수도권,126.72406,37.44961,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823632,823632,KR,숭의,인천,수도권,126.6498,37.46391,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823637,823637,KR,주안,인천,수도권,126.69263,37.4556,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823641,823641,KR,부평,인천,수도권,126.7243,37.49998,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823652,823652,KR,검단,인천,수도권,126.66144,37.60204,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823662,823662,KR,계산,인천,수도권,126.73025,37.54617,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823663,823663,KR,효성,인천,수도권,126.7151,37.5292,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823671,823671,KR,고잔,인천,수도권,126.69691,37.40466,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823672,823672,KR,서창,인천,수도권,126.74603,37.42742,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823681,823681,KR,석남,인천,수도권,126.67463,37.50265,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823701,823701,KR,동춘,인천,수도권,126.67856,37.40957,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823702,823702,KR,운서,인천,수도권,126.48847,37.49582,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823704,823704,KR,논현,인천,수도권,126.72626,37.40423,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823705,823705,KR,청라,인천,수도권,126.63732,37.53664,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823706,823706,KR,송도,인천,수도권,126.65466,37.38208,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823707,823707,KR,아암,인천,수도권,126.63237,37.40518,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823801,823801,KR,원당,인천,수도권,126.69843,37.59453,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:823803,823803,KR,삼산,인천,수도권,126.7364,37.5128,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:831151,831151,KR,소사본동,부천시,수도권,126.79994,37.48001,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:831152,831152,KR,내동,부천시,수도권,126.77367,37.5203,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:831153,831153,KR,중2동,부천시,수도권,126.77009,37.49393,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:831154,831154,KR,오정1동,부천시,수도권,126.79623,37.52803,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True
+KR:831493,831493,KR,영흥,인천,수도권,126.4835,37.256,도시대기 측정망,Korea_National,KR_NEW,KR_NEW,False,True

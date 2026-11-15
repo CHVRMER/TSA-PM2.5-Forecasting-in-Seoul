@@ -1,0 +1,11 @@
+{
+  "reference": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\LightGBM\\Neighbor_Expansion_QC_20261108\\Results\\Validation_Reference_20261108\\Common_Score\\score_rows.parquet",
+  "grid_sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db",
+  "DCRNN_source": "Regional12_Seed11_20261109/Jobs/F/DCRNN/full/20261109_124426_736220_fbbcd99e/Training/20261109_124427_531225_0da133aa/Exports/validation_predictions_by_seed.parquet",
+  "rows_match": true,
+  "targets_match": true,
+  "comparison_family": 4,
+  "bootstrap_reps": 1000,
+  "baseline": "localreference, not teamB own new model output",
+  "scope": "paired descriptive re-score after results were inspected"
+}

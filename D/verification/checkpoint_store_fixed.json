@@ -1,0 +1,10 @@
+{
+  "checkpoint_store_tests": "passed",
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "hard_process_crash_stages": 6,
+  "actual_optimizer_rng_resume_equivalence": true,
+  "paid_resources_used": false,
+  "real_pm25_model_training_tested": false
+}

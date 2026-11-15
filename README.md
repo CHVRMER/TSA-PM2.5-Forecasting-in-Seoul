@@ -22,7 +22,7 @@ Time Series Analysis PM2.5 Forecasting in Seoul Project
 | 대조 지역 | 공기가 거의 지나가지 않는 중국 동부, 일본 동해 쪽 |
 | 기상 | ASOS 서울(108)·백령도(102) |
 | 이동경로 | HYSPLIT 48시간 역궤적(500 m, 3시간 간격)과 궤적-측정소 매칭 |
-| 분할 | 학습 2021–22 · 검증 2023 · 시험 2024 (시험은 한 번만 공개) |
+| 분할 | 학습 2021–22 · 검증 2023 · 시험 2024 (모델별 평가·개발 사용 이력은 결과 설명 참고) |
 
 원자료의 결측은 표시만 하고 채우지 않았습니다. 모델마다 학습 자료 기준으로 처리합니다. 데이터는 용량 때문에 이 저장소에 없습니다.
 
@@ -46,8 +46,8 @@ Time Series Analysis PM2.5 Forecasting in Seoul Project
 | [A](A/) | SARIMAX | 권역 평균 시차 변수를 넣은 선형 기준 모델과 그랜저 검정 |
 | [B](B/) | LightGBM | 26개 입력 조건과 대조 3개, TreeSHAP 권역 기여 |
 | [C](C/) | GRU / GCN-GRU | 측정소 그래프 순환신경망과 권역 가리기·재학습 비교 |
-| [D](D/) | (팀원 담당) | |
-| [EDA](EDA/) | 탐색 분석 | 학습 구간만 사용 |
+| [D](D/) | DCRNN / Graph WaveNet | 학습·재개·공통 채점 코드, 2023 검증과 2024 참고 결과 |
+| [EDA](EDA/) | 탐색 분석 | 기존 공통 EDA와 [D 담당 추가 분석](EDA/D_Contributions/README.md), 분석별 기간 명시 |
 
 ## 폴더 구조
 
@@ -77,3 +77,19 @@ requirements.txt
 ![dependence map](results/C/analysis/validation/maps/map_dependence_by_horizon.png)
 
 모델 C의 자세한 내용은 [C/README.md](C/README.md)와 [results/C/RESULTS_C.md](results/C/RESULTS_C.md)에 있습니다. A·B·D 결과는 올리는 대로 추가합니다.
+
+
+## D 담당 공유 자료
+
+2026-11-15 공유본은 [D 포털](D/README.md), [DCRNN 결과](results/D/DCRNN/README.md),
+[Graph WaveNet 결과](results/D/GraphWaveNet/README.md), [추가 EDA 12종](EDA/D_Contributions/README.md)에서 시작합니다.
+기존 A/B/C 코드와 결과는 변경하지 않았습니다.
+
+- DCRNN: 3·6·12·24·36·48h 실험 완료. 중간발표 주 결과는 2023 validation입니다.
+- Graph WaveNet: 완료된 3·6·12·24h 결과와 준비된 H48 코드를 구분합니다. H48 full 결과를 주장하지 않습니다.
+- 이 공유본의 D 모델 결과는 **seed 11 단일 실행**이며, 위의 3시드·앙상블 일반 설정과 구분합니다.
+- 2024 결과는 이미 확인하고 개발 논의에 사용한 이력이 있으므로 이 공유본에서는 **preliminary**로 표시합니다.
+- F600(동부 추가 전), F634(현재 D 모델 입력), 후보 합집합 616/650을 구분합니다.
+  [관측 범위 설명](D/DATA_AND_EXPERIMENT_SCOPES.md)을 먼저 확인하세요.
+- 원자료·GDAS·체크포인트·인증 파일은 포함하지 않습니다. 코드 재현에 필요한 외부 Dataset 목록은
+  [D/DATASET_REQUIREMENTS.csv](D/DATASET_REQUIREMENTS.csv)에 있습니다.

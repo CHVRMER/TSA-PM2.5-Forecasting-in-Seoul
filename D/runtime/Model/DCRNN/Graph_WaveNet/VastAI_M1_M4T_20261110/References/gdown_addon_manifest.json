@@ -1,0 +1,36 @@
+{
+  "add_only": true,
+  "existing_training_and_backup_files_replaced": false,
+  "files": [
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/drive_download_gdown.py",
+      "bytes": 17344,
+      "sha256": "05dcd57b0c1a560b048f65a1c79a21be02e783c7ddcc599fdd43134e991673f6"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/inspect_vast_storage.py",
+      "bytes": 2722,
+      "sha256": "37cb96343442b8223af604cab6654cc85a845e2022f4d0119f1e7d1b666f316d"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_gdown_download.py",
+      "bytes": 6307,
+      "sha256": "4e264ba461272bf592bb2c41dbc03ac4831ed939dda6ccc2b18dd4e2adf50928"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/download_with_gdown.sh",
+      "bytes": 1104,
+      "sha256": "e2801a9afa80d9b8b234e4e90594657c5456375b10b07eeb9c540b1010799f42"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/GDOWN_TRANSFER_AND_VOLUME.md",
+      "bytes": 6105,
+      "sha256": "4447cec32dd795d1742a8d28e31b45430d57d89b86cc8e2b90bf9d719d38c10c"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/gdown_transfer_verification.json",
+      "bytes": 1408,
+      "sha256": "b10968dde85e049f8e1c1fc7370f62971611f6853e8901d03c8c9c834ebdf339"
+    }
+  ]
+}

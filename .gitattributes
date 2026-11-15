@@ -1,0 +1,5 @@
+# Runtime manifests and copied evidence use SHA-256 of the original bytes.
+# Keep these scoped additions unchanged by automatic line-ending conversion.
+/D/** -text
+/EDA/D_Contributions/** -text
+/results/D/** -text

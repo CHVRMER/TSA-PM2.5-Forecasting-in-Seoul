@@ -1,0 +1,27 @@
+test_active_other_profile_is_not_attached_or_mutated (__main__.LaunchTests.test_active_other_profile_is_not_attached_or_mutated) ... ok
+test_active_override_conditions_cannot_attach (__main__.LaunchTests.test_active_override_conditions_cannot_attach) ... ok
+test_active_override_final_test_cannot_attach (__main__.LaunchTests.test_active_override_final_test_cannot_attach) ... ok
+test_active_override_seeds_cannot_attach (__main__.LaunchTests.test_active_override_seeds_cannot_attach) ... ok
+test_completed_does_not_create_session (__main__.LaunchTests.test_completed_does_not_create_session) ... [completed] Latest full already finished. No new training started. None
+ok
+test_existing_running_session_attaches_without_launch (__main__.LaunchTests.test_existing_running_session_attaches_without_launch) ... [already running] No duplicate training started. PIDs=7
+ok
+test_legacy_running_outside_tmux_does_not_launch (__main__.LaunchTests.test_legacy_running_outside_tmux_does_not_launch) ... [already running] A runner from this H48 package is active, but this output root has no verified launch selection. No duplicate or automatic attachment was made; leave the existing job running and use its original command.
+ok
+test_live_supervisor_before_runner_starts_is_not_duplicated (__main__.LaunchTests.test_live_supervisor_before_runner_starts_is_not_duplicated) ... ok
+test_live_supervisor_guards_cli_override_before_runner (__main__.LaunchTests.test_live_supervisor_guards_cli_override_before_runner) ... ok
+test_mutated_launch_configuration_stops_before_training (__main__.LaunchTests.test_mutated_launch_configuration_stops_before_training) ... [controller ERROR] The launch configuration changed after this invocation was reserved. No training started. Run start_full.sh again with the intended configuration.
+ok
+test_new_launch_preserves_environment_and_uses_one_tmux (__main__.LaunchTests.test_new_launch_preserves_environment_and_uses_one_tmux) ... [started] tsa-gwn48-auto-5cbe7289
+Control record: C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\DCRNN\Graph_WaveNet\VastAI_M1_M4T_H48_20261112\Codes\test_tmp\tmpvcrqb7xg\Result\Control\Invocations\20261111T160854_74d67d93
+ok
+test_runner_lease_prevents_duplicate_before_torch_import (__main__.LaunchTests.test_runner_lease_prevents_duplicate_before_torch_import) ... [duplicate blocked] Another training process holds the project lock. No new training started.
+ok
+test_supervisor_passes_resume_and_current_environment (__main__.LaunchTests.test_supervisor_passes_resume_and_current_environment) ... [auto-resume] C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\DCRNN\Graph_WaveNet\VastAI_M1_M4T_H48_20261112\Codes\test_tmp\tmp7izxckki\previous full
+  M1: not started; fresh condition
+ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.175s
+
+OK

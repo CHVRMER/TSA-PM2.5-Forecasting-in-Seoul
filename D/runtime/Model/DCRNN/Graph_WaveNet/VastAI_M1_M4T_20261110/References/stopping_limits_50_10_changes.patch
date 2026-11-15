@@ -1,0 +1,115 @@
+--- previous/Codes/full_run_control.py
++++ epoch50_patience10/Codes/full_run_control.py
+@@ -20,7 +20,7 @@
+ import time
+ import uuid
+ 
+-VERSION = 'gwn-managed-full-v2-interrupt'
++VERSION = 'gwn-managed-full-v3-stop-reduction'
+ HERE = Path(__file__).resolve().parent
+ BUNDLE = HERE.parent
+ MODEL = 'GraphWaveNet_distance_fixed_plus_adaptive'
+@@ -286,13 +286,22 @@
+ 
+ 
+ def _same_training_configuration(source_config, current, seeds):
++    from stopping_policy import stopping_reduction
++    changes = {}
+     for section in ('data', 'model', 'training'):
+         if source_config.get(section, {}) != current.get(section, {}):
++            if section == 'training':
++                try:
++                    changes = stopping_reduction(source_config.get(section, {}), current.get(section, {}))
++                except ValueError as error:
++                    raise RuntimeError('Latest full uses a different training configuration: ' + str(error)) from error
++                continue
+             raise RuntimeError('Latest full uses a different ' + section + ' configuration. '
+                                'Use --fresh only for an intentional new experiment.')
+     previous = source_config.get('seeds_resolved', source_config.get('execution', {}).get('seeds', [11]))
+     if list(map(int, previous)) != list(map(int, seeds)):
+         raise RuntimeError('Latest full uses different seeds. Use --fresh for a separate experiment.')
++    return changes
+ 
+ 
+ def build_resume_plan(output_root, config, conditions, seeds, final_test=False, fresh=False):
+@@ -303,7 +312,8 @@
+     if batch is None:
+         return plan
+     record = read_json(batch / 'batch_manifest.json')
+-    _same_training_configuration(read_json(batch / 'resolved_configuration.json'), config, seeds)
++    changes = _same_training_configuration(read_json(batch / 'resolved_configuration.json'), config, seeds)
++    plan['stopping_policy_changes'] = changes
+     plan['resume_source'] = str(batch)
+     for condition in conditions:
+         source = resolve_condition_source(batch, condition, len(conditions))
+@@ -315,7 +325,7 @@
+             plan['checkpoint_states'][condition] = inspect_run(source)
+     # A completed invocation is a no-op unless final-test still needs to run.
+     splits = ('validation', 'test') if final_test else ('validation',)
+-    complete = (record.get('status') == 'passed'
++    complete = (not changes and record.get('status') == 'passed'
+                 and (not final_test or record.get('final_test'))
+                 and all(record.get('conditions', {}).get(c, {}).get('status') == 'passed' for c in conditions)
+                 and list(map(int, record.get('seeds', []))) == list(map(int, seeds)))
+--- previous/Codes/vendor/neural_training.py
++++ epoch50_patience10/Codes/vendor/neural_training.py
+@@ -322,6 +322,10 @@
+         'checkpoint_storage_schema':'self-contained-verified-generations',
+         'checkpoint_policy':policy,'checkpoint_recovery':final_recovery,
+         'batchnorm_microbatch_statistics_note':'BatchNorm, if present, observes micro batch, not effective batch.'}
++    revision_path=folder/'stopping_policy_revision.json'
++    if revision_path.is_file():
++        summary['stopping_policy_revision']=json.loads(revision_path.read_text(encoding='utf-8'))
++    summary['effective_stopping_limits']={'max_epochs':int(cfg['max_epochs']),'patience':int(cfg['patience'])}
+     save_json(folder/'run_summary.json',summary)
+     return model,summary,validation
+ 
+@@ -448,18 +452,13 @@
+             source_store=CheckpointStore(source_seed,
+                 snapshot_every=int(policy.get('snapshot_every_epochs',5)),
+                 keep_recent=int(policy.get('keep_recent',2)))
+-            previous,previous_info=source_store.load_latest(None)
+-            if previous is None:
+-                report={'source_seed_folder':str(source_seed),'destination_seed_folder':str(destination),
+-                        'status':'fresh_restart_no_completed_epoch','source_files_modified':False}
+-                print('[checkpoint resume] no completed epoch in empty store; restarting this seed: '+str(source_seed),flush=True)
+-            else:
+-                report=source_store.copy_to(destination)
++            from stopping_policy import import_seed_checkpoint
++            report=import_seed_checkpoint(source_store,destination,local_config,
++                CheckpointStore,save_json,save_learning_curve)
+             copied.append(report)
+-            for name in ('contract.json','preprocessing.json','learning_curve.csv'):
+-                path=source_seed/name
+-                if path.is_file():
+-                    destination.mkdir(parents=True,exist_ok=True);shutil.copy2(path,destination/name)
++            if report.get('stopping_policy_revision'):
++                revision=report['stopping_policy_revision']
++                print('[stopping policy revised] '+str(revision),flush=True)
+         save_json(root/'resume_copy_manifest.json',{'source_run':str(source),'source_files_modified':False,'copied':copied})
+         local_config['resume']=True
+     state={'status':'running','mode':config.get('mode'),'run_final_test':bool(config.get('run_final_test',False)),
+--- previous/Codes/run_experiments.py
++++ epoch50_patience10/Codes/run_experiments.py
+@@ -313,7 +313,7 @@
+                         continue
+                     training=dict(config.get('training',{}))
+                     cfg=dict(model_family='GraphWaveNet',input_condition=condition,mode=args.mode,seeds=seeds,
+-                             max_epochs=100,patience=20,micro_batch_size=8,effective_batch_size=64,eval_batch_size=8,
++                             max_epochs=50,patience=10,micro_batch_size=8,effective_batch_size=64,eval_batch_size=8,
+                              optimizer='adam',learning_rate=.001,optimizer_epsilon=1e-8,weight_decay=1e-4,
+                              exclude_bias_norm_from_decay=False,scheduler='none',min_learning_rate=0.,max_grad_norm=5.,
+                              loss='mae_original',min_delta=0.,resume=True,run_final_test=args.final_test,
+--- previous/configs/default.json
++++ epoch50_patience10/configs/default.json
+@@ -36,8 +36,8 @@
+     "embedding_init": "normal"
+   },
+   "training": {
+-    "max_epochs": 100,
+-    "patience": 20,
++    "max_epochs": 50,
++    "patience": 10,
+     "micro_batch_size": 8,
+     "effective_batch_size": 64,
+     "eval_batch_size": 8,

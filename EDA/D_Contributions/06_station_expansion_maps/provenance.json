@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "path": "Audit/assets_review.json",
+      "bytes": 4882,
+      "sha256": "ef9df1bc4ad9bf44675bc0f400c36e3990b686b075497a0be974473b6635bd97"
+    },
+    {
+      "path": "Audit/current634_not_in_v5_candidates.csv",
+      "bytes": 5945,
+      "sha256": "b1da9c79451c203f3b416f14b2f5709d50184d4fa615dded47bc724e355b9a18"
+    },
+    {
+      "path": "Audit/input_manifest.json",
+      "bytes": 2447,
+      "sha256": "c01029e4fe42f434807db8a472a65d7ba06c45fd3aab6e705ed2c8000dca20c8"
+    },
+    {
+      "path": "Audit/stage_scope_audit.json",
+      "bytes": 2579,
+      "sha256": "0b0036c1be24ed30b018d42e81561ba9522a1452f943d938a83483ba603fe474"
+    },
+    {
+      "path": "Audit/v5_candidates_not_in_current634.csv",
+      "bytes": 26265,
+      "sha256": "09cc471d763d9cfebe1d29589528ec7f1b07468459ebafb529428ef887aa138f"
+    },
+    {
+      "path": "Audit/visual_qa.json",
+      "bytes": 594,
+      "sha256": "9adc183667c6725df5b468f26ad5bed40dcf79d9e70516f90c0c0e5ae1443c11"
+    },
+    {
+      "path": "Codes/assets/countries.geojson",
+      "bytes": 838726,
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    },
+    {
+      "path": "Codes/plot_station_stages.py",
+      "bytes": 9105,
+      "sha256": "28d92bfbc44fa0f3be6e8e67c03e5ba65dd89fefda7c902cee8f6274674ee740"
+    },
+    {
+      "path": "Codes/requirements.txt",
+      "bytes": 36,
+      "sha256": "b3515e97213cb6d6ac300810b50fefb3360fee5e513554661fad6e494412c423"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3593,
+      "sha256": "ac29e8e6141aee058877d0e487fad54e0a8747d9af493a813b8c80940d1c6f86"
+    },
+    {
+      "path": "Results/01_national_expansion_before_international_additions.pdf",
+      "bytes": 140902,
+      "sha256": "e480c45525777a9418ccad0fde46b5cef27fe0ae694196440519762543b26936"
+    },
+    {
+      "path": "Results/01_national_expansion_before_international_additions.png",
+      "bytes": 615894,
+      "sha256": "474acd815cc4051608332dbe922a992c7acb07bc94778d4ce3e7eb811a7cd9dd"
+    },
+    {
+      "path": "Results/01_national_expansion_before_international_additions.svg",
+      "bytes": 429938,
+      "sha256": "47571649173d5bb8230508daf95f1b9e300620b8734215d0cf3f88bb504c10a4"
+    },
+    {
+      "path": "Results/02_national_expansion_with_planned_regions.pdf",
+      "bytes": 143381,
+      "sha256": "9881fd98c3d351930e3a5bf37b0a2aac22026d0da5a96fbcc98e287bc7c87b00"
+    },
+    {
+      "path": "Results/02_national_expansion_with_planned_regions.png",
+      "bytes": 641725,
+      "sha256": "3e93c39e97afba4e9810f85e98014c01625a726bb670eabaabdcc3fb58ead0f8"
+    },
+    {
+      "path": "Results/02_national_expansion_with_planned_regions.svg",
+      "bytes": 435912,
+      "sha256": "bc4c7648b7a9f541c4273fca0d8c4f9e8ed010e02bdde6d74b6a8dd7394ffd23"
+    },
+    {
+      "path": "Results/display_arrivals_192.csv",
+      "bytes": 5205,
+      "sha256": "133aa3959291fd3df55ec6330bc1b3572b2257c41a9fc0c0b8aa5072ca8f7a6f"
+    },
+    {
+      "path": "Results/display_trajectory_sample.parquet",
+      "bytes": 98464,
+      "sha256": "09f2b0e9bae19ee71be00c443d3acadb1ed209189365a1b567d80fb53cfbb6bd"
+    },
+    {
+      "path": "Results/planned_region_boundaries.geojson",
+      "bytes": 2472,
+      "sha256": "90aa60290cd45f021370304b6b04ec02991bdac9286e622dc8ca66aa0bb28b83"
+    },
+    {
+      "path": "Results/plotted_candidates_822.csv",
+      "bytes": 103820,
+      "sha256": "b70276e16740a80c62b871edfd6cb7a48695ba201852f01f87dcf2e3b3eeabff"
+    },
+    {
+      "path": "Results/visualization_manifest.json",
+      "bytes": 1944,
+      "sha256": "384207e5daf1fbbe8503dcc7517888bfab8be16c8d659a9319e63768947cd969"
+    }
+  ],
+  "originals_modified": false,
+  "candidate_count": 822,
+  "target_separate": true,
+  "plots": 2
+}

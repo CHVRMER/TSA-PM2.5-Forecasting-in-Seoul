@@ -1,0 +1,3 @@
+[Drive backup] verified: epoch_1 -> gdrive:Colab_Notebooks/TSA/Result/DCRNN/VastAI_H48/unique_batch_1
+[Drive backup] verified: pilot_save -> gdrive:Colab_Notebooks/TSA/Result/DCRNN/VastAI_H48/unique_batch_1
+{"drive_backup_tests": "passed", "copy_then_checksum_check": true, "failure_closed": true, "failure_preserves_last_success": true, "no_remote_deletes": true, "published_marker_copied_and_verified_before_success": true, "marker_failure_closed": true, "unique_remote_batch_folder": true, "exclusions_applied": [".pending*/**", "**/.pending*/**", "*.tmp", "*.log", "Backup_receipts/**"], "no_inline_credentials_or_secret_logs": true, "pilot_disabled_without_opt_in": true}

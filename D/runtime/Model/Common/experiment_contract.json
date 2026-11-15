@@ -1,0 +1,240 @@
+{
+  "protocol_version": "national-observation-information-v1.0.0",
+  "written_date_kst": "2026-11-07",
+  "target": {
+    "station_key": "KR:111121",
+    "pollutant": "PM2.5",
+    "unit": "ug/m3",
+    "horizons_hours": [
+      3,
+      6,
+      12,
+      24
+    ],
+    "primary_horizon_hours": 6,
+    "origin_interval_hours": 3
+  },
+  "splits": {
+    "train": [
+      "2021-01-01",
+      "2023-01-01"
+    ],
+    "validation": [
+      "2023-01-01",
+      "2024-01-01"
+    ],
+    "test": [
+      "2024-01-01",
+      "2025-01-01"
+    ],
+    "end_exclusive": true,
+    "timezone": "Asia/Seoul"
+  },
+  "fixed_eligible_rows": {
+    "train": {
+      "3": 5762,
+      "6": 5761,
+      "12": 5759,
+      "24": 5755
+    },
+    "validation": {
+      "3": 2531,
+      "6": 2530,
+      "12": 2528,
+      "24": 2524
+    },
+    "test": {
+      "3": 2874,
+      "6": 2873,
+      "12": 2871,
+      "24": 2867
+    }
+  },
+  "evaluation_row_rule": "observed finite target and target within study and same split as origin; no prediction-dependent intersection",
+  "missing_model_prediction_on_eligible_row": "error; no silent drop",
+  "baselines": {
+    "persistence_request": "t",
+    "seasonal_naive_request": "t+h-24h",
+    "missing_requested_observation": "last valid measurement at or before requested timestamp, unbounded original rule; record age and fallback",
+    "no_past_measurement_final_fallback": "expm1(mean(log1p(observed Junggu target in 2021-2022)))",
+    "target_imputation": false,
+    "seasonal_equals_persistence_at_h24": true
+  },
+  "metrics": [
+    "RMSE",
+    "MAE",
+    "MSE",
+    "MBE",
+    "R2",
+    "RMSE_improvement_pct",
+    "MAE_improvement_pct"
+  ],
+  "negative_prediction_rule": "clip to zero, count separately per run/horizon",
+  "seeds": {
+    "per_seed_scores": true,
+    "metric_summary": "mean and sample standard deviation ddof=1",
+    "prediction_ensemble": "arithmetic mean of raw ug/m3 seed forecasts, then clip at zero",
+    "pooled_seed_rows_as_independent_observations": false
+  },
+  "uncertainty": {
+    "dm_loss": "squared_error",
+    "hac_kernel": "Bartlett",
+    "hac_default_lag_3h_slots": "max(horizon_hours/3-1,0)",
+    "calendar_gaps_preserved": true,
+    "bootstrap_type": "moving_calendar_blocks",
+    "bootstrap_block_hours": 168,
+    "bootstrap_block_slots": 56,
+    "bootstrap_default_replicates": 1000,
+    "holm_family": "all finite p values across declared runs, horizons and pairs in one invocation",
+    "improvement_flag": "rmse_diff CI95 upper <0 AND Holm p<0.05",
+    "caveat": "overlap-minimum HAC lag does not guarantee all extra serial dependence is captured; sensitivity must be predeclared"
+  },
+  "dataset_policy": {
+    "domestic_network_types": [
+      "urban_ambient",
+      "suburban_ambient",
+      "national_background"
+    ],
+    "roadside_in_model_dataset": false,
+    "roadside_sensitivity_experiment": false,
+    "keep_all_approved_data": true,
+    "primary_model_station_selection": "2021-22 availability/quality only; previous missing-rate<=20% criterion; retain excluded rows in data and mark selection flag",
+    "station_selection_uses_2024": false,
+    "japan_full_matching_candidates": 188,
+    "japan_balanced_model_candidates": 24,
+    "mongolia_candidates": 1,
+    "china_border_city_averages": 13,
+    "actual_russian_observations_added": false,
+    "japan_mongolia_are_negative_controls": false
+  },
+  "feature_scope": {
+    "m3t_allowed_observation_countries": [
+      "KR",
+      "CN"
+    ],
+    "m3t_all_country_aggregate_features_removed": 64,
+    "v3_feature_values_overwritten": false,
+    "v3_kr_trajectory_reference_stations": 67,
+    "v3_cn_trajectory_reference_candidates": 61,
+    "v3_kr_route_features_described_as_national": false,
+    "national_v4_adds_matching_coverage": "separate from untouched v3 feature values",
+    "national_hourly_history": "consume new raw processed PM2.5 via dedicated loader; not implicitly present in v3 feature columns",
+    "new_national_trajectory_feature_table_implemented": false
+  },
+  "dcrnn": {
+    "architecture": "original DCGRU encoder + 24-step autoregressive decoder",
+    "input_history_hours": 48,
+    "decoder_steps": 24,
+    "teacher_forcing": false,
+    "supervised_horizons_hours": [
+      3,
+      6,
+      12,
+      24
+    ],
+    "hidden_dim": 32,
+    "encoder_layers": 1,
+    "decoder_layers": 1,
+    "diffusion_steps": 2,
+    "graphs": [
+      "distance",
+      "trajectory_directed",
+      "trajectory_symmetric"
+    ],
+    "distance_sigma_km": 182.34497839213313,
+    "distance_cutoff_km": 500,
+    "trajectory_graph_training_period": "2021-2022",
+    "trajectory_graph_rule": "one nearest candidate per path point; past-to-present; deduplicate same directed edge per trajectory; maximum observed visit gap 6h; explicit target age0",
+    "node_set_variants": [
+      "legacy_116",
+      "v3_balanced_154",
+      "national_v3_training_eligible_plus_neighbors"
+    ],
+    "new_node_set_is_separate_experiment": true,
+    "direct_prediction_head_replacement": false,
+    "learned_graph_or_time_varying_graph_change_included": false
+  },
+  "RQ1": "강화된 전국 국내 관측 기준선에서 어떤 국내·원격 권역의 관측정보가 3·6·12·24시간 서울 중구 PM2.5 농도 예측에 추가 가치를 제공하는가?",
+  "RQ2": "예측 시점까지 이용 가능한 바람·역궤적·가용성에 따라 권역 정보 가치가 달라지며 조건별 결합이 Full-input 및 고정 결합보다 유용한가?",
+  "hypotheses": {
+    "H1a": "전국 국내 관측 활용이 기존67 대비 개선할 수 있음; 개선을 보장하지 않음",
+    "H1b": "일부 원격 정보의 추가 가치는 권역·지평별로 다름; 단조 지평 효과를 전제하지 않음",
+    "H1c": "동일 KR/CN 범위에서 경로 특징의 추가 가치가 있을 수 있음",
+    "H2a": "중국 추가 가치는 서쪽 접근 조건에서 상대적으로 클 수 있음; 계절 차이 통제",
+    "H2b": "조건별 결합은 같은 정보의 Full-input과 고정 결합을 넘어야 별도 가치가 있음",
+    "H2c": "같은 DCRNN의 방향/대칭/거리 그래프 비교; 방향 자체 효과는 방향 대 대칭화로 검증"
+  },
+  "held_back_claims": {
+    "early_warning_service": true,
+    "physical_source_or_country_mass_contribution": true,
+    "causal_identification": true,
+    "fixed_850hpa_wind_present": false,
+    "operational_data_latency_reproduced": false,
+    "2024_never_previously_inspected": false,
+    "all_models_fully_retrained_by_this_update": false
+  },
+  "test_guard": "--final prevents accidental scoring; previous 2024 inspection history remains disclosed",
+  "national_dataset_release": {
+    "approved_stations_including_target": 573,
+    "external_domestic_candidates": 572,
+    "additional_domestic_candidates": 505,
+    "excluded_roadside_measurement_data": true,
+    "excluded_roadside_metadata_codes": 64,
+    "shared_reference_additional_set": "additional_domestic_station_history_train_quality80",
+    "shared_reference_additional_stations": 447,
+    "full505_history_preserved_as_separate_input_condition": true,
+    "DCRNN_national_reference_nodes": 601,
+    "v3_path_kr_scope": "original67; not silently redefined as nationwide",
+    "nationwide_v4_matching_is_separate_version": true
+  },
+  "DCRNN_graph_identifiability_caveat": "Ulaanbaatar cannot reach Seoul in the preserved graphs; zero effect does not identify no predictive information.",
+  "regional_input_experiments": {
+    "schema_version": "regional-pm25-inputs-v1.0.0",
+    "condition_count": 26,
+    "prespecified_comparison_pairs": 24,
+    "config": "Regional_Experiments_20261107/experiments.json",
+    "actual_feature_allowlists": "Regional_Experiments_20261107/feature_sets.json",
+    "actual_station_registry": "Regional_Experiments_20261107/station_registry.csv",
+    "comparisons": "Regional_Experiments_20261107/comparisons.json",
+    "shared_loader": "regional_data.RegionalDataLoader / load_regional_xy",
+    "common_features": 70,
+    "external_series": {
+      "KR": 514,
+      "CN": 61,
+      "JP": 24,
+      "MN": 1
+    },
+    "station_statistics_per_series": 16,
+    "conditions": "D67, DN, F, ADD_<8 foreign regions>, DROP_<all15 regions>",
+    "X_scope": "common70 + selected PM2.5 station histories only; no trajectory/gas/target/metadata columns",
+    "drop_semantics": "exclude all16 features of the external stations in the region; retain common Junggu and ASOS inputs",
+    "old_dataset_feature_sets_preserved": true,
+    "DCRNN_architecture_and_graph_files_modified": false,
+    "graph_data_selection_helper": "RegionalDataLoader.node_observation_mask; explicit existing node order; no architecture change",
+    "fixed_evaluation_grid_unchanged": true,
+    "research_question_and_comparison_rules": "Regional_Experiments_20261107/EXPERIMENT_PROTOCOL.txt"
+  },
+  "neighbor_expansion_qc_experiments": {
+    "schema_version": "neighbor-factorial-qc-v1.0.0",
+    "old_regional26_and_F600_preserved": true,
+    "config": "Neighbor_Experiments_QC_20261108/experiments.json",
+    "feature_sets": "Neighbor_Experiments_QC_20261108/feature_sets.json",
+    "loader": "neighbor_data_qc.NeighborDataLoader",
+    "new_data": "Dataset/Neighbors_Expansion_QC_20261108",
+    "new_matching": "Dataset/Trajectory_Matching_Expansion_QC_20261108",
+    "new_matching_candidates": 856,
+    "union_model_catalog_external_series": 650,
+    "condition_count": 8,
+    "primary_conditions": 5,
+    "secondary_factorial_conditions": 3,
+    "QC_analysis_unavailable_flag": 20,
+    "newChina_PM25_quarantined": 3,
+    "newChina_PM10_quarantined": 1,
+    "QC_future_or_target_used": false,
+    "imputation": false,
+    "DCRNN_architecture_modified": false,
+    "validation_reference": "LightGBM2021-22train/2023earlystop,4horizons,3seeds,fixedsettings; not independent test",
+    "test2024_scored_in_this_update": false,
+    "old_review_csv_correction": "selected=True25 filter applied; retained9/removed15/new16; originalbackedup inTrash"
+  }
+}

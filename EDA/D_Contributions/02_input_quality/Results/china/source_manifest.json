@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "inputs_unchanged": true,
+  "sha256": {
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\China\\china_48stations_hourly_2021_2024_kst.parquet": "deac609b362b19bbf06f08440708ab1ef16bdeb671d087837e476835db2a96c9",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\China_Border_Proxy\\china_border_cities_hourly_2021_2024_kst.parquet": "163bfdc7db0291e9b66f22c617663b8e69de50ded843b06b802a7e8adea56120",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Neighbors_Expansion_QC_20261108\\china_east_hourly_qc_2021_2024_kst.parquet": "2271d90b79de76e521eca160afa4bd49993e7ee6d39d8d3a1bb39e48363ac803",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\China\\china_48stations_context_buffer.parquet": "b8f0beb9ddd3cb988ae55bd3ba1d52585b459eba40ba848560f7542dfd5dfa16",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\China_Border_Proxy\\china_border_cities_context_buffer.parquet": "cd33c235a1faebb6d8213b9f3c4955b4798ae14360410d5f66b53c43cc73b3cb",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Neighbors_Expansion_QC_20261108\\china_east_context_buffer_qc.parquet": "be5f3063ee275079ec334321ce22b6271e5e012800ac507386232ab9c21940c8",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional12_Seed11_20261109\\station_registry.csv": "85f195a6297d78e6415a8b33e65e1d4ad5aedd8d5c9b1f3227055f64e00f3398",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Neighbors_Expansion_QC_20261108\\qc_policy.json": "10e0c99e3045d7479a0033f910247ab263d776de048bbbd9cfdf90e21994358b"
+  }
+}

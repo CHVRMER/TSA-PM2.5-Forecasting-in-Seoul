@@ -1,0 +1,688 @@
+{
+  "schema_version": "dcrnn-vast-m1-m4t-h48-upload-v1",
+  "created_kst": "2026-11-11T18:47:51.462572+09:00",
+  "code_only_update": true,
+  "dependency_count": 40,
+  "package_file_count_excluding_manifest": 71,
+  "files": [
+    {
+      "path": "Dataset/China/china_48stations_context_buffer.parquet",
+      "bytes": 43418,
+      "sha256": "b8f0beb9ddd3cb988ae55bd3ba1d52585b459eba40ba848560f7542dfd5dfa16",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/China/china_48stations_hourly_2021_2024_kst.parquet",
+      "bytes": 17879256,
+      "sha256": "deac609b362b19bbf06f08440708ab1ef16bdeb671d087837e476835db2a96c9",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/China_Border_Proxy/china_border_cities_context_buffer.parquet",
+      "bytes": 9948,
+      "sha256": "cd33c235a1faebb6d8213b9f3c4955b4798ae14360410d5f66b53c43cc73b3cb",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/China_Border_Proxy/china_border_cities_hourly_2021_2024_kst.parquet",
+      "bytes": 1576833,
+      "sha256": "163bfdc7db0291e9b66f22c617663b8e69de50ded843b06b802a7e8adea56120",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Evaluation_Contract_20261107/evaluation_grid.parquet",
+      "bytes": 1417013,
+      "sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Japan/japan_west_context_buffer.parquet",
+      "bytes": 19390,
+      "sha256": "60ce82edb4f8100b0b8bd5dfd591bf20fb2651e414f81898b6ace807142226ce",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Japan/japan_west_hourly_2021_2024_kst.parquet",
+      "bytes": 23369486,
+      "sha256": "0925d636ab7a55e6d9bdcdbb79a13516e82697c04c40307a924822018b67bfec",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_Air/korea_34stations_hourly_2021_2024_kst.parquet",
+      "bytes": 6673430,
+      "sha256": "26e96a0202414ef9540a17b65b1886325ed8a68dce94026af656fbb7accbc6e4",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_Air/korea_context_buffer.parquet",
+      "bytes": 19574,
+      "sha256": "87cdbd597583314fa0004256d3475da79551b846229f852f5daae22eb1bb6e99",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_East_Candidates/korea_east_36stations_hourly_2021_2024_kst.parquet",
+      "bytes": 6811715,
+      "sha256": "66f5ea75e6335be904e9333054400080b9875db6d6be855cfc36bd6aa91da581",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_East_Candidates/korea_east_context_buffer.parquet",
+      "bytes": 22701,
+      "sha256": "1fbd9c3632f6d36c5d22977954d76f400b2fcb131a11f988495916bdeaa1fff9",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_National_2021_2024/korea_national_pm25_context_buffer.parquet",
+      "bytes": 50693,
+      "sha256": "2d33af072ba57b2610780bf41be644219b05e3df1d36f02ca626d9d0dab62a5d",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_National_2021_2024/korea_national_pm25_hourly_2021_2024_kst.parquet",
+      "bytes": 18716296,
+      "sha256": "580f762c362dd62540f74dd8955b38a4c8e7e37c51fd0df5a4df299c7d05e764",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Mongolia/mongolia_ub_embassy_context_buffer.parquet",
+      "bytes": 7173,
+      "sha256": "de0f11b7b1be50c6263d2c2684ae2c1712b9f64e08fe8515ca1d8dd2cc516f58",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Mongolia/mongolia_ub_embassy_hourly_2021_2024_kst.parquet",
+      "bytes": 748517,
+      "sha256": "10dd4d0010b1d3757871a5940c1c8cf0e0d70d94a241fd2e42764e20b833da5e",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Neighbors_Expansion_QC_20261108/china_east_context_buffer_qc.parquet",
+      "bytes": 24047,
+      "sha256": "be5f3063ee275079ec334321ce22b6271e5e012800ac507386232ab9c21940c8",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Neighbors_Expansion_QC_20261108/china_east_hourly_qc_2021_2024_kst.parquet",
+      "bytes": 9408059,
+      "sha256": "2271d90b79de76e521eca160afa4bd49993e7ee6d39d8d3a1bb39e48363ac803",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Neighbors_Expansion_QC_20261108/japan_east18_context_buffer.parquet",
+      "bytes": 6598,
+      "sha256": "ba97d077cf3b5238dd9348dbaa23fcc65b99fa54282810125d38024ffd84c2c3",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Neighbors_Expansion_QC_20261108/japan_east18_hourly_2021_2024_kst.parquet",
+      "bytes": 1936862,
+      "sha256": "d801b60a988daa8546ab762f83e877e43353d1b50f000282a5006c2ec4c62305",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024/feature_dictionary.csv",
+      "bytes": 1542594,
+      "sha256": "c81a0be31597fe7b5624d148303a820b0f57b3c479bbf8e44afc4bab14985c34",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024/feature_sets.json",
+      "bytes": 357179,
+      "sha256": "f396587cf174ed2e0b39328a665e249e8ac43f181df7f105db65bf5d48cc7330",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024/origin_features_2021_2024_kst.parquet",
+      "bytes": 87579871,
+      "sha256": "ff0d02f7169d1706d053556557637d505332bf2571d763472df213b5ee5e2670",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024_v3/feature_dictionary.csv",
+      "bytes": 3874804,
+      "sha256": "c463f3cdaa195c093fb50a8463eacd82f3b961513562a5966be7cdc26f128732",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024_v3/japan_balanced_stations.csv",
+      "bytes": 3038,
+      "sha256": "1cfcbc867156425765f333c424b7e179af15e58417a407c2486b81b30696f4f4",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024_v3/origin_features_2021_2024_kst.parquet",
+      "bytes": 194937923,
+      "sha256": "fd0c9c3c746b41a07956c3612218d6596170b6ca6f17b547884dc3de9e6ae1ec",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_2021_2024/station_registry.csv",
+      "bytes": 19432,
+      "sha256": "04412640f3ca2cec9e64979f08f12e7bd6031587b6e5a3fa6a48a9a85ed5ee63",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_2021_2024_v3/station_registry.csv",
+      "bytes": 50358,
+      "sha256": "b7d20b16c686b250b1ab0ad81ad86a095a181881f6208e7f4022793996bbe87d",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_Expansion_QC_20261108/matching_manifest.json",
+      "bytes": 2210,
+      "sha256": "68463d5caabb37f9d5705a764611afe1391d515453f1f3b3376f078d2e672df6",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_Expansion_QC_20261108/trajectory_point_coverage.parquet",
+      "bytes": 15008955,
+      "sha256": "9e467a54303a810d6d07d34c2bed3fa05fa9b1e22a0a50ab82f7184dd1c40fc9",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_Expansion_QC_20261108/trajectory_station_neighbors.parquet",
+      "bytes": 209026271,
+      "sha256": "1d5b1da9c967578137250a698dd57f9b6095e311ecf04d931872ecfee1b90dce",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_National_v4/station_registry.csv",
+      "bytes": 250199,
+      "sha256": "f8a4b54fdd25990d9f6696e83ebeae1a56b6b3b796e5943403082f08d45893dc",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/Common/Neighbor_Experiments_QC_20261108/experiments.json",
+      "bytes": 117290,
+      "sha256": "25915f86bfd53b437bad4ecd869fa0f9cfedc7504055dfc9e9b7ee74e9a966e1",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/Common/Neighbor_Experiments_QC_20261108/station_registry.csv",
+      "bytes": 302111,
+      "sha256": "b4b0b4fae83c30a6a9953a04efca6b6806d8b66a5365715e9a0e0c68e4d939b0",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/Common/grid.py",
+      "bytes": 9229,
+      "sha256": "c7a3341d9eefaf7a70f6e5f13edcdcc828ff92990d443c9c72c1d7d67725d81a",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/Common/neural_evaluation.py",
+      "bytes": 32561,
+      "sha256": "00e6d72f585d19b535b92b5ad12c9338b8918de4e6bed9ab02dcaa4eb0105fa9",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/Common/score.py",
+      "bytes": 25597,
+      "sha256": "f231dfe9a15fa3f8e8577ef076b0efce7f92af3846d49bc60c7742d5aad8a755",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/DCRNN/Neighbor_Expansion_QC_20261108/Codes/neighbor_adapter.py",
+      "bytes": 12870,
+      "sha256": "55b0305b6d96d0c19f61772d105311c78ebc83f11796d0c898ba86f881368d7a",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/DCRNN/V3_Data_20261107/Codes/original_data.py",
+      "bytes": 24073,
+      "sha256": "1769e25db6e5b7d477e9cf81246bbdd643f5cd065a219386157fd61f292d89d4",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/DCRNN/V3_Data_20261107/Codes/original_graphs.py",
+      "bytes": 23810,
+      "sha256": "df3cb7b223e7c0ab145c33d52b0c918bce270dd9c26744463f41735c974bd129",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/DCRNN/V3_Data_20261107/Codes/v3_adapter.py",
+      "bytes": 24656,
+      "sha256": "1606b56ccd4cce6660437ad2887b1339a2a9b13bb1c3619d58cc493dd353e36d",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/checkpoint_store.py",
+      "bytes": 20908,
+      "sha256": "56e0122ebd8e46968ebc84f61c4785c4b5880c033e3c875c63f84be9de4c9804",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/data_experiments.py",
+      "bytes": 17406,
+      "sha256": "3ce6d4dc72603320477d9fc991fa41f9fb7518dc0c742db9888ff79b186aabba",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/drive_backup.py",
+      "bytes": 15107,
+      "sha256": "7e7c23eb7b4e13fc1bc1d2cc6e1c357c6247ef8caaa043e1283b450c4df43a75",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/full_run_control.py",
+      "bytes": 35524,
+      "sha256": "c468d2308fe0b3defdbc663ae1b03535795f2b6389b1362b30ff21c948cd5bf9",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/horizon_data.py",
+      "bytes": 7032,
+      "sha256": "f2415b60f23eeb809f35d3c4b27f538fbfaae80ceb2715ac22ecc68b476094be",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/restore_verified_backup.py",
+      "bytes": 19252,
+      "sha256": "6e1f8d7e7e4fc406538c86f7e5c899b575faca9b7877a57a231cc8f3d24c1358",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/run_checks.py",
+      "bytes": 3500,
+      "sha256": "b986de8a986fdcbafcbdc64d035872bab888f801e7f6d3a2fc9ea7680429b001",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/run_experiments.py",
+      "bytes": 26793,
+      "sha256": "ae0d0249ffeb10553e609ef0244753a0aa460009c4d2c1108bf506cafdff8d4e",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/stopping_policy.py",
+      "bytes": 2326,
+      "sha256": "3a115f7decfe0020cc41003f9b7ee01385b6affde811d29d1675fec1930d19ed",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/trajectory_features.py",
+      "bytes": 18624,
+      "sha256": "c901f10cac8bd95f97ee9065e3e7401ed1de5b8173e493b49fbbe6905d171065",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/vendor/dcrnn_model.py",
+      "bytes": 14688,
+      "sha256": "480cc1bb9b88a90918b4dac81ccf060b58a1d90d644e79380a48ee94c84f1a7e",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/vendor/LICENSE_DCRNN_author.txt",
+      "bytes": 1067,
+      "sha256": "29414ec274aafdfde2e0e5f5e55f136fcd3d5e8514ab54f1809298eeb1fd5a43",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/vendor/neural_training.py",
+      "bytes": 33664,
+      "sha256": "51161f95fe8a0461e450850189638fc16d408f479399f57abb88019178575043",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_auto_resume_control.py",
+      "bytes": 19156,
+      "sha256": "96529b4816ca3fb6a14c1855b129841e7ed7bd3a56f5cd409f2b58b6d77b40f6",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_checkpoint_store.py",
+      "bytes": 15785,
+      "sha256": "a64312a9705b7e4389b95bfbd7cb83314c87df42bc8372f86544a458b506e271",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_combined_score_synthetic.py",
+      "bytes": 8071,
+      "sha256": "9a234001040ea83c80de2b2b720186901653970f75b5a2c63516847a4576ccf9",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_data_dcrnn.py",
+      "bytes": 11975,
+      "sha256": "416f381be5d07d8b2d0bc6cb1dddbb1e0d1870abfaac381eac746d222931d426",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_data_synthetic.py",
+      "bytes": 4512,
+      "sha256": "3f75b2560955b844c2b89dedd87bad8e7f297c2439e4c69d02f65f2347201882",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_dcrnn_runtime.py",
+      "bytes": 20731,
+      "sha256": "ad32f5647571d59da68b822ffdd853d44f696ddc1319226b86994e856adae5a7",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_dcrnn_training_contract.py",
+      "bytes": 12789,
+      "sha256": "de36578da41c367d806b14f564825049f6e3e82aba4ad96bbf8cc501583f9224",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_drive_backup.py",
+      "bytes": 6687,
+      "sha256": "69bcb724565217ec55c1f9c78100df7688610578d39b10c26b74c8c7b05cd32e",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_horizon_data.py",
+      "bytes": 6404,
+      "sha256": "209635d6c7d2b19df2a58624d82d2b6e19fc9a13ee206b70340fabf68baed3c1",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_interrupt_control.py",
+      "bytes": 7557,
+      "sha256": "21bc0354cecf0d373c301f3bfa7bc2b80a476e20a2ded3cf8286aaf67e9e1541",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_restore_contract_schema.py",
+      "bytes": 4523,
+      "sha256": "4cb7d2c8393a7cea36b259c0dac163df382fe7c62caba480320d3629d4acf42b",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_restore_verified_backup.py",
+      "bytes": 7696,
+      "sha256": "36c872bda0f59b0871f58b4ee2f4bd867a9cf66a080ac9776d49c8504f890c1e",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_stopping_policy.py",
+      "bytes": 3597,
+      "sha256": "66000f2ff3b7b69f1b560804645ef30725baea12485d9d2dcd146834db3ab611",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_tmux_launch_control.py",
+      "bytes": 10975,
+      "sha256": "3d442a58b92a168652ab84e44d61303b33063185568589e38b31632075d144f9",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/verify_upload.py",
+      "bytes": 1566,
+      "sha256": "11793364a70d65ea38fc010f2aef019acc03b4c01c95a310ea127af777ca6190",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/configs/default.json",
+      "bytes": 3631,
+      "sha256": "2583dfc04d8881488f75abfcd8189110bd4927957d5770a89cc27cb3d31e8dbd",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/configs/lr0003_comparison.json",
+      "bytes": 3623,
+      "sha256": "03cf5fd1f21e026f0985fcb311a65d65d2fb069b894948eeac5477a2e76fb82c",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/configs/selection24_separate.json",
+      "bytes": 3626,
+      "sha256": "b7952982c3e12bb2ec1d36f77e4b3398258865be037d0740fec9be57bbe59458",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/configs/teacher3000_comparison.json",
+      "bytes": 3624,
+      "sha256": "e232c77c8ab175f810ac55546c18ff4c68fa9a54eb68ee0fed1f8c3fc0bb55ae",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/CONTROL_AND_RESUME.md",
+      "bytes": 5976,
+      "sha256": "363738f9ce84501dba9963c97ae8b23133e8cfaf93372ee4dbc046e4dddd844b",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/GOOGLE_DRIVE_BACKUP.md",
+      "bytes": 10373,
+      "sha256": "855652e48f89d9fe1be08da09b2272fc3d3787d063d321724ab1f1c481dcdf35",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/MODEL_AND_TRAINING.md",
+      "bytes": 6109,
+      "sha256": "485eba1ddf75408d7d54ce84323c9f365f99c5026b2bb8c099aa1542b1646ff8",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/README.md",
+      "bytes": 7166,
+      "sha256": "0d8d94d4844dd7f16b162a64895ecf9f0a11df974564226df568f3d8d21f72f0",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/actual_data_audit.json",
+      "bytes": 695151,
+      "sha256": "f489d372f36bad167fc089a2fe383c7b58bbeac204a10969bf07e39c0cdc63f8",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/common_h48_actual_report.json",
+      "bytes": 938,
+      "sha256": "f7d2b35afa837198ff9db069ba1eca3660b7c892eced6e7417e4562190069c5b",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/common_h48_combined_report.json",
+      "bytes": 603,
+      "sha256": "8923d2ce6dcbf1595000237aa469bcd675a1090ef861e1d1ef1ac9dcbc0766e6",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/common_h48_synthetic_report.json",
+      "bytes": 1747,
+      "sha256": "5f41b28a1ee8097403afdff5a2cfb7119faedc2f821471d8eb76c291afd375a3",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/control_validation_report.json",
+      "bytes": 1043,
+      "sha256": "e0b7f50983ecf8e68f5507c70a3010973bd8e399ad6b905e198a7acd1d199a43",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/auto_resume.log",
+      "bytes": 4106,
+      "sha256": "c708aca79261195b6c1bc3876cc1e5b763be6e686f5baa41d474217f00666829",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/backup.log",
+      "bytes": 680,
+      "sha256": "3707b0b2ab05d57885f405782d0cf0d844f48ae3a31d664c745c02b2dfaeb75a",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/checkpoint_store.log",
+      "bytes": 318,
+      "sha256": "e64fa837046a27ca9bba9f426825512c056dca8122ac24de1fc981fe2f581b94",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/combined.log",
+      "bytes": 1337,
+      "sha256": "837d588219a9039732c20dfb76f1c81439e3bb699d4215c4b229f7cf2bcfc666",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/common.log",
+      "bytes": 1747,
+      "sha256": "5f41b28a1ee8097403afdff5a2cfb7119faedc2f821471d8eb76c291afd375a3",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/common_report.json",
+      "bytes": 1747,
+      "sha256": "5f41b28a1ee8097403afdff5a2cfb7119faedc2f821471d8eb76c291afd375a3",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/horizon.log",
+      "bytes": 493,
+      "sha256": "880d5e527bfc30dfafdade1fe35903c958709a3bb8c30d97eaa278cfd08a847b",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/interrupt.log",
+      "bytes": 2726,
+      "sha256": "9059f3394b7ff4c4af98d7360646bf4086303424d8019c6c9b2e81c9e5ff401e",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/matching.log",
+      "bytes": 240,
+      "sha256": "be7e5ed827cef766e612bbcc91cc3e3736b7b084dc7de9a0fb0f03fcd15d7487",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/runner.log",
+      "bytes": 66,
+      "sha256": "2270e971649b293a3e98924644d7c214a18967ed2469f4c871b5ca103872456f",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/static.log",
+      "bytes": 3040,
+      "sha256": "e37f82c1ec10d10a07930b55ba343b8f6ca6cf209b3e93589992b808d70be145",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/static_contract.json",
+      "bytes": 546,
+      "sha256": "70dd83e5ad990c53fc3688e6fe42e1a584b8e753c8fe7a424adefddc705f4daf",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/stopping.log",
+      "bytes": 892,
+      "sha256": "7929b8c3990002d44d62bb0d01e8aea4f6880f44d60c3d71d689a42dc8ee957f",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/Local_Verification/tmux.log",
+      "bytes": 2986,
+      "sha256": "7ee1440ae2ae1e7ae15ff5e0cdfd85fa41caa9234553914fb6cb63310fe36e57",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/static_training_contract_h48.json",
+      "bytes": 546,
+      "sha256": "70dd83e5ad990c53fc3688e6fe42e1a584b8e753c8fe7a424adefddc705f4daf",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/synthetic_data_contract_results.json",
+      "bytes": 484,
+      "sha256": "4dded23c821ef47039aecdf5c817890459b6f89b0980a28be6b965a7bb1a5d4c",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/synthetic_horizon_results.json",
+      "bytes": 493,
+      "sha256": "880d5e527bfc30dfafdade1fe35903c958709a3bb8c30d97eaa278cfd08a847b",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/References/verification_summary.json",
+      "bytes": 738071,
+      "sha256": "d078e4efdebd216ef299c4de3a888c671ebf90599bddebc1825d71f415d695ff",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/requirements.txt",
+      "bytes": 260,
+      "sha256": "cdde48e0e6e8d6fc6b458b9314548165a3db5bf2624015e071e93726d3ffec41",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/run_checks.sh",
+      "bytes": 725,
+      "sha256": "74cf28cfc5917be362974cee5cc557c099d544848b1ee9ffbfbb8e9b9ed3ce08",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/run_full.sh",
+      "bytes": 1866,
+      "sha256": "e3716dd23d1edae13fab584a2cb514d6aa12a80a781d39617ebaae2887e60e1e",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/run_pilot.sh",
+      "bytes": 1867,
+      "sha256": "c195dd380168f7c1b00b84458fef054a49527485c65446f9e9ecca6fcc076b7e",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/setup_vast.sh",
+      "bytes": 4267,
+      "sha256": "04ffd0c40836fdb042d58e235da2438d3541a0f7f4d2102aced15affb92f166f",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/start_full.sh",
+      "bytes": 316,
+      "sha256": "24c6e8b9d93c91b13a83fa494c47dd29facd976337c20224f71fff764731ffff",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/Common/DCRNN_H48_20261111/grid.py",
+      "bytes": 10845,
+      "sha256": "bb5ecaa8f62d8ea6b404ca73aabc6c9f80edc40fbabc4e0dc6b59e8fa1ece7da",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/Common/DCRNN_H48_20261111/horizon_contract.py",
+      "bytes": 10929,
+      "sha256": "714134e8e3e34fb4489ac673de96018f25982aa9374701f4c0291bd1fc450712",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/Common/DCRNN_H48_20261111/neural_evaluation.py",
+      "bytes": 34351,
+      "sha256": "84bb9ede0b340b3a6ff75819b3507de3b4dc1862bbdbbe7b1ce02ff4955b7670",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/Common/DCRNN_H48_20261111/README.md",
+      "bytes": 836,
+      "sha256": "3d6770fedd8db06039508cee2856d3b47aada17a5412ba087a53e0b62579a5b9",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/Common/DCRNN_H48_20261111/score.py",
+      "bytes": 25628,
+      "sha256": "10dfb6644d888a64b0b86cda13a5067b2353ae4ee8e8d7afc3e9ed58d53fad8c",
+      "role": "dcrnn_h48_code"
+    },
+    {
+      "path": "Model/Common/DCRNN_H48_20261111/verify_h48_scoring.py",
+      "bytes": 14068,
+      "sha256": "c37c3e63451ab65f2565a65c9148e8169d54f6b50e41cb52f6d3ba25dbcf3679",
+      "role": "dcrnn_h48_code"
+    }
+  ],
+  "manifest_self_excluded": true,
+  "credentials_included": false,
+  "original_common_scorer_modified": false,
+  "private_scorer_maintains_original_output_schema": true,
+  "vendor_model_byte_identical": true,
+  "runtime_torch_numerical_test_executed_locally": false,
+  "sharing_revision": {
+    "date_kst": "2026-11-15",
+    "change": "validate checkpoint score at selected horizon",
+    "original_checkpoint_store_sha256": "529f60cf1edbc45fb5522cc76d9fd235f0cf60da5ad1699bb0e8a25fe5ed4aa2",
+    "model_architecture_changed": false,
+    "default_h6_selection_changed": false
+  }
+}

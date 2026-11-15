@@ -1,0 +1,35 @@
+{
+  "pairs": [
+    [
+      "DCRNN_trajectory_directed_H48|M2|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M1|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M3|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M2|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M3|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M1|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M4|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M3|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M4|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M1|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M3T|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M3|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M4T|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M4|seed|seed=11"
+    ]
+  ],
+  "test_requires_explicit_flag": true,
+  "same_graph_for_all_conditions": "2021-2022 trajectory_directed",
+  "data_variant_resume_must_match": true
+}

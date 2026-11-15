@@ -1,0 +1,9 @@
+﻿condition,priority,china_east,japan_east,west_selection,external_series,including_Junggu_nodes,features,v3_features,national_features,new_qc_features,KR_series,CN_series,JP_series,MN_series
+F600_W24,primary,False,False,old24,600,601,9670,2518,7152,0,514,61,24,1
+F616_CNE_W24,primary,True,False,old24,616,617,9926,2518,7152,256,514,77,24,1
+F618_JPE_W24,primary,False,True,old24,618,619,9958,2518,7152,288,514,61,42,1
+F634_BOTH_W24,primary,True,True,old24,634,635,10214,2518,7152,544,514,77,42,1
+F601_W25,primary,False,False,new25,601,602,9686,2534,7152,0,514,61,25,1
+F617_CNE_W25,secondary_factorial,True,False,new25,617,618,9942,2534,7152,256,514,77,25,1
+F619_JPE_W25,secondary_factorial,False,True,new25,619,620,9974,2534,7152,288,514,61,43,1
+F635_BOTH_W25,secondary_factorial,True,True,new25,635,636,10230,2534,7152,544,514,77,43,1

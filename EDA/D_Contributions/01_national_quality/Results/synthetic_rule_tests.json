@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "sourcehour24 rollsnextday",
+    "same6pollutantduplicatescollapse",
+    "samePMbutdifferentgasconflictwithheld",
+    "negativeinvalid",
+    "blankinvalid",
+    "zeroretained",
+    "positiveextremeretained",
+    "approvednetworkfilter"
+  ]
+}

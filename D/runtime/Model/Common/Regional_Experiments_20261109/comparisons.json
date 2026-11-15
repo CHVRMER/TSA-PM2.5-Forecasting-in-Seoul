@@ -1,0 +1,233 @@
+{
+  "schema_version": "regional29-fixed635-v1.0.0",
+  "primary_horizon": 6,
+  "candidate_minus_reference_is_negative_when_better": true,
+  "reported_gain_is_reference_minus_candidate": true,
+  "comparisons": [
+    {
+      "comparison_id": "FOREIGN_ALL",
+      "kind": "foreign_all",
+      "candidate": "F",
+      "reference": "DN",
+      "region_id": "ALL_FOREIGN",
+      "gain_definition": "RMSE(DN)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "ADD_CN_SHANDONG",
+      "kind": "add",
+      "candidate": "ADD_CN_SHANDONG",
+      "reference": "DN",
+      "region_id": "CN_SHANDONG",
+      "gain_definition": "RMSE(DN)-RMSE(DN+R); positive means useful"
+    },
+    {
+      "comparison_id": "ADD_CN_BTH",
+      "kind": "add",
+      "candidate": "ADD_CN_BTH",
+      "reference": "DN",
+      "region_id": "CN_BTH",
+      "gain_definition": "RMSE(DN)-RMSE(DN+R); positive means useful"
+    },
+    {
+      "comparison_id": "ADD_CN_LIAONING",
+      "kind": "add",
+      "candidate": "ADD_CN_LIAONING",
+      "reference": "DN",
+      "region_id": "CN_LIAONING",
+      "gain_definition": "RMSE(DN)-RMSE(DN+R); positive means useful"
+    },
+    {
+      "comparison_id": "ADD_CN_JILIN",
+      "kind": "add",
+      "candidate": "ADD_CN_JILIN",
+      "reference": "DN",
+      "region_id": "CN_JILIN",
+      "gain_definition": "RMSE(DN)-RMSE(DN+R); positive means useful"
+    },
+    {
+      "comparison_id": "ADD_CN_HEILONGJIANG",
+      "kind": "add",
+      "candidate": "ADD_CN_HEILONGJIANG",
+      "reference": "DN",
+      "region_id": "CN_HEILONGJIANG",
+      "gain_definition": "RMSE(DN)-RMSE(DN+R); positive means useful"
+    },
+    {
+      "comparison_id": "ADD_CN_INNER_MONGOLIA",
+      "kind": "add",
+      "candidate": "ADD_CN_INNER_MONGOLIA",
+      "reference": "DN",
+      "region_id": "CN_INNER_MONGOLIA",
+      "gain_definition": "RMSE(DN)-RMSE(DN+R); positive means useful"
+    },
+    {
+      "comparison_id": "ADD_CN_OTHER",
+      "kind": "add",
+      "candidate": "ADD_CN_OTHER",
+      "reference": "DN",
+      "region_id": "CN_OTHER",
+      "gain_definition": "RMSE(DN)-RMSE(DN+R); positive means useful"
+    },
+    {
+      "comparison_id": "ADD_JP_WEST",
+      "kind": "add",
+      "candidate": "ADD_JP_WEST",
+      "reference": "DN",
+      "region_id": "JP_WEST",
+      "gain_definition": "RMSE(DN)-RMSE(DN+R); positive means useful"
+    },
+    {
+      "comparison_id": "ADD_JP_EAST",
+      "kind": "add",
+      "candidate": "ADD_JP_EAST",
+      "reference": "DN",
+      "region_id": "JP_EAST",
+      "gain_definition": "RMSE(DN)-RMSE(DN+R); positive means useful"
+    },
+    {
+      "comparison_id": "ADD_MN",
+      "kind": "add",
+      "candidate": "ADD_MN",
+      "reference": "DN",
+      "region_id": "MN",
+      "gain_definition": "RMSE(DN)-RMSE(DN+R); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_KR_CAPITAL",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_KR_CAPITAL",
+      "region_id": "KR_CAPITAL",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_KR_GANGWON",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_KR_GANGWON",
+      "region_id": "KR_GANGWON",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_KR_CHUNGCHEONG",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_KR_CHUNGCHEONG",
+      "region_id": "KR_CHUNGCHEONG",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_KR_HONAM",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_KR_HONAM",
+      "region_id": "KR_HONAM",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_KR_DAEGYEONG",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_KR_DAEGYEONG",
+      "region_id": "KR_DAEGYEONG",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_KR_DONGNAM",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_KR_DONGNAM",
+      "region_id": "KR_DONGNAM",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_KR_JEJU",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_KR_JEJU",
+      "region_id": "KR_JEJU",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_CN_SHANDONG",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_CN_SHANDONG",
+      "region_id": "CN_SHANDONG",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_CN_BTH",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_CN_BTH",
+      "region_id": "CN_BTH",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_CN_LIAONING",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_CN_LIAONING",
+      "region_id": "CN_LIAONING",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_CN_JILIN",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_CN_JILIN",
+      "region_id": "CN_JILIN",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_CN_HEILONGJIANG",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_CN_HEILONGJIANG",
+      "region_id": "CN_HEILONGJIANG",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_CN_INNER_MONGOLIA",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_CN_INNER_MONGOLIA",
+      "region_id": "CN_INNER_MONGOLIA",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_CN_OTHER",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_CN_OTHER",
+      "region_id": "CN_OTHER",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_JP_WEST",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_JP_WEST",
+      "region_id": "JP_WEST",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_JP_EAST",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_JP_EAST",
+      "region_id": "JP_EAST",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    },
+    {
+      "comparison_id": "DROP_MN",
+      "kind": "drop",
+      "candidate": "F",
+      "reference": "DROP_MN",
+      "region_id": "MN",
+      "gain_definition": "RMSE(F-R)-RMSE(F); positive means useful"
+    }
+  ],
+  "default_holm_family": "all predeclared comparisons, horizons, models, seeds and ensembles in one regional scoring invocation"
+}

@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-11-11T09:41:39.356754+00:00",
+  "package": "output\\dcrnn_vast48_20261111\\staging\\Model\\DCRNN\\VastAI_M1_M4T_H48_20261111",
+  "python_syntax_files": 11,
+  "shell_syntax_bash_n": [
+    "start_full.sh",
+    "run_full.sh",
+    "run_pilot.sh",
+    "setup_vast.sh"
+  ],
+  "stdlib_tests": {
+    "verify_auto_resume_control": 30,
+    "verify_tmux_launch_control": 13,
+    "verify_interrupt_control": 9,
+    "verify_stopping_policy": 7
+  },
+  "drive_backup_mock_tests": "passed",
+  "restore_actual_metadata_validator": {
+    "valid_h48_contract": "passed",
+    "rejected_mutations": 11
+  },
+  "namespace": "VastAI_H48/TSA_DCRNN48_*",
+  "old_model_process_ignored": [
+    "GraphWaveNet",
+    "4-horizon DCRNN"
+  ],
+  "strict_resume_config_including_stopping_limits": true,
+  "cuda_or_torch_training_executed": false,
+  "full_tensor_restore_test_executed": false,
+  "limitation": "Local interpreter has no PyTorch. Full checkpoint deserialization/real training must be checked by GPU pilot."
+}

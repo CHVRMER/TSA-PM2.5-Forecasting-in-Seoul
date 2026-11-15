@@ -1,0 +1,25 @@
+test_conflict_preflight_leaves_all_files_unchanged (__main__.InstallerTests.test_conflict_preflight_leaves_all_files_unchanged) ... ok
+test_different_allowlist_rejected (__main__.InstallerTests.test_different_allowlist_rejected) ... ok
+test_disallowed_manifest_file_rejected (__main__.InstallerTests.test_disallowed_manifest_file_rejected) ... ok
+test_duplicate_members_rejected (__main__.InstallerTests.test_duplicate_members_rejected) ... C:\Users\kimjy\AppData\Local\Python\pythoncore-3.14-64\Lib\zipfile\__init__.py:1730: UserWarning: Duplicate name: 'Model/Common/grid.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+ok
+test_first_install_repeat_and_code_preservation (__main__.InstallerTests.test_first_install_repeat_and_code_preservation) ... {"mode": "install", "project_root": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\gwn_vast48_20261112\\staging\\Model\\DCRNN\\Graph_WaveNet\\VastAI_M1_M4T_H48_20261112\\Codes\\tmpx50jikvx\\TSA", "identical_existing_files": 0, "missing_files": 2, "missing_bytes": 45}
+[1/2] verified: Dataset/A/sample.parquet
+[2/2] verified: Model/Common/grid.py
+{"status": "passed", "installed_files": 2, "identical_existing_files": 0, "all_dependencies_verified": 2, "existing_files_overwritten": false, "network_used": false}
+{"mode": "install", "project_root": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\gwn_vast48_20261112\\staging\\Model\\DCRNN\\Graph_WaveNet\\VastAI_M1_M4T_H48_20261112\\Codes\\tmpx50jikvx\\TSA", "identical_existing_files": 2, "missing_files": 0, "missing_bytes": 0}
+{"status": "passed", "installed_files": 0, "identical_existing_files": 2, "all_dependencies_verified": 2, "existing_files_overwritten": false, "network_used": false}
+ok
+test_missing_code_manifest_rejected (__main__.InstallerTests.test_missing_code_manifest_rejected) ... ok
+test_outside_archive_path_rejected (__main__.InstallerTests.test_outside_archive_path_rejected) ... ok
+test_plan_writes_nothing (__main__.InstallerTests.test_plan_writes_nothing) ... {"mode": "plan", "project_root": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\gwn_vast48_20261112\\staging\\Model\\DCRNN\\Graph_WaveNet\\VastAI_M1_M4T_H48_20261112\\Codes\\tmprfc28gjh\\TSA", "identical_existing_files": 0, "missing_files": 2, "missing_bytes": 45}
+ok
+test_symlink_parent_rejected (__main__.InstallerTests.test_symlink_parent_rejected) ... skipped 'Symlink creation requires unavailable Windows privilege'
+test_tampered_last_payload_rejected_before_first_write (__main__.InstallerTests.test_tampered_last_payload_rejected_before_first_write) ... ok
+test_zipapp_cli (__main__.InstallerTests.test_zipapp_cli) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.373s
+
+OK (skipped=1)

@@ -1,0 +1,65 @@
+﻿station_id,station_name,raw_region,raw_network,raw_address,exclusion_reason
+111122,한강대로,서울 용산구,도로변대기,서울 용산구 한강대로 405,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111124,청계천로,서울 중구,도로변대기,서울 중구 청계천로 184,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111125,종로,서울 종로구,도로변대기,서울 종로구 종로 169,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111143,강변북로,서울 성동구,도로변대기,서울 성동구 강변북로 257,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111154,홍릉로,서울 동대문구,도로변대기,서울 동대문구 홍릉로 1,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111162,정릉로,서울 성북구,도로변대기,서울 성북구 돈암동 8-164번지,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111202,신촌로,서울 마포구,도로변대기,서울 마포구 노고산동 57-62,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111213,공항대로,서울 강서구,도로변대기,서울 강서구 마곡동 727-1091,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111232,영등포로,서울 영등포구,도로변대기,서울 영등포구 영중로 37,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111242,동작대로 중앙차로,서울 동작구,도로변대기,서울 동작구 사당2동 739,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111263,도산대로,서울 강남구,도로변대기,서울 강남구 도산대로 104,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111264,강남대로,서울 서초구,도로변대기,서울특별시 서초구 강남대로 201,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111275,천호대로,서울 강동구,도로변대기,서울 강동구 천호대로 1151,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111282,시흥대로,서울 금천구,도로변대기,서울 금천구 독산동 996-9,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+111312,화랑로,서울 노원구,도로변대기,서울 노원구 화랑로 429,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+131116,경수대로(동수원),경기 수원시,도로변대기,경기 수원시 팔달구 인계동 1047,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+131120,대왕판교로(백현동),경기 성남시,도로변대기,경기 성남시 분당구 판교동 652-1,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+131125,성남대로(모란역),경기 성남시,도로변대기,경기 성남시 수정구 성남대로 1229,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+131198,중앙대로(고잔동),경기 안산시,도로변대기,경기 안산시 단원구 중앙대로 822,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+131236,서해안로,경기 시흥시,도로변대기,경기도 시흥시 서해안로 277,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+131245,경춘로,경기 남양주시,도로변대기,경기도 남양주시 경춘로 433,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+131383,백마로(마두역),경기 고양시,도로변대기,경기 고양시 일산동구 장항2동 888,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+131414,중부대로(구갈동),경기 용인시,도로변대기,경기 용인시 기흥구 구갈동 505-3,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+131475,한강로,경기 김포시,도로변대기,경기도 김포시 김포한강2로24번길 93,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+131532,금암로(신장동),경기 오산시,도로변대기,경기도 오산시 금암로 7,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+132119,온의동,강원 춘천시,도로변대기,강원특별자치도 춘천시 경춘로 2370,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+221131,초량동,부산 동구,도로변대기,부산 동구 중앙대로349번길 14,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+221162,온천동,부산 동래구,도로변대기,부산 동래구 중앙대로1335번길 38,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+221184,삼락동,부산 사상구,도로변대기,부산광역시 사상구 모덕로 2,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+221185,우동,부산 해운대구,도로변대기,부산광역시 해운대구 해운대해변로 84 (우동),User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+221901,부산북항,부산 동구,도로변대기,부산 동구 충장대로 314,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+221902,부산신항,부산 강서구,도로변대기,부산 강서구 신항남로 416,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+238126,신정로,울산 남구,도로변대기,울산 남구 신정2동(문수로),User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+238145,반송로,경남 창원시,도로변대기,경남 창원시 의창구 원이대로 450,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+238147,삼진로,경남 창원시,도로변대기,경상남도 창원시 마산합포구 진동면 삼진의거대로 621,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+238185,김해대로,경남 김해시,도로변대기,경상남도 김해시 김해대로 2515,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+238379,북부순환도로,울산 중구,도로변대기,울산광역시 중구 태화동 310,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+238383,산업로,울산 남구,도로변대기,울산광역시 남구 삼산동 261-36,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+324123,치평동,광주 서구,도로변대기,광주 서구 상무자유로 170,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+324134,운암동,광주 북구,도로변대기,광주 북구 북문대로 79,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+339211,노형로,제주 제주시,도로변대기,제주특별자치도 제주시 1100로 3348,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+422133,평리동,대구 서구,도로변대기,대구 서구 평리3동,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+422159,서변동,대구 북구,도로변대기,대구광역시 북구 서변동 124,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+422160,연호동,대구 수성구,도로변대기,대구광역시 수성구 달구벌대로 지하2950 (연호동),User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+422202,이곡동,대구 달서구,도로변대기,대구 달서구 이곡동,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+422211,충혼탑,대구 남구,도로변대기,대구광역시 남구 앞산순환로 540,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+437111,우현동,경북 포항시,도로변대기,경상북도 포항시 북구 새천년대로 906,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+525151,대흥동1,대전 중구,도로변대기,대전 중구 중앙로 58,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+525173,월평동,대전 서구,도로변대기,대전 서구 월평동160-5,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+533116,복대동,충북 청주시,도로변대기,충북 청주시 흥덕구 복대동,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+534114,성성동,충남 천안시,도로변대기,충남 천안시 서북구 성성동,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+534436,복운리,충남 당진시,도로변대기,충청남도 당진시 송악읍 신복운로 5,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+534446,장재리,충남 아산시,도로변대기,충청남도 아산시 배방읍 장재리 2116,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+541115,보람동,세종 세종시,도로변대기,세종특별자치시 한누리대로 2107,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+735116,서신동,전북 전주시,도로변대기,전북특별자치도 전주시 완산구 백제대로 450,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+735139,금마면,전북 익산시,도로변대기,전북특별자치도 익산시 금마면 무왕로 1824,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+823612,서해,인천 중구,도로변대기,인천광역시 중구 서해대로 365-1,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+823633,석바위,인천 미추홀구,도로변대기,인천 미추홀구 주안6동,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+823634,부평역,인천 부평구,도로변대기,인천광역시 부평구 광장로 지하15 (부평동),User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+823636,남동,인천 남동구,도로변대기,인천광역시 남동구 남동대로 668,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+823653,중봉,인천 서구,도로변대기,인천광역시 서구 중봉대로 274,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+823664,임학,인천 계양구,도로변대기,인천광역시 계양구 경명대로 1179 (병방동),User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+823703,송현,인천 동구,도로변대기,인천 동구 수문통로 77,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered
+831155,송내대로(중동),경기 부천시,도로변대기,경기 부천시 송내대로 262,User scope: only urban/suburban/national-background; no roadside or other network measurements delivered

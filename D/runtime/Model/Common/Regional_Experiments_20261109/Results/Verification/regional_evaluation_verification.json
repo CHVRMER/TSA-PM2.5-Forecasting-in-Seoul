@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "tests": 15,
+  "failures": 0,
+  "errors": 0,
+  "synthetic_only": true,
+  "model_training_performed": false,
+  "real_2024_scored": false,
+  "source_sha256": "48a63d62f77b696a3179c153e5a12527d2226b452f79668d920792c818f04fc8",
+  "test_sha256": "c5ffb7eddd8b20e23e0ef464521052abd4819a7af9e5bf6f1841849504acbf9a",
+  "checks": [
+    "global Holm before regional filtering",
+    "same seed sets",
+    "raw-unit ensemble separate from score mean",
+    "fixed-node/graph/target/context invariants",
+    "excluded observations absent from fitted normalizer",
+    "full declared matrix required",
+    "same-family training profile fixed",
+    "repeat output preservation",
+    "standard six output schemas/dtypes/Parquet codec",
+    "regional gain and CI sign",
+    "missing/contaminated prediction rejection",
+    "test guard before reading test export"
+  ],
+  "full_29_condition_635_node_synthetic_scoring": {
+    "status": "passed",
+    "output_dir": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\regional29_20261109\\verification\\full29_synthetic_scoring\\20261109_023207_483283_c66772b0\\Result\\Common_Scoring\\Regional\\synthetic_full29\\validation\\20261109_023214_564893_fddd975a",
+    "additional_analysis_dir": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\regional29_20261109\\verification\\full29_synthetic_scoring\\20261109_023207_483283_c66772b0\\Result\\Common_Scoring\\Regional\\synthetic_full29\\validation\\20261109_023214_564893_fddd975a\\Additional_Analysis",
+    "job_count": 58,
+    "condition_count": 29,
+    "model_families": [
+      "DCRNN",
+      "GraphWaveNet"
+    ],
+    "comparison_count": 28,
+    "regional_test_rows": 672,
+    "fixed_calendar_rules_changed": false,
+    "2024_scored": false,
+    "seed_count": 2,
+    "node_count": 635,
+    "synthetic_forecasts_not_model_results": true,
+    "model_training_performed": false
+  }
+}

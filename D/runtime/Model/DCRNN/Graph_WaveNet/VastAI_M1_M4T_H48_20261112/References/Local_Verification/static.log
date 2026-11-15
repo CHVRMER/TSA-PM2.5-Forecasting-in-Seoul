@@ -1,0 +1,40 @@
+test_configuration_75epochs_patience10_six_horizons_and_plateau (__main__.GraphWaveNetH48Contracts.test_configuration_75epochs_patience10_six_horizons_and_plateau) ... ok
+test_context_dropout_is_in_head_after_activation (__main__.GraphWaveNetH48Contracts.test_context_dropout_is_in_head_after_activation) ... ok
+test_conv2d_gates_and_new_implementation_identity (__main__.GraphWaveNetH48Contracts.test_conv2d_gates_and_new_implementation_identity) ... ok
+test_forecast_reads_final_position_and_requested_hour_channels (__main__.GraphWaveNetH48Contracts.test_forecast_reads_final_position_and_requested_hour_channels) ... ok
+test_graph_support_orientation_and_adaptive_softmax (__main__.GraphWaveNetH48Contracts.test_graph_support_orientation_and_adaptive_softmax) ... ok
+test_inference_uses_inputs_without_loader_targets (__main__.GraphWaveNetH48Contracts.test_inference_uses_inputs_without_loader_targets) ... ok
+test_model_optimizer_scheduler_rng_saved_and_restored (__main__.GraphWaveNetH48Contracts.test_model_optimizer_scheduler_rng_saved_and_restored) ... ok
+test_model_six_horizon_direct_forecast_defaults (__main__.GraphWaveNetH48Contracts.test_model_six_horizon_direct_forecast_defaults) ... ok
+test_no_teacher_forcing_or_future_target_interface (__main__.GraphWaveNetH48Contracts.test_no_teacher_forcing_or_future_target_interface) ... ok
+test_padding_mask_is_one_and_pm_is_zero_without_changing_observations (__main__.GraphWaveNetH48Contracts.test_padding_mask_is_one_and_pm_is_zero_without_changing_observations) ... ok
+test_rf61_uses_four_dilations_per_block (__main__.GraphWaveNetH48Contracts.test_rf61_uses_four_dilations_per_block) ... ok
+test_runner_identity_and_explicit_horizon_output_overrides (__main__.GraphWaveNetH48Contracts.test_runner_identity_and_explicit_horizon_output_overrides) ... ok
+test_train_restore_versions_match_only_new_graphwavenet (__main__.GraphWaveNetH48Contracts.test_train_restore_versions_match_only_new_graphwavenet) ... ok
+test_validation_selection_and_nonfinite_errors_are_explicit (__main__.GraphWaveNetH48Contracts.test_validation_selection_and_nonfinite_errors_are_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.091s
+
+OK
+{
+  "status": "passed",
+  "static_checks": 14,
+  "failures": 0,
+  "errors": 0,
+  "model_sha256": "4e92391994ba55ef87d63388ab0d52bbb8f77ea2a8a424c89c21a7d5fe895bd4",
+  "horizons": [
+    3,
+    6,
+    12,
+    24,
+    36,
+    48
+  ],
+  "receptive_field_hours": 61,
+  "output_steps": 48,
+  "numerical_forward_backward_tested": false,
+  "checkpoint_tensor_roundtrip_tested": false,
+  "gpu_training_tested": false,
+  "next_step": "Run verify_gwn_runtime.py in the prepared server PyTorch environment."
+}

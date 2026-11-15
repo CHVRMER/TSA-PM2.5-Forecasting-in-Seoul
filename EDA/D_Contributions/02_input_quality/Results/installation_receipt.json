@@ -1,0 +1,252 @@
+{
+  "status": "installed_verified",
+  "installed_utc": "2026-11-09T10:57:19.112229+00:00",
+  "destination": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\EDA\\Data_Quality_Reaudit_20261109",
+  "installed_files": 49,
+  "audited_input_hashes_rechecked": 25,
+  "audited_inputs_unchanged": true,
+  "data_models_scorer_modified": false,
+  "model_training_performed": false,
+  "files": [
+    {
+      "path": "Codes/audit_china.py",
+      "bytes": 17544,
+      "sha256": "bd7ab727c40763058898993c437629a23a401771ced44bfe878a1d6264c3590f"
+    },
+    {
+      "path": "Codes/audit_japan.py",
+      "bytes": 9228,
+      "sha256": "b83baa54a1f753c18cff00accc94bb2fcb46969a94802cb5d2f7ad727e239aee"
+    },
+    {
+      "path": "Codes/audit_korea_weather.py",
+      "bytes": 16790,
+      "sha256": "9a54a272ae4d7b8201de9778e0a98e70f49b2105be1987569c27ebdb392bcfbe"
+    },
+    {
+      "path": "Codes/audit_pipeline.py",
+      "bytes": 10674,
+      "sha256": "af612d730ff4802cdee35ebcff81258d41a343522d65b4496da29c1aff1709d3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9837,
+      "sha256": "f87aad38a125651fc93c77f9b00d36dfd9eb1d3ae4313f364fb6aa0d2d6e0d43"
+    },
+    {
+      "path": "Results/audit_summary.json",
+      "bytes": 3184,
+      "sha256": "6fa31e71c7356dd6d72920acc03304128b0313629b4d2869e47e0a09039569cf"
+    },
+    {
+      "path": "Results/china/2230A_constant48_context_all_pollutants.csv",
+      "bytes": 8545,
+      "sha256": "4d83e88699205b3c99df48437e1d48bda4cbb666638985b9df799d2fcf22471a"
+    },
+    {
+      "path": "Results/china/3578A_9985_context.csv",
+      "bytes": 3317,
+      "sha256": "087522ae0f37e27606c86e15b6432b2be819f1cbeb30bc8df91d9827273d9388"
+    },
+    {
+      "path": "Results/china/3578A_9985_simultaneous_cn48.csv",
+      "bytes": 6127,
+      "sha256": "1d635e494757f770bb549f8e1b1d1ab1b5adbc619ded262987f4e5e568239018"
+    },
+    {
+      "path": "Results/china/3578A_9985_source_evidence.json",
+      "bytes": 1303,
+      "sha256": "95773f0dd642aa64b6d1aa365b56b37ad2338af85d033bc49f750ecd6579937d"
+    },
+    {
+      "path": "Results/china/audit_run_log.txt",
+      "bytes": 1582,
+      "sha256": "46f0cf67e796bf8cfc36228a08028fa31e98ea0c5dc93284469e613586edd9e5"
+    },
+    {
+      "path": "Results/china/china_audit_summary.json",
+      "bytes": 16131,
+      "sha256": "4cad99cc26fa1c63e1010246549594a4a124acf7dc657bfe4bacada342851ac0"
+    },
+    {
+      "path": "Results/china/constant_run_intervals.csv",
+      "bytes": 24193,
+      "sha256": "0ed975760595d49b7364b71e40f2afaaa2527b8d1783fc41b2ef8fd0fb2be5cf"
+    },
+    {
+      "path": "Results/china/daily_extreme_counts_cst.csv",
+      "bytes": 2820,
+      "sha256": "27ea602984ec742c84ab2f55c99e1792dfeab8ba89fbb6ae226d6207a44adc28"
+    },
+    {
+      "path": "Results/china/existing_causal_qc_policy_review_candidates.csv",
+      "bytes": 11098,
+      "sha256": "81f4e3146cd51d5c52d92c3ed663b72afddecd2ef88a91adcac11e546fdc0c56"
+    },
+    {
+      "path": "Results/china/isolated_spike_review_candidates.csv",
+      "bytes": 3446,
+      "sha256": "8ac8b316914329f0ae82184c59575ee897dc64316ee95db7824dab5c07666e75"
+    },
+    {
+      "path": "Results/china/other_pollutants_top5_review.csv",
+      "bytes": 2928,
+      "sha256": "617ced515af1da473b7409e83d89e50508d4a0f55a43edeab5a8f74a2aa00eab"
+    },
+    {
+      "path": "Results/china/pm25_gt500_events.csv",
+      "bytes": 81667,
+      "sha256": "a7caaff10a0a8ba06e4851b41337c1434ff9483daad1dfeb5d66b183a77d3f96"
+    },
+    {
+      "path": "Results/china/README.txt",
+      "bytes": 4774,
+      "sha256": "62e97e6fae3b9dd1c3cccd00545981e6f32513043a663c3ccdc67e488c757739"
+    },
+    {
+      "path": "Results/china/source_manifest.json",
+      "bytes": 1838,
+      "sha256": "30579a56f25249d4d5b6601bd5a113209c2584549de01b9670db71e7c2901722"
+    },
+    {
+      "path": "Results/china/station_year_quality.csv",
+      "bytes": 27059,
+      "sha256": "5e19a10b644245c04832453725a48fc6e952b88f48a91c76e0554a13ab22faa7"
+    },
+    {
+      "path": "Results/current_model_scope_quality.csv",
+      "bytes": 246,
+      "sha256": "62744a728edb4e99c75edd2349a5e183f1ac3ca940094fda791ac557f17b12b0"
+    },
+    {
+      "path": "Results/Figures/quality_findings.png",
+      "bytes": 233524,
+      "sha256": "629b747e997cda9693f86b0ab242ef1eae67b81d0c0e4efdd96ce47ebc2d2a7a"
+    },
+    {
+      "path": "Results/japan/audit_log.txt",
+      "bytes": 6813,
+      "sha256": "ed66c0bf25b4c0763eed86b136473339fe490a45c8342adf6c6400b50b731960"
+    },
+    {
+      "path": "Results/japan/japan_audit_summary.json",
+      "bytes": 7752,
+      "sha256": "78345f076c2ac985a55682cd650b64e89856638c196497afa4a8ad92772564c1"
+    },
+    {
+      "path": "Results/japan/japan_extreme_review_candidates.csv",
+      "bytes": 15903,
+      "sha256": "2702bcde46f33b6f1a215d253f40edfe2b4262d9ba1e94f16b39e02a2dbfaaae"
+    },
+    {
+      "path": "Results/japan/japan_missing_by_scope_year.csv",
+      "bytes": 2475,
+      "sha256": "3f0bebb1d3cd5680620a7a95339139f6c5fb0803499f3c121b60abd0a0fc4c6e"
+    },
+    {
+      "path": "Results/japan/japan_negative_raw_histogram.csv",
+      "bytes": 3953,
+      "sha256": "9760804fa2f3d2dc6a8909c51de0dab8944f21bd4374e3599e99084842e9140c"
+    },
+    {
+      "path": "Results/japan/japan_positive_extreme_context.csv",
+      "bytes": 2330,
+      "sha256": "45d623fae3a5c2b45413f91fbf3b5fe80e26c3d640d37daad59aabe1567fe953"
+    },
+    {
+      "path": "Results/japan/japan_station_quality.csv",
+      "bytes": 32493,
+      "sha256": "15e1d691819e97481e29c287dda6f193eca4af5315a636008d7ac45ade4b4b0d"
+    },
+    {
+      "path": "Results/korea_weather/asos_flag_qc_consistency.csv",
+      "bytes": 856,
+      "sha256": "0df33612f6df638d88e98d7823bb3f836a25fa5ad184f67ac42b00a3ceee0b8c"
+    },
+    {
+      "path": "Results/korea_weather/asos_variable_quality.csv",
+      "bytes": 1193,
+      "sha256": "b9178b5e53b97b44485d2135f2636a8df6023911312188db9fb7a181c558d15f"
+    },
+    {
+      "path": "Results/korea_weather/audit_summary.json",
+      "bytes": 17036,
+      "sha256": "6717bcc5bf2ee229ccbbab6689648354646588c14bd120c73648b93e878d4fbf"
+    },
+    {
+      "path": "Results/korea_weather/execution_log.txt",
+      "bytes": 8495,
+      "sha256": "7892ede3358f8462e40327b914c74141c3c1e5b70086185236ab15284140192f"
+    },
+    {
+      "path": "Results/korea_weather/junggu_missing_intervals.csv",
+      "bytes": 7848,
+      "sha256": "111cc5389feb880be884ad7af0722fd3dea2dd100d76d98f55f8de134b1c979c"
+    },
+    {
+      "path": "Results/korea_weather/junggu_monthly_quality.csv",
+      "bytes": 4016,
+      "sha256": "e959e85f3a40f9160571dcb739771a08a3d2e518c6a1963afa91de5d430354d5"
+    },
+    {
+      "path": "Results/korea_weather/korea34_pollutant_quality.csv",
+      "bytes": 641,
+      "sha256": "ab01ef7ec2d27146f8c284004fe351c340ae5d85a2ddd0d291b4bb4684d8bb9d"
+    },
+    {
+      "path": "Results/korea_weather/korea_high_concentration_candidates.csv",
+      "bytes": 43407,
+      "sha256": "e0fcb1bdbecf8183a48c6b52cca8004ebf81ee65d772e5a75bd6eae71311ff8a"
+    },
+    {
+      "path": "Results/korea_weather/korea_plateau24h_candidates.csv",
+      "bytes": 29404,
+      "sha256": "3800660247fd8070f97f7ac2306903bef353727ab17f6fb671163e42dda19d5f"
+    },
+    {
+      "path": "Results/korea_weather/korea_station_quality.csv",
+      "bytes": 50215,
+      "sha256": "6ad00bdcde189f8ccad98940340f798f2c771a44de90a8d2a177d1e9d55ef594"
+    },
+    {
+      "path": "Results/korea_weather/mongolia_missing_intervals.csv",
+      "bytes": 19053,
+      "sha256": "4f330c4b4bfd27335606a566498ef137b45a365513e55651e2bbcf9b4ca03606"
+    },
+    {
+      "path": "Results/korea_weather/mongolia_plateau24h_candidates.csv",
+      "bytes": 5,
+      "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295"
+    },
+    {
+      "path": "Results/korea_weather/yearly_quality.csv",
+      "bytes": 5476,
+      "sha256": "95a89557268d163b711c18f3b82e944700ce678c3d7a0bdc1ef5eb0203b571ce"
+    },
+    {
+      "path": "Results/pipeline/actual_dcrnn_node_quality_by_year.csv",
+      "bytes": 148425,
+      "sha256": "70b42a578d616e875f21ca1517ac9c30ca9bb6dd6a0dcdff411133581e8e0789"
+    },
+    {
+      "path": "Results/pipeline/feature_null_and_range_audit.csv",
+      "bytes": 2156916,
+      "sha256": "40cb4d33a0e00df8b084405740ab4187e61fa2a7fd230ac191b1154e105eebac"
+    },
+    {
+      "path": "Results/pipeline/input_manifest.json",
+      "bytes": 1988,
+      "sha256": "3bbcc8f0cf9476a280de30afa86cd60a8379c8af070ff28b81f0146d469c42ce"
+    },
+    {
+      "path": "Results/pipeline/pipeline_audit.json",
+      "bytes": 4845,
+      "sha256": "f6f94073208c820e6a3fde5b860fab5f9c0d7a24ef95e349462d2a4a817217fa"
+    },
+    {
+      "path": "Results/pipeline/trajectory_variable_quality.csv",
+      "bytes": 730,
+      "sha256": "0e2f75f7a21565000bcb3be1602c5442e7c5a0b4a8d64ec20a9b983963be72f6"
+    }
+  ]
+}

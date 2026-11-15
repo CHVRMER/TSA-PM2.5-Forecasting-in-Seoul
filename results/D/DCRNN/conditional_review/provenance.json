@@ -1,0 +1,164 @@
+{
+  "analysis": "conditional M3 versus M1, exploratory",
+  "source_batch": "20261112_003040_429483_85af4013",
+  "model_fit_or_inference_executed": false,
+  "source_files_modified": false,
+  "source_hashes": {
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\Verification\\rebuilt_evaluation_grid.parquet": "e1ed0a6434e0679e7c445979a7632e0d8365c7c7a9c2a501190f4483c7f5e9d0",
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Common_Scoring\\Combined\\validation\\20261112_071639_664630_1f71ac6a\\score_rows.parquet": "6b4fc995eb995ab7c608958d5706d248e5876c893833bdd35fbcf2d31233a33d",
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Common_Scoring\\Combined\\test\\20261112_071643_599025_364259e5\\score_rows.parquet": "196b3f2534b7a9f706fb44b65d661851f3e524caa6a63e0c216d06f29f84eb63"
+  },
+  "tables_independently_matched_cells": 64,
+  "files": [
+    {
+      "path": "Audit/analysis_protocol.json",
+      "bytes": 1680,
+      "sha256": "15dae6f51501166659857f232cbce461ee6b68504a2bfe6a20321598f6325527"
+    },
+    {
+      "path": "Audit/conditional_audit.json",
+      "bytes": 2502,
+      "sha256": "e6cd3b3fa293bffcd5fd7901ce8e1d46a4a496ffb023edef2992cdfa2ec207dd"
+    },
+    {
+      "path": "Audit/descriptive_audit.json",
+      "bytes": 5860,
+      "sha256": "5345cc343df1831a076fa21a93f2bae6b034cd5b6e0cd52764abbf9bbba6cb33"
+    },
+    {
+      "path": "Audit/route_definition_audit.json",
+      "bytes": 16069,
+      "sha256": "bb52b2064957beb4813312d83797c29844fb1a68bc1789d10bc872826d5042fc"
+    },
+    {
+      "path": "Codes/audit_route_definition.py",
+      "bytes": 11455,
+      "sha256": "9708007a9f5371e35b1dea61da938ed4ab08220510f8da0c5d9d25bd478cd27a"
+    },
+    {
+      "path": "Codes/build_conditional_report.py",
+      "bytes": 19040,
+      "sha256": "48e3409e57eb4685e28028d3034d59d9a1d4dc67401067658ccb86c1d574a955"
+    },
+    {
+      "path": "Codes/conditional_inference.py",
+      "bytes": 13251,
+      "sha256": "ef15287e9daf00fe0b94878e6e6163401608a2f86621e123c85323cd6e346a99"
+    },
+    {
+      "path": "Codes/descriptive_stability.py",
+      "bytes": 10211,
+      "sha256": "4efc3be56d697bab47feb35d7e0262798c377694ee7502a449abb78d758f56dd"
+    },
+    {
+      "path": "Codes/plot_conditional.py",
+      "bytes": 5201,
+      "sha256": "a26796aacc7679b0407902aa6fd2a68a87756822618f970a04988913ab7a6792"
+    },
+    {
+      "path": "Codes/README.md",
+      "bytes": 637,
+      "sha256": "d4d39cf68fd84e434b75fab681cee30e5fab30e0bdf120b1a5b5bf2c994f8dc2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16095,
+      "sha256": "39f9ed46d52f0b4525701c87e00b1dd8cf17a0827ca835789976b460915bce7a"
+    },
+    {
+      "path": "Results/Figures/dcrnn_h48_route_M3_vs_M1_forest.pdf",
+      "bytes": 42125,
+      "sha256": "413f858f2f8bc71e993c3f210cadd89f3cb4f4e9e189d37027d95fa1af3e04aa"
+    },
+    {
+      "path": "Results/Figures/dcrnn_h48_route_M3_vs_M1_forest.png",
+      "bytes": 362895,
+      "sha256": "e17d03fbb67b3a42e950156cf6d6ba0be5d9153b76ed5a9be48f28d3c674e17c"
+    },
+    {
+      "path": "Results/Figures/dcrnn_h48_season_M3_vs_M1_forest.pdf",
+      "bytes": 41895,
+      "sha256": "d2a883bb5fdde0e529688cbe62483c061ccdca52b33f5879dfe1264307ea4d89"
+    },
+    {
+      "path": "Results/Figures/dcrnn_h48_season_M3_vs_M1_forest.png",
+      "bytes": 363641,
+      "sha256": "269681f2b5e22c18d6990268f5ef551db474558ccebdaa980861d7313e6bbe71"
+    },
+    {
+      "path": "Results/Tables/2023_조건별_표본수_개선율_신뢰구간.csv",
+      "bytes": 6843,
+      "sha256": "942ba3be870fb4f5ec5dbf1c9c2e559e3151e6102b1d891812bb53549ab7104a"
+    },
+    {
+      "path": "Results/Tables/2024_조건별_표본수_개선율_신뢰구간.csv",
+      "bytes": 6841,
+      "sha256": "47ec142863d6d9d0259147ec945c86467f88841cd17eb33a6f9f7afea2114e8e"
+    },
+    {
+      "path": "Results/Tables/conditional_primary.csv",
+      "bytes": 42709,
+      "sha256": "6271b20ffff1b632e3a34d8ca54bde8bf52bf350a13e57a29e8ad1386d0525f9"
+    },
+    {
+      "path": "Results/Tables/cross_year_stability.csv",
+      "bytes": 11231,
+      "sha256": "38b3cac4c4cda97c7b042682a5a88551c4f210867415c45398b622782e18925f"
+    },
+    {
+      "path": "Results/Tables/key_conditions_korean.csv",
+      "bytes": 478,
+      "sha256": "811fd7a4fc8eac6e5b0e5aa7aa74e952cb3fc6bae66abf2a06bbb8a800d5d526"
+    },
+    {
+      "path": "Results/Tables/route_sample_context.csv",
+      "bytes": 16458,
+      "sha256": "b5ccc3643e63493278694e3fd54ba2c1311c25cc1ef0c07a4eebae4456f672c3"
+    },
+    {
+      "path": "Results/Tables/route_season_composition.csv",
+      "bytes": 1354,
+      "sha256": "bae6ba65893efc556ae11512961981c4b007a630f7b8b34b0e07cef8983c0328"
+    },
+    {
+      "path": "Results/Tables/route_season_mixing_diagnostic.csv",
+      "bytes": 33259,
+      "sha256": "a08213fd42cd91f71bf317e5c913872bfd17c42b93580cf5f02dbe6debf7b7bf"
+    },
+    {
+      "path": "Results/Tables/test_route_group_uncertainty.csv",
+      "bytes": 11432,
+      "sha256": "8b4e3697b318c266b68dbbcbcc909999fbb3309e20ce1b4f2bb53ab7019ccb6a"
+    },
+    {
+      "path": "Results/Tables/test_season_uncertainty.csv",
+      "bytes": 11300,
+      "sha256": "665007e82e850b40db65ece4d4158dcfd9eddd67fdf3df43340c9a0bc77224a3"
+    },
+    {
+      "path": "Results/Tables/validation_route_group_uncertainty.csv",
+      "bytes": 11458,
+      "sha256": "45c57d51db58a07be86f68bedf256d552f098c8b8fb4f6b60c506839ace3bbc8"
+    },
+    {
+      "path": "Results/Tables/validation_season_uncertainty.csv",
+      "bytes": 11438,
+      "sha256": "3d9a460bc4dff1fe4b188bb64438c7d93ceb08ab53a12aeb207a3c726ce493b8"
+    },
+    {
+      "path": "Results/Tables/yearly_descriptive.csv",
+      "bytes": 68325,
+      "sha256": "4766dce355bfc360529e836d64f8d22f9778e01b89d8a81d7866950ade2daa42"
+    },
+    {
+      "path": "Results/Tables/yearly_direction_stability.csv",
+      "bytes": 26566,
+      "sha256": "bd4726569b19423f58ca5016bed0550e34325a5af37fbad2a61afb20273a8c78"
+    },
+    {
+      "path": "Results/Tables/yearly_route_season_descriptive.csv",
+      "bytes": 131766,
+      "sha256": "3de370dad683d178c93fa19ed3f725dff72e35248604af72877d4b81f6720019"
+    }
+  ]
+}

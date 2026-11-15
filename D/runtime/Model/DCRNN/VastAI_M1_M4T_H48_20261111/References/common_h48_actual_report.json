@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "grid": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_vast48_20261111\\verification_data\\actual_common_cache\\h48_c9d648da5e7ea26e9b0a\\evaluation_grid.parquet",
+  "rows": 70128,
+  "calendar_origins": 11688,
+  "eligible": {
+    "test/h3": 2874,
+    "test/h6": 2873,
+    "test/h12": 2871,
+    "test/h24": 2867,
+    "test/h36": 2863,
+    "test/h48": 2859,
+    "train/h3": 5762,
+    "train/h6": 5761,
+    "train/h12": 5759,
+    "train/h24": 5755,
+    "train/h36": 5751,
+    "train/h48": 5747,
+    "validation/h3": 2531,
+    "validation/h6": 2530,
+    "validation/h12": 2528,
+    "validation/h24": 2524,
+    "validation/h36": 2520,
+    "validation/h48": 2516
+  },
+  "original_four_labels_baselines_metadata_exact": true,
+  "raw_bundle_six_horizons_exact": true,
+  "baseline_requests_causal": true,
+  "base_dataset_modified": false
+}

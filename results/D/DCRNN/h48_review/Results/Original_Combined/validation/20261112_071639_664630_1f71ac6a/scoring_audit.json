@@ -1,0 +1,507 @@
+{
+  "protocol_version": "fixed-calendar-seed-h48-v1.0.0",
+  "split": "validation",
+  "fixed_eligible_by_horizon": {
+    "3": 2531,
+    "6": 2530,
+    "12": 2528,
+    "24": 2524,
+    "36": 2520,
+    "48": 2516
+  },
+  "fixed_calendar_slots_by_horizon": {
+    "3": 2920,
+    "6": 2920,
+    "12": 2920,
+    "24": 2920,
+    "36": 2920,
+    "48": 2920
+  },
+  "rows_selected_using_predictions": false,
+  "model_prediction_intersection_used": false,
+  "negative_prediction_rule": "clip each scored forecast at zero; count per run and horizon",
+  "seed_score_summary_is_not_prediction_ensemble": true,
+  "ensemble_rule": "raw-unit arithmetic mean, then nonnegative clip",
+  "hac_default": "max(horizon/3-1,0), Bartlett, exact elapsed-time slots, gaps retained",
+  "hac_lag_override": null,
+  "bootstrap": "moving 7-day=56 calendar-slot blocks; gaps remain inside blocks",
+  "bootstrap_reps": 1000,
+  "bootstrap_seed": 0,
+  "holm_family": "all finite p-values in this declared scoring invocation (all included horizons/runs/pairs)",
+  "test_guard": false,
+  "does_not_train_models": true,
+  "inference_caveat": "Overlap minimum HAC lag need not capture all additional serial dependence; predeclare lag/block sensitivity, do not tune on significance.",
+  "written_kst": "2026-11-12T07:16:43.565695+09:00",
+  "grid_path": "/workspace/TSA/Model/DCRNN/VastAI_M1_M4T_H48_20261111/Cache/evaluation/h48_c9d648da5e7ea26e9b0a/evaluation_grid.parquet",
+  "grid_sha256": "e1ed0a6434e0679e7c445979a7632e0d8365c7c7a9c2a501190f4483c7f5e9d0",
+  "prediction_sources": [
+    {
+      "path": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M1/20261112_003126_560548_ca827404/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "3c916cd4c8a170b3abc5de5faf5576b93b765cc552e3c7dee8a50c4bc2dd6929",
+      "sidecar": {
+        "model_family": "DCRNN",
+        "input_condition": "M1",
+        "seeds": [
+          11
+        ],
+        "data_version": "19c47e7eb15c2073a91291bd7c03bec04d7d270a918e80070004a37913a49421",
+        "training_configuration": {
+          "model_family": "DCRNN",
+          "experiment_bundle": "dcrnn-vast-m1-m4t-h48-v1",
+          "input_condition": "M1",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 0.001,
+          "weight_decay": 0.0,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "plateau",
+          "lr_patience": 3,
+          "lr_gamma": 0.5,
+          "min_learning_rate": 1e-05,
+          "max_grad_norm": 5.0,
+          "selection_horizon": 6,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "hidden_dim": 64,
+            "diffusion_steps": 2,
+            "dropout": 0.0,
+            "num_layers": 2,
+            "use_curriculum_learning": true,
+            "cl_decay_steps": 200.0,
+            "decoder_start": "zeros"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "preserved_seq2seq",
+          "bootstrap_reps": 1000,
+          "training_profile": "recommended_h48_tau200_plateau",
+          "evaluation_grid_path": "/workspace/TSA/Model/DCRNN/VastAI_M1_M4T_H48_20261111/Cache/evaluation/h48_c9d648da5e7ea26e9b0a/evaluation_grid.parquet",
+          "evaluation_grid_sha256": "e1ed0a6434e0679e7c445979a7632e0d8365c7c7a9c2a501190f4483c7f5e9d0",
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M1/20261112_003126_560548_ca827404",
+          "resume_source_run": null,
+          "execution_id": "20261112_003126_560548_ca827404",
+          "data_signature": "19c47e7eb15c2073a91291bd7c03bec04d7d270a918e80070004a37913a49421"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "3c916cd4c8a170b3abc5de5faf5576b93b765cc552e3c7dee8a50c4bc2dd6929",
+        "split": "validation"
+      }
+    },
+    {
+      "path": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M2/20261112_014136_019069_5e8056cb/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "f3688ba4f2dee508d8d64b1702cedf7ee515ebc9c62a38dcdee35b4ef1e120eb",
+      "sidecar": {
+        "model_family": "DCRNN",
+        "input_condition": "M2",
+        "seeds": [
+          11
+        ],
+        "data_version": "3132b1171ab9e4b77dd6f0ecfd79be3604fbe21a2765255fc19e213db2287ecd",
+        "training_configuration": {
+          "model_family": "DCRNN",
+          "experiment_bundle": "dcrnn-vast-m1-m4t-h48-v1",
+          "input_condition": "M2",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 0.001,
+          "weight_decay": 0.0,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "plateau",
+          "lr_patience": 3,
+          "lr_gamma": 0.5,
+          "min_learning_rate": 1e-05,
+          "max_grad_norm": 5.0,
+          "selection_horizon": 6,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "hidden_dim": 64,
+            "diffusion_steps": 2,
+            "dropout": 0.0,
+            "num_layers": 2,
+            "use_curriculum_learning": true,
+            "cl_decay_steps": 200.0,
+            "decoder_start": "zeros"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "preserved_seq2seq",
+          "bootstrap_reps": 1000,
+          "training_profile": "recommended_h48_tau200_plateau",
+          "evaluation_grid_path": "/workspace/TSA/Model/DCRNN/VastAI_M1_M4T_H48_20261111/Cache/evaluation/h48_c9d648da5e7ea26e9b0a/evaluation_grid.parquet",
+          "evaluation_grid_sha256": "e1ed0a6434e0679e7c445979a7632e0d8365c7c7a9c2a501190f4483c7f5e9d0",
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M2/20261112_014136_019069_5e8056cb",
+          "resume_source_run": null,
+          "execution_id": "20261112_014136_019069_5e8056cb",
+          "data_signature": "3132b1171ab9e4b77dd6f0ecfd79be3604fbe21a2765255fc19e213db2287ecd"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "f3688ba4f2dee508d8d64b1702cedf7ee515ebc9c62a38dcdee35b4ef1e120eb",
+        "split": "validation"
+      }
+    },
+    {
+      "path": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M3/20261112_030823_542407_4a6535ef/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "195b16d8d8350f622f6f895e25730f2f83f1740d60c6f3fdee4cb3dbfbaae505",
+      "sidecar": {
+        "model_family": "DCRNN",
+        "input_condition": "M3",
+        "seeds": [
+          11
+        ],
+        "data_version": "03a8ecb93875409a9e554283d5c1ac228b4de8fbb4c4e47ec2b625cbaa0fef3a",
+        "training_configuration": {
+          "model_family": "DCRNN",
+          "experiment_bundle": "dcrnn-vast-m1-m4t-h48-v1",
+          "input_condition": "M3",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 0.001,
+          "weight_decay": 0.0,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "plateau",
+          "lr_patience": 3,
+          "lr_gamma": 0.5,
+          "min_learning_rate": 1e-05,
+          "max_grad_norm": 5.0,
+          "selection_horizon": 6,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "hidden_dim": 64,
+            "diffusion_steps": 2,
+            "dropout": 0.0,
+            "num_layers": 2,
+            "use_curriculum_learning": true,
+            "cl_decay_steps": 200.0,
+            "decoder_start": "zeros"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "preserved_seq2seq",
+          "bootstrap_reps": 1000,
+          "training_profile": "recommended_h48_tau200_plateau",
+          "evaluation_grid_path": "/workspace/TSA/Model/DCRNN/VastAI_M1_M4T_H48_20261111/Cache/evaluation/h48_c9d648da5e7ea26e9b0a/evaluation_grid.parquet",
+          "evaluation_grid_sha256": "e1ed0a6434e0679e7c445979a7632e0d8365c7c7a9c2a501190f4483c7f5e9d0",
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M3/20261112_030823_542407_4a6535ef",
+          "resume_source_run": null,
+          "execution_id": "20261112_030823_542407_4a6535ef",
+          "data_signature": "03a8ecb93875409a9e554283d5c1ac228b4de8fbb4c4e47ec2b625cbaa0fef3a"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "195b16d8d8350f622f6f895e25730f2f83f1740d60c6f3fdee4cb3dbfbaae505",
+        "split": "validation"
+      }
+    },
+    {
+      "path": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M4/20261112_042737_919977_b92f28a6/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "538f634b9127f2eafd651eb8e0923ca06edd1e4ef7db78e022103b0a12934846",
+      "sidecar": {
+        "model_family": "DCRNN",
+        "input_condition": "M4",
+        "seeds": [
+          11
+        ],
+        "data_version": "347f62a0e492120ad08e6c4b31e87ff9f64097f75a63ef529cc38222bad873d7",
+        "training_configuration": {
+          "model_family": "DCRNN",
+          "experiment_bundle": "dcrnn-vast-m1-m4t-h48-v1",
+          "input_condition": "M4",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 0.001,
+          "weight_decay": 0.0,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "plateau",
+          "lr_patience": 3,
+          "lr_gamma": 0.5,
+          "min_learning_rate": 1e-05,
+          "max_grad_norm": 5.0,
+          "selection_horizon": 6,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "hidden_dim": 64,
+            "diffusion_steps": 2,
+            "dropout": 0.0,
+            "num_layers": 2,
+            "use_curriculum_learning": true,
+            "cl_decay_steps": 200.0,
+            "decoder_start": "zeros"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "preserved_seq2seq",
+          "bootstrap_reps": 1000,
+          "training_profile": "recommended_h48_tau200_plateau",
+          "evaluation_grid_path": "/workspace/TSA/Model/DCRNN/VastAI_M1_M4T_H48_20261111/Cache/evaluation/h48_c9d648da5e7ea26e9b0a/evaluation_grid.parquet",
+          "evaluation_grid_sha256": "e1ed0a6434e0679e7c445979a7632e0d8365c7c7a9c2a501190f4483c7f5e9d0",
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M4/20261112_042737_919977_b92f28a6",
+          "resume_source_run": null,
+          "execution_id": "20261112_042737_919977_b92f28a6",
+          "data_signature": "347f62a0e492120ad08e6c4b31e87ff9f64097f75a63ef529cc38222bad873d7"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "538f634b9127f2eafd651eb8e0923ca06edd1e4ef7db78e022103b0a12934846",
+        "split": "validation"
+      }
+    },
+    {
+      "path": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M3T/20261112_052749_444764_451ad383/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "01708c7b1ae50f1e5b8df44096ee31418956f7fc9a5c958718f36512149f4a6a",
+      "sidecar": {
+        "model_family": "DCRNN",
+        "input_condition": "M3T",
+        "seeds": [
+          11
+        ],
+        "data_version": "3120012817cec6c8270ec57a4becae925a37a0531de930125fb4c0878a1a7b73",
+        "training_configuration": {
+          "model_family": "DCRNN",
+          "experiment_bundle": "dcrnn-vast-m1-m4t-h48-v1",
+          "input_condition": "M3T",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 0.001,
+          "weight_decay": 0.0,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "plateau",
+          "lr_patience": 3,
+          "lr_gamma": 0.5,
+          "min_learning_rate": 1e-05,
+          "max_grad_norm": 5.0,
+          "selection_horizon": 6,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "hidden_dim": 64,
+            "diffusion_steps": 2,
+            "dropout": 0.0,
+            "num_layers": 2,
+            "use_curriculum_learning": true,
+            "cl_decay_steps": 200.0,
+            "decoder_start": "zeros"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "preserved_seq2seq",
+          "bootstrap_reps": 1000,
+          "training_profile": "recommended_h48_tau200_plateau",
+          "evaluation_grid_path": "/workspace/TSA/Model/DCRNN/VastAI_M1_M4T_H48_20261111/Cache/evaluation/h48_c9d648da5e7ea26e9b0a/evaluation_grid.parquet",
+          "evaluation_grid_sha256": "e1ed0a6434e0679e7c445979a7632e0d8365c7c7a9c2a501190f4483c7f5e9d0",
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M3T/20261112_052749_444764_451ad383",
+          "resume_source_run": null,
+          "execution_id": "20261112_052749_444764_451ad383",
+          "data_signature": "3120012817cec6c8270ec57a4becae925a37a0531de930125fb4c0878a1a7b73"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "01708c7b1ae50f1e5b8df44096ee31418956f7fc9a5c958718f36512149f4a6a",
+        "split": "validation"
+      }
+    },
+    {
+      "path": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M4T/20261112_062203_791477_db0ae1f8/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "7eeef401d2a1ffa7453c6eb5c3804a3931a322977cd65ba0f0ebd9d68d37363e",
+      "sidecar": {
+        "model_family": "DCRNN",
+        "input_condition": "M4T",
+        "seeds": [
+          11
+        ],
+        "data_version": "44a8d1882b731b373196bf67277921c14718cac5de5306b679bb5b752edbfd46",
+        "training_configuration": {
+          "model_family": "DCRNN",
+          "experiment_bundle": "dcrnn-vast-m1-m4t-h48-v1",
+          "input_condition": "M4T",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 0.001,
+          "weight_decay": 0.0,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "plateau",
+          "lr_patience": 3,
+          "lr_gamma": 0.5,
+          "min_learning_rate": 1e-05,
+          "max_grad_norm": 5.0,
+          "selection_horizon": 6,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "hidden_dim": 64,
+            "diffusion_steps": 2,
+            "dropout": 0.0,
+            "num_layers": 2,
+            "use_curriculum_learning": true,
+            "cl_decay_steps": 200.0,
+            "decoder_start": "zeros"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "preserved_seq2seq",
+          "bootstrap_reps": 1000,
+          "training_profile": "recommended_h48_tau200_plateau",
+          "evaluation_grid_path": "/workspace/TSA/Model/DCRNN/VastAI_M1_M4T_H48_20261111/Cache/evaluation/h48_c9d648da5e7ea26e9b0a/evaluation_grid.parquet",
+          "evaluation_grid_sha256": "e1ed0a6434e0679e7c445979a7632e0d8365c7c7a9c2a501190f4483c7f5e9d0",
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M4T/20261112_062203_791477_db0ae1f8",
+          "resume_source_run": null,
+          "execution_id": "20261112_062203_791477_db0ae1f8",
+          "data_signature": "44a8d1882b731b373196bf67277921c14718cac5de5306b679bb5b752edbfd46"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "7eeef401d2a1ffa7453c6eb5c3804a3931a322977cd65ba0f0ebd9d68d37363e",
+        "split": "validation"
+      }
+    }
+  ]
+}

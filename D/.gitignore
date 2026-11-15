@@ -1,0 +1,12 @@
+runtime/Dataset/
+runtime/Result/
+runtime/**/Cache/
+runtime/**/Environment/
+runtime/**/.venv/
+runtime/**/__pycache__/
+*.pyc
+.env
+.env.*
+rclone.conf
+*.pem
+*.key

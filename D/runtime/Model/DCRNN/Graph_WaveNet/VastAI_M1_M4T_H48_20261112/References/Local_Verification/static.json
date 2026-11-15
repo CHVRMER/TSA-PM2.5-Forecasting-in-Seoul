@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "static_checks": 14,
+  "failures": 0,
+  "errors": 0,
+  "model_sha256": "4e92391994ba55ef87d63388ab0d52bbb8f77ea2a8a424c89c21a7d5fe895bd4",
+  "horizons": [
+    3,
+    6,
+    12,
+    24,
+    36,
+    48
+  ],
+  "receptive_field_hours": 61,
+  "output_steps": 48,
+  "numerical_forward_backward_tested": false,
+  "checkpoint_tensor_roundtrip_tested": false,
+  "gpu_training_tested": false,
+  "next_step": "Run verify_gwn_runtime.py in the prepared server PyTorch environment."
+}

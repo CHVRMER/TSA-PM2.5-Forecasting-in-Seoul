@@ -1,0 +1,203 @@
+{
+  "source_archive": "C:\\Users\\kimjy\\Downloads\\Regional12_Seed11_20261109-20261110T090404Z-1-001.zip",
+  "grid": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Evaluation_Contract_20261107\\evaluation_grid.parquet",
+  "scorer": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\score.py",
+  "scorer_sha256": "f231dfe9a15fa3f8e8577ef076b0efce7f92af3846d49bc60c7742d5aad8a755",
+  "review_only_not_original_completed_12_condition_family": true,
+  "sources": {
+    "validation": {
+      "ADD_CN_BTH": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_BTH/DCRNN/full/20261109_224735_777800_a50617cd/Training/20261109_224735_830437_1481d01e/Exports/validation_predictions_by_seed.parquet",
+        "sha256": "7ad281f2c9778576fdac920927d1d14eaec7f571b44fe9147c47274140dd8794",
+        "rows": 11680
+      },
+      "ADD_CN_HEILONGJIANG": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_HEILONGJIANG/DCRNN/full/20261110_051214_105188_a6aa6279/Training/20261110_051214_952148_e9e41388/Exports/validation_predictions_by_seed.parquet",
+        "sha256": "dcb6b65b46af902d7f3bf7ea0afc1fc047662e5ccbc456cf0cef437861073a28",
+        "rows": 11680
+      },
+      "ADD_CN_INNER_MONGOLIA": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_INNER_MONGOLIA/DCRNN/full/20261110_063141_093529_a611dc9c/Training/20261110_063141_920736_9e9c0f11/Exports/validation_predictions_by_seed.parquet",
+        "sha256": "e62547e7efabd2abfef715d163d0a37c9e685cb946bff8d1fb4963573830c8e5",
+        "rows": 11680
+      },
+      "ADD_CN_JILIN": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_JILIN/DCRNN/full/20261110_024200_149857_fec38df9/Training/20261110_024203_074959_83f25a83/Exports/validation_predictions_by_seed.parquet",
+        "sha256": "d8085fc41f9d4036bae48b9ee79bd0bfff82534545a5de65d9bc06de83e85def",
+        "rows": 11680
+      },
+      "ADD_CN_LIAONING": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_LIAONING/DCRNN/full/20261110_015452_544000_7ececdb3/Training/20261110_015452_591932_cddd0a8b/Exports/validation_predictions_by_seed.parquet",
+        "sha256": "b0a2c89c1d569d048a9ea430a831ac415580386e9a296abce0a1753dec29505c",
+        "rows": 11680
+      },
+      "ADD_CN_OTHER": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_OTHER/DCRNN/full/20261110_092412_040119_1e703ad2/Training/20261110_092412_069566_3376cb15/Exports/validation_predictions_by_seed.parquet",
+        "sha256": "49c6027f5d1d46c39a3fe2b27c4abe6d21b20e5605b805260e84a8ba28d6c4d5",
+        "rows": 11680
+      },
+      "ADD_CN_SHANDONG": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_SHANDONG/DCRNN/full/20261109_185723_640729_afe2f398/Training/20261109_185723_673715_46f27fec/Exports/validation_predictions_by_seed.parquet",
+        "sha256": "235ce5956a8c6c72cfc7856e91c280bb3211cbccdc46f41a9b107ad47a099a5d",
+        "rows": 11680
+      },
+      "ADD_JP_EAST": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_JP_EAST/DCRNN/full/20261110_113712_579417_2449ec5a/Training/20261110_113713_222017_44a187fd/Exports/validation_predictions_by_seed.parquet",
+        "sha256": "6ccd887eb08f512d495962cab4ddfc299e1065bf21262853416399e38476f3e1",
+        "rows": 11680
+      },
+      "ADD_JP_WEST": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_JP_WEST/DCRNN/full/20261110_101757_811778_88549b50/Training/20261110_101758_880060_44c6d388/Exports/validation_predictions_by_seed.parquet",
+        "sha256": "a9cc5b6f1a0bc5411912a33389f8da26410174a829f027a37f4c0cda7962cfe9",
+        "rows": 11680
+      },
+      "DN": {
+        "path": "Regional12_Seed11_20261109/Jobs/DN/DCRNN/full/20261109_100522_407529_80d6fdeb/Training/20261109_100532_946023_5580d655/Exports/validation_predictions_by_seed.parquet",
+        "sha256": "650f509414f459a9d1e0b2ecd44e3d72e93518a6c80b975576b122c3b44b91d6",
+        "rows": 11680
+      },
+      "F": {
+        "path": "Regional12_Seed11_20261109/Jobs/F/DCRNN/full/20261109_124426_736220_fbbcd99e/Training/20261109_124427_531225_0da133aa/Exports/validation_predictions_by_seed.parquet",
+        "sha256": "76f079d309c9bf8a1daf477f3f8e3f3e3a156817776256a4944e77577cfb9a87",
+        "rows": 11680
+      }
+    },
+    "test": {
+      "ADD_CN_BTH": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_BTH/DCRNN/full/20261109_224735_777800_a50617cd/Training/20261109_224735_830437_1481d01e/Exports/test_predictions_by_seed.parquet",
+        "sha256": "80c270840262573f9d6ca958a55fd70dfdf8124a2ba3e78d4888650583201835",
+        "rows": 11712
+      },
+      "ADD_CN_HEILONGJIANG": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_HEILONGJIANG/DCRNN/full/20261110_051214_105188_a6aa6279/Training/20261110_051214_952148_e9e41388/Exports/test_predictions_by_seed.parquet",
+        "sha256": "9863cb698742629ff53241426d872cff16a6f354f17dac6d0e5593e11cf30d7b",
+        "rows": 11712
+      },
+      "ADD_CN_INNER_MONGOLIA": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_INNER_MONGOLIA/DCRNN/full/20261110_063141_093529_a611dc9c/Training/20261110_063141_920736_9e9c0f11/Exports/test_predictions_by_seed.parquet",
+        "sha256": "28b00b57e0f2c02198f4634a74ce6cf9302d53a5aabd797ef069e6ec50988de4",
+        "rows": 11712
+      },
+      "ADD_CN_JILIN": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_JILIN/DCRNN/full/20261110_024200_149857_fec38df9/Training/20261110_024203_074959_83f25a83/Exports/test_predictions_by_seed.parquet",
+        "sha256": "d422ee9c0e5d7a21a22e9951932122ca53ee29b5613ed929c9c25cfd72cb4cae",
+        "rows": 11712
+      },
+      "ADD_CN_LIAONING": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_LIAONING/DCRNN/full/20261110_015452_544000_7ececdb3/Training/20261110_015452_591932_cddd0a8b/Exports/test_predictions_by_seed.parquet",
+        "sha256": "9ce6813ed71a1b28370c30ee007f7dd1979007b50a85812fd8acab79e9a953ce",
+        "rows": 11712
+      },
+      "ADD_CN_OTHER": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_OTHER/DCRNN/full/20261110_092412_040119_1e703ad2/Training/20261110_092412_069566_3376cb15/Exports/test_predictions_by_seed.parquet",
+        "sha256": "c093d68611b2a9a4c5b390dc0d88353e0d319d98096e2dc38fdb72a9bb1a80e1",
+        "rows": 11712
+      },
+      "ADD_CN_SHANDONG": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_CN_SHANDONG/DCRNN/full/20261109_185723_640729_afe2f398/Training/20261109_185723_673715_46f27fec/Exports/test_predictions_by_seed.parquet",
+        "sha256": "d45b60e923e0a4a217df9c39c6bb5c23bd34b0600b3c50e47bc6a0e1571fecf1",
+        "rows": 11712
+      },
+      "ADD_JP_EAST": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_JP_EAST/DCRNN/full/20261110_113712_579417_2449ec5a/Training/20261110_113713_222017_44a187fd/Exports/test_predictions_by_seed.parquet",
+        "sha256": "5faca0cce67dd648a862cff0fb58fd1375d6f655f089a6918cfcc7ec65c9cd75",
+        "rows": 11712
+      },
+      "ADD_JP_WEST": {
+        "path": "Regional12_Seed11_20261109/Jobs/ADD_JP_WEST/DCRNN/full/20261110_101757_811778_88549b50/Training/20261110_101758_880060_44c6d388/Exports/test_predictions_by_seed.parquet",
+        "sha256": "396030223a28d02214e52c13704bdd785585e88fafa88f556eafee2c9d5d9c61",
+        "rows": 11712
+      },
+      "DN": {
+        "path": "Regional12_Seed11_20261109/Jobs/DN/DCRNN/full/20261109_100522_407529_80d6fdeb/Training/20261109_100532_946023_5580d655/Exports/test_predictions_by_seed.parquet",
+        "sha256": "a7785966111da6fd67dd874ea98a5ef3bd12f7014a3cc6f262e9d9cb0414ab94",
+        "rows": 11712
+      },
+      "F": {
+        "path": "Regional12_Seed11_20261109/Jobs/F/DCRNN/full/20261109_124426_736220_fbbcd99e/Training/20261109_124427_531225_0da133aa/Exports/test_predictions_by_seed.parquet",
+        "sha256": "b5a2447c01355f13441ad6afe4e4715751152f58e9ac0c4d2c1cdc0088c3af5d",
+        "rows": 11712
+      }
+    }
+  },
+  "comparisons": {
+    "validation": {
+      "protocol_version": "fixed-calendar-seed-v1.0.0",
+      "split": "validation",
+      "fixed_eligible_by_horizon": {
+        "3": 2531,
+        "6": 2530,
+        "12": 2528,
+        "24": 2524
+      },
+      "fixed_calendar_slots_by_horizon": {
+        "3": 2920,
+        "6": 2920,
+        "12": 2920,
+        "24": 2920
+      },
+      "rows_selected_using_predictions": false,
+      "model_prediction_intersection_used": false,
+      "negative_prediction_rule": "clip each scored forecast at zero; count per run and horizon",
+      "seed_score_summary_is_not_prediction_ensemble": true,
+      "ensemble_rule": "raw-unit arithmetic mean, then nonnegative clip",
+      "hac_default": "max(horizon/3-1,0), Bartlett, exact elapsed-time slots, gaps retained",
+      "hac_lag_override": null,
+      "bootstrap": "moving 7-day=56 calendar-slot blocks; gaps remain inside blocks",
+      "bootstrap_reps": 1000,
+      "bootstrap_seed": 0,
+      "holm_family": "all finite p-values in this declared scoring invocation (all included horizons/runs/pairs)",
+      "test_guard": false,
+      "does_not_train_models": true,
+      "inference_caveat": "Overlap minimum HAC lag need not capture all additional serial dependence; predeclare lag/block sensitivity, do not tune on significance.",
+      "observed_score_family_count": 88,
+      "regional_declared_family": 44,
+      "regional_missing_MN_tests": 4,
+      "joint_common_declared_family": 96,
+      "joint_missing_MN_tests": 8,
+      "missing_p_placeholder": 1.0,
+      "regional_improvements_planned44": 24,
+      "all_improvements_planned96": 29,
+      "negative_clipped_total": 397
+    },
+    "test": {
+      "protocol_version": "fixed-calendar-seed-v1.0.0",
+      "split": "test",
+      "fixed_eligible_by_horizon": {
+        "3": 2874,
+        "6": 2873,
+        "12": 2871,
+        "24": 2867
+      },
+      "fixed_calendar_slots_by_horizon": {
+        "3": 2928,
+        "6": 2928,
+        "12": 2928,
+        "24": 2928
+      },
+      "rows_selected_using_predictions": false,
+      "model_prediction_intersection_used": false,
+      "negative_prediction_rule": "clip each scored forecast at zero; count per run and horizon",
+      "seed_score_summary_is_not_prediction_ensemble": true,
+      "ensemble_rule": "raw-unit arithmetic mean, then nonnegative clip",
+      "hac_default": "max(horizon/3-1,0), Bartlett, exact elapsed-time slots, gaps retained",
+      "hac_lag_override": null,
+      "bootstrap": "moving 7-day=56 calendar-slot blocks; gaps remain inside blocks",
+      "bootstrap_reps": 1000,
+      "bootstrap_seed": 0,
+      "holm_family": "all finite p-values in this declared scoring invocation (all included horizons/runs/pairs)",
+      "test_guard": true,
+      "does_not_train_models": true,
+      "inference_caveat": "Overlap minimum HAC lag need not capture all additional serial dependence; predeclare lag/block sensitivity, do not tune on significance.",
+      "observed_score_family_count": 88,
+      "regional_declared_family": 44,
+      "regional_missing_MN_tests": 4,
+      "joint_common_declared_family": 96,
+      "joint_missing_MN_tests": 8,
+      "missing_p_placeholder": 1.0,
+      "regional_improvements_planned44": 28,
+      "all_improvements_planned96": 45,
+      "negative_clipped_total": 2450
+    }
+  }
+}

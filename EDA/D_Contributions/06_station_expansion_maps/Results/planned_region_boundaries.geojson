@@ -1,0 +1,123 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "China East",
+        "color": "#1f77b4",
+        "legend": "Planned China East area",
+        "later_added_series_count": 16,
+        "boundary_kind": "original manually drawn selection outline; not administrative boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.6,
+              36.3
+            ],
+            [
+              118.8,
+              36.0
+            ],
+            [
+              119.6,
+              34.6
+            ],
+            [
+              120.4,
+              32.2
+            ],
+            [
+              120.6,
+              29.5
+            ],
+            [
+              118.8,
+              29.5
+            ],
+            [
+              117.4,
+              31.4
+            ],
+            [
+              116.3,
+              33.0
+            ],
+            [
+              115.6,
+              34.6
+            ],
+            [
+              115.8,
+              35.8
+            ],
+            [
+              116.6,
+              36.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Japan East",
+        "color": "#00a0b0",
+        "legend": "Planned Japan East area",
+        "later_added_series_count": 18,
+        "boundary_kind": "original manually drawn selection outline; not administrative boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              135.4,
+              34.4
+            ],
+            [
+              137.5,
+              34.4
+            ],
+            [
+              139.7,
+              35.2
+            ],
+            [
+              139.9,
+              35.6
+            ],
+            [
+              140.7,
+              38.2
+            ],
+            [
+              141.0,
+              40.0
+            ],
+            [
+              139.1,
+              38.6
+            ],
+            [
+              137.5,
+              37.0
+            ],
+            [
+              135.9,
+              35.4
+            ],
+            [
+              135.4,
+              34.4
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

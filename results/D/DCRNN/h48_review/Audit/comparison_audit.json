@@ -1,0 +1,200 @@
+{
+  "method": "Exploratory post-hoc cross-run comparisons, not a confirmatory 2024 test. Exact fixed eligible rows; no intersection dropping. Squared-loss DM with original max(h/3-1,0) calendar HAC; 1000 moving 7-day calendar block draws, seed0. Holm12 within each split; Holm24 sensitivity across both splits.",
+  "declared_pairs": [
+    [
+      "new_DCRNN_M1",
+      "old_GWN_M1"
+    ],
+    [
+      "new_DCRNN_M4",
+      "old_GWN_M4"
+    ],
+    [
+      "new_DCRNN_M4",
+      "old_DCRNN_F"
+    ]
+  ],
+  "scorer": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\DCRNN_H48_20261111\\score.py",
+  "scorer_sha256": "10dfb6644d888a64b0b86cda13a5067b2353ae4ee8e8d7afc3e9ed58d53fad8c",
+  "grid": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Evaluation_Contract_20261107\\evaluation_grid.parquet",
+  "grid_sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db",
+  "sources": {
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Common_Scoring\\Combined\\validation\\20261112_071639_664630_1f71ac6a\\score_rows.parquet": {
+      "bytes": 3423763,
+      "sha256": "6b4fc995eb995ab7c608958d5706d248e5876c893833bdd35fbcf2d31233a33d"
+    },
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\gwn_results_review_20261111\\selected_results\\Common_Scoring\\Combined\\validation\\20261111_043520_212385_814a11f0\\score_rows.parquet": {
+      "bytes": 2388949,
+      "sha256": "5e918cb1339d186ccdf0b362473d7913b022d1ae3796c880fecafe12dcbd9e1d"
+    },
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Common_Scoring\\Combined\\validation\\20261112_071639_664630_1f71ac6a\\metrics.csv": {
+      "bytes": 16590,
+      "sha256": "30167202ed894efccdbab66100edc4037e4b6885fa3900d48ec2289f80678392"
+    },
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\gwn_results_review_20261111\\selected_results\\Common_Scoring\\Combined\\validation\\20261111_043520_212385_814a11f0\\metrics.csv": {
+      "bytes": 11723,
+      "sha256": "bc09c844892e1f9bb089021f2ae62c5ce85878594f7e752a51b89849201ea275"
+    },
+    "old_DCRNN_F_validation": {
+      "archive": "C:\\Users\\kimjy\\Downloads\\Regional12_Seed11_20261109-20261110T090404Z-1-001.zip",
+      "member": "Regional12_Seed11_20261109/Jobs/F/DCRNN/full/20261109_124426_736220_fbbcd99e/Training/20261109_124427_531225_0da133aa/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "76f079d309c9bf8a1daf477f3f8e3f3e3a156817776256a4944e77577cfb9a87"
+    },
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Common_Scoring\\Combined\\test\\20261112_071643_599025_364259e5\\score_rows.parquet": {
+      "bytes": 4599366,
+      "sha256": "196b3f2534b7a9f706fb44b65d661851f3e524caa6a63e0c216d06f29f84eb63"
+    },
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\gwn_results_review_20261111\\selected_results\\Common_Scoring\\Combined\\test\\20261111_043522_824994_2d5748a8\\score_rows.parquet": {
+      "bytes": 3096499,
+      "sha256": "2b99610be57144d421ba39ca8d7d31d9e56693950aa38474b3760afd6ad4aebb"
+    },
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Common_Scoring\\Combined\\test\\20261112_071643_599025_364259e5\\metrics.csv": {
+      "bytes": 16245,
+      "sha256": "397e7d55da3eccc493fa831a337edd2120a1f9a183de07ac757a3a712b812962"
+    },
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\gwn_results_review_20261111\\selected_results\\Common_Scoring\\Combined\\test\\20261111_043522_824994_2d5748a8\\metrics.csv": {
+      "bytes": 11493,
+      "sha256": "77fd84133f9054ce7a3d983842c26803cfd5aa5f1f07c20b440a3fe38f146332"
+    },
+    "old_DCRNN_F_test": {
+      "archive": "C:\\Users\\kimjy\\Downloads\\Regional12_Seed11_20261109-20261110T090404Z-1-001.zip",
+      "member": "Regional12_Seed11_20261109/Jobs/F/DCRNN/full/20261109_124426_736220_fbbcd99e/Training/20261109_124427_531225_0da133aa/Exports/test_predictions_by_seed.parquet",
+      "sha256": "b5a2447c01355f13441ad6afe4e4715751152f58e9ac0c4d2c1cdc0088c3af5d"
+    }
+  },
+  "checks": {
+    "new_DCRNN_M1_vs_old_GWN_M1_candidate_validation": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2531,
+        "6": 2530,
+        "12": 2528,
+        "24": 2524
+      }
+    },
+    "new_DCRNN_M1_vs_old_GWN_M1_reference_validation": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2531,
+        "6": 2530,
+        "12": 2528,
+        "24": 2524
+      }
+    },
+    "new_DCRNN_M4_vs_old_GWN_M4_candidate_validation": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2531,
+        "6": 2530,
+        "12": 2528,
+        "24": 2524
+      }
+    },
+    "new_DCRNN_M4_vs_old_GWN_M4_reference_validation": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2531,
+        "6": 2530,
+        "12": 2528,
+        "24": 2524
+      }
+    },
+    "new_DCRNN_M4_vs_old_DCRNN_F_candidate_validation": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2531,
+        "6": 2530,
+        "12": 2528,
+        "24": 2524
+      }
+    },
+    "new_DCRNN_M4_vs_old_DCRNN_F_reference_validation": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2531,
+        "6": 2530,
+        "12": 2528,
+        "24": 2524
+      }
+    },
+    "new_DCRNN_M1_vs_old_GWN_M1_candidate_test": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2874,
+        "6": 2873,
+        "12": 2871,
+        "24": 2867
+      }
+    },
+    "new_DCRNN_M1_vs_old_GWN_M1_reference_test": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2874,
+        "6": 2873,
+        "12": 2871,
+        "24": 2867
+      }
+    },
+    "new_DCRNN_M4_vs_old_GWN_M4_candidate_test": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2874,
+        "6": 2873,
+        "12": 2871,
+        "24": 2867
+      }
+    },
+    "new_DCRNN_M4_vs_old_GWN_M4_reference_test": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2874,
+        "6": 2873,
+        "12": 2871,
+        "24": 2867
+      }
+    },
+    "new_DCRNN_M4_vs_old_DCRNN_F_candidate_test": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2874,
+        "6": 2873,
+        "12": 2871,
+        "24": 2867
+      }
+    },
+    "new_DCRNN_M4_vs_old_DCRNN_F_reference_test": {
+      "fixed_rows_exact": true,
+      "truth_exact": true,
+      "target_times_exact": true,
+      "n_by_horizon": {
+        "3": 2874,
+        "6": 2873,
+        "12": 2871,
+        "24": 2867
+      }
+    }
+  },
+  "interpretation_limit": "Cross-run performance comparisons change architecture/graph, context, training recipe and number of output horizons; they cannot isolate the cause of differences. Previous 2024 results have already been inspected."
+}

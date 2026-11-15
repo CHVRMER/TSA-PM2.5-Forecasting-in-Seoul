@@ -1,0 +1,121 @@
+{
+  "schema_version": "dcrnn-vast-m1-m4t-h48-checkpoint-v1",
+  "data": {
+    "lookback_hours": 48,
+    "near_china_km": 600,
+    "trajectory_radius_km": 75,
+    "trajectory_sigma_km": 50
+  },
+  "execution": {
+    "conditions": [
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M3T",
+      "M4T"
+    ],
+    "seeds": [
+      11
+    ],
+    "forecast_horizons": [
+      3,
+      6,
+      12,
+      24,
+      36,
+      48
+    ]
+  },
+  "model": {
+    "architecture_profile": "preserved_seq2seq",
+    "graph": "trajectory_directed",
+    "hidden_dim": 64,
+    "num_layers": 2,
+    "diffusion_steps": 2,
+    "dropout": 0.0,
+    "use_curriculum_learning": true,
+    "cl_decay_steps": 200.0,
+    "decoder_start": "zeros"
+  },
+  "training": {
+    "training_profile": "recommended_h48_tau200_plateau",
+    "max_epochs": 50,
+    "patience": 10,
+    "micro_batch_size": 8,
+    "effective_batch_size": 64,
+    "eval_batch_size": 8,
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "optimizer_epsilon": 0.001,
+    "weight_decay": 0.0,
+    "exclude_bias_norm_from_decay": false,
+    "scheduler": "plateau",
+    "lr_gamma": 0.5,
+    "min_learning_rate": 1e-05,
+    "max_grad_norm": 5.0,
+    "loss": "mae_original",
+    "min_delta": 0.0,
+    "use_amp": false,
+    "lr_patience": 3,
+    "selection_horizon": 6
+  },
+  "pilot": {
+    "epochs": 2,
+    "max_train_origins": 64,
+    "max_val_origins": 32,
+    "max_train_batches": 8
+  },
+  "scoring": {
+    "bootstrap_reps": 1000,
+    "bootstrap_seed": 0
+  },
+  "checkpoint": {
+    "snapshot_every_epochs": 5,
+    "keep_recent": 2
+  },
+  "backup": {
+    "enabled": true,
+    "required_for_full": true,
+    "backup_in_pilot": false,
+    "remote": "gdrive:Colab_Notebooks/TSA/Result/DCRNN/VastAI_H48",
+    "binary": "rclone",
+    "timeout_seconds": 600,
+    "retries": 2
+  },
+  "notes": [
+    "This is a new six-horizon experiment:3,6,12,24,36,48h. Never resume the older four-horizon or GWN checkpoints.",
+    "Preserved DCGRU encoder2/decoder2 hidden64 diffusion2 backbone; the autoregressive decoder now runs48steps and contexthead outputs6targets.",
+    "Recommended training: LR0.001, curriculum decay200, ReduceLROnPlateau factor0.5 patience3 minLR1e-5; early stopping10 maxepochs50.",
+    "Adam epsilon0.001, weight_decay0, dropout0, raw-unitMAE and48h encoder history are retained.",
+    "Primary checkpoint selection remains validation6h RMSE. A separate24h selection config is provided; all six arms must share the chosen config.",
+    "All arms keep635nodes and the same train2021-22 directed graph; PM observation masks and allowed trajectory context change only.",
+    "Target labels36/48 are exact observed Junggu values at origin+h, never imputed; crossing split/study bounds is ineligible.",
+    "Old3/6/12/24 labels, eligibility and audited baselines are preserved exactly. New36/48 seasonal baseline uses t-12h/t, never future observations.",
+    "Common score filenames and column schemas are preserved in Model/Common/DCRNN_H48_20261111; old common files are not edited.",
+    "With seed11 and all sixarms, baseline42+input7contrasts*6=84tests are corrected together. This family differs from earlier four-horizon runs.",
+    "Single seed11 does not establish training robustness. Test2024 has already been inspected in this project.",
+    "Full inference/scoring and verifiedDrivebackup follow each arm; every invocation uses a new result directory.",
+    "Default safe scope remains retrospective data availability; real reporting latency has not been reproduced."
+  ],
+  "model_resolved": {
+    "hidden_dim": 64,
+    "diffusion_steps": 2,
+    "dropout": 0.0,
+    "num_layers": 2,
+    "use_curriculum_learning": true,
+    "cl_decay_steps": 200.0,
+    "decoder_start": "zeros"
+  },
+  "selected_conditions": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M3T",
+    "M4T"
+  ],
+  "seeds_resolved": [
+    11
+  ]
+}

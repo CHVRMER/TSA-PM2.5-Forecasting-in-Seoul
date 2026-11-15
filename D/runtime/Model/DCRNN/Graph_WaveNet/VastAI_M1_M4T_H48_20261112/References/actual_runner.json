@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "actual_635_node_preparation": true,
+  "torch_imported": true,
+  "conditions": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M3T",
+    "M4T"
+  ],
+  "runner_batch": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\gwn_vast48_20261112\\verification\\actual_runner\\full\\20261112_010628_649053_c2eb614e",
+  "staged_private_common_only": true,
+  "original_data_written": false,
+  "real_model_training_executed": false,
+  "drive_accessed": false
+}

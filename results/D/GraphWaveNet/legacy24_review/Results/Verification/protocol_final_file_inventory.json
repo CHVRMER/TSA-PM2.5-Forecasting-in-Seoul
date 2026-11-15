@@ -1,0 +1,3242 @@
+[
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/batch_manifest.json",
+    "bytes": 4872,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Condition_Contracts/M4T.json",
+    "bytes": 37543,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/run_summaries.json",
+    "bytes": 3817,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/execution_protocol.json",
+    "bytes": 262,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/experiment_config.json",
+    "bytes": 2085,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/execution_status.json",
+    "bytes": 192,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/execution_status.json",
+    "bytes": 192,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/completion.json",
+    "bytes": 577,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Condition_Contracts/M3.json",
+    "bytes": 25119,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/source_contract.json",
+    "bytes": 405426,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Condition_Contracts/M1.json",
+    "bytes": 25119,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Condition_Contracts/M4.json",
+    "bytes": 25117,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/execution_status.json",
+    "bytes": 192,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Condition_Contracts/M2.json",
+    "bytes": 25119,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/backup_preflight.json",
+    "bytes": 399,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/predeclared_comparisons.json",
+    "bytes": 1037,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/execution_protocol.json",
+    "bytes": 262,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/completion.json",
+    "bytes": 579,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/experiment_config.json",
+    "bytes": 2084,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Condition_Contracts/M3T.json",
+    "bytes": 33221,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/preprocessing.json",
+    "bytes": 79191,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/preprocessing.json",
+    "bytes": 69648,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/scoring_locations.json",
+    "bytes": 375,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/execution_status.json",
+    "bytes": 192,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/resolved_configuration.json",
+    "bytes": 2827,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/preprocessing.json",
+    "bytes": 82389,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T174307799551Z_b6b187d0/verified.json",
+    "bytes": 44255,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/completion.json",
+    "bytes": 577,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/execution_protocol.json",
+    "bytes": 262,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/experiment_config.json",
+    "bytes": 2085,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/scoring_locations.json",
+    "bytes": 373,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T185938777712Z_848a12a6/verified.json",
+    "bytes": 93034,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/resume_copy_manifest.json",
+    "bytes": 3642,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/preprocessing.json",
+    "bytes": 73651,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/scoring_locations.json",
+    "bytes": 375,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/execution_status.json",
+    "bytes": 192,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/run_summaries.json",
+    "bytes": 3816,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/execution_protocol.json",
+    "bytes": 262,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/scoring_plan.json",
+    "bytes": 3588,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T191905569950Z_9dd41e7f/verified.json",
+    "bytes": 112307,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/scoring_plan.json",
+    "bytes": 3588,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/run_summaries.json",
+    "bytes": 3817,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/completion.json",
+    "bytes": 579,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T184353789313Z_801a490f/verified.json",
+    "bytes": 74734,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/completion.json",
+    "bytes": 577,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T174048043573Z_cf3b872c/verified.json",
+    "bytes": 31773,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Graphs/distance.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Graphs/distance.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/preprocessing.json",
+    "bytes": 70346,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/scoring_plan.json",
+    "bytes": 3586,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/scoring_plan.json",
+    "bytes": 3586,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T193503182655Z_0c605f75/verified.json",
+    "bytes": 127589,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/scoring_plan.json",
+    "bytes": 3586,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/scoring_locations.json",
+    "bytes": 373,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Graphs/distance.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Graphs/distance.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Exports/validation_predictions_by_seed.meta.json",
+    "bytes": 2134,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/experiment_config.json",
+    "bytes": 2084,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T170525305210Z_03ec698f/verified.json",
+    "bytes": 25382,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/scoring_plan.json",
+    "bytes": 3586,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T191522549951Z_700c0750/verified.json",
+    "bytes": 96706,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/execution_status.json",
+    "bytes": 192,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T185602433742Z_143c7477/verified.json",
+    "bytes": 77479,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/run_summaries.json",
+    "bytes": 3817,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T191704933718Z_77351d29/verified.json",
+    "bytes": 108316,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/execution_protocol.json",
+    "bytes": 262,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/experiment_config.json",
+    "bytes": 2084,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Graphs/distance.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T172533734653Z_dac1c976/verified.json",
+    "bytes": 29034,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/preprocessing.json",
+    "bytes": 72212,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T190913650871Z_c749643d/verified.json",
+    "bytes": 94867,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Graphs/distance.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T183332836539Z_ef9bb69d/verified.json",
+    "bytes": 72907,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T182823416988Z_e833c7ef/verified.json",
+    "bytes": 71993,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/execution_protocol.json",
+    "bytes": 384,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/run_summaries.json",
+    "bytes": 4638,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T175919937163Z_b00fd75e/verified.json",
+    "bytes": 50971,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Exports/test_predictions_ensemble_raw_mean.parquet",
+    "bytes": 208909,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/scoring_locations.json",
+    "bytes": 373,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8/score_rows.parquet",
+    "bytes": 3096499,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T192847211304Z_59abef87/verified.json",
+    "bytes": 114140,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T193616448187Z_e6e6e4d2/verified.json",
+    "bytes": 132095,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T170022279812Z_1cf35dc8/verified.json",
+    "bytes": 24468,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T165519690720Z_f1566dfa/verified.json",
+    "bytes": 23554,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T174131464141Z_80183ea9/verified.json",
+    "bytes": 32692,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T182036200922Z_22df8a78/verified.json",
+    "bytes": 55542,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Exports/test_predictions_by_seed.meta.json",
+    "bytes": 2247,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T173039642004Z_49fa219d/verified.json",
+    "bytes": 29947,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T174455039391Z_e617247a/verified.json",
+    "bytes": 48230,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T180931722561Z_e05e5632/verified.json",
+    "bytes": 52797,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/experiment_config.json",
+    "bytes": 2084,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8/scoring_audit.json",
+    "bytes": 18648,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T164700711876Z_f8cbec87/verified.json",
+    "bytes": 5936,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T164918073731Z_0d2e5cc6/verified.json",
+    "bytes": 18665,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T181947402809Z_eadcfb9f/verified.json",
+    "bytes": 54623,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T171528140924Z_448e7eb9/verified.json",
+    "bytes": 27208,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/run_summaries.json",
+    "bytes": 3816,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T175411882381Z_3557f42a/verified.json",
+    "bytes": 50057,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T165107744115Z_6a568a56/verified.json",
+    "bytes": 22641,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0/tests.csv",
+    "bytes": 15713,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/scoring_locations.json",
+    "bytes": 373,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T190402161852Z_1f5e4e9a/verified.json",
+    "bytes": 93950,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T181436808666Z_9bfe085c/verified.json",
+    "bytes": 53710,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Exports/test_predictions_by_seed.meta.json",
+    "bytes": 2125,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8/metrics.csv",
+    "bytes": 11493,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T193316947204Z_47adf970/verified.json",
+    "bytes": 115979,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T192332850004Z_dcb8e119/verified.json",
+    "bytes": 113223,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0/score_rows.parquet",
+    "bytes": 2388949,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Exports/validation_predictions_by_seed.parquet",
+    "bytes": 207479,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T185414976607Z_44e2045f/verified.json",
+    "bytes": 76560,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Exports/test_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2195,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T180427875242Z_1dbee849/verified.json",
+    "bytes": 51884,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T185743596716Z_f6484568/verified.json",
+    "bytes": 89042,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T182214137396Z_a52d867d/verified.json",
+    "bytes": 67105,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/completion.json",
+    "bytes": 577,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Exports/validation_predictions_ensemble_raw_mean.parquet",
+    "bytes": 206811,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0/metrics.csv",
+    "bytes": 11723,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T184907294709Z_05f5b363/verified.json",
+    "bytes": 75647,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T182405137715Z_24550af3/verified.json",
+    "bytes": 71080,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T164553668136Z_3a164f08/verified.json",
+    "bytes": 1557,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Exports/test_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2195,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T173543269267Z_5cc2a388/verified.json",
+    "bytes": 30860,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Exports/test_predictions_ensemble_raw_mean.parquet",
+    "bytes": 208922,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Exports/test_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2192,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8/seed_metric_summary.csv",
+    "bytes": 6393,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Exports/validation_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2198,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Exports/validation_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2201,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T191427559099Z_df4e65cc/verified.json",
+    "bytes": 95784,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Exports/test_predictions_ensemble_raw_mean.parquet",
+    "bytes": 208893,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Exports/validation_predictions_ensemble_raw_mean.parquet",
+    "bytes": 206800,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Exports/validation_predictions_by_seed.parquet",
+    "bytes": 207482,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T183845436680Z_f70fb4cc/verified.json",
+    "bytes": 73821,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T164742342183Z_dc527670/verified.json",
+    "bytes": 7102,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Exports/validation_predictions_by_seed.meta.json",
+    "bytes": 2253,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/scoring_audit.json",
+    "bytes": 4278,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Exports/validation_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2201,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T172030214996Z_e35cbb60/verified.json",
+    "bytes": 28121,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0/conditions.csv",
+    "bytes": 357561,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/score_rows.parquet",
+    "bytes": 897438,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Exports/test_predictions_by_seed.parquet",
+    "bytes": 209593,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Exports/validation_predictions_by_seed.meta.json",
+    "bytes": 2131,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8/conditions.csv",
+    "bytes": 352042,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0/scoring_audit.json",
+    "bytes": 18727,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/scoring_audit.json",
+    "bytes": 4301,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Exports/validation_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2198,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8/Additional_Analysis/input_condition_comparison_plan.json",
+    "bytes": 1745,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2624,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/conditions.csv",
+    "bytes": 119864,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Exports/validation_predictions_by_seed.meta.json",
+    "bytes": 2134,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Exports/test_predictions_ensemble_raw_mean.parquet",
+    "bytes": 208917,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Exports/validation_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2198,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Exports/test_predictions_by_seed.meta.json",
+    "bytes": 2125,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Exports/validation_predictions_by_seed.parquet",
+    "bytes": 207471,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Exports/test_predictions_by_seed.meta.json",
+    "bytes": 2125,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2550,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Exports/test_predictions_ensemble_raw_mean.parquet",
+    "bytes": 208901,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T174907777696Z_19dc7bb6/verified.json",
+    "bytes": 49143,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Exports/test_predictions_by_seed.parquet",
+    "bytes": 209580,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/seed_metric_summary.csv",
+    "bytes": 1273,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2624,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Exports/test_predictions_by_seed.meta.json",
+    "bytes": 2128,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Exports/validation_predictions_by_seed.parquet",
+    "bytes": 207466,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Exports/validation_predictions_by_seed.meta.json",
+    "bytes": 2131,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Exports/validation_predictions_ensemble_raw_mean.parquet",
+    "bytes": 206808,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0/Additional_Analysis/input_condition_comparison_plan.json",
+    "bytes": 1745,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/scoring_audit.json",
+    "bytes": 4297,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/metrics.csv",
+    "bytes": 4138,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1796,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0/seed_metric_summary.csv",
+    "bytes": 6531,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8/tests.csv",
+    "bytes": 15464,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/seed_metric_summary.csv",
+    "bytes": 1299,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Exports/test_predictions_by_seed.meta.json",
+    "bytes": 2128,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/seed_metric_summary.csv",
+    "bytes": 1279,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 9239,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Exports/validation_predictions_ensemble_raw_mean.parquet",
+    "bytes": 206803,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/score_rows.parquet",
+    "bytes": 897438,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Exports/test_predictions_by_seed.parquet",
+    "bytes": 209564,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/metrics.csv",
+    "bytes": 4138,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Exports/test_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2192,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Exports/validation_predictions_by_seed.parquet",
+    "bytes": 207474,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/metrics.csv",
+    "bytes": 4142,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Exports/test_predictions_by_seed.parquet",
+    "bytes": 209585,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/metrics.csv",
+    "bytes": 4050,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2624,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Exports/validation_predictions_ensemble_raw_mean.parquet",
+    "bytes": 206811,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Exports/test_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2314,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/conditions.csv",
+    "bytes": 119578,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/seed_metric_summary.csv",
+    "bytes": 1300,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2624,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2550,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Exports/test_predictions_by_seed.parquet",
+    "bytes": 209588,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2550,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Exports/validation_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2320,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/scoring_audit.json",
+    "bytes": 4282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/seed_metric_summary.csv",
+    "bytes": 1303,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/metrics.csv",
+    "bytes": 4035,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/tests.csv",
+    "bytes": 2420,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/score_rows.parquet",
+    "bytes": 897406,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/score_rows.parquet",
+    "bytes": 1010971,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/metrics.csv",
+    "bytes": 4143,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/scoring_audit.json",
+    "bytes": 4301,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2624,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/tests.csv",
+    "bytes": 2459,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/score_rows.parquet",
+    "bytes": 1010978,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Exports/test_predictions_by_seed.parquet",
+    "bytes": 209572,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Exports/validation_predictions_by_seed.meta.json",
+    "bytes": 2131,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Exports/test_predictions_ensemble_raw_mean.meta.json",
+    "bytes": 2192,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/score_rows.parquet",
+    "bytes": 897429,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Exports/validation_predictions_ensemble_raw_mean.parquet",
+    "bytes": 206795,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/metrics.csv",
+    "bytes": 4145,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/tests.csv",
+    "bytes": 2466,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/tests.csv",
+    "bytes": 2473,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Exports/validation_predictions_by_seed.parquet",
+    "bytes": 207482,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/scoring_audit.json",
+    "bytes": 4282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/score_rows.parquet",
+    "bytes": 897429,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/seed_metric_summary.csv",
+    "bytes": 1302,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Backup_receipts/Published/20261110T171027274494Z_9a432e44/verified.json",
+    "bytes": 26295,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/conditions.csv",
+    "bytes": 117654,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/conditions.csv",
+    "bytes": 119675,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/conditions.csv",
+    "bytes": 119616,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/tests.csv",
+    "bytes": 2420,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/score_rows.parquet",
+    "bytes": 1010994,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/tests.csv",
+    "bytes": 2421,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/conditions.csv",
+    "bytes": 119886,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/tests.csv",
+    "bytes": 2424,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1815,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2624,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/tests.csv",
+    "bytes": 2461,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/metrics.csv",
+    "bytes": 4045,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 9395,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/scoring_audit.json",
+    "bytes": 4297,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/metrics.csv",
+    "bytes": 4041,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/metrics.csv",
+    "bytes": 4137,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/conditions.csv",
+    "bytes": 117592,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/tests.csv",
+    "bytes": 2467,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/Additional_Analysis/graph_comparison_metrics.csv",
+    "bytes": 4,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/preprocessing.json",
+    "bytes": 82389,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/conditions.csv",
+    "bytes": 117838,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Exports/test_predictions_ensemble_raw_mean.parquet",
+    "bytes": 208914,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/seed_metric_summary.csv",
+    "bytes": 1279,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/scoring_audit.json",
+    "bytes": 4400,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/metrics.csv",
+    "bytes": 4036,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/tests.csv",
+    "bytes": 2427,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/score_rows.parquet",
+    "bytes": 1010947,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/seed_metric_summary.csv",
+    "bytes": 1284,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/score_rows.parquet",
+    "bytes": 1010987,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/Additional_Analysis/graph_comparison_tests.csv",
+    "bytes": 282,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/conditions.csv",
+    "bytes": 117893,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/seed_metric_summary.csv",
+    "bytes": 1299,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/score_rows.parquet",
+    "bytes": 897438,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/seed_metric_summary.csv",
+    "bytes": 1274,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/tests.csv",
+    "bytes": 2422,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 767,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2624,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/scoring_audit.json",
+    "bytes": 4419,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/tests.csv",
+    "bytes": 2468,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 768,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/preprocessing.json",
+    "bytes": 79191,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4328,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/scoring_audit.json",
+    "bytes": 4297,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4206,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/conditions.csv",
+    "bytes": 117591,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1810,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2550,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/conditions.csv",
+    "bytes": 117584,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 774,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2550,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/seed_metric_summary.csv",
+    "bytes": 1274,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4206,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/metrics.csv",
+    "bytes": 4036,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/preprocessing.json",
+    "bytes": 73651,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/scoring_audit.json",
+    "bytes": 4278,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_predictions.parquet",
+    "bytes": 207482,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_predictions.parquet",
+    "bytes": 207479,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 774,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/Additional_Analysis/metrics_ensemble.csv",
+    "bytes": 296,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2550,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/score_rows.parquet",
+    "bytes": 1011037,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/scoring_audit.json",
+    "bytes": 4278,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4195,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/Additional_Analysis/metrics_baselines.csv",
+    "bytes": 2550,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4188,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1814,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/conditions.csv",
+    "bytes": 119597,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4195,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1809,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 767,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/seed_metric_summary.csv",
+    "bytes": 1298,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/contract.json",
+    "bytes": 2833,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 82496,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 775,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1787,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/preprocessing.json",
+    "bytes": 69648,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4206,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1781,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 768,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_predictions.parquet",
+    "bytes": 207466,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 775,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 142813,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1810,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 142813,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1791,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 81821,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1817,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4188,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 774,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_metrics.csv",
+    "bytes": 357,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1782,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_predictions.parquet",
+    "bytes": 207471,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/contract.json",
+    "bytes": 2834,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/CURRENT.json",
+    "bytes": 177,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 82338,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/preprocessing.json",
+    "bytes": 70346,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_metrics.csv",
+    "bytes": 356,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/checkpoint_recovery.json",
+    "bytes": 1036,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4310,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 774,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 82116,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 767,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/contract.json",
+    "bytes": 2833,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/Additional_Analysis/neural_scoring_audit.json",
+    "bytes": 4188,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_adjacency.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/run_summary.json",
+    "bytes": 3617,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 128614,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_predictions.parquet",
+    "bytes": 207482,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085/Additional_Analysis/evaluation_invocation.json",
+    "bytes": 767,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/learning_curve.csv",
+    "bytes": 1346,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 135145,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 81069,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_metrics.csv",
+    "bytes": 358,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/stopping_policy_revision.json",
+    "bytes": 687,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/run_summary.json",
+    "bytes": 3616,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 128614,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 82801,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_adjacency.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/learning_curve.csv",
+    "bytes": 1440,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/learning_curve.csv",
+    "bytes": 4542,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/learning_curve.csv",
+    "bytes": 3676,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/contract.json",
+    "bytes": 2834,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 82165,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 121313,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/CURRENT.json",
+    "bytes": 177,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 121313,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 135145,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/Additional_Analysis/metrics_by_seed.csv",
+    "bytes": 1782,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 137170,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 137170,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 81321,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/contract.json",
+    "bytes": 2833,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 80639,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 81757,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/run_summary.json",
+    "bytes": 3617,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 82038,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d/Additional_Analysis/Figures/rmse_seed_scores_and_ensemble.png",
+    "bytes": 82066,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/CURRENT.json",
+    "bytes": 177,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 123190,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53/Additional_Analysis/Figures/learning_curves_and_learning_rate.png",
+    "bytes": 123190,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/run_summary.json",
+    "bytes": 4384,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_metrics.csv",
+    "bytes": 358,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/learning_curve.csv",
+    "bytes": 2848,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_adjacency.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794338513736716825_8f02e3d8/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_metrics.csv",
+    "bytes": 358,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_adjacency.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_adjacency.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/run_summary.json",
+    "bytes": 3617,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/CURRENT.json",
+    "bytes": 177,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/CURRENT.json",
+    "bytes": 177,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_node_order.csv",
+    "bytes": 253751,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794339146067523775_ef361116/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/preprocessing.json",
+    "bytes": 72212,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794338830759216178_efcca1c3/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000013_01794339094782086426_5e0ab44c/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794339146067523775_ef361116/manifest.json",
+    "bytes": 535,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794338830759216178_efcca1c3/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794339145801260342_c69ae476/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/best.pt",
+    "bytes": 8989119,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794338564715490639_fb47df46/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794338881771653252_3926e447/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794338564715490639_fb47df46/manifest.json",
+    "bytes": 533,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794338292303408031_4a6b9094/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794338881771653252_3926e447/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794338292303408031_4a6b9094/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794339145801260342_c69ae476/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794338513736716825_8f02e3d8/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000013_01794339094782086426_5e0ab44c/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_metrics.csv",
+    "bytes": 353,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/best.pt",
+    "bytes": 8992959,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000024_01794336454686554080_1c467edc/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000040_01794329178414214206_87a6bb78/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000040_01794329238196497844_fbae36d3/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/best.pt",
+    "bytes": 8990911,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/best.pt",
+    "bytes": 8989183,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000040_01794329178414214206_87a6bb78/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/validation_predictions.parquet",
+    "bytes": 207474,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794338083302406724_fdc250ba/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794337130250328032_247d0613/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/best.pt",
+    "bytes": 8992191,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794337972781427604_418b2405/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794338023749633289_f06fbfbf/manifest.json",
+    "bytes": 535,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794337130250328032_247d0613/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794337347549853401_8e4e7796/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794338023749633289_f06fbfbf/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000030_01794336816153898663_442ca8da/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794337398505827898_8fe7e389/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/contract.json",
+    "bytes": 2833,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000031_01794336920303300147_53abd327/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000040_01794329238196497844_fbae36d3/manifest.json",
+    "bytes": 535,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794337398505827898_8fe7e389/manifest.json",
+    "bytes": 533,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/run_summary.json",
+    "bytes": 3616,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794337347549853401_8e4e7796/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000031_01794336920303300147_53abd327/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794337972781427604_418b2405/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/adaptive_adjacency.npy",
+    "bytes": 1613028,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794338083302406724_fdc250ba/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000031_01794336920632692137_80d91aeb/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000050_01794332415589024313_75587527/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000024_01794336454686554080_1c467edc/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794337711582382179_7346b92d/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000025_01794336505664462482_b567f831/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000019_01794336144773020066_3faba2cd/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000029_01794336765106865087_86132193/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000029_01794336765106865087_86132193/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794337660588155798_80010583/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000031_01794336920632692137_80d91aeb/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000020_01794336195875205632_e622d7d6/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794335214315460276_1f91f065/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/learning_curve.csv",
+    "bytes": 3221,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794337711582382179_7346b92d/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794335572574211574_84727743/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/last.pt",
+    "bytes": 15230739,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794335521639037761_f4559cef/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000020_01794336195875205632_e622d7d6/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794337660588155798_80010583/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794335887004561550_ff88648d/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794335887004561550_ff88648d/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794334999766093213_1e37f5a3/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000030_01794336816153898663_442ca8da/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/last.pt",
+    "bytes": 15228755,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000025_01794336505664462482_b567f831/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794335836020822777_db62d4f8/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794335836020822777_db62d4f8/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000049_01794332364465975910_b17fca1d/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794330240656219669_9b8fe8d6/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794335521639037761_f4559cef/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794335214315460276_1f91f065/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000049_01794332364465975910_b17fca1d/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000019_01794336144773020066_3faba2cd/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000044_01794332059094484412_23cd77ef/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794335572574211574_84727743/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794334999766093213_1e37f5a3/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794329687158982377_b069c7f5/manifest.json",
+    "bytes": 533,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000040_01794331805392067790_528c6287/manifest.json",
+    "bytes": 535,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000045_01794332110226431999_0d27d507/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000029_01794331146543665003_df55e71d/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794335265224714125_4dd4e046/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000039_01794331754378175885_5b464e0b/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000013_01794339094782086426_5e0ab44c/state.pt",
+    "bytes": 15227091,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794338513736716825_8f02e3d8/state.pt",
+    "bytes": 15226131,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000035_01794331500242124454_6937f468/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/last.pt",
+    "bytes": 15227027,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000030_01794331197516991001_3d567e17/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000040_01794331805392067790_528c6287/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000050_01794332464643720282_52971366/manifest.json",
+    "bytes": 535,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000030_01794331197516991001_3d567e17/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794329687158982377_b069c7f5/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000025_01794330896648243774_6cefbe50/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794335265224714125_4dd4e046/manifest.json",
+    "bytes": 533,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000044_01794332059094484412_23cd77ef/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000034_01794331449156568072_3463eccb/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000034_01794331449156568072_3463eccb/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000039_01794331754378175885_5b464e0b/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000025_01794330896648243774_6cefbe50/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794333167013784984_d25b5e1f/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000035_01794334803180988307_2ff4c0c2/manifest.json",
+    "bytes": 535,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000050_01794332415589024313_75587527/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000019_01794330545355884310_7c626bf9/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794330240656219669_9b8fe8d6/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000035_01794334748405869604_578497b2/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000020_01794330596305045109_ab29de83/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000045_01794332110226431999_0d27d507/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000050_01794332464643720282_52971366/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000029_01794331146543665003_df55e71d/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794330291606350447_09a6d718/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794330291606350447_09a6d718/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794329636265050891_a254a57c/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000035_01794331500242124454_6937f468/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794329988703251409_446900b1/manifest.json",
+    "bytes": 535,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794329426542059277_44568a6b/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000024_01794330845646176829_a90f5996/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000025_01794334137698314184_4c626f0f/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000025_01794334137698314184_4c626f0f/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/CURRENT.json",
+    "bytes": 177,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794329937686883477_26f47c0a/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000020_01794330596305045109_ab29de83/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000019_01794330545355884310_7c626bf9/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794333472558489761_15e429a7/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000024_01794334086664273464_7fabc008/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000024_01794334086664273464_7fabc008/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000034_01794334697329274111_fc884b14/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794337972781427604_418b2405/state.pt",
+    "bytes": 15227219,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794329988703251409_446900b1/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794333167013784984_d25b5e1f/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000024_01794330845646176829_a90f5996/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794329636265050891_a254a57c/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794338881771653252_3926e447/state.pt",
+    "bytes": 15226771,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794329426542059277_44568a6b/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794332912551744158_12a9999a/manifest.json",
+    "bytes": 533,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794333217986336990_e111bb82/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794332912551744158_12a9999a/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794337660588155798_80010583/state.pt",
+    "bytes": 15226643,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794332861669550398_e2b142ca/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000034_01794334697329274111_fc884b14/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794337711582382179_7346b92d/state.pt",
+    "bytes": 15226771,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794329937686883477_26f47c0a/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000040_01794329178414214206_87a6bb78/state.pt",
+    "bytes": 15225619,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000020_01794333830414837326_274da7c9/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794335572574211574_84727743/state.pt",
+    "bytes": 15226771,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000035_01794334748405869604_578497b2/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794332654500636624_0b8288ad/manifest.json",
+    "bytes": 534,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000035_01794334803180988307_2ff4c0c2/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000031_01794336920303300147_53abd327/state.pt",
+    "bytes": 15229011,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000019_01794333779429730686_55041b82/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794337130250328032_247d0613/state.pt",
+    "bytes": 15225811,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000040_01794329238196497844_fbae36d3/state.pt",
+    "bytes": 15231379,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000019_01794333779429730686_55041b82/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000025_01794336505664462482_b567f831/state.pt",
+    "bytes": 15228371,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794333523495871249_d06f8833/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794333472558489761_15e429a7/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794332861669550398_e2b142ca/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794333217986336990_e111bb82/manifest.json",
+    "bytes": 535,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000020_01794333830414837326_274da7c9/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794333523495871249_d06f8833/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000031_01794336920632692137_80d91aeb/state.pt",
+    "bytes": 15230035,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794332654500636624_0b8288ad/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000029_01794334391131854642_8da510f8/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000030_01794334442245176345_7732e9cf/manifest.json",
+    "bytes": 536,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794335265224714125_4dd4e046/state.pt",
+    "bytes": 15226259,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794335214315460276_1f91f065/state.pt",
+    "bytes": 15226131,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794338564715490639_fb47df46/state.pt",
+    "bytes": 15226259,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000029_01794334391131854642_8da510f8/manifest.json",
+    "bytes": 537,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794338292303408031_4a6b9094/state.pt",
+    "bytes": 15225811,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794337398505827898_8fe7e389/state.pt",
+    "bytes": 15226259,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/last.pt",
+    "bytes": 15226899,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000039_01794331754378175885_5b464e0b/state.pt",
+    "bytes": 15229843,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000030_01794334442245176345_7732e9cf/COMMITTED.json",
+    "bytes": 213,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794339146067523775_ef361116/state.pt",
+    "bytes": 15228243,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000030_01794336816153898663_442ca8da/state.pt",
+    "bytes": 15228883,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000029_01794336765106865087_86132193/state.pt",
+    "bytes": 15228819,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794338830759216178_efcca1c3/state.pt",
+    "bytes": 15226643,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794335836020822777_db62d4f8/state.pt",
+    "bytes": 15227219,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000024_01794336454686554080_1c467edc/state.pt",
+    "bytes": 15228243,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794338023749633289_f06fbfbf/state.pt",
+    "bytes": 15227283,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/best.pt",
+    "bytes": 8991359,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000019_01794330545355884310_7c626bf9/state.pt",
+    "bytes": 15227731,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000034_01794331449156568072_3463eccb/state.pt",
+    "bytes": 15229331,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794335887004561550_ff88648d/state.pt",
+    "bytes": 15227283,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000019_01794336144773020066_3faba2cd/state.pt",
+    "bytes": 15227731,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000035_01794331500242124454_6937f468/state.pt",
+    "bytes": 15229459,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000040_01794331805392067790_528c6287/state.pt",
+    "bytes": 15229971,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794335521639037761_f4559cef/state.pt",
+    "bytes": 15226643,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000020_01794336195875205632_e622d7d6/state.pt",
+    "bytes": 15227859,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000024_01794330845646176829_a90f5996/state.pt",
+    "bytes": 15228243,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794338083302406724_fdc250ba/state.pt",
+    "bytes": 15228307,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000030_01794331197516991001_3d567e17/state.pt",
+    "bytes": 15228883,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000050_01794332415589024313_75587527/state.pt",
+    "bytes": 15231059,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000044_01794332059094484412_23cd77ef/state.pt",
+    "bytes": 15230419,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000049_01794332364465975910_b17fca1d/state.pt",
+    "bytes": 15230931,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000045_01794332110226431999_0d27d507/state.pt",
+    "bytes": 15230483,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000050_01794332464643720282_52971366/state.pt",
+    "bytes": 15232083,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/last.pt",
+    "bytes": 15229139,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794334999766093213_1e37f5a3/state.pt",
+    "bytes": 15225811,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000020_01794330596305045109_ab29de83/state.pt",
+    "bytes": 15227859,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794332654500636624_0b8288ad/state.pt",
+    "bytes": 15225811,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794339145801260342_c69ae476/state.pt",
+    "bytes": 15227219,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000020_01794333830414837326_274da7c9/state.pt",
+    "bytes": 15227859,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794329636265050891_a254a57c/state.pt",
+    "bytes": 15226131,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794329937686883477_26f47c0a/state.pt",
+    "bytes": 15226643,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794330291606350447_09a6d718/state.pt",
+    "bytes": 15227283,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000015_01794333523495871249_d06f8833/state.pt",
+    "bytes": 15227283,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000024_01794334086664273464_7fabc008/state.pt",
+    "bytes": 15228243,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000035_01794334748405869604_578497b2/state.pt",
+    "bytes": 15229459,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794337347549853401_8e4e7796/state.pt",
+    "bytes": 15226131,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000029_01794331146543665003_df55e71d/state.pt",
+    "bytes": 15228819,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000025_01794330896648243774_6cefbe50/state.pt",
+    "bytes": 15228371,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000009_01794333167013784984_d25b5e1f/state.pt",
+    "bytes": 15226643,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000001_01794329426542059277_44568a6b/state.pt",
+    "bytes": 15225811,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000004_01794332861669550398_e2b142ca/state.pt",
+    "bytes": 15226131,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000030_01794334442245176345_7732e9cf/state.pt",
+    "bytes": 15228883,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794329988703251409_446900b1/state.pt",
+    "bytes": 15226771,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794330240656219669_9b8fe8d6/state.pt",
+    "bytes": 15227219,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000019_01794333779429730686_55041b82/state.pt",
+    "bytes": 15227731,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000034_01794334697329274111_fc884b14/state.pt",
+    "bytes": 15229331,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794332912551744158_12a9999a/state.pt",
+    "bytes": 15226259,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000010_01794333217986336990_e111bb82/state.pt",
+    "bytes": 15226771,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000014_01794333472558489761_15e429a7/state.pt",
+    "bytes": 15227219,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-002.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000005_01794329687158982377_b069c7f5/state.pt",
+    "bytes": 15226259,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-002.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000035_01794334803180988307_2ff4c0c2/state.pt",
+    "bytes": 15230483,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-002.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000029_01794334391131854642_8da510f8/state.pt",
+    "bytes": 15228819,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-002.zip"
+  },
+  {
+    "name": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Models/GraphWaveNet_distance_fixed_plus_adaptive/seed11/Checkpoints/epoch_000025_01794334137698314184_4c626f0f/state.pt",
+    "bytes": 15228371,
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-002.zip"
+  }
+]

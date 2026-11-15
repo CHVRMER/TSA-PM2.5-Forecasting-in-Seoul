@@ -1,0 +1,55 @@
+{
+  "analysis_status": "post_hoc_exploratory_not_confirmatory",
+  "candidate": "M3",
+  "reference": "M1",
+  "seed": 11,
+  "horizons": [
+    12,
+    24,
+    36,
+    48
+  ],
+  "subgroup_levels": {
+    "season": [
+      "DJF",
+      "MAM",
+      "JJA",
+      "SON"
+    ],
+    "route_group": [
+      "west",
+      "north",
+      "east",
+      "local"
+    ]
+  },
+  "subgroups_defined_by": "forecast origin, not target time",
+  "separate_axes_not_cross_product": true,
+  "splits": [
+    "validation",
+    "test"
+  ],
+  "family_size": 64,
+  "holm_family": "both years x four horizons x (four seasons + four existing route groups)",
+  "bootstrap": "paired moving calendar blocks with subgroup/target missingness retained",
+  "block_days_primary": 7,
+  "block_days_sensitivity": [
+    3,
+    14
+  ],
+  "bootstrap_reps_each": 5000,
+  "bootstrap_seed": 8211,
+  "bootstrap_interval": "pointwise percentile 95%, not simultaneous family intervals",
+  "metrics": [
+    "M3-RMSE minus M1-RMSE",
+    "100*(1-M3-RMSE/M1-RMSE)"
+  ],
+  "dm_primary": "squared-error loss; Bartlett exact-calendar HAC lag max(h/3-1,0)",
+  "dm_sensitivity": "same loss; Bartlett HAC 56 slots (=7 days) at every horizon",
+  "improvement_flag": "7day delta CI high<0 AND Holm64 primary p<.05; exploratory only",
+  "robust_improvement_flag": "primary improvement AND 3day/14day CI high<0 AND Holm64 HAC56 p<.05",
+  "small_sample_annotation": "n<100 OR active nonoverlapping 7day bins<10 OR bootstrap valid<80%; not a power calculation",
+  "independent_blocks_not_claimed": true,
+  "new_training_or_model_selection": false,
+  "original_common_scorer_unchanged": true
+}

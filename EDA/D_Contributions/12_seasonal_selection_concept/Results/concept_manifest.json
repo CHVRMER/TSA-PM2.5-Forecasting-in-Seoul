@@ -1,0 +1,20 @@
+{
+  "purpose": "Futurework direction, not experimental evidence",
+  "no_season_to_country_assignments": true,
+  "no_performance_claims": true,
+  "domestic_inputs_remain_available": true,
+  "exports": [
+    {
+      "file": "seasonal_input_selection_concept.png",
+      "sha256": "63e97e0da91089d06ea93855ed8e2772341bf9007a917134d615af96d95bb012"
+    },
+    {
+      "file": "seasonal_input_selection_concept.svg",
+      "sha256": "c17f8e13e4979c4eed836b437c9cf90403262f7418e8992a837c07216eb3427e"
+    },
+    {
+      "file": "seasonal_input_selection_concept.pdf",
+      "sha256": "e3b3813269238a21b94526e42b3c7cbe74de995b3c9781e16ad07caff2008930"
+    }
+  ]
+}

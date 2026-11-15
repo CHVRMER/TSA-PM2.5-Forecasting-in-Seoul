@@ -1,0 +1,21 @@
+{
+  "created_kst": "2026-11-11T01:15:29.625027+09:00",
+  "auto_resume_tests_passed": 23,
+  "tmux_control_tests_passed": 7,
+  "interrupt_and_prompt_tests_passed": 9,
+  "total_tests_passed": 39,
+  "signal_and_tmux_boundaries_mocked": true,
+  "actual_vast_or_gpu_execution_performed": false,
+  "unchanged_files_sha256": {
+    "Codes/run_experiments.py": "8250fd895481e2d0a6cbbc98422f7ca647d9ed9af28a8caf13f6a98af88022c2",
+    "Codes/vendor/neural_training.py": "85ae48fdedc1c2439576897a7d2944bb133413916b2e6a50a6ab9063064ac980",
+    "Codes/vendor/graph_wavenet_model.py": "8d320e2ee4aa14570392d32904acb3568eb2e87bd27ce56d7f1cf0ff77f5af29",
+    "Codes/checkpoint_store.py": "529f60cf1edbc45fb5522cc76d9fd235f0cf60da5ad1699bb0e8a25fe5ed4aa2",
+    "Codes/data_experiments.py": "b5f6b0d0c2c56bff0107dbc6783fc8f63c7629f08eb6ef174aa9bd38d334ae0f",
+    "Codes/drive_backup.py": "4cc3c7aee1c886f70795ced11c5af4d33f61f2ef19ffc66bc254bcef6ebbee1c",
+    "configs/default.json": "f4b4bdb7dc4fb43d5a1cdcea96b237ea1dd233bbf4caedfa65c5f121eed56bf8",
+    "start_full.sh": "24c6e8b9d93c91b13a83fa494c47dd29facd976337c20224f71fff764731ffff",
+    "run_full.sh": "3d444eca27c13a9933cda070961b0520030c4b74db0cb5ec3b670838ece622d1"
+  },
+  "controller_sha256": "49ca74391b4bab49f99afc36e1a9bdc3aef1a784df348c49965cfce2c81e408e"
+}

@@ -1,0 +1,93 @@
+{
+  "source_model_batch": "20261112_003040_429483_85af4013",
+  "external_series": 634,
+  "nodes": 635,
+  "files": [
+    {
+      "path": "Audit/actual_dcrnn_station_audit.json",
+      "bytes": 6992,
+      "sha256": "2e13d96285432fb20cc1a3e3ef851d2b60d02f6385a2ec3d06c089398987372a"
+    },
+    {
+      "path": "Audit/source_manifest.json",
+      "bytes": 1881,
+      "sha256": "7d6e9c65f123fde0db66779c880f4ae88d1fd4d6e3ad18f827e390e4cd79015d"
+    },
+    {
+      "path": "Audit/visual_qa.json",
+      "bytes": 358,
+      "sha256": "1482c4a2ee5cf23885afa1ad9ebfc35c0ddaefee0f5fb09e4450b424a838c432"
+    },
+    {
+      "path": "Codes/assets/countries.geojson",
+      "bytes": 838726,
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    },
+    {
+      "path": "Codes/plot_dcrnn_final_network.py",
+      "bytes": 7516,
+      "sha256": "758968e0a6a08780d2594dd4c4c8c14c4becb4027dd4c35350bf6f3fb9a9d33f"
+    },
+    {
+      "path": "Codes/requirements.txt",
+      "bytes": 36,
+      "sha256": "b3515e97213cb6d6ac300810b50fefb3360fee5e513554661fad6e494412c423"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2784,
+      "sha256": "6dbd9cd5a5123c9b4b07464be2259741d333f24329bddcb0553ef9ff6b0c060d"
+    },
+    {
+      "path": "Results/country_counts.csv",
+      "bytes": 62,
+      "sha256": "ba0ecc03836fb00d990a56494baac285d960a89dc878765fdd79ce71b70dcaec"
+    },
+    {
+      "path": "Results/dcrnn_final_network_634_external_635_nodes.pdf",
+      "bytes": 139734,
+      "sha256": "174112d505450b6f0dc9a268cceaf5beb9b33b4faf8f51adb34c94aa492f6efb"
+    },
+    {
+      "path": "Results/dcrnn_final_network_634_external_635_nodes.png",
+      "bytes": 636681,
+      "sha256": "6e66c7d91078d182f74bb85d1eac1b7d284315383a86f1b53999915b1d88793c"
+    },
+    {
+      "path": "Results/dcrnn_final_network_634_external_635_nodes.svg",
+      "bytes": 411628,
+      "sha256": "457c236b31bfe96d3ae973e6a43646fcfa7fefe37b579b9ff77af81e03a4907e"
+    },
+    {
+      "path": "Results/display_trajectory_sample.parquet",
+      "bytes": 98464,
+      "sha256": "09f2b0e9bae19ee71be00c443d3acadb1ed209189365a1b567d80fb53cfbb6bd"
+    },
+    {
+      "path": "Results/external_station_registry_634.csv",
+      "bytes": 306007,
+      "sha256": "85f195a6297d78e6415a8b33e65e1d4ad5aedd8d5c9b1f3227055f64e00f3398"
+    },
+    {
+      "path": "Results/final_nodes_635.csv",
+      "bytes": 258744,
+      "sha256": "8880e31f41af78f8a2219d5fc79f405819ca6ac07cf19a53da2323b5bef7e2b2"
+    },
+    {
+      "path": "Results/map_group_counts.csv",
+      "bytes": 124,
+      "sha256": "38bac1c91d7d8962b8c9f1291834898711f59b290b2cef9e15fe7d6e2497cb4f"
+    },
+    {
+      "path": "Results/selected_region_boundaries.geojson",
+      "bytes": 2472,
+      "sha256": "90aa60290cd45f021370304b6b04ec02991bdac9286e622dc8ca66aa0bb28b83"
+    },
+    {
+      "path": "Results/visualization_manifest.json",
+      "bytes": 1062,
+      "sha256": "7a68a033f7a3a7d61e2eb458954458b6eff0e78b832aed7d6b539adb1e31e8b0"
+    }
+  ],
+  "originals_modified": false
+}

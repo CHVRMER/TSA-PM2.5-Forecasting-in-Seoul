@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "script": "verify_auto_resume_control.py",
+      "exit_code": 0,
+      "unittest_count": 30
+    },
+    {
+      "script": "verify_tmux_launch_control.py",
+      "exit_code": 0,
+      "unittest_count": 13
+    },
+    {
+      "script": "verify_interrupt_control.py",
+      "exit_code": 0,
+      "unittest_count": 9
+    },
+    {
+      "script": "verify_stopping_policy.py",
+      "exit_code": 0,
+      "unittest_count": 7
+    },
+    {
+      "script": "verify_drive_backup.py",
+      "exit_code": 0,
+      "unittest_count": null
+    },
+    {
+      "script": "verify_restore_contract_schema.py",
+      "exit_code": 0,
+      "unittest_count": null
+    }
+  ],
+  "python_syntax_files": [
+    "full_run_control.py",
+    "drive_backup.py",
+    "restore_verified_backup.py",
+    "stopping_policy.py",
+    "verify_auto_resume_control.py",
+    "verify_tmux_launch_control.py",
+    "verify_interrupt_control.py",
+    "verify_stopping_policy.py",
+    "verify_drive_backup.py",
+    "verify_restore_contract_schema.py",
+    "verify_restore_verified_backup.py"
+  ],
+  "actual_torch_checkpoint_restore_executed": false,
+  "gpu_training_executed": false,
+  "namespace": "GraphWaveNet/VastAI_H48; TSA_GWN48_*",
+  "old_dcrnn_and_old_gwn_ignored_and_checkpoints_rejected": true,
+  "strict_resume_including_max75_patience10": true,
+  "metadata_restore_rejected_mutations": 14,
+  "owned_code_sha256": {
+    "full_run_control.py": "da60010e264f8e8e1175935ae441726538d7619f465b74e1ae435dfff26b1ed1",
+    "drive_backup.py": "73b58a3a239fba8afac55e3efee3624053194f269e0862a480bdc7e3a8f1c6d4",
+    "restore_verified_backup.py": "cd49fcf2aa9e421f08cc0511974ef669fcd0283f5324c5cecbb54e80f5de2f95",
+    "stopping_policy.py": "3a115f7decfe0020cc41003f9b7ee01385b6affde811d29d1675fec1930d19ed",
+    "verify_auto_resume_control.py": "39fcc2c950b8986de4ea5e84b87a60c59c76b0e562a179e74c63fe30857a9779",
+    "verify_tmux_launch_control.py": "ff8ee9c1c0473c623919b202631a22d6cc838f4c2614e770caaefde0b653ac0e",
+    "verify_interrupt_control.py": "187e3a4936daf0285f1d9778d138005f9c9f8cf58e8f1140412a9ca0071fc2c2",
+    "verify_stopping_policy.py": "002631098f4463ca8d0ed69850fe2074831275eed53c4e596301335ca7541060",
+    "verify_drive_backup.py": "69bcb724565217ec55c1f9c78100df7688610578d39b10c26b74c8c7b05cd32e",
+    "verify_restore_contract_schema.py": "019aebb7ee8f694891c2a38fccaebd961a10f39d60b5d2d3fadac1511d7c9840",
+    "verify_restore_verified_backup.py": "84754d9733b77584b7e7a1ceeb01a007e8d4fb3ec2b1cc5be6b29e1044fe2f4c"
+  },
+  "shell_syntax_bash_n": [
+    "start_full.sh",
+    "run_full.sh",
+    "run_pilot.sh",
+    "setup_vast.sh"
+  ],
+  "shell_syntax_checked_with_elevation_for_git_bash_startup": true
+}

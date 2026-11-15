@@ -1,0 +1,7 @@
+DCRNN: Limited Gains from Added Inputs
+
+- Domestic-only PM2.5 inputs perform best at 12 and 24 h.
+- Foreign inputs offer no significant gains over M1.
+- Trajectory summaries show higher RMSE at all four horizons.
+
+2023 validation | 3–24 h forecasts

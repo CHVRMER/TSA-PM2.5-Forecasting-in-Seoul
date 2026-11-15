@@ -1,0 +1,64 @@
+C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\Common\GraphWaveNet_H48_20261112\verify_h48_scoring.py:53: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  requested = origin + pd.Timedelta(hours=horizon)
+C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\Common\GraphWaveNet_H48_20261112\verify_h48_scoring.py:53: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  requested = origin + pd.Timedelta(hours=horizon)
+C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\Common\GraphWaveNet_H48_20261112\verify_h48_scoring.py:53: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  requested = origin + pd.Timedelta(hours=horizon)
+C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\Common\GraphWaveNet_H48_20261112\verify_h48_scoring.py:53: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  requested = origin + pd.Timedelta(hours=horizon)
+C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\Common\GraphWaveNet_H48_20261112\verify_h48_scoring.py:107: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  new_grid.kst(part.origin_time_kst + pd.Timedelta(hours=offset)), check_names=False)
+C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\Common\GraphWaveNet_H48_20261112\verify_h48_scoring.py:107: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  new_grid.kst(part.origin_time_kst + pd.Timedelta(hours=offset)), check_names=False)
+C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\Common\GraphWaveNet_H48_20261112\verify_h48_scoring.py:53: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  requested = origin + pd.Timedelta(hours=horizon)
+C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\Common\GraphWaveNet_H48_20261112\verify_h48_scoring.py:53: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  requested = origin + pd.Timedelta(hours=horizon)
+C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\Common\GraphWaveNet_H48_20261112\verify_h48_scoring.py:53: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  requested = origin + pd.Timedelta(hours=horizon)
+C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\Common\GraphWaveNet_H48_20261112\verify_h48_scoring.py:53: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  requested = origin + pd.Timedelta(hours=horizon)
+C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\staging\Model\Common\GraphWaveNet_H48_20261112\verify_h48_scoring.py:131: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  future_grid.loc[ix, 'seasonal_request_time_kst'] = future_grid.loc[ix, 'origin_time_kst'] + pd.Timedelta(hours=12)
+{
+  "status": "passed",
+  "horizons": [
+    3,
+    6,
+    12,
+    24,
+    36,
+    48
+  ],
+  "original_four_grid_rows_exactly_preserved": true,
+  "original_four_metrics_exactly_preserved": true,
+  "original_four_scores_equal_when_scored_as_four": true,
+  "holm_note": "Adding horizons expands the predeclared test family; adjusted p-values are not asserted unchanged.",
+  "exact_target_lookup_missing_split_and_study_boundaries_tested": true,
+  "future_seasonal_poison_invariant": true,
+  "future_baseline_request_rejected": true,
+  "fixed_rows_missing_or_nonfinite_prediction_rejected": true,
+  "hac_lags": {
+    "36": 11,
+    "48": 15
+  },
+  "bootstrap_block_slots": 56,
+  "six_models_seed11_seven_input_contrasts_test_rows": 84,
+  "individual_seed_and_raw_unit_ensemble_separate": true,
+  "standard_output_filenames": [
+    "conditions.csv",
+    "metrics.csv",
+    "score_rows.parquet",
+    "scoring_audit.json",
+    "seed_metric_summary.csv",
+    "tests.csv"
+  ],
+  "column_order_and_dtypes_match_original": true,
+  "repeated_scoring_creates_new_folder_without_overwriting": true,
+  "derived_grid_cached_under_model_only": true,
+  "old_source_sha256_unchanged": {
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\grid.py": "c7a3341d9eefaf7a70f6e5f13edcdcc828ff92990d443c9c72c1d7d67725d81a",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\score.py": "f231dfe9a15fa3f8e8577ef076b0efce7f92af3846d49bc60c7742d5aad8a755",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\neural_evaluation.py": "00e6d72f585d19b535b92b5ad12c9338b8918de4e6bed9ab02dcaa4eb0105fa9"
+  }
+}

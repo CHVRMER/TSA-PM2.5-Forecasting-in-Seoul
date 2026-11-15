@@ -1,0 +1,146 @@
+{
+  "batch": "VastAI/20261111_014538_406520_eaa72758/",
+  "archives": [
+    "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip",
+    "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-002.zip"
+  ],
+  "grid": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Evaluation_Contract_20261107\\evaluation_grid.parquet",
+  "grid_sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db",
+  "scorer_sha256": "f231dfe9a15fa3f8e8577ef076b0efce7f92af3846d49bc60c7742d5aad8a755",
+  "splits": {
+    "validation": {
+      "source_predictions": {
+        "M1": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Exports/validation_predictions_by_seed.parquet",
+          "sha256": "5bf6b94ac66c7429a593aeea30f4d305fe72488ccdb780937d75ee670aaa2e2b",
+          "rows": 11680
+        },
+        "M2": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Exports/validation_predictions_by_seed.parquet",
+          "sha256": "4c0883e0b31a1aac7515fac9c064c6c940b1bf7c58ed57ba0fe8b671f35d1566",
+          "rows": 11680
+        },
+        "M3": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Exports/validation_predictions_by_seed.parquet",
+          "sha256": "74061936b5921839cdc065ececa9f70147cd933ebb0d74053e1d39da4bba31c8",
+          "rows": 11680
+        },
+        "M4": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Exports/validation_predictions_by_seed.parquet",
+          "sha256": "36f32746a4cd5ff4f029f438c3e3a080b07882a557d669e72294fdae7c687c0f",
+          "rows": 11680
+        },
+        "M3T": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Exports/validation_predictions_by_seed.parquet",
+          "sha256": "5596b7adbdea3905aeb983c7fcd86d5681ff76e7051f3e162a9f167bca572fac",
+          "rows": 11680
+        },
+        "M4T": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Exports/validation_predictions_by_seed.parquet",
+          "sha256": "064dad634c9758cee869fa1f15e5062a7c3894341635a11d7a04be582b5df928",
+          "rows": 11680
+        }
+      },
+      "checks_max_abs_difference": {
+        "metrics": {
+          "n": 0.0,
+          "RMSE": 1.7763568394002505e-15,
+          "MSE": 2.842170943040401e-14,
+          "MAE": 1.7763568394002505e-15,
+          "MBE": 2.220446049250313e-16,
+          "R2": 9.71445146547012e-17,
+          "RMSE_improvement_pct": 7.105427357601002e-15,
+          "negative_predictions_clipped": 0.0
+        },
+        "tests": {
+          "n": 0.0,
+          "rmse_diff": 8.326672684688674e-17,
+          "p": 1.1102230246251565e-16,
+          "p_holm": 1.1102230246251565e-16,
+          "ci95_low": 8.881784197001252e-16,
+          "ci95_high": 4.440892098500626e-16,
+          "improved": 0.0
+        }
+      },
+      "fixed_rows": {
+        "3": 2531,
+        "6": 2530,
+        "12": 2528,
+        "24": 2524
+      },
+      "original_family_count": 52,
+      "original_input_comparison_count": 24,
+      "input_significant_improvements": 0,
+      "input_significant_worsenings": 1,
+      "scored_rows_exactly_reproduced": true,
+      "posthoc_additional_12_tests_separate_family": true
+    },
+    "test": {
+      "source_predictions": {
+        "M1": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Exports/test_predictions_by_seed.parquet",
+          "sha256": "91312339c55473b60729e12f74a59165492789db3c91c623b073706d90173dd1",
+          "rows": 11712
+        },
+        "M2": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Exports/test_predictions_by_seed.parquet",
+          "sha256": "a662b3d300bb88d9a3bd3792f7939f566573496c17370b86c48e0678305bb854",
+          "rows": 11712
+        },
+        "M3": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Exports/test_predictions_by_seed.parquet",
+          "sha256": "7f51e188e5ff386e61165004d1e9943a8cf4d6e261e9465102e43e559ffe11c3",
+          "rows": 11712
+        },
+        "M4": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Exports/test_predictions_by_seed.parquet",
+          "sha256": "825a77fa08401054e026986ba1011c9dddb530971978d4b16fdaaa13309dbef3",
+          "rows": 11712
+        },
+        "M3T": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Exports/test_predictions_by_seed.parquet",
+          "sha256": "5ef42c254f5bb074d36f98bffaba0afe4dbd066082d928932bd4c178094fe1a7",
+          "rows": 11712
+        },
+        "M4T": {
+          "path": "VastAI/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Exports/test_predictions_by_seed.parquet",
+          "sha256": "40b33d47486afae21f4215aa07318f9ea7cfbcf36fbab60d8c06b85e5c577352",
+          "rows": 11712
+        }
+      },
+      "checks_max_abs_difference": {
+        "metrics": {
+          "n": 0.0,
+          "RMSE": 1.7763568394002505e-15,
+          "MSE": 2.842170943040401e-14,
+          "MAE": 1.7763568394002505e-15,
+          "MBE": 2.220446049250313e-16,
+          "R2": 8.326672684688674e-17,
+          "RMSE_improvement_pct": 3.552713678800501e-15,
+          "negative_predictions_clipped": 0.0
+        },
+        "tests": {
+          "n": 0.0,
+          "rmse_diff": 4.440892098500626e-16,
+          "p": 1.1102230246251565e-16,
+          "p_holm": 2.220446049250313e-16,
+          "ci95_low": 4.440892098500626e-16,
+          "ci95_high": 4.440892098500626e-16,
+          "improved": 0.0
+        }
+      },
+      "fixed_rows": {
+        "3": 2874,
+        "6": 2873,
+        "12": 2871,
+        "24": 2867
+      },
+      "original_family_count": 52,
+      "original_input_comparison_count": 24,
+      "input_significant_improvements": 0,
+      "input_significant_worsenings": 1,
+      "scored_rows_exactly_reproduced": true,
+      "posthoc_additional_12_tests_separate_family": true
+    }
+  }
+}

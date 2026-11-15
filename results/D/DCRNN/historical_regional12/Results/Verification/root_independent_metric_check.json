@@ -1,0 +1,801 @@
+{
+  "checks": "passed",
+  "independent_metric_groups": 88,
+  "latest_batch_source_references_match": true,
+  "full_grid_and_truth_match": true,
+  "all_11_condition_metrics_match": true,
+  "groups": [
+    {
+      "split": "validation",
+      "condition": "ADD_CN_BTH",
+      "horizon": 3,
+      "n": 2531,
+      "RMSE": 8.59550531074013,
+      "MAE": 5.5360910300868325,
+      "MBE": -0.5033136906911114
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_BTH",
+      "horizon": 6,
+      "n": 2530,
+      "RMSE": 9.731360215948968,
+      "MAE": 6.137955065085375,
+      "MBE": -1.435054588590755
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_BTH",
+      "horizon": 12,
+      "n": 2528,
+      "RMSE": 11.103984861293432,
+      "MAE": 7.147914341967951,
+      "MBE": -1.868673071206669
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_BTH",
+      "horizon": 24,
+      "n": 2524,
+      "RMSE": 12.74009187924445,
+      "MAE": 8.573404783661793,
+      "MBE": -2.6256340422500917
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_HEILONGJIANG",
+      "horizon": 3,
+      "n": 2531,
+      "RMSE": 9.220897194621873,
+      "MAE": 6.220448747210891,
+      "MBE": 0.3439712886157803
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_HEILONGJIANG",
+      "horizon": 6,
+      "n": 2530,
+      "RMSE": 10.314530341100065,
+      "MAE": 6.8159253055294435,
+      "MBE": 0.011745315360496224
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_HEILONGJIANG",
+      "horizon": 12,
+      "n": 2528,
+      "RMSE": 11.489083909306052,
+      "MAE": 7.501818342440423,
+      "MBE": -0.39354049548749753
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_HEILONGJIANG",
+      "horizon": 24,
+      "n": 2524,
+      "RMSE": 12.624155386034623,
+      "MAE": 8.523998860263328,
+      "MBE": -1.6259605775764825
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_INNER_MONGOLIA",
+      "horizon": 3,
+      "n": 2531,
+      "RMSE": 12.416332097997813,
+      "MAE": 7.943955067628931,
+      "MBE": -2.3498335541401856
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_INNER_MONGOLIA",
+      "horizon": 6,
+      "n": 2530,
+      "RMSE": 12.133925875051562,
+      "MAE": 8.036267361673492,
+      "MBE": 0.04340675677875279
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_INNER_MONGOLIA",
+      "horizon": 12,
+      "n": 2528,
+      "RMSE": 12.509231215979185,
+      "MAE": 8.363141824543238,
+      "MBE": 0.29464463336982744
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_INNER_MONGOLIA",
+      "horizon": 24,
+      "n": 2524,
+      "RMSE": 12.890712942685267,
+      "MAE": 8.694254804612514,
+      "MBE": -0.9692081592059268
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_JILIN",
+      "horizon": 3,
+      "n": 2531,
+      "RMSE": 10.615164401992878,
+      "MAE": 6.725910983005415,
+      "MBE": 0.5286258680221502
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_JILIN",
+      "horizon": 6,
+      "n": 2530,
+      "RMSE": 11.163785732679631,
+      "MAE": 6.952285428907061,
+      "MBE": -0.5054281846334405
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_JILIN",
+      "horizon": 12,
+      "n": 2528,
+      "RMSE": 12.038228633858504,
+      "MAE": 7.6487260905040655,
+      "MBE": -1.9535610552652896
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_JILIN",
+      "horizon": 24,
+      "n": 2524,
+      "RMSE": 12.688185376188336,
+      "MAE": 8.56634395169122,
+      "MBE": -0.4563433995278919
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_LIAONING",
+      "horizon": 3,
+      "n": 2531,
+      "RMSE": 9.839944657737979,
+      "MAE": 5.880591253714853,
+      "MBE": -0.6499150345152138
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_LIAONING",
+      "horizon": 6,
+      "n": 2530,
+      "RMSE": 10.606979184050104,
+      "MAE": 6.519044907550993,
+      "MBE": -0.9158066947550885
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_LIAONING",
+      "horizon": 12,
+      "n": 2528,
+      "RMSE": 11.714806327520943,
+      "MAE": 7.469735502288574,
+      "MBE": -0.5764616883318731
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_LIAONING",
+      "horizon": 24,
+      "n": 2524,
+      "RMSE": 12.86563596853537,
+      "MAE": 8.47845305210908,
+      "MBE": -1.1921709060924104
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_OTHER",
+      "horizon": 3,
+      "n": 2531,
+      "RMSE": 8.58749062989833,
+      "MAE": 5.749873171344905,
+      "MBE": 0.3651101349629317
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_OTHER",
+      "horizon": 6,
+      "n": 2530,
+      "RMSE": 9.523138223664905,
+      "MAE": 6.194058460212142,
+      "MBE": -0.8544296251463489
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_OTHER",
+      "horizon": 12,
+      "n": 2528,
+      "RMSE": 11.236197222074995,
+      "MAE": 7.270177015777593,
+      "MBE": -1.7874683053873826
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_OTHER",
+      "horizon": 24,
+      "n": 2524,
+      "RMSE": 12.83934503543435,
+      "MAE": 8.482164711010856,
+      "MBE": -3.234487819281941
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_SHANDONG",
+      "horizon": 3,
+      "n": 2531,
+      "RMSE": 10.159374894580376,
+      "MAE": 6.236375627244114,
+      "MBE": -0.08120265130036973
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_SHANDONG",
+      "horizon": 6,
+      "n": 2530,
+      "RMSE": 10.726741534260539,
+      "MAE": 6.531433508434405,
+      "MBE": -0.7689860606274502
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_SHANDONG",
+      "horizon": 12,
+      "n": 2528,
+      "RMSE": 11.478606392751797,
+      "MAE": 7.515711991530872,
+      "MBE": 0.4051548385340078
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_CN_SHANDONG",
+      "horizon": 24,
+      "n": 2524,
+      "RMSE": 12.5201983140613,
+      "MAE": 8.36840074376327,
+      "MBE": -1.5083369895853815
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_JP_EAST",
+      "horizon": 3,
+      "n": 2531,
+      "RMSE": 12.035917003002341,
+      "MAE": 7.761126792921651,
+      "MBE": -1.063252270896875
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_JP_EAST",
+      "horizon": 6,
+      "n": 2530,
+      "RMSE": 11.920933017538738,
+      "MAE": 7.692862314312223,
+      "MBE": -1.0428841017618529
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_JP_EAST",
+      "horizon": 12,
+      "n": 2528,
+      "RMSE": 12.093171398961855,
+      "MAE": 7.948966306671778,
+      "MBE": -0.8593059638775258
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_JP_EAST",
+      "horizon": 24,
+      "n": 2524,
+      "RMSE": 13.077766107679043,
+      "MAE": 8.57879232236335,
+      "MBE": -2.68385216762898
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_JP_WEST",
+      "horizon": 3,
+      "n": 2531,
+      "RMSE": 12.328878928792554,
+      "MAE": 7.896767644672053,
+      "MBE": -1.5479449264568215
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_JP_WEST",
+      "horizon": 6,
+      "n": 2530,
+      "RMSE": 12.117872434173055,
+      "MAE": 7.826992576205232,
+      "MBE": -0.8100296767314317
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_JP_WEST",
+      "horizon": 12,
+      "n": 2528,
+      "RMSE": 12.315963624845907,
+      "MAE": 7.897763056597323,
+      "MBE": -1.2352047501067815
+    },
+    {
+      "split": "validation",
+      "condition": "ADD_JP_WEST",
+      "horizon": 24,
+      "n": 2524,
+      "RMSE": 12.647439186871292,
+      "MAE": 8.400008637453297,
+      "MBE": -0.9615755035627285
+    },
+    {
+      "split": "validation",
+      "condition": "DN",
+      "horizon": 3,
+      "n": 2531,
+      "RMSE": 12.371162318261986,
+      "MAE": 8.23585877869142,
+      "MBE": 0.19614558525754067
+    },
+    {
+      "split": "validation",
+      "condition": "DN",
+      "horizon": 6,
+      "n": 2530,
+      "RMSE": 12.353285849664656,
+      "MAE": 8.317439553994772,
+      "MBE": 0.1893868049771458
+    },
+    {
+      "split": "validation",
+      "condition": "DN",
+      "horizon": 12,
+      "n": 2528,
+      "RMSE": 12.901200550766747,
+      "MAE": 8.651675296550467,
+      "MBE": -0.6165532014932512
+    },
+    {
+      "split": "validation",
+      "condition": "DN",
+      "horizon": 24,
+      "n": 2524,
+      "RMSE": 13.190384942697126,
+      "MAE": 8.595172986078232,
+      "MBE": -1.8707601173528174
+    },
+    {
+      "split": "validation",
+      "condition": "F",
+      "horizon": 3,
+      "n": 2531,
+      "RMSE": 9.182458443481947,
+      "MAE": 5.88811914957125,
+      "MBE": 1.1170345170989655
+    },
+    {
+      "split": "validation",
+      "condition": "F",
+      "horizon": 6,
+      "n": 2530,
+      "RMSE": 9.828338923960406,
+      "MAE": 6.292926450514617,
+      "MBE": 0.38741448560923447
+    },
+    {
+      "split": "validation",
+      "condition": "F",
+      "horizon": 12,
+      "n": 2528,
+      "RMSE": 10.984355720630539,
+      "MAE": 7.029275601498208,
+      "MBE": -1.048665618796335
+    },
+    {
+      "split": "validation",
+      "condition": "F",
+      "horizon": 24,
+      "n": 2524,
+      "RMSE": 12.37930345672996,
+      "MAE": 8.16524450874123,
+      "MBE": -1.5312601709115576
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_BTH",
+      "horizon": 3,
+      "n": 2874,
+      "RMSE": 8.403982936105061,
+      "MAE": 5.716205431629489,
+      "MBE": -0.6151789867360463
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_BTH",
+      "horizon": 6,
+      "n": 2873,
+      "RMSE": 9.068742219704076,
+      "MAE": 6.211904808870989,
+      "MBE": -1.5053669705104018
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_BTH",
+      "horizon": 12,
+      "n": 2871,
+      "RMSE": 10.454128843879507,
+      "MAE": 7.164168665076963,
+      "MBE": -2.343173842073697
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_BTH",
+      "horizon": 24,
+      "n": 2867,
+      "RMSE": 12.035156062328774,
+      "MAE": 8.300532255350683,
+      "MBE": -3.1288863037937102
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_HEILONGJIANG",
+      "horizon": 3,
+      "n": 2874,
+      "RMSE": 8.828932730512483,
+      "MAE": 6.468670100457127,
+      "MBE": 0.5685840776614823
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_HEILONGJIANG",
+      "horizon": 6,
+      "n": 2873,
+      "RMSE": 9.541730167055258,
+      "MAE": 6.88650608716082,
+      "MBE": 0.2883334284618622
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_HEILONGJIANG",
+      "horizon": 12,
+      "n": 2871,
+      "RMSE": 10.640838579097078,
+      "MAE": 7.616331052818883,
+      "MBE": -0.4782397539662602
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_HEILONGJIANG",
+      "horizon": 24,
+      "n": 2867,
+      "RMSE": 11.822216584557786,
+      "MAE": 8.42574738955948,
+      "MBE": -1.516446690119271
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_INNER_MONGOLIA",
+      "horizon": 3,
+      "n": 2874,
+      "RMSE": 10.951415266814513,
+      "MAE": 8.055379153197679,
+      "MBE": -0.5748710410720198
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_INNER_MONGOLIA",
+      "horizon": 6,
+      "n": 2873,
+      "RMSE": 11.633652388785693,
+      "MAE": 8.611473788560694,
+      "MBE": 1.633091631857533
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_INNER_MONGOLIA",
+      "horizon": 12,
+      "n": 2871,
+      "RMSE": 12.240979722166768,
+      "MAE": 8.997054699339943,
+      "MBE": 1.6799673562097337
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_INNER_MONGOLIA",
+      "horizon": 24,
+      "n": 2867,
+      "RMSE": 12.031102334394337,
+      "MAE": 8.794853851145607,
+      "MBE": 0.16162133308379376
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_JILIN",
+      "horizon": 3,
+      "n": 2874,
+      "RMSE": 9.238562084886091,
+      "MAE": 6.732379980509441,
+      "MBE": 1.400306880214007
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_JILIN",
+      "horizon": 6,
+      "n": 2873,
+      "RMSE": 9.579010546681426,
+      "MAE": 6.848969161498789,
+      "MBE": 0.006816324939314164
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_JILIN",
+      "horizon": 12,
+      "n": 2871,
+      "RMSE": 10.663108481495959,
+      "MAE": 7.369029601325153,
+      "MBE": -1.7160923724625385
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_JILIN",
+      "horizon": 24,
+      "n": 2867,
+      "RMSE": 11.803919258803523,
+      "MAE": 8.402939939979195,
+      "MBE": -0.4108603963495287
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_LIAONING",
+      "horizon": 3,
+      "n": 2874,
+      "RMSE": 8.15858903632372,
+      "MAE": 5.6115825233120145,
+      "MBE": -0.13095267339579064
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_LIAONING",
+      "horizon": 6,
+      "n": 2873,
+      "RMSE": 9.20317066466625,
+      "MAE": 6.414780047286029,
+      "MBE": -0.3567337045080095
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_LIAONING",
+      "horizon": 12,
+      "n": 2871,
+      "RMSE": 10.493721456631102,
+      "MAE": 7.401547337987511,
+      "MBE": -0.32074847936228096
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_LIAONING",
+      "horizon": 24,
+      "n": 2867,
+      "RMSE": 11.808367926999216,
+      "MAE": 8.53226000825492,
+      "MBE": -0.8787536785752562
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_OTHER",
+      "horizon": 3,
+      "n": 2874,
+      "RMSE": 7.962695160865784,
+      "MAE": 5.965486160716985,
+      "MBE": 0.7373548516685959
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_OTHER",
+      "horizon": 6,
+      "n": 2873,
+      "RMSE": 8.950582749072302,
+      "MAE": 6.387320776818644,
+      "MBE": -0.5054540354921133
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_OTHER",
+      "horizon": 12,
+      "n": 2871,
+      "RMSE": 10.540616349218057,
+      "MAE": 7.402247491699445,
+      "MBE": -1.35269948785587
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_OTHER",
+      "horizon": 24,
+      "n": 2867,
+      "RMSE": 12.225346721517393,
+      "MAE": 8.580273143539545,
+      "MBE": -2.691785655093379
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_SHANDONG",
+      "horizon": 3,
+      "n": 2874,
+      "RMSE": 8.942592725325014,
+      "MAE": 6.308251623228897,
+      "MBE": 0.45761401363048565
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_SHANDONG",
+      "horizon": 6,
+      "n": 2873,
+      "RMSE": 9.565763927338349,
+      "MAE": 6.712597613017048,
+      "MBE": -0.2856748457427455
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_SHANDONG",
+      "horizon": 12,
+      "n": 2871,
+      "RMSE": 10.602224612214798,
+      "MAE": 7.582338498653853,
+      "MBE": 0.4163778087030107
+    },
+    {
+      "split": "test",
+      "condition": "ADD_CN_SHANDONG",
+      "horizon": 24,
+      "n": 2867,
+      "RMSE": 11.630785231739008,
+      "MAE": 8.282453524512091,
+      "MBE": -1.5947438957397306
+    },
+    {
+      "split": "test",
+      "condition": "ADD_JP_EAST",
+      "horizon": 3,
+      "n": 2874,
+      "RMSE": 11.219125430483667,
+      "MAE": 8.241654538485966,
+      "MBE": 0.6598367405134501
+    },
+    {
+      "split": "test",
+      "condition": "ADD_JP_EAST",
+      "horizon": 6,
+      "n": 2873,
+      "RMSE": 11.093440207276595,
+      "MAE": 8.223562467893137,
+      "MBE": 0.5500175057005102
+    },
+    {
+      "split": "test",
+      "condition": "ADD_JP_EAST",
+      "horizon": 12,
+      "n": 2871,
+      "RMSE": 11.749827479008163,
+      "MAE": 8.549683700319516,
+      "MBE": 0.6264833813285827
+    },
+    {
+      "split": "test",
+      "condition": "ADD_JP_EAST",
+      "horizon": 24,
+      "n": 2867,
+      "RMSE": 12.219314376703894,
+      "MAE": 8.665715043587234,
+      "MBE": -1.730438297437989
+    },
+    {
+      "split": "test",
+      "condition": "ADD_JP_WEST",
+      "horizon": 3,
+      "n": 2874,
+      "RMSE": 10.702301686125097,
+      "MAE": 7.72847186509323,
+      "MBE": -0.30989971052201526
+    },
+    {
+      "split": "test",
+      "condition": "ADD_JP_WEST",
+      "horizon": 6,
+      "n": 2873,
+      "RMSE": 10.87432875337952,
+      "MAE": 7.939701199050529,
+      "MBE": 0.3597126644999923
+    },
+    {
+      "split": "test",
+      "condition": "ADD_JP_WEST",
+      "horizon": 12,
+      "n": 2871,
+      "RMSE": 11.16288650445171,
+      "MAE": 8.032767929488477,
+      "MBE": -0.4305390841930038
+    },
+    {
+      "split": "test",
+      "condition": "ADD_JP_WEST",
+      "horizon": 24,
+      "n": 2867,
+      "RMSE": 11.797769570702048,
+      "MAE": 8.570763790145632,
+      "MBE": -0.0008887233775099922
+    },
+    {
+      "split": "test",
+      "condition": "DN",
+      "horizon": 3,
+      "n": 2874,
+      "RMSE": 12.260085764927153,
+      "MAE": 8.960911046239548,
+      "MBE": 2.0006358038017726
+    },
+    {
+      "split": "test",
+      "condition": "DN",
+      "horizon": 6,
+      "n": 2873,
+      "RMSE": 11.918778095490364,
+      "MAE": 8.86664749193969,
+      "MBE": 1.8609942538872413
+    },
+    {
+      "split": "test",
+      "condition": "DN",
+      "horizon": 12,
+      "n": 2871,
+      "RMSE": 11.79260215576437,
+      "MAE": 8.699643993729142,
+      "MBE": 0.5151593717905826
+    },
+    {
+      "split": "test",
+      "condition": "DN",
+      "horizon": 24,
+      "n": 2867,
+      "RMSE": 12.096761382190612,
+      "MAE": 8.655004401006082,
+      "MBE": -1.2086891863435199
+    },
+    {
+      "split": "test",
+      "condition": "F",
+      "horizon": 3,
+      "n": 2874,
+      "RMSE": 7.924579532726122,
+      "MAE": 5.795930443938368,
+      "MBE": 1.416492352477337
+    },
+    {
+      "split": "test",
+      "condition": "F",
+      "horizon": 6,
+      "n": 2873,
+      "RMSE": 8.823716462772044,
+      "MAE": 6.421211011555761,
+      "MBE": 1.0407805881678407
+    },
+    {
+      "split": "test",
+      "condition": "F",
+      "horizon": 12,
+      "n": 2871,
+      "RMSE": 10.1390023705645,
+      "MAE": 7.166281392292416,
+      "MBE": -0.47784219803008915
+    },
+    {
+      "split": "test",
+      "condition": "F",
+      "horizon": 24,
+      "n": 2867,
+      "RMSE": 11.220943709416485,
+      "MAE": 8.078338474315093,
+      "MBE": -0.7872574963793474
+    }
+  ]
+}

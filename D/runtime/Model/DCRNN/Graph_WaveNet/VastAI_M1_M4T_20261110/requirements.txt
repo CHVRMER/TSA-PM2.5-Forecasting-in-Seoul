@@ -1,0 +1,9 @@
+# CUDA PyTorch is supplied by the official Runpod PyTorch template.
+# Do not reinstall torch/torchvision/torchaudio/triton here.
+numpy>=1.26,<3
+pandas>=2.2,<3
+pyarrow>=16,<24
+matplotlib>=3.8,<4
+scipy>=1.12,<2
+PyYAML>=6,<7
+tzdata>=2024.1

@@ -1,0 +1,59 @@
+{
+  "selected_conditions": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M3T",
+    "M4T"
+  ],
+  "seeds": [
+    11
+  ],
+  "predeclared_pairs": [
+    [
+      "DCRNN_trajectory_directed_H48|M2|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M1|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M3|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M2|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M3|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M1|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M4|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M3|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M4|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M1|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M3T|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M3|seed|seed=11"
+    ],
+    [
+      "DCRNN_trajectory_directed_H48|M4T|seed|seed=11",
+      "DCRNN_trajectory_directed_H48|M4|seed|seed=11"
+    ]
+  ],
+  "comparison_sign": "candidate RMSE minus reference RMSE; negative is better",
+  "global_holm_family": "all included horizons, runs, baseline and input-condition contrasts in this invocation",
+  "validation_is_used_for_early_stopping": true,
+  "test_2024_previously_inspected": true,
+  "common_code_sha256": {
+    "/workspace/TSA/Model/Common/DCRNN_H48_20261111/grid.py": "bb5ecaa8f62d8ea6b404ca73aabc6c9f80edc40fbabc4e0dc6b59e8fa1ece7da",
+    "/workspace/TSA/Model/Common/DCRNN_H48_20261111/score.py": "10dfb6644d888a64b0b86cda13a5067b2353ae4ee8e8d7afc3e9ed58d53fad8c"
+  },
+  "standard_outputs_unchanged": [
+    "metrics.csv",
+    "seed_metric_summary.csv",
+    "tests.csv",
+    "conditions.csv",
+    "score_rows.parquet",
+    "scoring_audit.json"
+  ]
+}

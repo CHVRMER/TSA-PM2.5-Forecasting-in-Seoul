@@ -1,0 +1,55 @@
+{
+  "selected_conditions": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M3T",
+    "M4T"
+  ],
+  "seeds": [
+    11
+  ],
+  "predeclared_pairs": [
+    [
+      "GraphWaveNet_distance_fixed_plus_adaptive|M2|seed|seed=11",
+      "GraphWaveNet_distance_fixed_plus_adaptive|M1|seed|seed=11"
+    ],
+    [
+      "GraphWaveNet_distance_fixed_plus_adaptive|M3|seed|seed=11",
+      "GraphWaveNet_distance_fixed_plus_adaptive|M2|seed|seed=11"
+    ],
+    [
+      "GraphWaveNet_distance_fixed_plus_adaptive|M3|seed|seed=11",
+      "GraphWaveNet_distance_fixed_plus_adaptive|M1|seed|seed=11"
+    ],
+    [
+      "GraphWaveNet_distance_fixed_plus_adaptive|M4|seed|seed=11",
+      "GraphWaveNet_distance_fixed_plus_adaptive|M3|seed|seed=11"
+    ],
+    [
+      "GraphWaveNet_distance_fixed_plus_adaptive|M3T|seed|seed=11",
+      "GraphWaveNet_distance_fixed_plus_adaptive|M3|seed|seed=11"
+    ],
+    [
+      "GraphWaveNet_distance_fixed_plus_adaptive|M4T|seed|seed=11",
+      "GraphWaveNet_distance_fixed_plus_adaptive|M4|seed|seed=11"
+    ]
+  ],
+  "comparison_sign": "candidate RMSE minus reference RMSE; negative is better",
+  "global_holm_family": "all included horizons, runs, baseline and input-condition contrasts in this invocation",
+  "validation_is_used_for_early_stopping": true,
+  "test_2024_previously_inspected": true,
+  "common_code_sha256": {
+    "/workspace/TSA/Model/Common/grid.py": "c7a3341d9eefaf7a70f6e5f13edcdcc828ff92990d443c9c72c1d7d67725d81a",
+    "/workspace/TSA/Model/Common/score.py": "f231dfe9a15fa3f8e8577ef076b0efce7f92af3846d49bc60c7742d5aad8a755"
+  },
+  "standard_outputs_unchanged": [
+    "metrics.csv",
+    "seed_metric_summary.csv",
+    "tests.csv",
+    "conditions.csv",
+    "score_rows.parquet",
+    "scoring_audit.json"
+  ]
+}

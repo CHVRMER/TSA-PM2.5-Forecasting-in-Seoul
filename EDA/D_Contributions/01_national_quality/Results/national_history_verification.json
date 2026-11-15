@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "origins": 11688,
+  "new_stations": 505,
+  "feature_count": 8080,
+  "reference_week_origins": 56,
+  "independently_compared_sample_stations": 12,
+  "reference_agreement": true,
+  "future_perturbation_invariance": true,
+  "old_feature_columns_copied": 0,
+  "target_copied": false,
+  "imputation": false,
+  "storage_dtype": "float32",
+  "training_quality80_station_count": 447,
+  "train_present_station_count": 492,
+  "elapsed_seconds": 15.077999999979511
+}

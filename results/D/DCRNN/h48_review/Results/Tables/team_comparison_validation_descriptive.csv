@@ -1,0 +1,53 @@
+﻿model,input_condition,split,horizon,RMSE,scope,aggregation,comparison_caveat
+TeamA_Persistence,,validation,3,7.18,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+TeamA_Persistence,,validation,6,9.97,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+TeamA_Persistence,,validation,12,13.11,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+TeamA_Persistence,,validation,24,15.2,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+TeamA_SARIMA,,validation,3,7.15,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+TeamA_SARIMA,,validation,6,9.73,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+TeamA_SARIMA,,validation,12,12.05,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+TeamA_SARIMA,,validation,24,13.52,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+TeamA_SARIMAX_WNF,WNF,validation,3,6.88,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+TeamA_SARIMAX_WNF,WNF,validation,6,9.42,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+TeamA_SARIMAX_WNF,WNF,validation,12,11.61,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+TeamA_SARIMAX_WNF,WNF,validation,24,12.94,KR67/W24; CN61 regional means,deterministic statistical fit,Rounded published table; raw rows unavailable; different input scope; no paired inference
+Team_C_GRU,DN,validation,3,6.24,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GRU,DN,validation,6,8.31,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GRU,DN,validation,12,10.49,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GRU,DN,validation,24,12.56,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GRU,F,validation,3,6.19,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GRU,F,validation,6,8.28,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GRU,F,validation,12,10.43,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GRU,F,validation,24,11.82,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GCNGRU,DN,validation,3,6.76,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GCNGRU,DN,validation,6,9.0,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GCNGRU,DN,validation,12,11.1,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GCNGRU,DN,validation,24,12.49,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GCNGRU,F,validation,3,6.76,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GCNGRU,F,validation,6,8.98,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GCNGRU,F,validation,12,10.99,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_C_GCNGRU,F,validation,24,12.28,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_LightGBM,DN,validation,3,5.7,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_LightGBM,DN,validation,6,8.08,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_LightGBM,DN,validation,12,10.79,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_LightGBM,DN,validation,24,13.1,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_LightGBM,F,validation,3,5.75,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_LightGBM,F,validation,6,8.03,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_LightGBM,F,validation,12,10.2,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+Team_LightGBM,F,validation,24,12.05,KR514 DN; F600 full,seed11/22/33 ensemble,Rounded published table; F600 differs from F634; single seed vs ensemble; raw rows unavailable
+new_DCRNN_H48,M1,validation,3,5.960920077176205,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+new_DCRNN_H48,M1,validation,6,8.36560498555838,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+new_DCRNN_H48,M1,validation,12,10.625878362737222,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+new_DCRNN_H48,M1,validation,24,12.135804502406918,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+new_DCRNN_H48,M4,validation,3,5.968748224571963,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+new_DCRNN_H48,M4,validation,6,8.441032579202309,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+new_DCRNN_H48,M4,validation,12,10.818400787969026,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+new_DCRNN_H48,M4,validation,24,12.256542739060798,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+previous_GWN,M1,validation,3,5.978442160504467,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+previous_GWN,M1,validation,6,8.188721311063068,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+previous_GWN,M1,validation,12,10.688572880455247,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+previous_GWN,M1,validation,24,12.323693117129467,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+previous_GWN,M4,validation,3,5.839742852663549,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+previous_GWN,M4,validation,6,8.140880823661634,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+previous_GWN,M4,validation,12,10.729076261437807,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ
+previous_GWN,M4,validation,24,12.404068464931996,KR514 M1; F634 M4,seed11,Same frozen eligible grid for paired GWN comparison; context/training/model configurations differ

@@ -1,0 +1,14 @@
+{
+  "path": "/workspace/TSA/Model/DCRNN/VastAI_M1_M4T_H48_20261111/Cache/evaluation/h48_c9d648da5e7ea26e9b0a/evaluation_grid.parquet",
+  "sha256": "e1ed0a6434e0679e7c445979a7632e0d8365c7c7a9c2a501190f4483c7f5e9d0",
+  "horizons": [
+    3,
+    6,
+    12,
+    24,
+    36,
+    48
+  ],
+  "seasonal_baseline": "latest previous daily phase at or before origin; 36h=t-12h,48h=t",
+  "original_four_horizons_preserved": true
+}

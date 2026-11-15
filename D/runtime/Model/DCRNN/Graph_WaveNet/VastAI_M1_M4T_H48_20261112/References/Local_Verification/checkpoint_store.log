@@ -1,0 +1,26 @@
+test_actual_training_resumes_identical_weights_optimizer_scheduler_rng_and_best (__main__.CheckpointTests.test_actual_training_resumes_identical_weights_optimizer_scheduler_rng_and_best) ... [checkpoint recovery] restored epoch 3; rejected=0; pointer_stale=True; C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\verification\local_checks\tmp_checkpoint_store\strict_checkpoint_test_92wsily3\resumed_new_run\Checkpoints\epoch_000003_01794413341825097600_15da3b21
+ok
+test_copy_rejects_bad_generation_and_copies_fallback (__main__.CheckpointTests.test_copy_rejects_bad_generation_and_copies_fallback) ... [checkpoint recovery] restored epoch 1; rejected=1; pointer_stale=True; C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\verification\local_checks\tmp_checkpoint_store\strict_checkpoint_test_7re4o288\source\Checkpoints\epoch_000001_01794413342370526000_0b6c875d
+[checkpoint recovery] restored epoch 1; rejected=0; pointer_stale=True; C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\verification\local_checks\tmp_checkpoint_store\strict_checkpoint_test_7re4o288\destination\Checkpoints\epoch_000001_01794413342370526000_0b6c875d
+ok
+test_copy_verifies_bytes_preserves_source_and_rejects_nonempty_destination (__main__.CheckpointTests.test_copy_verifies_bytes_preserves_source_and_rejects_nonempty_destination) ... [checkpoint recovery] restored epoch 6; rejected=0; pointer_stale=True; C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\verification\local_checks\tmp_checkpoint_store\strict_checkpoint_test_5jkrmppn\destination\Checkpoints\epoch_000006_01794413342739922400_86456400
+ok
+test_corrupt_latest_falls_back_and_all_corrupt_fail_closed (__main__.CheckpointTests.test_corrupt_latest_falls_back_and_all_corrupt_fail_closed) ... [checkpoint recovery] restored epoch 3; rejected=1; pointer_stale=True; C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\verification\local_checks\tmp_checkpoint_store\strict_checkpoint_test_yuu0unen\seed\Checkpoints\epoch_000003_01794413343013995800_aefbf7b4
+ok
+test_failed_disk_write_preserves_previous_committed_state (__main__.CheckpointTests.test_failed_disk_write_preserves_previous_committed_state) ... ok
+test_fresh_and_self_contained_best (__main__.CheckpointTests.test_fresh_and_self_contained_best) ... ok
+test_hard_process_crash_at_each_commit_boundary (__main__.CheckpointTests.test_hard_process_crash_at_each_commit_boundary) ... [checkpoint recovery] restored epoch 2; rejected=0; pointer_stale=True; C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\verification\local_checks\tmp_checkpoint_store\strict_checkpoint_test_swfd6kw6\after_generation_rename\Checkpoints\epoch_000002_01794413351535447700_29a8eaec
+ok
+test_only_pending_or_legacy_artifacts_fail_closed (__main__.CheckpointTests.test_only_pending_or_legacy_artifacts_fail_closed) ... ok
+test_payload_best_history_and_weights_are_consistent (__main__.CheckpointTests.test_payload_best_history_and_weights_are_consistent) ... ok
+test_pointer_is_a_hint_and_manifest_commit_are_verified (__main__.CheckpointTests.test_pointer_is_a_hint_and_manifest_commit_are_verified) ... [checkpoint recovery] restored epoch 2; rejected=0; pointer_stale=True; C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\verification\local_checks\tmp_checkpoint_store\strict_checkpoint_test_orou3iia\seed\Checkpoints\epoch_000002_01794413356039666900_f33d6f7b
+[checkpoint recovery] restored epoch 1; rejected=1; pointer_stale=True; C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\gwn_vast48_20261112\verification\local_checks\tmp_checkpoint_store\strict_checkpoint_test_orou3iia\seed\Checkpoints\epoch_000001_01794413355997725400_af38d9bc
+ok
+test_retention_every_five_recent_two_and_final_pin (__main__.CheckpointTests.test_retention_every_five_recent_two_and_final_pin) ... ok
+test_wrong_contract_never_falls_back_or_starts_fresh (__main__.CheckpointTests.test_wrong_contract_never_falls_back_or_starts_fresh) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 17.355s
+
+OK
+{"checkpoint_store_tests": "passed", "tests_run": 12, "failures": 0, "errors": 0, "hard_process_crash_stages": 6, "actual_optimizer_rng_resume_equivalence": true, "paid_resources_used": false, "real_pm25_model_training_tested": false}

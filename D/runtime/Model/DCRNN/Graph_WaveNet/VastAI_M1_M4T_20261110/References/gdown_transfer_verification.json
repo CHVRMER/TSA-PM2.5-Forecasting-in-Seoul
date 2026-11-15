@@ -1,0 +1,42 @@
+{
+  "checked_kst": "2026-11-10T15:44:27.417707+09:00",
+  "actual_original_archive_install_test": {
+    "actual_archive_installation": "passed",
+    "packages": [
+      {
+        "kind": "data",
+        "sha256": "25f7f447ad0327ea3803873f39d6aa79db8aa1353fc7b44bd930a9cd1691310f",
+        "bytes": 477518306,
+        "added_files": 89,
+        "identical_rerun_skips": 89,
+        "crc": true
+      },
+      {
+        "kind": "code",
+        "sha256": "4059f4a012ee6eb2bea309ae430180a64a31c631588c39d578526e5b44c5e6f6",
+        "bytes": 105355,
+        "added_files": 32,
+        "identical_rerun_skips": 32,
+        "crc": true
+      }
+    ],
+    "seconds": 26.585968299768865,
+    "actual_network_used": false,
+    "original_project_modified": false
+  },
+  "fake_network_resume_old_new_api_and_extraction_safety_tests": "passed",
+  "storage_probe_positive_negative_tests": "passed",
+  "real_google_drive_download_performed": false,
+  "remote_instance_changes_performed": false,
+  "existing_model_data_scorer_and_drive_upload_code_changed": false,
+  "user_reported_mount": {
+    "target": "/workspace",
+    "source": "/dev/loop0[/volumes/V.60029416/_data]",
+    "fstype": "xfs",
+    "size_reported": "20.8G",
+    "available_reported": "20.5G",
+    "volume_id": "60029416",
+    "instance_id": "60029417",
+    "direct_remote_probe_performed_by_assistant": false
+  }
+}

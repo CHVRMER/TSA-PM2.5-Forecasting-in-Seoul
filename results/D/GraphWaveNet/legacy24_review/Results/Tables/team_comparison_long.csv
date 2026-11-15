@@ -1,0 +1,169 @@
+﻿model,input_condition,split,horizon,RMSE,scope,aggregation,comparison_caveat
+A_Persistence,,validation,3,7.18,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+A_Persistence,,validation,6,9.97,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+A_Persistence,,validation,12,13.11,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+A_Persistence,,validation,24,15.2,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+A_SARIMA,,validation,3,7.15,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+A_SARIMA,,validation,6,9.73,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+A_SARIMA,,validation,12,12.05,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+A_SARIMA,,validation,24,13.52,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+A_SARIMAX_WNF,WNF,validation,3,6.88,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+A_SARIMAX_WNF,WNF,validation,6,9.42,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+A_SARIMAX_WNF,WNF,validation,12,11.61,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+A_SARIMAX_WNF,WNF,validation,24,12.94,"KR67/W24, CN61 regional means",single deterministic statistical fit,Published rounded table; raw predictions unavailable; cannot paired-test exact same rows
+C_GRU,DN,validation,3,6.24,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GRU,DN,validation,6,8.31,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GRU,DN,validation,12,10.49,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GRU,DN,validation,24,12.56,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GRU,F,validation,3,6.19,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GRU,F,validation,6,8.28,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GRU,F,validation,12,10.43,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GRU,F,validation,24,11.82,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GCNGRU,DN,validation,3,6.76,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GCNGRU,DN,validation,6,9.0,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GCNGRU,DN,validation,12,11.1,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GCNGRU,DN,validation,24,12.49,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GCNGRU,F,validation,3,6.76,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GCNGRU,F,validation,6,8.98,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GCNGRU,F,validation,12,10.99,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+C_GCNGRU,F,validation,24,12.28,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+LightGBM,DN,validation,3,5.7,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+LightGBM,DN,validation,6,8.08,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+LightGBM,DN,validation,12,10.79,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+LightGBM,DN,validation,24,13.1,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+LightGBM,F,validation,3,5.75,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+LightGBM,F,validation,6,8.03,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+LightGBM,F,validation,12,10.2,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+LightGBM,F,validation,24,12.05,KR514 DN; F600 for full,seed11/22/33 ensemble,Published rounded table; F600 differs from current F634; raw predictions unavailable
+B_LightGBM_pasted,M1,validation,3,5.9726,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M1,validation,6,8.3359,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M1,validation,12,10.675,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M1,validation,24,12.8561,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M2,validation,3,5.9656,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M2,validation,6,8.2037,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M2,validation,12,10.2866,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M2,validation,24,12.075,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3,validation,3,5.959,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3,validation,6,8.1243,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3,validation,12,10.2968,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3,validation,24,11.9586,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4,validation,3,6.0637,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4,validation,6,8.1915,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4,validation,12,10.4746,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4,validation,24,12.0205,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3T,validation,3,5.8842,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3T,validation,6,7.8771,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3T,validation,12,10.1486,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3T,validation,24,11.971,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4T,validation,3,5.9273,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4T,validation,6,7.9792,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4T,validation,12,10.1869,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4T,validation,24,12.0709,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_wind,validation,3,5.9235,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_wind,validation,6,8.1047,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_wind,validation,12,10.2331,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_wind,validation,24,11.8946,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_route,validation,3,5.9312,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_route,validation,6,8.1082,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_route,validation,12,10.2158,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_route,validation,24,11.8989,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Persistence,test,3,6.8127,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Persistence,test,6,9.1299,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Persistence,test,12,12.1242,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Persistence,test,24,14.0856,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M1,test,3,5.3192,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M1,test,6,7.2113,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M1,test,12,9.5125,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M1,test,24,11.2354,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M2,test,3,5.3627,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M2,test,6,7.2047,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M2,test,12,9.3015,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M2,test,24,11.0256,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3,test,3,5.4093,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3,test,6,7.3558,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3,test,12,9.4744,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3,test,24,11.0122,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4,test,3,5.3772,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4,test,6,7.362,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4,test,12,9.5096,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4,test,24,10.9795,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3T,test,3,5.31,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3T,test,6,7.1228,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3T,test,12,9.2843,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M3T,test,24,10.8219,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4T,test,3,5.3435,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4T,test,6,7.1115,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4T,test,12,9.2748,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,M4T,test,24,10.9175,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_wind,test,3,5.349,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_wind,test,6,7.3243,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_wind,test,12,9.4378,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_wind,test,24,10.9734,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_route,test,3,5.3519,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_route,test,6,7.3489,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_route,test,12,9.3901,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+B_LightGBM_pasted,Adaptive_route,test,24,10.9848,"KR67, CN61, JP24, MN1 maximum; older source",seed11/22/33 ensemble,"Different eligible rows; KR67 vs KR514; M3T includes all-country trajectory aggregates. Descriptive numbers only, not same-contract paired comparison"
+GraphWaveNet,M1,validation,3,5.978442160504467,fixed635 nodes; external PM arm M1,seed11,current archive fixed evaluation grid
+GraphWaveNet,M1,validation,6,8.188721311063068,fixed635 nodes; external PM arm M1,seed11,current archive fixed evaluation grid
+GraphWaveNet,M1,validation,12,10.688572880455247,fixed635 nodes; external PM arm M1,seed11,current archive fixed evaluation grid
+GraphWaveNet,M1,validation,24,12.323693117129467,fixed635 nodes; external PM arm M1,seed11,current archive fixed evaluation grid
+GraphWaveNet,M2,validation,3,6.069228402576782,fixed635 nodes; external PM arm M2,seed11,current archive fixed evaluation grid
+GraphWaveNet,M2,validation,6,8.144315046191064,fixed635 nodes; external PM arm M2,seed11,current archive fixed evaluation grid
+GraphWaveNet,M2,validation,12,10.68336600420241,fixed635 nodes; external PM arm M2,seed11,current archive fixed evaluation grid
+GraphWaveNet,M2,validation,24,12.616469940563253,fixed635 nodes; external PM arm M2,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3,validation,3,6.026832466631566,fixed635 nodes; external PM arm M3,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3,validation,6,8.077065086304977,fixed635 nodes; external PM arm M3,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3,validation,12,10.474380880414184,fixed635 nodes; external PM arm M3,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3,validation,24,12.500717543773952,fixed635 nodes; external PM arm M3,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4,validation,3,5.839742852663549,fixed635 nodes; external PM arm M4,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4,validation,6,8.140880823661634,fixed635 nodes; external PM arm M4,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4,validation,12,10.729076261437807,fixed635 nodes; external PM arm M4,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4,validation,24,12.404068464931996,fixed635 nodes; external PM arm M4,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3T,validation,3,6.2808481416013935,fixed635 nodes; external PM arm M3T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3T,validation,6,8.596790248313104,fixed635 nodes; external PM arm M3T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3T,validation,12,10.8875239781759,fixed635 nodes; external PM arm M3T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3T,validation,24,12.292038699900058,fixed635 nodes; external PM arm M3T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4T,validation,3,6.715685164245877,fixed635 nodes; external PM arm M4T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4T,validation,6,8.725983315343758,fixed635 nodes; external PM arm M4T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4T,validation,12,10.81771435218933,fixed635 nodes; external PM arm M4T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4T,validation,24,12.260241100170257,fixed635 nodes; external PM arm M4T,seed11,current archive fixed evaluation grid
+DCRNN,DN,validation,3,12.371162318261986,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,DN,validation,6,12.353285849664656,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,DN,validation,12,12.901200550766749,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,DN,validation,24,13.190384942697126,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,F,validation,3,9.182458443481949,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,F,validation,6,9.828338923960406,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,F,validation,12,10.98435572063054,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,F,validation,24,12.37930345672996,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+GraphWaveNet,M1,test,3,5.669699575922852,fixed635 nodes; external PM arm M1,seed11,current archive fixed evaluation grid
+GraphWaveNet,M1,test,6,7.25830697525952,fixed635 nodes; external PM arm M1,seed11,current archive fixed evaluation grid
+GraphWaveNet,M1,test,12,9.415996760146273,fixed635 nodes; external PM arm M1,seed11,current archive fixed evaluation grid
+GraphWaveNet,M1,test,24,10.921762384815448,fixed635 nodes; external PM arm M1,seed11,current archive fixed evaluation grid
+GraphWaveNet,M2,test,3,5.887082445174403,fixed635 nodes; external PM arm M2,seed11,current archive fixed evaluation grid
+GraphWaveNet,M2,test,6,7.547198974747732,fixed635 nodes; external PM arm M2,seed11,current archive fixed evaluation grid
+GraphWaveNet,M2,test,12,9.58812281898671,fixed635 nodes; external PM arm M2,seed11,current archive fixed evaluation grid
+GraphWaveNet,M2,test,24,11.168228823579671,fixed635 nodes; external PM arm M2,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3,test,3,5.7730848063005,fixed635 nodes; external PM arm M3,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3,test,6,7.399963459052031,fixed635 nodes; external PM arm M3,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3,test,12,9.487811578655847,fixed635 nodes; external PM arm M3,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3,test,24,10.969630540729984,fixed635 nodes; external PM arm M3,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4,test,3,5.7032238656318,fixed635 nodes; external PM arm M4,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4,test,6,7.43897252163559,fixed635 nodes; external PM arm M4,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4,test,12,9.477236808896375,fixed635 nodes; external PM arm M4,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4,test,24,10.9391545540521,fixed635 nodes; external PM arm M4,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3T,test,3,5.767954212862448,fixed635 nodes; external PM arm M3T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3T,test,6,7.3078966687585,fixed635 nodes; external PM arm M3T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3T,test,12,9.322045853094998,fixed635 nodes; external PM arm M3T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M3T,test,24,10.738270571982843,fixed635 nodes; external PM arm M3T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4T,test,3,5.868762686240417,fixed635 nodes; external PM arm M4T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4T,test,6,7.595800112952016,fixed635 nodes; external PM arm M4T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4T,test,12,9.444514718542989,fixed635 nodes; external PM arm M4T,seed11,current archive fixed evaluation grid
+GraphWaveNet,M4T,test,24,10.749930923305827,fixed635 nodes; external PM arm M4T,seed11,current archive fixed evaluation grid
+DCRNN,DN,test,3,12.260085764927153,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,DN,test,6,11.918778095490364,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,DN,test,12,11.79260215576437,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,DN,test,24,12.096761382190612,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,F,test,3,7.924579532726122,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,F,test,6,8.823716462772044,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,F,test,12,10.1390023705645,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"
+DCRNN,F,test,24,11.220943709416485,KR514 DN; F634 full,seed11,"same fixed evaluation grid; model architecture, graph, training settings differ"

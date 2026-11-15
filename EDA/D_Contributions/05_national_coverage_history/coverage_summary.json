@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "arrival_count": 11688,
+  "point_count": 561024,
+  "radius_km": 75,
+  "arrival_height_agl_m": 500,
+  "lookback_hours": [
+    1,
+    48
+  ],
+  "station_count": 822,
+  "national_new_matching_candidates": 505,
+  "old_kr67_observed_pct": 37.214272473191876,
+  "national_kr_observed_pct": 41.667557894136436,
+  "national_added_observed_percentage_points": 4.4532854209445585,
+  "v3_all_observed_pct": 49.05975501939311,
+  "v4_all_observed_pct": 53.411262263289984,
+  "neighbor_rows": 16769834,
+  "legacy_kr67_coordinates_preserved": true,
+  "target_excluded_from_upstream": true,
+  "roadside_data_added": false,
+  "coordinate_rule": "fixed audited metadata; training snapshot preferred; later-only descriptive candidates flagged",
+  "country_counts": {
+    "KR": 572,
+    "JP": 188,
+    "CN": 61,
+    "MN": 1
+  },
+  "elapsed_seconds": 32.468000000109896,
+  "no_model_training_or_test_scoring": true,
+  "parameters": {
+    "radius_km": 75,
+    "exact_pass_time": true,
+    "imputation": false
+  }
+}

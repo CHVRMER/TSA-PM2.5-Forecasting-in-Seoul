@@ -1,0 +1,17 @@
+﻿variable,rows,null,inf,minimum,maximum
+lookback_hours,2559672,0,0,-0.0,72.0
+arrival_height_agl_m,2559672,0,0,100.0,1000.0
+latitude,2559672,0,0,7.709,83.262
+longitude,2559672,0,0,-179.483,178.69
+height_agl_m,2559672,0,0,0.0,8877.1
+pressure_hpa,2559672,0,0,233.4,1042.8
+diagnostic_air_temp,2559672,0,0,212.1,317.3
+diagnostic_rainfall,2559672,0,0,0.0,28.2
+diagnostic_mixdepth,2559672,0,0,8.6,5152.3
+diagnostic_relhumid,2559672,0,0,0.4,100.0
+diagnostic_terr_msl,2559672,0,0,-40.6,4712.6
+diagnostic_sun_flux,2559672,0,0,0.0,1008.8
+diagnostic_uwind,2559672,0,0,-40.4,54.9
+diagnostic_vwind,2559672,0,0,-59.6,52.0
+wind_speed_m_s,2559672,0,0,0.0,66.59249206930163
+wind_from_degrees,2559672,502,0,0.0,359.85308806680115

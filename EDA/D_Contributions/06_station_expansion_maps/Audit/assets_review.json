@@ -1,0 +1,175 @@
+{
+  "original_template_script": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\v5_integration_20261108\\staging\\Trash\\Neighbors_Expansion_20261108_originals\\Dataset\\Codes\\Regions_1107\\plot_regions_1107.py",
+  "region_polygon_source": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\v5_integration_20261108\\staging\\Trash\\Neighbors_Expansion_20261108_originals\\Dataset\\Codes\\Regions_1107\\build_regions_1107.py",
+  "original_map": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\v5_integration_20261108\\staging\\Trash\\Neighbors_Expansion_20261108_originals\\EDA\\Regions_1107\\stations_after_1107.png",
+  "original_mapped_csv": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\v5_integration_20261108\\staging\\Trash\\Neighbors_Expansion_20261108_originals\\EDA\\Regions_1107\\stations_after_1107.csv",
+  "attachment": {
+    "path": "C:/Users/kimjy/Desktop/관측소 plot.png",
+    "sha256": "ab5c75921d24dd37191ca4b313cdd0a8fe0c572298940a12469219ee4e9fb014",
+    "same_bytes_as_preserved_original": false
+  },
+  "basemap": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\EDA\\Matching_Candidates_National_Neighbors_2021_2024\\Codes\\assets\\ne_110m_admin_0_countries.geojson",
+  "basemap_sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+  "trajectory_source": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Trajectories\\trajectory_points_2021_2024.parquet",
+  "extent": [
+    100,
+    145,
+    25,
+    55
+  ],
+  "figure_inches": [
+    11,
+    11
+  ],
+  "dpi": 150,
+  "aspect": 1.25,
+  "land_facecolor": "#f4f4f1",
+  "sea_facecolor": "#e9eff4",
+  "country_edgecolor": "#666",
+  "country_lw": 0.5,
+  "trajectory": {
+    "arrival_height_agl_m": 500,
+    "ages": [
+      0,
+      48
+    ],
+    "period": "2021-2024",
+    "selected_per_month": 4,
+    "sample_rule": "arr = drop_duplicates sort; groupby(arr.dt.to_period(M)); s.iloc[::max(1,len(s)//4)][:4]",
+    "expected_sample_count": 192,
+    "line_color": "#8a9aa8",
+    "linewidth": 0.4,
+    "alpha": 0.45,
+    "zorder": 1
+  },
+  "styles": {
+    "KR_OLD": {
+      "marker": "^",
+      "color": "#d07a2d",
+      "size": 26
+    },
+    "KR_NEW": {
+      "marker": "^",
+      "color": "#f2b880",
+      "size": 14
+    },
+    "CN48": {
+      "marker": "o",
+      "color": "#a23b8f",
+      "size": 26
+    },
+    "CN_BORDER": {
+      "marker": "s",
+      "color": "#8b4a3c",
+      "size": 34
+    },
+    "JP_OLD": {
+      "marker": "o",
+      "color": "#2e7d5b",
+      "size": 26
+    },
+    "MN": {
+      "marker": "D",
+      "color": "#5b3f8f",
+      "size": 50
+    },
+    "TARGET": {
+      "marker": "*",
+      "color": "#b81d2c",
+      "size": 260
+    }
+  },
+  "polygons": {
+    "CN_POLY": [
+      [
+        116.6,
+        36.3
+      ],
+      [
+        118.8,
+        36.0
+      ],
+      [
+        119.6,
+        34.6
+      ],
+      [
+        120.4,
+        32.2
+      ],
+      [
+        120.6,
+        29.5
+      ],
+      [
+        118.8,
+        29.5
+      ],
+      [
+        117.4,
+        31.4
+      ],
+      [
+        116.3,
+        33.0
+      ],
+      [
+        115.6,
+        34.6
+      ],
+      [
+        115.8,
+        35.8
+      ]
+    ],
+    "JP_POLY": [
+      [
+        135.4,
+        34.4
+      ],
+      [
+        137.5,
+        34.4
+      ],
+      [
+        139.7,
+        35.2
+      ],
+      [
+        139.9,
+        35.6
+      ],
+      [
+        140.7,
+        38.2
+      ],
+      [
+        141.0,
+        40.0
+      ],
+      [
+        139.1,
+        38.6
+      ],
+      [
+        137.5,
+        37.0
+      ],
+      [
+        135.9,
+        35.4
+      ]
+    ]
+  },
+  "polygon_colors": {
+    "CN_POLY": "#1f77b4",
+    "JP_POLY": "#00a0b0"
+  },
+  "important_notes": [
+    "Exact original source template found. Attached PNG and preserved source image are not byte-identical; recreate vector data style, not claim pixel identity.",
+    "The later baseline plot_matching_candidates.py uses monthly middle-quartile sampling; use original first/stride sampling here for same paths.",
+    "China polygon is eastern China(Jiangsu/Anhui/northern Zhejiang/southern Shandong), not all South China.",
+    "Japan polygon is Japan-East/Sea-of-Japan-side Honshu candidate band; original source selected prefectures Akita,Yamagata,Niigata,Toyama,Ishikawa,Fukui,Nagano,Gifu,Shiga,Kyoto; not literally Tokyo prefecture.",
+    "For historical nationwide-addition stage, keep all westernJapan188 candidates as one group; JP25 kept/163 dropped is a later selection, not stage1."
+  ]
+}

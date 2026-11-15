@@ -1,0 +1,17 @@
+{
+  "verified_date": "2026-11-10",
+  "sources": [
+    {"title": "Storage Types", "url": "https://docs.vast.ai/guides/instances/storage/types", "supports": ["container stop persistence", "destroy deletion", "local volume same-host limits", "independent storage billing"]},
+    {"title": "Volumes", "url": "https://docs.vast.ai/guides/instances/storage/volumes", "supports": ["same physical machine only", "volume survives instance deletion", "offline host access limitations"]},
+    {"title": "Managing Instances", "url": "https://docs.vast.ai/guides/instances/manage-instances", "supports": ["stop vs destroy", "restart GPU availability", "offline state", "contract expiry deletion risk"]},
+    {"title": "Instances FAQ", "url": "https://docs.vast.ai/guides/reference/faq/instances", "supports": ["lifetime expiry warning", "external backup recommendation"]},
+    {"title": "Cloud Sync", "url": "https://docs.vast.ai/guides/instances/storage/cloud-sync", "supports": ["external providers", "Docker only", "scoped cloud credentials"]},
+    {"title": "Scheduled Cloud Backups", "url": "https://docs.vast.ai/guides/instances/storage/cloud-backups", "supports": ["hourly daily weekly scheduling", "custom local cron scheduling", "external backup protects offline instance work"]},
+    {"title": "PyTorch 2.7", "url": "https://pytorch.org/blog/pytorch-2-7/", "supports": ["Blackwell support introduced with CUDA 12.8 wheels"]},
+    {"title": "PyTorch 2.12", "url": "https://pytorch.org/blog/pytorch-2-12-release-blog/", "supports": ["CUDA 12.8 wheels deprecated", "Blackwell CUDA 13.0+ wheel guidance", "Linux NVIDIA driver minimum 580.65.06"]}
+  ],
+  "checkpoint_recommendations_are_engineering_design_not_service_guarantees": true,
+  "account_authentication_performed": false,
+  "paid_resource_created": false,
+  "external_cloud_connection_created": false
+}

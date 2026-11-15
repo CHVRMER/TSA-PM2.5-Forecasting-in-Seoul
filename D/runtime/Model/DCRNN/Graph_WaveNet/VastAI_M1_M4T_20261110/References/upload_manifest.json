@@ -1,0 +1,537 @@
+{
+  "created_kst": "2026-11-11T01:35:47.898819+09:00",
+  "code_only_update": true,
+  "requires_existing_dataset_and_common_code_from_original_runpod_bundle": true,
+  "files": [
+    {
+      "path": "Dataset/China/china_48stations_context_buffer.parquet",
+      "bytes": 43418,
+      "sha256": "b8f0beb9ddd3cb988ae55bd3ba1d52585b459eba40ba848560f7542dfd5dfa16",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/China/china_48stations_hourly_2021_2024_kst.parquet",
+      "bytes": 17879256,
+      "sha256": "deac609b362b19bbf06f08440708ab1ef16bdeb671d087837e476835db2a96c9",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/China_Border_Proxy/china_border_cities_context_buffer.parquet",
+      "bytes": 9948,
+      "sha256": "cd33c235a1faebb6d8213b9f3c4955b4798ae14360410d5f66b53c43cc73b3cb",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/China_Border_Proxy/china_border_cities_hourly_2021_2024_kst.parquet",
+      "bytes": 1576833,
+      "sha256": "163bfdc7db0291e9b66f22c617663b8e69de50ded843b06b802a7e8adea56120",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Evaluation_Contract_20261107/evaluation_grid.parquet",
+      "bytes": 1417013,
+      "sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Japan/japan_west_context_buffer.parquet",
+      "bytes": 19390,
+      "sha256": "60ce82edb4f8100b0b8bd5dfd591bf20fb2651e414f81898b6ace807142226ce",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Japan/japan_west_hourly_2021_2024_kst.parquet",
+      "bytes": 23369486,
+      "sha256": "0925d636ab7a55e6d9bdcdbb79a13516e82697c04c40307a924822018b67bfec",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_Air/korea_34stations_hourly_2021_2024_kst.parquet",
+      "bytes": 6673430,
+      "sha256": "26e96a0202414ef9540a17b65b1886325ed8a68dce94026af656fbb7accbc6e4",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_Air/korea_context_buffer.parquet",
+      "bytes": 19574,
+      "sha256": "87cdbd597583314fa0004256d3475da79551b846229f852f5daae22eb1bb6e99",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_East_Candidates/korea_east_36stations_hourly_2021_2024_kst.parquet",
+      "bytes": 6811715,
+      "sha256": "66f5ea75e6335be904e9333054400080b9875db6d6be855cfc36bd6aa91da581",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_East_Candidates/korea_east_context_buffer.parquet",
+      "bytes": 22701,
+      "sha256": "1fbd9c3632f6d36c5d22977954d76f400b2fcb131a11f988495916bdeaa1fff9",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_National_2021_2024/korea_national_pm25_context_buffer.parquet",
+      "bytes": 50693,
+      "sha256": "2d33af072ba57b2610780bf41be644219b05e3df1d36f02ca626d9d0dab62a5d",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Korea_National_2021_2024/korea_national_pm25_hourly_2021_2024_kst.parquet",
+      "bytes": 18716296,
+      "sha256": "580f762c362dd62540f74dd8955b38a4c8e7e37c51fd0df5a4df299c7d05e764",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Mongolia/mongolia_ub_embassy_context_buffer.parquet",
+      "bytes": 7173,
+      "sha256": "de0f11b7b1be50c6263d2c2684ae2c1712b9f64e08fe8515ca1d8dd2cc516f58",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Mongolia/mongolia_ub_embassy_hourly_2021_2024_kst.parquet",
+      "bytes": 748517,
+      "sha256": "10dd4d0010b1d3757871a5940c1c8cf0e0d70d94a241fd2e42764e20b833da5e",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Neighbors_Expansion_QC_20261108/china_east_context_buffer_qc.parquet",
+      "bytes": 24047,
+      "sha256": "be5f3063ee275079ec334321ce22b6271e5e012800ac507386232ab9c21940c8",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Neighbors_Expansion_QC_20261108/china_east_hourly_qc_2021_2024_kst.parquet",
+      "bytes": 9408059,
+      "sha256": "2271d90b79de76e521eca160afa4bd49993e7ee6d39d8d3a1bb39e48363ac803",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Neighbors_Expansion_QC_20261108/japan_east18_context_buffer.parquet",
+      "bytes": 6598,
+      "sha256": "ba97d077cf3b5238dd9348dbaa23fcc65b99fa54282810125d38024ffd84c2c3",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Neighbors_Expansion_QC_20261108/japan_east18_hourly_2021_2024_kst.parquet",
+      "bytes": 1936862,
+      "sha256": "d801b60a988daa8546ab762f83e877e43353d1b50f000282a5006c2ec4c62305",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024/feature_dictionary.csv",
+      "bytes": 1542594,
+      "sha256": "c81a0be31597fe7b5624d148303a820b0f57b3c479bbf8e44afc4bab14985c34",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024/feature_sets.json",
+      "bytes": 357179,
+      "sha256": "f396587cf174ed2e0b39328a665e249e8ac43f181df7f105db65bf5d48cc7330",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024/origin_features_2021_2024_kst.parquet",
+      "bytes": 87579871,
+      "sha256": "ff0d02f7169d1706d053556557637d505332bf2571d763472df213b5ee5e2670",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024_v3/feature_dictionary.csv",
+      "bytes": 3874804,
+      "sha256": "c463f3cdaa195c093fb50a8463eacd82f3b961513562a5966be7cdc26f128732",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024_v3/japan_balanced_stations.csv",
+      "bytes": 3038,
+      "sha256": "1cfcbc867156425765f333c424b7e179af15e58417a407c2486b81b30696f4f4",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Origin_Features_2021_2024_v3/origin_features_2021_2024_kst.parquet",
+      "bytes": 194937923,
+      "sha256": "fd0c9c3c746b41a07956c3612218d6596170b6ca6f17b547884dc3de9e6ae1ec",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_2021_2024/station_registry.csv",
+      "bytes": 19432,
+      "sha256": "04412640f3ca2cec9e64979f08f12e7bd6031587b6e5a3fa6a48a9a85ed5ee63",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_2021_2024_v3/station_registry.csv",
+      "bytes": 50358,
+      "sha256": "b7d20b16c686b250b1ab0ad81ad86a095a181881f6208e7f4022793996bbe87d",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_Expansion_QC_20261108/matching_manifest.json",
+      "bytes": 2210,
+      "sha256": "68463d5caabb37f9d5705a764611afe1391d515453f1f3b3376f078d2e672df6",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_Expansion_QC_20261108/trajectory_point_coverage.parquet",
+      "bytes": 15008955,
+      "sha256": "9e467a54303a810d6d07d34c2bed3fa05fa9b1e22a0a50ab82f7184dd1c40fc9",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_Expansion_QC_20261108/trajectory_station_neighbors.parquet",
+      "bytes": 209026271,
+      "sha256": "1d5b1da9c967578137250a698dd57f9b6095e311ecf04d931872ecfee1b90dce",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Dataset/Trajectory_Matching_National_v4/station_registry.csv",
+      "bytes": 250199,
+      "sha256": "f8a4b54fdd25990d9f6696e83ebeae1a56b6b3b796e5943403082f08d45893dc",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/Common/Neighbor_Experiments_QC_20261108/experiments.json",
+      "bytes": 117290,
+      "sha256": "25915f86bfd53b437bad4ecd869fa0f9cfedc7504055dfc9e9b7ee74e9a966e1",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/Common/Neighbor_Experiments_QC_20261108/station_registry.csv",
+      "bytes": 302111,
+      "sha256": "b4b0b4fae83c30a6a9953a04efca6b6806d8b66a5365715e9a0e0c68e4d939b0",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/Common/grid.py",
+      "bytes": 9229,
+      "sha256": "c7a3341d9eefaf7a70f6e5f13edcdcc828ff92990d443c9c72c1d7d67725d81a",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/Common/neural_evaluation.py",
+      "bytes": 32561,
+      "sha256": "00e6d72f585d19b535b92b5ad12c9338b8918de4e6bed9ab02dcaa4eb0105fa9",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/Common/score.py",
+      "bytes": 25597,
+      "sha256": "f231dfe9a15fa3f8e8577ef076b0efce7f92af3846d49bc60c7742d5aad8a755",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/DCRNN/Neighbor_Expansion_QC_20261108/Codes/neighbor_adapter.py",
+      "bytes": 12870,
+      "sha256": "55b0305b6d96d0c19f61772d105311c78ebc83f11796d0c898ba86f881368d7a",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/DCRNN/V3_Data_20261107/Codes/original_data.py",
+      "bytes": 24073,
+      "sha256": "1769e25db6e5b7d477e9cf81246bbdd643f5cd065a219386157fd61f292d89d4",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/DCRNN/V3_Data_20261107/Codes/original_graphs.py",
+      "bytes": 23810,
+      "sha256": "df3cb7b223e7c0ab145c33d52b0c918bce270dd9c26744463f41735c974bd129",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/DCRNN/V3_Data_20261107/Codes/v3_adapter.py",
+      "bytes": 24656,
+      "sha256": "1606b56ccd4cce6660437ad2887b1339a2a9b13bb1c3619d58cc493dd353e36d",
+      "role": "existing_dependency"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/checkpoint_store.py",
+      "bytes": 20298,
+      "sha256": "529f60cf1edbc45fb5522cc76d9fd235f0cf60da5ad1699bb0e8a25fe5ed4aa2",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/data_experiments.py",
+      "bytes": 15100,
+      "sha256": "b5f6b0d0c2c56bff0107dbc6783fc8f63c7629f08eb6ef174aa9bd38d334ae0f",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/drive_backup.py",
+      "bytes": 15110,
+      "sha256": "4cc3c7aee1c886f70795ced11c5af4d33f61f2ef19ffc66bc254bcef6ebbee1c",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/restore_verified_backup.py",
+      "bytes": 18312,
+      "sha256": "3464c8024e4e3627a19c4b95a2c3574afc554eb8353684f0a08c6ca4b214a8a0",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/run_experiments.py",
+      "bytes": 24486,
+      "sha256": "7c6773bc3a8ec372e7ebe3aa2109c5439272af3f01d656daa180874736f10de9",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/trajectory_features.py",
+      "bytes": 18624,
+      "sha256": "c901f10cac8bd95f97ee9065e3e7401ed1de5b8173e493b49fbbe6905d171065",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/vendor/graph_wavenet_model.py",
+      "bytes": 15541,
+      "sha256": "8d320e2ee4aa14570392d32904acb3568eb2e87bd27ce56d7f1cf0ff77f5af29",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/vendor/LICENSE_GraphWaveNet_author.txt",
+      "bytes": 1059,
+      "sha256": "4ca2e57e06fec8b21ea58f1e19f6805052867be62de900ee9b12580bf1a033d8",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/vendor/neural_training.py",
+      "bytes": 32076,
+      "sha256": "0b631bc2504068da02b5afbd51c3ac57ff65af6987262e7de0a3ca7a5fbabd67",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_checkpoint_store.py",
+      "bytes": 15785,
+      "sha256": "a64312a9705b7e4389b95bfbd7cb83314c87df42bc8372f86544a458b506e271",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_combined_score_synthetic.py",
+      "bytes": 6104,
+      "sha256": "e27f45082b8f79b29755a53e159470d08269ecd50e0b85231e441fe4fd3b38f1",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_data_synthetic.py",
+      "bytes": 4512,
+      "sha256": "3f75b2560955b844c2b89dedd87bad8e7f297c2439e4c69d02f65f2347201882",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_drive_backup.py",
+      "bytes": 6687,
+      "sha256": "69bcb724565217ec55c1f9c78100df7688610578d39b10c26b74c8c7b05cd32e",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_restore_verified_backup.py",
+      "bytes": 7192,
+      "sha256": "a76cb039d25a4bc09ceefc0612cbbb9888506508d6d1601b47ef8814f4ee7ef0",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_training_resume.py",
+      "bytes": 5286,
+      "sha256": "e571c0b450bc2a27a64ff34e0be1f8b2b74d0e577a0daa93387ed961b3c5aef9",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_upload.py",
+      "bytes": 1566,
+      "sha256": "2b53b8115acdf4856aabc08b2442a7f897677762d501dbfba4b116b955260c57",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/configs/default.json",
+      "bytes": 2456,
+      "sha256": "84dd33d44bb8213f2b0393e52ea1cc834e9efba115e4e7c6474e905c19409ac0",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/GOOGLE_DRIVE_BACKUP.md",
+      "bytes": 10119,
+      "sha256": "47ccdda20563742d4c3e42c1ed56a5e484b537cc9c46c62344c4e833cf3c1902",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/README.md",
+      "bytes": 8822,
+      "sha256": "33a8223e5c6262ac08a0743560b3b0bcdb3cae3c21fdb6d380310a714ec82f52",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/actual_full_validation.json",
+      "bytes": 2381,
+      "sha256": "72e8ee1dbd744c853bb153b0261313f32cf6ce39e11e9e12bd783496e9d0f2c5",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/actual_week_validation.json",
+      "bytes": 1399,
+      "sha256": "7a69130726f4d346022c29da9055ace724614b233801aca93623666dd2d0bf45",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/checkpoint_training_changes.patch",
+      "bytes": 11214,
+      "sha256": "a9c541002a1e7d86c4a7bfea1cbea389a5571d787dc7386bf6c3bfbbba6a378d",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/required_source_files.json",
+      "bytes": 7294,
+      "sha256": "d95be5e9b1149672bb53118578eec04e6d61dcda713be9b243b8ec8aece6c4f9",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/vast_storage_findings_20261110.md",
+      "bytes": 4336,
+      "sha256": "63daf4fe639b556b9ce2051145b3bf2fb110c8c0cc4ce5e49683b88aacf92d32",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/vast_storage_sources_20261110.json",
+      "bytes": 1855,
+      "sha256": "e4bc9039192c453bcb00c7f61f7523ed796efb206861354d6ee57a5ffc93c387",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/verification_summary.json",
+      "bytes": 1966,
+      "sha256": "e1c793c0f990fbe9b0de3fdb3c55a3b72699f97613aaa0681483a3947197fa40",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/requirements.txt",
+      "bytes": 246,
+      "sha256": "e78e49559b24a3effccf7583d8dd7e379b8b37e2af823e8d03b75eb65c5acb05",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/run_full.sh",
+      "bytes": 1843,
+      "sha256": "3d444eca27c13a9933cda070961b0520030c4b74db0cb5ec3b670838ece622d1",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/run_pilot.sh",
+      "bytes": 1844,
+      "sha256": "d4dba187c887d59edd1ba52099962a280d19f1feca83295251fc1462c977780a",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/setup_vast.sh",
+      "bytes": 4256,
+      "sha256": "49645775a93e6435f481e1f90579aa301b1775e93d310f33346faa970c2c09e7",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/VAST_START_HERE.txt",
+      "bytes": 7978,
+      "sha256": "9c2015c723d9e52d1cb9c31f1b8d459dd6d5e12e1271503dfe74fcea3d3f47c9",
+      "role": "update_file"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/AUTO_RESUME_TMUX.md",
+      "bytes": 6424,
+      "sha256": "c60a723fa916461d12e0d3efc9d2bb1fdaa7f47f622f539deccb7f9ba2d9269b",
+      "role": "auto_resume_update"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/start_full.sh",
+      "bytes": 316,
+      "sha256": "24c6e8b9d93c91b13a83fa494c47dd29facd976337c20224f71fff764731ffff",
+      "role": "auto_resume_update"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/full_run_control.py",
+      "bytes": 31183,
+      "sha256": "13fc1427ab9b3d3d52b577f1a5a668845c32949d91f80bfc56dd9539916733e9",
+      "role": "auto_resume_update"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_auto_resume_control.py",
+      "bytes": 15857,
+      "sha256": "7c636450489b96133567267759582c9487efe2fd2ebe80a80f19d5223eb26c79",
+      "role": "auto_resume_update"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_tmux_launch_control.py",
+      "bytes": 6947,
+      "sha256": "e1489deeee9e46c74d97fe8709a51a348a4fe24c6b531b14c79a877cfe851233",
+      "role": "auto_resume_update"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/auto_resume_runner_changes.patch",
+      "bytes": 3416,
+      "sha256": "1185d1182ad2879ff3175ff85d5c0814680edaedd0413802a10e7d2a4d7edcaf",
+      "role": "auto_resume_update"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/auto_resume_verification.json",
+      "bytes": 1311,
+      "sha256": "db75b214f96179cdd9d8c7956a682fdc827a366bce8a8ba53207858125cb8057",
+      "role": "auto_resume_update"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/INTERRUPT_AND_SCROLL_FIX_20261111.md",
+      "bytes": 4023,
+      "sha256": "a580420bddc86864675b871c98a15128e56bbd051f9b792bdce26e5618aac59e",
+      "role": "interrupt_hotfix"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_interrupt_control.py",
+      "bytes": 7567,
+      "sha256": "45c5aa0339af0233f4b0ce3a85db82e5f065113f9bb72fba9301174a2714854e",
+      "role": "interrupt_hotfix"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/interrupt_control_changes_20261111.patch",
+      "bytes": 8484,
+      "sha256": "f6982edb740bd1a713533db935b403ae598be3a6411a882b0c8570853d91873e",
+      "role": "interrupt_hotfix"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/interrupt_fix_verification_20261111.json",
+      "bytes": 1325,
+      "sha256": "cca123871a1a1f3706074ad63ea4f8b45423392f4eecb738c59650c7981e76e2",
+      "role": "interrupt_hotfix"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/EPOCH50_PATIENCE10_20261111.md",
+      "bytes": 3397,
+      "sha256": "7d68bddb26f61e8889485cac800e14050848ae2734a890088e6fa035271857ad",
+      "role": "stopping_limits_update"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/stopping_policy.py",
+      "bytes": 5628,
+      "sha256": "17c35959a9aa1b8d2cfdf9c2acd93cf7cf67483bbf00061c833dc7e2ab540243",
+      "role": "stopping_limits_update"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Codes/verify_stopping_policy.py",
+      "bytes": 11619,
+      "sha256": "bbe548d9462e63cce4095f9f929e46b510aae1fc72b3e0638dad846ccc1b3354",
+      "role": "stopping_limits_update"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/stopping_limits_50_10_changes.patch",
+      "bytes": 6532,
+      "sha256": "7904b9022e19aab784a99119752d8269211b840577eec7ebcda242b54ef8f816",
+      "role": "stopping_limits_update"
+    },
+    {
+      "path": "Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/References/stopping_limits_50_10_verification.json",
+      "bytes": 1124,
+      "sha256": "94693e4634a8f9f1fa41134d1308f81b611e1c1d1ef1b8bf55c5ae757134e160",
+      "role": "stopping_limits_update"
+    }
+  ],
+  "manifest_self_excluded": true,
+  "credentials_included": false,
+  "auto_resume_tmux_update": true,
+  "interrupt_scroll_fix_20261111": true,
+  "stopping_limits_update": {
+    "max_epochs": 50,
+    "patience": 10
+  }
+}

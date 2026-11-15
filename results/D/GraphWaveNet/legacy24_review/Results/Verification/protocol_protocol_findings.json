@@ -1,0 +1,114 @@
+{
+  "final_run": "20261111_014538_406520_eaa72758",
+  "completion": {
+    "all_six_conditions_passed": true,
+    "final_test": true,
+    "combined_validation_and_test_present": true,
+    "batch_elapsed_seconds": 10186.957554196008,
+    "single_seed": 11
+  },
+  "other_batches": {
+    "20261110_161130_265396_df7c07df": "pilot, M1 only, passed",
+    "20261110_162311_230659_9ba7975a": "pilot, all six, passed",
+    "20261110_192802_468013_928db0a5": "earlier full interrupted; backed-up manifest remains running",
+    "20261111_010911_738330_5b7fa64b": "earlier full resumed/interrupted; backed-up manifest remains running"
+  },
+  "share_guidance": {
+    "drive_folder": "MyDrive/Colab_Notebooks/TSA/Result/GraphWaveNet/VastAI/20261111_014538_406520_eaa72758",
+    "latest_complete_folder_sufficient_for_results_and_self_contained_checkpoint_copies": true,
+    "both_attached_zip_parts_required_for_entire_original_folder": "ZIP002 holds five state.pt files belonging to the same final folder. It is not a separate newer experiment. ZIP001 contains all metrics/predictions, but incomplete checkpoints without ZIP002.",
+    "date_name_alone_insufficient": "Confirm batch_manifest.status==passed, mode==full and final_test==true; a newly interrupted batch may have a newer name."
+  },
+  "fixed_protocol": {
+    "nodes": 635,
+    "external_universe": 634,
+    "KR": 514,
+    "CN": 77,
+    "JP": 42,
+    "MN": 1,
+    "horizons": [
+      3,
+      6,
+      12,
+      24
+    ],
+    "primary_validation_selection": 6,
+    "seed": 11,
+    "model_parameters": 339832,
+    "same_distance_graph_all_arms": true,
+    "same_node_order_all_arms": true,
+    "observations_masked_before_normalization": true,
+    "raw_base_context": 53,
+    "normalized_base_context_with_mask": 106,
+    "raw_trajectory_context_slots": 322,
+    "raw_context_slots": 375,
+    "transformed_context_dim": 750,
+    "excluded_nodes_retained_as_latent_relays": true,
+    "all_arms_same_model_size_context_padding": true,
+    "M3T_country_scope": [
+      "KR",
+      "CN"
+    ],
+    "M3T_allowed_trajectory_features": 218,
+    "M4T_allowed_trajectory_features": 322,
+    "M3T_no_JP_MN_or_all_country_observation_aggregates": true
+  },
+  "architecture": {
+    "profile": "paper topology with project context/output adaptation, not exact benchmark reproduction",
+    "blocks": 4,
+    "layers_per_block": 2,
+    "residual_channels": 32,
+    "dilations": [
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2
+    ],
+    "loaded_history_hours": 48,
+    "PM_convolution_eval_receptive_field_hours": 13,
+    "rf_caveat": "Last-time PM readout uses trailing13h in eval; training BatchNorm uses historical positions across the supplied48h. Trajectory summaries in context can describe older than13h. A24h forecast is still valid.",
+    "adaptive_graph": "learned static dense support shared across dates; not meteorology-conditioned time-varying adjacency",
+    "T_meaning": "trajectory summaries added to global context; not switching fixed distance graph to HYSPLIT transport graph"
+  },
+  "training": {
+    "max_epochs": 50,
+    "patience": 10,
+    "micro_batch_size": 8,
+    "effective_batch_size": 64,
+    "eval_batch_size": 8,
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "optimizer_epsilon": 1e-08,
+    "weight_decay": 0.0001,
+    "exclude_bias_norm_from_decay": false,
+    "scheduler": "none",
+    "max_grad_norm": 5.0,
+    "loss": "mae_original",
+    "min_delta": 0.0,
+    "use_amp": false
+  },
+  "stopping_policy_caveat": {
+    "M1": "resumed old100/20 run at40 completed epochs, best29, bad11; prospective50/10 reduction retained history and immediately exported previous best. Not a fresh50/10 rerun. Model checkpoint still selected only by2023.",
+    "M2": "reached max50, best42, bad8; budget limit before patience10, so not evidence of full convergence"
+  },
+  "training_stability": {
+    "no_nonfinite_training_or_validation_values": true,
+    "largest_validation_6h_rmse": 9.655938865458786,
+    "all_best_checkpoints_within_recorded_history": true,
+    "T_arms_best_early": "M3T best5/15; M4T best4/14, training loss continues down, validation worsens. Consistent with overfitting/optimization mismatch, not proof trajectory useless."
+  },
+  "limitations": [
+    "Single seed cannot quantify seed-to-seed stability; temporal block CIs only quantify sample error conditional on fitted model.",
+    "2024 was already inspected in earlier experiments; do not relabel it untouched independent new test.",
+    "DCRNN comparison also changes temporal architecture, graph support, optimization and head/context slots; not isolated adaptive-graph or DCRNN-vs-GWN architecture causality.",
+    "Country PM observational information value is not emission-source attribution or material transport fraction.",
+    "No fixed-only/adaptive-only/static-vs-dynamic graph ablation here, so adaptive graph benefit itself is not identified.",
+    "Historical meteorological analyses/trajectory and final QC observations do not prove real-time data availability; operational latency not independently audited here.",
+    "run_summary.test_scored remains false even when condition completion.test_scored and Combined test prove test scoring. Use completion + final scoring for completion judgement.",
+    "Session seconds exclude earlier M1 source training. learning_curve.seconds is per-epoch, not cumulative elapsed."
+  ]
+}

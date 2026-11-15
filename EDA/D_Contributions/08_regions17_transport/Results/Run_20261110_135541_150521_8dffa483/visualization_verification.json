@@ -1,0 +1,98 @@
+{
+  "status": "verified",
+  "created_kst": "2026-11-10T13:55:45.031537+09:00",
+  "external_observations": 634,
+  "old_preliminary_candidates": 822,
+  "regions": 17,
+  "country_counts": {
+    "KR": 514,
+    "CN": 77,
+    "JP": 42,
+    "MN": 1
+  },
+  "city_means": 29,
+  "point_stations": 605,
+  "figures": [
+    {
+      "stem": "station_regions_17_heatmap",
+      "heatmap_present": true,
+      "sample_trajectory_lines": 0,
+      "external_series": 634,
+      "regions": 17,
+      "target_marker_separate": 1,
+      "legend_bbox_figure": [
+        0.2461309523809524,
+        0.06736923104745371,
+        0.5077380952380951,
+        0.08630669487847223
+      ],
+      "extent": [
+        100,
+        141,
+        28,
+        55
+      ],
+      "coordinate_display": "same lon/lat layout and aspect as attached original"
+    },
+    {
+      "stem": "station_regions_17_trajectory_sample",
+      "heatmap_present": false,
+      "sample_trajectory_lines": 192,
+      "external_series": 634,
+      "regions": 17,
+      "target_marker_separate": 1,
+      "legend_bbox_figure": [
+        0.2461309523809524,
+        0.06736923104745371,
+        0.5077380952380951,
+        0.08630669487847223
+      ],
+      "extent": [
+        100,
+        141,
+        28,
+        55
+      ],
+      "coordinate_display": "same lon/lat layout and aspect as attached original"
+    }
+  ],
+  "separated_layers_verified": true,
+  "reference_manifest_matched": true,
+  "hysplit": {
+    "arrivals": 11688,
+    "height_agl_m": 500,
+    "ages_h": [
+      1,
+      48
+    ],
+    "grid_degrees": 1,
+    "fixed_denominator": 11688,
+    "same_path_revisits_counted_once": true,
+    "sample_paths": 192,
+    "sample_per_month": 4,
+    "colour_map": "YlGnBu",
+    "colour_limits_percent": [
+      0.01,
+      100
+    ]
+  },
+  "seoul_marker": {
+    "coordinate": [
+      126.98,
+      37.57
+    ],
+    "meaning": "unchanged HYSPLIT receptor representative coordinate; target excluded from634"
+  },
+  "inputs_unchanged": true,
+  "input_sha256": {
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional12_Seed11_20261109\\regions.json": "c806a7a27975499003dab3be6f60cf14fdb81cc81f992bfb013736c239360861",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional12_Seed11_20261109\\station_registry.csv": "85f195a6297d78e6415a8b33e65e1d4ad5aedd8d5c9b1f3227055f64e00f3398",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional12_Seed11_20261109\\experiments.json": "69eb80d1de36ef1783f562130b768bc749d072623ca6ff561f9ac24eed259b5b",
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\station_regions_separate_20261110\\staging\\EDA\\Station_Regions_17_Separate_Maps_20261110\\Codes\\region_color_scheme.csv": "7e9cf4530cf094d21daab9f56d20226bad6bbcde11783a2dfb97a655d3e3545d",
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\station_regions_separate_20261110\\staging\\EDA\\Station_Regions_17_Separate_Maps_20261110\\Codes\\matching_map_reference.py": "32ee12f8af78f6cfe79e9de6cf4fd38f200adf6a20ff45269e444ac0a083253e",
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\station_regions_separate_20261110\\staging\\EDA\\Station_Regions_17_Separate_Maps_20261110\\Codes\\assets\\ne_110m_admin_0_countries.geojson": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Trajectories\\trajectory_points_2021_2024.parquet": "c9cf10c3ae0063e5dae9e0c2b96d95daa84ed1baf1258fde841ee252c7fcc839",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\EDA\\Matching_Candidates_National_Neighbors_2021_2024\\visualization_manifest.json": "ce779fd3990ff847b1c5b612956ecf1d770487941018df141ccb33788b39e0e2"
+  },
+  "model_training": false
+}

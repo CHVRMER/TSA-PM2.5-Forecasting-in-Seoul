@@ -1,0 +1,261 @@
+{
+  "status": "passed",
+  "schema_version": "regional29-fixed635-v1.0.0",
+  "configuration_sha256": "a611276b2a48af0573bad84c74dafdc9951f09467ac9f284eac6a83ae96367d7",
+  "synthetic": {
+    "all_29_masks_checked": 29,
+    "raw_source_preserved": true,
+    "target_context_labels_preserved": true,
+    "retained_node_scalers_and_inputs_identical_to_full": true,
+    "excluded_raw_values_poison_invariant": true,
+    "stale_fingerprint_rejected": true,
+    "wrong_node_universe_rejected": true
+  },
+  "real": {
+    "status": "passed",
+    "nodes": 635,
+    "origins": 11688,
+    "hourly_rows": 35112,
+    "conditions": [
+      {
+        "condition": "DN",
+        "allowed_external_series": 514,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "F",
+        "allowed_external_series": 634,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "ADD_CN_SHANDONG",
+        "allowed_external_series": 525,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "ADD_CN_BTH",
+        "allowed_external_series": 523,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "ADD_CN_LIAONING",
+        "allowed_external_series": 532,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "ADD_CN_JILIN",
+        "allowed_external_series": 523,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "ADD_CN_HEILONGJIANG",
+        "allowed_external_series": 520,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "ADD_CN_INNER_MONGOLIA",
+        "allowed_external_series": 526,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "ADD_CN_OTHER",
+        "allowed_external_series": 526,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "ADD_JP_WEST",
+        "allowed_external_series": 538,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "ADD_JP_EAST",
+        "allowed_external_series": 532,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "ADD_MN",
+        "allowed_external_series": 515,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_KR_CAPITAL",
+        "allowed_external_series": 472,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_KR_GANGWON",
+        "allowed_external_series": 604,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_KR_CHUNGCHEONG",
+        "allowed_external_series": 549,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_KR_HONAM",
+        "allowed_external_series": 548,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_KR_DAEGYEONG",
+        "allowed_external_series": 574,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_KR_DONGNAM",
+        "allowed_external_series": 552,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_KR_JEJU",
+        "allowed_external_series": 625,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_CN_SHANDONG",
+        "allowed_external_series": 623,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_CN_BTH",
+        "allowed_external_series": 625,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_CN_LIAONING",
+        "allowed_external_series": 616,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_CN_JILIN",
+        "allowed_external_series": 625,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_CN_HEILONGJIANG",
+        "allowed_external_series": 628,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_CN_INNER_MONGOLIA",
+        "allowed_external_series": 622,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_CN_OTHER",
+        "allowed_external_series": 622,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_JP_WEST",
+        "allowed_external_series": 610,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_JP_EAST",
+        "allowed_external_series": 616,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      },
+      {
+        "condition": "DROP_MN",
+        "allowed_external_series": 633,
+        "excluded_train_observation_counts_zero": true,
+        "retained_node_scalers_exact": true,
+        "target_context_preprocessing_sha256": "e2fa643b9f6fec68e13b372defde0d0872ea5aa806886780bb2ffb84e214351b",
+        "fixed635_nodes": true
+      }
+    ],
+    "raw_source_preserved": true,
+    "common_target_context_labels_and_graphs_preserved": true,
+    "full_4year_data_loaded_once": true,
+    "graph_test": "preserved distance graph; parent verifies transport-graph training separately",
+    "elapsed_seconds": 47.13711869996041,
+    "model_training_or_forecast_scoring_performed": false
+  },
+  "module_source_sha256": "2fa8b4de5ab34414cba5f91e7f588ba851247d46fcd25f6ac099062007dd1c4e"
+}

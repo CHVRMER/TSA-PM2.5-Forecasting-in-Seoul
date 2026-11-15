@@ -1,0 +1,234 @@
+{
+  "status": "passed",
+  "ast_files_checked": 35,
+  "checks": [
+    {
+      "name": "static",
+      "returncode": 0
+    },
+    {
+      "name": "runner",
+      "returncode": 0
+    },
+    {
+      "name": "horizons",
+      "returncode": 0
+    },
+    {
+      "name": "matching",
+      "returncode": 0
+    },
+    {
+      "name": "masks",
+      "returncode": 0
+    },
+    {
+      "name": "common",
+      "returncode": 0
+    },
+    {
+      "name": "combined",
+      "returncode": 0
+    },
+    {
+      "name": "auto_resume",
+      "returncode": 0
+    },
+    {
+      "name": "tmux",
+      "returncode": 0
+    },
+    {
+      "name": "interrupt",
+      "returncode": 0
+    },
+    {
+      "name": "stopping",
+      "returncode": 0
+    },
+    {
+      "name": "backup",
+      "returncode": 0
+    },
+    {
+      "name": "restore_schema",
+      "returncode": 0
+    },
+    {
+      "name": "restore_checkpoint",
+      "returncode": 0
+    },
+    {
+      "name": "checkpoint_store",
+      "returncode": 0
+    },
+    {
+      "name": "dependency_installer",
+      "returncode": 0
+    }
+  ],
+  "actual_data_audit_passed": true,
+  "actual_nodes": 635,
+  "actual_origins": 11688,
+  "original_data_and_fixed_graph_and_six_condition_inputs_preserved": true,
+  "cpu_torch_numerical_training_and_checkpoint_resume_tested": true,
+  "gpu_training_executed": false,
+  "real_635_node_full_training_executed": false,
+  "torch": "2.15.0+cpu",
+  "pandas": "2.3.3",
+  "pyarrow": "23.0.1",
+  "numerical_checks": {
+    "runtime": {
+      "status": "passed",
+      "numerical_checks": 8,
+      "failures": 0,
+      "errors": 0,
+      "device": "cpu",
+      "torch": "2.15.0+cpu",
+      "real_dataset_used": false,
+      "real_635_node_training_tested": false,
+      "synthetic_3_node_750_context_model": true,
+      "horizons": [
+        3,
+        6,
+        12,
+        24,
+        36,
+        48
+      ],
+      "output_steps": 48,
+      "receptive_field_hours": 61,
+      "raw_context_channels": 375,
+      "two_origin_prediction_rows": 12,
+      "context_dropout": 0.2,
+      "missing_aware_padding_tested": true,
+      "original_gwn_h4_and_dcrnn_h48_checkpoints_rejected": true,
+      "default_h6_and_optional_h24_checkpoint_selection_checked": true,
+      "interrupted_resume_checks_optimizer_scheduler_rng": true,
+      "prediction_export_parquet_checked": true
+    },
+    "end_to_end": {
+      "status": "passed",
+      "torch": "2.15.0+cpu",
+      "device": "cpu",
+      "synthetic_only": true,
+      "real_635_node_training_tested": false,
+      "trained_epochs": 2,
+      "horizons": [
+        3,
+        6,
+        12,
+        24,
+        36,
+        48
+      ],
+      "validation_export_rows": 192,
+      "test_export_rows": 102,
+      "model_train_export_private_score_pipeline": true,
+      "both_splits_common_six_outputs": true,
+      "individual_condition_tests": 12,
+      "repeated_scoring_no_overwrite": true
+    },
+    "actual_runner": {
+      "status": "passed",
+      "actual_635_node_preparation": true,
+      "torch_imported": true,
+      "conditions": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M3T",
+        "M4T"
+      ],
+      "runner_batch": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\gwn_vast48_20261112\\verification\\actual_runner\\full\\20261112_010628_649053_c2eb614e",
+      "staged_private_common_only": true,
+      "original_data_written": false,
+      "real_model_training_executed": false,
+      "drive_accessed": false
+    },
+    "full_node_smoke": {
+      "status": "passed",
+      "device": "cpu",
+      "torch": "2.15.0+cpu",
+      "full_635_node_forward_shape_checked": true,
+      "synthetic_graph_and_inputs": true,
+      "input_shape": [
+        1,
+        48,
+        635,
+        2
+      ],
+      "output_shape": [
+        1,
+        6
+      ],
+      "parameter_count": 511186,
+      "seconds": 1.0002028997987509,
+      "gpu_or_real_training_tested": false,
+      "architecture": {
+        "implementation": "gwn-seoul-h48-rf61-v1",
+        "model": "GraphWaveNet",
+        "num_nodes": 635,
+        "input_dim": 2,
+        "architecture_profile": "project48",
+        "output_steps": 48,
+        "horizons": [
+          3,
+          6,
+          12,
+          24,
+          36,
+          48
+        ],
+        "target_index": 0,
+        "context_dim": 750,
+        "context_head_is_project_adaptation": true,
+        "context_dropout": 0.2,
+        "padding_policy": "scaled_pm_zero_missing_one",
+        "padding_scaled_pm_value": 0.0,
+        "padding_missing_indicator": 1.0,
+        "graph_mode": "fixed_plus_adaptive",
+        "fixed_support_count": 2,
+        "adaptive_embedding_dim": 10,
+        "adaptive_embedding_init": "normal",
+        "residual_channels": 32,
+        "dilation_channels": 32,
+        "skip_channels": 256,
+        "end_channels": 512,
+        "kernel_size": 2,
+        "blocks": 4,
+        "layers_per_block": 4,
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          1,
+          2,
+          4,
+          8,
+          1,
+          2,
+          4,
+          8,
+          1,
+          2,
+          4,
+          8
+        ],
+        "receptive_field_hours": 61,
+        "receptive_field_scope": "eval-time convolutional PM readout; training BatchNorm aggregates historical positions",
+        "diffusion_steps": 2,
+        "graph_dropout": 0.3,
+        "support_convention": "P[source,destination], output_destination=sum_source(X_source*P)",
+        "self_loops_added": false,
+        "graph_identity_term": true,
+        "batch_normalization": true,
+        "direct_forecast": true,
+        "benchmark_reproduction": false
+      }
+    }
+  },
+  "source_licenses_included": true
+}

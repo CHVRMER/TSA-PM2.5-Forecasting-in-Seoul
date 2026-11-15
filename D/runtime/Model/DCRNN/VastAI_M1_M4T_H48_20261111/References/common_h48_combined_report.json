@@ -1,0 +1,27 @@
+{
+  "synthetic_combined_scoring": "passed",
+  "standard_outputs": [
+    "metrics.csv",
+    "seed_metric_summary.csv",
+    "tests.csv",
+    "conditions.csv",
+    "score_rows.parquet",
+    "scoring_audit.json"
+  ],
+  "same_seed_and_ensemble_contrasts": 7,
+  "test_lock_checked": true,
+  "horizons": [
+    3,
+    6,
+    12,
+    24,
+    36,
+    48
+  ],
+  "seed11_family_test_rows": 84,
+  "multi_seed_contrasts": 21,
+  "individual_seeds_and_ensemble_separate": true,
+  "new_output_folders_checked": true,
+  "source_outputs_preserved": true,
+  "real_model_training_tested": false
+}

@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "period": "2021-2022 training origins only",
+  "arrivals": 5840,
+  "hourly_points": 280320,
+  "regions": 20,
+  "windows": {
+    "01-48": {
+      "hourly_positions": 48,
+      "one_hour_segments": 47,
+      "antimeridian_segments_split": 0
+    },
+    "07-48": {
+      "hourly_positions": 42,
+      "one_hour_segments": 41,
+      "antimeridian_segments_split": 0
+    },
+    "13-48": {
+      "hourly_positions": 36,
+      "one_hour_segments": 35,
+      "antimeridian_segments_split": 0
+    }
+  },
+  "arrival_height_agl_m": 500,
+  "age_zero_excluded": true,
+  "segment_interpolation": "straight lon/lat line between modeled hourly positions; antimeridian shortest branch; not resolved subhourly true trajectory",
+  "passage_boundary_policy": "intersects includes boundary touches; multiple regions may be visited; rates need not sum100",
+  "point_assignment": "fixed REGION order on shared boundaries; all modeled points assigned once",
+  "point_boundary_multiple_covers": 0,
+  "point_assignment_count": 280320,
+  "station_radius_matching_used": false,
+  "country_border_city13_is_geographic_region": false,
+  "country_metadata_excluded_from_mainland_group": [
+    "Taiwan Province",
+    "Macau Special Administrative Region",
+    "Hong Kong Special Administrative Region"
+  ],
+  "other_land_policy": "Only non-focus Natural Earth country features; never coarse-minus-detailed coastline slivers",
+  "sea_unclassified_note": "land-complement category, not guaranteed actual sea: mixed-source coastlines and small unresolved geography included",
+  "boundary_epoch_note": "KOR2021,CHN2019,JPN2022 fixed static geography; not a reconstruction of every boundary in2021/22",
+  "test_result": {
+    "status": "passed",
+    "place_checks": 23,
+    "holes_preserved": true,
+    "boundary_touch_included": true,
+    "segment_without_endpoint_in_region_detected": true,
+    "antimeridian_short_branch": true
+  },
+  "sources": [
+    {
+      "asset": "KOR_ADM1.geojson",
+      "metadata_api": "https://www.geoboundaries.org/api/current/gbOpen/KOR/ADM1/",
+      "download_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/KOR/ADM1/geoBoundaries-KOR-ADM1.geojson",
+      "actual_media_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/KOR/ADM1/geoBoundaries-KOR-ADM1.geojson",
+      "source": "Natural Earth",
+      "year_represented": "2021",
+      "license": "Public Domain",
+      "sha256": "6683cd1ad991676d96493fd0aae068215426497ccf82c8b0eb5683cad341cddc"
+    },
+    {
+      "asset": "CHN_ADM1.geojson",
+      "metadata_api": "https://www.geoboundaries.org/api/current/gbOpen/CHN/ADM1/",
+      "download_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1.geojson",
+      "actual_media_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1.geojson",
+      "source": "geoBoundaries, Wikimedia Commons",
+      "year_represented": "2019",
+      "license": "Public Domain",
+      "sha256": "3a00467a0db9b4136facb5f2f3d0edbfd96adb15651cfdf63991da9281030e85"
+    },
+    {
+      "asset": "JPN_ADM0.geojson",
+      "metadata_api": "https://www.geoboundaries.org/api/current/gbOpen/JPN/ADM0/",
+      "download_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/JPN/ADM0/geoBoundaries-JPN-ADM0.geojson",
+      "actual_media_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/JPN/ADM0/geoBoundaries-JPN-ADM0.geojson",
+      "source": "Ministry of Land, Infrastructure, Transport and Tourism National Land Numerical Information Download Site",
+      "year_represented": "2022",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "sha256": "8da994e4c3301fa3f2e51dcbc23025d61225e6c15ed9c85e4a063ebc1cd11af8"
+    },
+    {
+      "asset": "ne_110m_admin_0_countries.geojson",
+      "source": "Natural Earth 1:110m country polygons, existing audited local copy",
+      "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_admin_0_countries.geojson",
+      "license": "Public Domain",
+      "year_represented": "not available in reused local asset; fixed geometry pinned by sha256",
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    }
+  ],
+  "trajectory_source": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Trajectories\\trajectory_points_2021_2024.parquet",
+  "trajectory_sha256": "c9cf10c3ae0063e5dae9e0c2b96d95daa84ed1baf1258fde841ee252c7fcc839",
+  "elapsed_seconds": 30.04700000002049
+}

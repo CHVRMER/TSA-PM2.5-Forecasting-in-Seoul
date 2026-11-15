@@ -1,0 +1,1 @@
+{"restore_schema_tests": "passed", "real_metadata_validator_executed": true, "valid_contract_accepted": true, "rejected_mutations": 14, "pytorch_checkpoint_load_tested": false}

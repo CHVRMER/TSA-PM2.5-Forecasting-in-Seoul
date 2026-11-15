@@ -1,0 +1,37 @@
+{
+  "overall": "Graph WaveNet improves substantially over the submitted DCRNN runs, particularly short horizons. It has not established superiority over LightGBM or the team's GRU. Cross-model paired statistics here are explicitly post-hoc review analyses, not the original completed planned family.",
+  "matched_DCRNN_comparison": {
+    "matched_scopes": "GWN M4 vs DCRNN F (both external F634); secondary GWN M1 vs DCRNN DN (both domestic KR514 PM observations). Both seed11.",
+    "evaluation_rows_exactly_equal": true,
+    "target_values_and_target_timestamps_exactly_equal": true,
+    "2024_M4_vs_F_gain_pct_h3_h6_h12_h24": [28.031212, 15.693432, 6.526930, 2.511279],
+    "2024_M4_vs_F_significant_horizons": [3, 6, 12],
+    "2024_24h": "CI includes zero; no significant improvement.",
+    "2023_M4_vs_F_significant_horizons": [3, 6],
+    "2024_12h_CI": [-1.126182, -0.014581],
+    "2024_12h_p_Holm20_all_cross_model_review_sensitivity": 0.03607908,
+    "domestic_comparison": "GWN M1 has significantly lower RMSE than DCRNN DN at all four horizons in both splits, including Holm20 sensitivity. This also highlights the unusually weak/unstable DCRNN domestic fit, and should not be interpreted as proof of international information value.",
+    "architecture_caveat": "Inputs span comparable PM observations and fixed scoring rows, but graph type, temporal architecture, effective receptive field, optimization, regularization and head differ. Current GWN uses distance+adaptive, direct forecast, convolutional PM readout RF13h (48h loader), dropout0.3, Adam0.001 and weight decay0.0001. DCRNN used trajectory-directed seq2seq, 48h encoder, teacher forcing, dropout0, Adam0.01 and weight decay0. Thus the comparison is between actual submitted systems, not an isolated graph/architecture intervention."
+  },
+  "local_LightGBM_reference": {
+    "scope": "F634 seed11, 2023 validation only; this is the local reference, not teammate B's independent latest run.",
+    "GWN_M4_RMSE": [5.839743, 8.140881, 10.729076, 12.404068],
+    "LightGBM_RMSE": [5.837738, 8.064487, 10.304301, 12.180992],
+    "conclusion": "No significant paired difference at any horizon. GWN point estimates are slightly worse, especially 12h (~4.12%). Absence of significance is not evidence of equivalence.",
+    "future": "A raw-prediction 2024 LightGBM F634 same-grid comparison is not present among the verified sources."
+  },
+  "published_team_sources": {
+    "A": "2023 SARIMAX WNF 6.88/9.42/11.61/12.94. GWN M4 5.84/8.14/10.73/12.40 is numerically lower at all horizons. Raw A prediction keys absent, scopes differ, cannot claim paired significance.",
+    "B_DOCX": "2023 LightGBM F600 three-seed ensemble 5.75/8.03/10.20/12.05. GWN M4 is numerically worse at all four horizons. Scope and seed aggregation differ, so this is descriptive.",
+    "C_GRU_DOCX": "2023 GRU F600 three-seed ensemble 6.19/8.28/10.43/11.82. GWN M4 numerically improves 3/6h but worsens 12/24h. No general dominance.",
+    "C_GCNGRU_DOCX": "2023 GCN-GRU F600 three-seed ensemble 6.76/8.98/10.99/12.28. GWN M4 numerically improves 3/6/12h but not 24h. Raw predictions absent and scope/seed mismatch.",
+    "B_older_pasted_2024": "B M3T 5.3100/7.1228/9.2843/10.8219; M4T 5.3435/7.1115/9.2748/10.9175. GWN M3T 5.7680/7.3079/9.3220/10.7383 and M4T 5.8688/7.5958/9.4445/10.7499 improve the old B figures only at 24h numerically. However B uses KR67 rather than KR514, fewer eligible rows (2840/2835/2828/2816 vs current 2874/2873/2871/2867), and old M3T has all-country trajectory mixing. No cross-model superiority should be asserted from these numbers."
+  },
+  "interpretation": [
+    "GWN domestic M1 is much more competitive than DCRNN DN. Hence DCRNN's large percentage gain from foreign inputs should not be treated as a universal need for foreign observations.",
+    "A model can improve the benchmark while adding foreign inputs does not significantly beat a strong domestic version. These are separate experimental questions.",
+    "GWN/DCRNN gains do not estimate pollution mass contributions, international cooperation savings, or source country attribution.",
+    "One seed does not establish reproducibility across initialization. Time-block confidence intervals quantify temporal sampling uncertainty conditional on the trained models, not seed uncertainty.",
+    "GWN's nominal 48-hour loader has eval-time PM convolutional receptive field13h under the paper profile; a larger receptive field is a separately controlled future architecture comparison, not a reason to silently relabel the completed experiment."
+  ]
+}

@@ -1,0 +1,21 @@
+﻿region_id,label_en,label_ko,group,country,sort_order,members,point_hours_definition
+KR_CAPITAL,Capital region,수도권,KR,KR,0,Gyeonggi|Incheon|Seoul,number of hourly modeled positions; not continuous residence time
+KR_GANGWON,Gangwon,강원권,KR,KR,1,Gangwon,number of hourly modeled positions; not continuous residence time
+KR_CHUNGCHEONG,Chungcheong,충청권,KR,KR,2,South Chungcheong|Daejeon|Sejong|North Chungcheong,number of hourly modeled positions; not continuous residence time
+KR_HONAM,Honam,호남권,KR,KR,3,North Jeolla|South Jeolla|Gwangju,number of hourly modeled positions; not continuous residence time
+KR_DAEGYEONG,Daegyeong,대경권,KR,KR,4,North Gyeongsang|Daegu,number of hourly modeled positions; not continuous residence time
+KR_DONGNAM,Dongnam,동남권,KR,KR,5,South Gyeongsang|Busan|Ulsan,number of hourly modeled positions; not continuous residence time
+KR_JEJU,Jeju,제주권,KR,KR,6,Jeju,number of hourly modeled positions; not continuous residence time
+CN_SHANDONG,Shandong,산둥,CN,CN,7,Shandong Province,number of hourly modeled positions; not continuous residence time
+CN_BTH,Beijing / Tianjin / Hebei,베이징·톈진·허베이,CN,CN,8,Tianjin Municipality|Beijing Municipality|Hebei Province,number of hourly modeled positions; not continuous residence time
+CN_LIAONING,Liaoning,랴오닝,CN,CN,9,Liaoning Province,number of hourly modeled positions; not continuous residence time
+CN_JILIN,Jilin,지린,CN,CN,10,Jilin Province,number of hourly modeled positions; not continuous residence time
+CN_HEILONGJIANG,Heilongjiang,헤이룽장,CN,CN,11,Heilongjiang Province,number of hourly modeled positions; not continuous residence time
+CN_INNER_MONGOLIA,Inner Mongolia,내몽골,CN,CN,12,Inner Mongolia Autonomous Region,number of hourly modeled positions; not continuous residence time
+CN_OTHER,Other mainland China,기타 중국,CN,CN,13,Hainan Province|Guangxi Zhuang Autonomous Region|Fujian Province|Yunnan Province|Guizhou Province|Jiangxi Province|Hunan Province|Zhejiang Province|Shanghai Municipality|Chongqing Municipality|Hubei Province|Sichuan Province|Anhui Province|Jiangsu Province|Henan Province|Tibet Autonomous Region|Qinghai Province|Ningxia Ningxia Hui Autonomous Region|Shaanxi Province|Shanxi Province|Gansu Province|Xinjiang Uyghur Autonomous Region|Guangzhou Province,number of hourly modeled positions; not continuous residence time
+JP,Japan,일본,OTHER,JP,14,Japan MLIT national polygon,number of hourly modeled positions; not continuous residence time
+MN,Mongolia,몽골,OTHER,MN,15,Mongolia,number of hourly modeled positions; not continuous residence time
+RU,Russia,러시아,OTHER,RU,16,Russia,number of hourly modeled positions; not continuous residence time
+KP,North Korea,북한,OTHER,KP,17,North Korea,number of hourly modeled positions; not continuous residence time
+OTHER_LAND,Other land,기타 육지,OTHER,MULTI,18,"Natural Earth countries excluding KOR, CHN, JPN, MNG, RUS, PRK; source shoreline slivers excluded",number of hourly modeled positions; not continuous residence time
+SEA_OR_UNCLASSIFIED,Sea / geographically unclassified,해상·지리적 미분류,OTHER,SEA_OR_UNCLASSIFIED,19,Complement of classified land in lon/lat world; may include shoreline/source discrepancies,number of hourly modeled positions; not continuous residence time

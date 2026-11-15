@@ -1,0 +1,1 @@
+코드 기록입니다. 각 파일 상단의 WORK/PROJECT/PREVIOUS/BATCH가 이번 로컬 분석 위치를 가리킵니다. 기존 원시 예측·공통 평가 격자·시계열 원본을 보존해야 재현할 수 있습니다. 모델을 재학습하거나 예측을 새로 생성하지 않았고 공통 채점기를 바꾸지 않았습니다. conditional_inference.py는 analysis_protocol.json과 일치하는 설정만 허용하며, 전체 연간 3시간 달력의 조건 외·정답 결측을 유지한 paired moving-block bootstrap을 사용합니다. 빠른 prefix-sum 계산은 직접 블록 연결 방식과 대조했습니다.

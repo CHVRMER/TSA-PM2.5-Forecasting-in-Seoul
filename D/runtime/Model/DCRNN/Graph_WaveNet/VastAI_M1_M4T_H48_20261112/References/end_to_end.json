@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "torch": "2.15.0+cpu",
+  "device": "cpu",
+  "synthetic_only": true,
+  "real_635_node_training_tested": false,
+  "trained_epochs": 2,
+  "horizons": [
+    3,
+    6,
+    12,
+    24,
+    36,
+    48
+  ],
+  "validation_export_rows": 192,
+  "test_export_rows": 102,
+  "model_train_export_private_score_pipeline": true,
+  "both_splits_common_six_outputs": true,
+  "individual_condition_tests": 12,
+  "repeated_scoring_no_overwrite": true
+}

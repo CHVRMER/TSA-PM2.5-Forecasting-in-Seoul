@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "numerical_checks": 7,
+  "failures": 0,
+  "errors": 0,
+  "device": "cpu",
+  "torch": "2.15.0+cpu",
+  "real_dataset_used": false,
+  "real_635_node_training_tested": false,
+  "synthetic_3_node_750_context_model": true,
+  "horizons": [
+    3,
+    6,
+    12,
+    24,
+    36,
+    48
+  ],
+  "decoder_steps": 48,
+  "raw_context_channels": 375,
+  "two_origin_prediction_rows": 12,
+  "curriculum_decay_steps": 200.0,
+  "original_h4_and_gwn_checkpoints_rejected": true,
+  "default_h6_and_optional_h24_checkpoint_selection_checked": true,
+  "interrupted_resume_checks_optimizer_scheduler_rng": true,
+  "prediction_export_parquet_checked": true
+}

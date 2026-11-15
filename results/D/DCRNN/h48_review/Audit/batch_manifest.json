@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "mode": "full",
+  "model_family": "DCRNN",
+  "experiment_schema": "dcrnn-vast-m1-m4t-h48-v1",
+  "conditions": {
+    "M1": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M1/20261112_003126_560548_ca827404",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M1/20261112_003126_560548_ca827404/validation/20261112_014020_023361_b7fb2d8c",
+        "test": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M1/20261112_003126_560548_ca827404/test/20261112_014022_215991_adc21195"
+      },
+      "seconds": 4209.412300298922
+    },
+    "M2": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M2/20261112_014136_019069_5e8056cb",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M2/20261112_014136_019069_5e8056cb/validation/20261112_030710_719681_61381a5f",
+        "test": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M2/20261112_014136_019069_5e8056cb/test/20261112_030712_517162_b0b33264"
+      },
+      "seconds": 5207.557601110078
+    },
+    "M3": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M3/20261112_030823_542407_4a6535ef",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M3/20261112_030823_542407_4a6535ef/validation/20261112_042617_443080_975f7eb9",
+        "test": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M3/20261112_030823_542407_4a6535ef/test/20261112_042619_238667_30996820"
+      },
+      "seconds": 4754.388260280946
+    },
+    "M4": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M4/20261112_042737_919977_b92f28a6",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M4/20261112_042737_919977_b92f28a6/validation/20261112_052624_600050_b15884bf",
+        "test": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M4/20261112_042737_919977_b92f28a6/test/20261112_052626_351425_8dbeaeb5"
+      },
+      "seconds": 3611.529335316969
+    },
+    "M3T": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M3T/20261112_052749_444764_451ad383",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M3T/20261112_052749_444764_451ad383/validation/20261112_062041_492625_88197621",
+        "test": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M3T/20261112_052749_444764_451ad383/test/20261112_062043_315654_3f0f2a0c"
+      },
+      "seconds": 3254.3510092629585
+    },
+    "M4T": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Conditions/M4T/20261112_062203_791477_db0ae1f8",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M4T/20261112_062203_791477_db0ae1f8/validation/20261112_071516_142430_ca8aa281",
+        "test": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/M4T/20261112_062203_791477_db0ae1f8/test/20261112_071517_946236_95581a3d"
+      },
+      "seconds": 3276.2411217438057
+    }
+  },
+  "selected_conditions": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M3T",
+    "M4T"
+  ],
+  "seeds": [
+    11
+  ],
+  "final_test": true,
+  "validate_only": false,
+  "resume_source": null,
+  "batch_root": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013",
+  "cache_root": "/workspace/TSA/Model/DCRNN/VastAI_M1_M4T_H48_20261111/Cache",
+  "started_kst": "2026-11-12T00:30:40.429551+09:00",
+  "combined_scoring": {
+    "validation": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/Combined/validation/20261112_071639_664630_1f71ac6a",
+    "test": "/workspace/TSA/Result/DCRNN/VastAI_H48/full/20261112_003040_429483_85af4013/Common_Scoring/Combined/test/20261112_071643_599025_364259e5"
+  },
+  "failed_conditions": [],
+  "elapsed_seconds": 24367.05492030806
+}

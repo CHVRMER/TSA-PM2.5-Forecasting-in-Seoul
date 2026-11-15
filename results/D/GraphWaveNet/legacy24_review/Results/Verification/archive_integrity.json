@@ -1,0 +1,16 @@
+[
+  {
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip",
+    "sha256": "768bc98c25b7222137a5d4184b6aaf9472eec2e3072ad5d011a15c0c9562442a",
+    "crc_bad_member": null,
+    "duplicate_members_other_archive": [],
+    "entries": 1055
+  },
+  {
+    "archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-002.zip",
+    "sha256": "b8e4c07fe1d2760d9c4e8cd61bef94cabaf78d549992bfc37bf902c57c71eb93",
+    "crc_bad_member": null,
+    "duplicate_members_other_archive": [],
+    "entries": 5
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "schema_version": "gwn-vast-m1-m4t-h48-checkpoint-v1",
+  "data": {
+    "lookback_hours": 48,
+    "near_china_km": 600,
+    "trajectory_radius_km": 75,
+    "trajectory_sigma_km": 50
+  },
+  "execution": {
+    "conditions": [
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M3T",
+      "M4T"
+    ],
+    "seeds": [
+      11
+    ],
+    "forecast_horizons": [
+      3,
+      6,
+      12,
+      24,
+      36,
+      48
+    ]
+  },
+  "model": {
+    "architecture_profile": "project48",
+    "graph": "distance",
+    "graph_mode": "fixed_plus_adaptive",
+    "residual_channels": 32,
+    "dilation_channels": 32,
+    "skip_channels": 256,
+    "end_channels": 512,
+    "kernel_size": 2,
+    "blocks": 4,
+    "layers": 4,
+    "diffusion_steps": 2,
+    "dropout": 0.3,
+    "embedding_dim": 10,
+    "embedding_init": "normal",
+    "context_dropout": 0.2,
+    "padding_policy": "scaled_pm_zero_missing_one"
+  },
+  "training": {
+    "max_epochs": 75,
+    "patience": 10,
+    "micro_batch_size": 8,
+    "effective_batch_size": 64,
+    "eval_batch_size": 8,
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "optimizer_epsilon": 1e-08,
+    "weight_decay": 0.0001,
+    "exclude_bias_norm_from_decay": false,
+    "scheduler": "plateau",
+    "max_grad_norm": 5.0,
+    "loss": "mae_original",
+    "min_delta": 0.0,
+    "use_amp": false,
+    "training_profile": "gwn_h48_rf61_plateau_contextdrop02",
+    "lr_gamma": 0.5,
+    "lr_patience": 3,
+    "min_learning_rate": 1e-05,
+    "selection_horizon": 6
+  },
+  "pilot": {
+    "epochs": 2,
+    "max_train_origins": 64,
+    "max_val_origins": 32,
+    "max_train_batches": 8
+  },
+  "scoring": {
+    "bootstrap_reps": 1000,
+    "bootstrap_seed": 0
+  },
+  "notes": [
+    "New six-horizon experiment3/6/12/24/36/48h; direct48-channel output selects6 horizons. Never load previous four-horizon GWN or DCRNN checkpoints.",
+    "RF61 with4blocks*4layers; real48h input uses13leading padding positions:scaledPM0 andmissingflag1.",
+    "Recommended LR0.001 Adam eps1e-8 weightdecay1e-4; ReduceLROnPlateau factor0.5 patience3 minLR1e-5; max75 earlypatience10.",
+    "Graphdropout0.3 retained; contextbranchdropout0.2 appliesidenticallytoall6conditions. Channels32/32/256/512 retained.",
+    "Primary checkpoint selection remains2023 validation6hRMSE. Optional24hselection config is a separate experiment, not default.",
+    "All6arms keep635nodes, samepreserved distancegraph, andsamefixed_plus_adaptive architecture. Adaptiveweights learnfromtrainobservations andneednotmatcheachother acrossconditions.",
+    "Data, masks, normalizers, labels andfixedscoringrows match the H48 contract; M3TrestrictsobservationaggregationtoKR/CN, M4Tallowallselectedcountries.",
+    "Old3/6/12/24labels andbaselines preservedexactly;36/48 seasonalbaseline uses t-12/t neverfuture.",
+    "Standardscorefilenames andcolumnschemas unchanged inprivate Model/Common/GraphWaveNet_H48_20261112. 6conditions seed11 imply84jointtests.",
+    "Allchangescombined: improvements would evaluate this package, not isolate anysinglechange. 2024hasalreadybeeninspected; tuningmustuse2023.",
+    "Seed11only doesnotestablishtrainingrobustness; GDASreanalysis availability isretrospective, notlatencyreproduced.",
+    "Per-epochverifiedlocalcheckpoint,5epochsnapshots,verifiedDrivebackup andfreshoutputs arepreserved."
+  ],
+  "checkpoint": {
+    "snapshot_every_epochs": 5,
+    "keep_recent": 2
+  },
+  "backup": {
+    "enabled": true,
+    "required_for_full": true,
+    "backup_in_pilot": false,
+    "remote": "gdrive:Colab_Notebooks/TSA/Result/GraphWaveNet/VastAI_H48",
+    "binary": "rclone",
+    "timeout_seconds": 600,
+    "retries": 2
+  }
+}

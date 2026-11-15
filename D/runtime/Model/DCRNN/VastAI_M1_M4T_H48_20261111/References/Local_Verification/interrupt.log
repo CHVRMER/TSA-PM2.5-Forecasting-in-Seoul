@@ -1,0 +1,27 @@
+test_ctrl_c_signals_only_owned_runner_not_other_runner_or_wrapper (__main__.InterruptTests.test_ctrl_c_signals_only_owned_runner_not_other_runner_or_wrapper) ... [stopping] Waiting for checkpoint bookkeeping/Drive backup. Please wait; no new training will start.
+ok
+test_interrupt_before_runner_spawn_stays_pending_until_owned_runner_appears (__main__.InterruptTests.test_interrupt_before_runner_spawn_stays_pending_until_owned_runner_appears) ... [stopping] Waiting for checkpoint bookkeeping/Drive backup. Please wait; no new training will start.
+ok
+test_nonzero_exit_without_interrupt_is_not_mislabelled_as_interrupted (__main__.InterruptTests.test_nonzero_exit_without_interrupt_is_not_mislabelled_as_interrupted) ... ok
+test_repeated_ctrl_c_does_not_redeliver_signal_or_force_kill (__main__.InterruptTests.test_repeated_ctrl_c_does_not_redeliver_signal_or_force_kill) ... [stopping] Waiting for checkpoint bookkeeping/Drive backup. Please wait; no new training will start.
+ok
+test_success_restores_handlers_and_never_signals_any_process (__main__.InterruptTests.test_success_restores_handlers_and_never_signals_any_process) ... ok
+test_supervisor_sigterm_uses_the_same_graceful_runner_request (__main__.InterruptTests.test_supervisor_sigterm_uses_the_same_graceful_runner_request) ... [stopping] Waiting for checkpoint bookkeeping/Drive backup. Please wait; no new training will start.
+ok
+test_interactive_worker_returns_to_bash_prompt_after_supervisor (__main__.StateAndPromptTests.test_interactive_worker_returns_to_bash_prompt_after_supervisor) ... 
+[worker] Interrupted; review the backup status above. This pane now returns to a Bash prompt.
+Resume/reconnect: bash 'C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\dcrnn_vast48_20261111\staging\Model\DCRNN\VastAI_M1_M4T_H48_20261111\start_full.sh'
+Scroll: mouse wheel or Ctrl+B then [; press q to leave copy mode.
+ok
+test_interrupted_status_written_after_wait_finishes (__main__.StateAndPromptTests.test_interrupted_status_written_after_wait_finishes) ... [fresh] No previous full checkpoint. Starting the first full experiment.
+ok
+test_noninteractive_worker_does_not_spawn_a_shell (__main__.StateAndPromptTests.test_noninteractive_worker_does_not_spawn_a_shell) ... 
+[worker] Finished with exit code 0. This pane now returns to a Bash prompt.
+Resume/reconnect: bash 'C:\Users\kimjy\.codex\.chatgpt-projects\g-p-6ac1f926d2208191acea97fababe2a07\output\dcrnn_vast48_20261111\staging\Model\DCRNN\VastAI_M1_M4T_H48_20261111\start_full.sh'
+Scroll: mouse wheel or Ctrl+B then [; press q to leave copy mode.
+ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.039s
+
+OK

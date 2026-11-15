@@ -1,0 +1,1 @@
+{"tests": "passed", "weighted_raw_rejoin": true, "future_mutation_invariance": true, "excluded_country_invariance": true, "fixed_band_denominators": true, "vertical_strata": true, "duplicate_rejection": true, "radius_100_rejection": true}

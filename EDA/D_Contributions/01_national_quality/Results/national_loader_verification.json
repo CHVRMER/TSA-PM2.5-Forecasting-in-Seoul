@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "pilot_rows": 56,
+  "DN_features": 9222,
+  "DN_CNT_features": 10440,
+  "input_nan_retained": true,
+  "target_columns_in_X": false,
+  "M3T_JP_MN_scope_excluded": true,
+  "test_lock": true,
+  "missing_origin_rejected": true
+}

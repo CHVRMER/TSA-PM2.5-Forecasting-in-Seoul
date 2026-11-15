@@ -1,0 +1,187 @@
+[
+  {
+    "path": "Dataset/China/china_48stations_context_buffer.parquet",
+    "bytes": 43418,
+    "sha256": "b8f0beb9ddd3cb988ae55bd3ba1d52585b459eba40ba848560f7542dfd5dfa16"
+  },
+  {
+    "path": "Dataset/China/china_48stations_hourly_2021_2024_kst.parquet",
+    "bytes": 17879256,
+    "sha256": "deac609b362b19bbf06f08440708ab1ef16bdeb671d087837e476835db2a96c9"
+  },
+  {
+    "path": "Dataset/China_Border_Proxy/china_border_cities_context_buffer.parquet",
+    "bytes": 9948,
+    "sha256": "cd33c235a1faebb6d8213b9f3c4955b4798ae14360410d5f66b53c43cc73b3cb"
+  },
+  {
+    "path": "Dataset/China_Border_Proxy/china_border_cities_hourly_2021_2024_kst.parquet",
+    "bytes": 1576833,
+    "sha256": "163bfdc7db0291e9b66f22c617663b8e69de50ded843b06b802a7e8adea56120"
+  },
+  {
+    "path": "Dataset/Evaluation_Contract_20261107/evaluation_grid.parquet",
+    "bytes": 1417013,
+    "sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db"
+  },
+  {
+    "path": "Dataset/Japan/japan_west_context_buffer.parquet",
+    "bytes": 19390,
+    "sha256": "60ce82edb4f8100b0b8bd5dfd591bf20fb2651e414f81898b6ace807142226ce"
+  },
+  {
+    "path": "Dataset/Japan/japan_west_hourly_2021_2024_kst.parquet",
+    "bytes": 23369486,
+    "sha256": "0925d636ab7a55e6d9bdcdbb79a13516e82697c04c40307a924822018b67bfec"
+  },
+  {
+    "path": "Dataset/Korea_Air/korea_34stations_hourly_2021_2024_kst.parquet",
+    "bytes": 6673430,
+    "sha256": "26e96a0202414ef9540a17b65b1886325ed8a68dce94026af656fbb7accbc6e4"
+  },
+  {
+    "path": "Dataset/Korea_Air/korea_context_buffer.parquet",
+    "bytes": 19574,
+    "sha256": "87cdbd597583314fa0004256d3475da79551b846229f852f5daae22eb1bb6e99"
+  },
+  {
+    "path": "Dataset/Korea_East_Candidates/korea_east_36stations_hourly_2021_2024_kst.parquet",
+    "bytes": 6811715,
+    "sha256": "66f5ea75e6335be904e9333054400080b9875db6d6be855cfc36bd6aa91da581"
+  },
+  {
+    "path": "Dataset/Korea_East_Candidates/korea_east_context_buffer.parquet",
+    "bytes": 22701,
+    "sha256": "1fbd9c3632f6d36c5d22977954d76f400b2fcb131a11f988495916bdeaa1fff9"
+  },
+  {
+    "path": "Dataset/Korea_National_2021_2024/korea_national_pm25_context_buffer.parquet",
+    "bytes": 50693,
+    "sha256": "2d33af072ba57b2610780bf41be644219b05e3df1d36f02ca626d9d0dab62a5d"
+  },
+  {
+    "path": "Dataset/Korea_National_2021_2024/korea_national_pm25_hourly_2021_2024_kst.parquet",
+    "bytes": 18716296,
+    "sha256": "580f762c362dd62540f74dd8955b38a4c8e7e37c51fd0df5a4df299c7d05e764"
+  },
+  {
+    "path": "Dataset/Mongolia/mongolia_ub_embassy_context_buffer.parquet",
+    "bytes": 7173,
+    "sha256": "de0f11b7b1be50c6263d2c2684ae2c1712b9f64e08fe8515ca1d8dd2cc516f58"
+  },
+  {
+    "path": "Dataset/Mongolia/mongolia_ub_embassy_hourly_2021_2024_kst.parquet",
+    "bytes": 748517,
+    "sha256": "10dd4d0010b1d3757871a5940c1c8cf0e0d70d94a241fd2e42764e20b833da5e"
+  },
+  {
+    "path": "Dataset/Neighbors_Expansion_QC_20261108/china_east_context_buffer_qc.parquet",
+    "bytes": 24047,
+    "sha256": "be5f3063ee275079ec334321ce22b6271e5e012800ac507386232ab9c21940c8"
+  },
+  {
+    "path": "Dataset/Neighbors_Expansion_QC_20261108/china_east_hourly_qc_2021_2024_kst.parquet",
+    "bytes": 9408059,
+    "sha256": "2271d90b79de76e521eca160afa4bd49993e7ee6d39d8d3a1bb39e48363ac803"
+  },
+  {
+    "path": "Dataset/Neighbors_Expansion_QC_20261108/japan_east18_context_buffer.parquet",
+    "bytes": 6598,
+    "sha256": "ba97d077cf3b5238dd9348dbaa23fcc65b99fa54282810125d38024ffd84c2c3"
+  },
+  {
+    "path": "Dataset/Neighbors_Expansion_QC_20261108/japan_east18_hourly_2021_2024_kst.parquet",
+    "bytes": 1936862,
+    "sha256": "d801b60a988daa8546ab762f83e877e43353d1b50f000282a5006c2ec4c62305"
+  },
+  {
+    "path": "Dataset/Origin_Features_2021_2024/feature_dictionary.csv",
+    "bytes": 1542594,
+    "sha256": "c81a0be31597fe7b5624d148303a820b0f57b3c479bbf8e44afc4bab14985c34"
+  },
+  {
+    "path": "Dataset/Origin_Features_2021_2024/feature_sets.json",
+    "bytes": 357179,
+    "sha256": "f396587cf174ed2e0b39328a665e249e8ac43f181df7f105db65bf5d48cc7330"
+  },
+  {
+    "path": "Dataset/Origin_Features_2021_2024/origin_features_2021_2024_kst.parquet",
+    "bytes": 87579871,
+    "sha256": "ff0d02f7169d1706d053556557637d505332bf2571d763472df213b5ee5e2670"
+  },
+  {
+    "path": "Dataset/Origin_Features_2021_2024_v3/feature_dictionary.csv",
+    "bytes": 3874804,
+    "sha256": "c463f3cdaa195c093fb50a8463eacd82f3b961513562a5966be7cdc26f128732"
+  },
+  {
+    "path": "Dataset/Origin_Features_2021_2024_v3/japan_balanced_stations.csv",
+    "bytes": 3038,
+    "sha256": "1cfcbc867156425765f333c424b7e179af15e58417a407c2486b81b30696f4f4"
+  },
+  {
+    "path": "Dataset/Origin_Features_2021_2024_v3/origin_features_2021_2024_kst.parquet",
+    "bytes": 194937923,
+    "sha256": "fd0c9c3c746b41a07956c3612218d6596170b6ca6f17b547884dc3de9e6ae1ec"
+  },
+  {
+    "path": "Dataset/Trajectory_Matching_2021_2024/station_registry.csv",
+    "bytes": 19432,
+    "sha256": "04412640f3ca2cec9e64979f08f12e7bd6031587b6e5a3fa6a48a9a85ed5ee63"
+  },
+  {
+    "path": "Dataset/Trajectory_Matching_2021_2024_v3/station_registry.csv",
+    "bytes": 50358,
+    "sha256": "b7d20b16c686b250b1ab0ad81ad86a095a181881f6208e7f4022793996bbe87d"
+  },
+  {
+    "path": "Dataset/Trajectory_Matching_Expansion_QC_20261108/matching_manifest.json",
+    "bytes": 2210,
+    "sha256": "68463d5caabb37f9d5705a764611afe1391d515453f1f3b3376f078d2e672df6"
+  },
+  {
+    "path": "Dataset/Trajectory_Matching_Expansion_QC_20261108/trajectory_point_coverage.parquet",
+    "bytes": 15008955,
+    "sha256": "9e467a54303a810d6d07d34c2bed3fa05fa9b1e22a0a50ab82f7184dd1c40fc9"
+  },
+  {
+    "path": "Dataset/Trajectory_Matching_Expansion_QC_20261108/trajectory_station_neighbors.parquet",
+    "bytes": 209026271,
+    "sha256": "1d5b1da9c967578137250a698dd57f9b6095e311ecf04d931872ecfee1b90dce"
+  },
+  {
+    "path": "Dataset/Trajectory_Matching_National_v4/station_registry.csv",
+    "bytes": 250199,
+    "sha256": "f8a4b54fdd25990d9f6696e83ebeae1a56b6b3b796e5943403082f08d45893dc"
+  },
+  {
+    "path": "Model/Common/Neighbor_Experiments_QC_20261108/experiments.json",
+    "bytes": 117290,
+    "sha256": "25915f86bfd53b437bad4ecd869fa0f9cfedc7504055dfc9e9b7ee74e9a966e1"
+  },
+  {
+    "path": "Model/Common/Neighbor_Experiments_QC_20261108/station_registry.csv",
+    "bytes": 302111,
+    "sha256": "b4b0b4fae83c30a6a9953a04efca6b6806d8b66a5365715e9a0e0c68e4d939b0"
+  },
+  {
+    "path": "Model/DCRNN/Neighbor_Expansion_QC_20261108/Codes/neighbor_adapter.py",
+    "bytes": 12870,
+    "sha256": "55b0305b6d96d0c19f61772d105311c78ebc83f11796d0c898ba86f881368d7a"
+  },
+  {
+    "path": "Model/DCRNN/V3_Data_20261107/Codes/original_data.py",
+    "bytes": 24073,
+    "sha256": "1769e25db6e5b7d477e9cf81246bbdd643f5cd065a219386157fd61f292d89d4"
+  },
+  {
+    "path": "Model/DCRNN/V3_Data_20261107/Codes/original_graphs.py",
+    "bytes": 23810,
+    "sha256": "df3cb7b223e7c0ab145c33d52b0c918bce270dd9c26744463f41735c974bd129"
+  },
+  {
+    "path": "Model/DCRNN/V3_Data_20261107/Codes/v3_adapter.py",
+    "bytes": 24656,
+    "sha256": "1606b56ccd4cce6660437ad2887b1339a2a9b13bb1c3619d58cc493dd353e36d"
+  }
+]

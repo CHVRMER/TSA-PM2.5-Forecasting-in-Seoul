@@ -1,0 +1,10 @@
+{
+  "original_source": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\EDA\\Outlier_Boxplots_20261115_144941_507734\\Codes\\plot_outlier_boxplots.py",
+  "original_sha256": "d47c4193c32934641d46bf29160619a2986bc5e3f8c71c307e79190a7646ff1c",
+  "new_source": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\outlier_rangeplot_20261115\\Codes\\plot_outlier_boxplots_footer_only.py",
+  "changes": [
+    "Keep only period text in first footer line",
+    "Remove second footer line"
+  ],
+  "original_file_modified": false
+}

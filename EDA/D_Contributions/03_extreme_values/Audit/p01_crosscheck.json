@@ -1,0 +1,13 @@
+{
+  "region_box_stats.json": {
+    "groups": 17,
+    "all_existing_fields_unchanged": true,
+    "p01_order_verified": true
+  },
+  "station_box_stats.json": {
+    "groups": 634,
+    "all_existing_fields_unchanged": true,
+    "p01_order_verified": true
+  },
+  "summary_identical": true
+}

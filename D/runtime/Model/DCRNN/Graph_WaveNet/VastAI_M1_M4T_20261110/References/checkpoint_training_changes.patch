@@ -1,0 +1,156 @@
+--- Runpod preserved neural_training.py
++++ VastAI durable-checkpoint neural_training.py
+@@ -15,9 +15,12 @@
+ import pandas as pd
+ import torch
+ from torch.utils.data import DataLoader
++from checkpoint_store import CheckpointStore
++
++CHECKPOINT_EVENT_CALLBACK=None
+ 
+ TRAINING_VERSION = 'seoul-neural-training-20261109-v1'
+-EXECUTION_ONLY_KEYS = ('device','resume','run_final_test','scoring_output_root','resume_source_run','execution_id')
++EXECUTION_ONLY_KEYS = ('device','resume','run_final_test','scoring_output_root','resume_source_run','execution_id','checkpoint_policy')
+ 
+ 
+ def reserve_execution_directory(base):
+@@ -55,6 +58,14 @@
+ def save_checkpoint(path,payload):
+     path=Path(path);temporary=path.with_name(path.name+'.tmp')
+     torch.save(payload,temporary);os.replace(temporary,path)
++
++
++def save_learning_curve(path,history):
++    path=Path(path);temporary=path.with_name(path.name+'.tmp')
++    with temporary.open('w',encoding='utf-8',newline='') as stream:
++        pd.DataFrame(history).to_csv(stream,index=False)
++        stream.flush();os.fsync(stream.fileno())
++    os.replace(temporary,path)
+ 
+ 
+ def neural_data_signature(bundle):
+@@ -200,15 +211,25 @@
+     use_amp=bool(cfg.get('use_amp',False)) and device.type=='cuda'
+     scaler=torch.amp.GradScaler('cuda',enabled=use_amp)
+     state_path=folder/'last.pt';best_path=folder/'best.pt'
+-    best=float('inf');bad=0;start_epoch=0;global_step=0;history=[]
+-    if state_path.exists():
+-        if not cfg.get('resume',True):raise FileExistsError('Checkpoint exists and RESUME is False; choose a new run.')
+-        state=torch.load(state_path,map_location=device,weights_only=False)
+-        if canonical_json(state['contract'])!=canonical_json(contract):raise ValueError('Checkpoint contract mismatch.')
++    policy=cfg.get('checkpoint_policy',{})
++    store=CheckpointStore(folder,snapshot_every=int(policy.get('snapshot_every_epochs',5)),
++                          keep_recent=int(policy.get('keep_recent',2)))
++    best=float('inf');bad=0;start_epoch=0;global_step=0;history=[];best_model=None;best_epoch=None
++    state,recovery=store.load_latest(expected_contract=contract,map_location=device)
++    if state is None and state_path.exists():
++        raise ValueError('Legacy last.pt has no verified generation. Use its original runner or an explicitly verified migration; do not silently import it.')
++    if state is not None:
++        if not cfg.get('resume',True):raise FileExistsError('Committed checkpoint exists and RESUME is False; choose a new run.')
+         model.load_state_dict(state['model']);optimizer.load_state_dict(state['optimizer'])
+         if scheduler is not None:scheduler.load_state_dict(state['scheduler'])
+         scaler.load_state_dict(state['scaler']);best=state['best'];bad=state['bad_epochs'];start_epoch=state['epoch']+1
+         history=state['history'];global_step=state['global_step'];_restore_rng(state['rng'],device)
++        best_model={k:v.detach().cpu().clone() for k,v in state['best_model'].items()}
++        best_epoch=int(state['best_epoch'])
++        save_learning_curve(folder/'learning_curve.csv',history)
++        save_json(folder/'checkpoint_recovery.json',recovery)
++        print('[checkpoint resume] epoch='+str(start_epoch)+'; '+str(recovery),flush=True)
++        if callable(CHECKPOINT_EVENT_CALLBACK):CHECKPOINT_EVENT_CALLBACK({'epoch':start_epoch,'resumed':True,'seed_folder':str(folder)})
+     train_ids=api['split_origin_indices'](bundle,'train',require_any_label=True)
+     val_ids=api['split_origin_indices'](bundle,'validation',require_any_label=False)
+     if mode=='pilot':
+@@ -252,7 +273,9 @@
+         values=prediction_metrics(validation);selected=values.loc[values.horizon.eq(6),'RMSE']
+         if selected.empty:raise ValueError('No eligible h6 validation targets.')
+         score=float(selected.iloc[0]);improved=score<best-float(cfg.get('min_delta',0.))
+-        if improved:best=score;bad=0
++        if improved:
++            best=score;bad=0;best_epoch=epoch+1
++            best_model={k:v.detach().cpu().clone() for k,v in model.state_dict().items()}
+         else:bad+=1
+         step_scheduler(optimizer,scheduler,cfg,score)
+         row={'epoch':epoch+1,'train_loss':float(np.mean(window_losses)),'loss_kind':cfg.get('loss','mae_original'),
+@@ -262,13 +285,25 @@
+         history.append(row)
+         payload={'contract':contract,'model':model.state_dict(),'optimizer':optimizer.state_dict(),
+             'scheduler':scheduler.state_dict() if scheduler is not None else None,'scaler':scaler.state_dict(),
+-            'epoch':epoch,'global_step':global_step,'best':best,'bad_epochs':bad,'history':history,'rng':_rng_state()}
+-        if improved:save_checkpoint(best_path,payload)
++            'epoch':epoch,'global_step':global_step,'best':best,'bad_epochs':bad,'history':history,'rng':_rng_state(),
++            'best_model':best_model,'best_epoch':best_epoch}
++        committed=store.save(payload)
++        # Compatibility exports are not the authority for recovery or best-model inference.
++        # The single committed generation contains both current and best weights.
++        if improved:save_checkpoint(best_path,dict(payload,model=best_model))
+         save_checkpoint(state_path,payload)
+-        pd.DataFrame(history).to_csv(folder/'learning_curve.csv',index=False)
++        save_learning_curve(folder/'learning_curve.csv',history)
++        if callable(CHECKPOINT_EVENT_CALLBACK):
++            CHECKPOINT_EVENT_CALLBACK({'epoch':epoch+1,'final':False,'seed_folder':str(folder),'commit':committed})
+         print(f'[{model_name} seed{seed}] epoch={epoch+1}/{cfg["max_epochs"]} train={row["train_loss"]:.4f} val6hRMSE={score:.4f} lr={used_lr:.3g} next={row["learning_rate_next"]:.3g} elapsed={time.perf_counter()-begin:.1f}s',flush=True)
+-    if not best_path.is_file():raise RuntimeError('No finite best checkpoint exists.')
+-    best_state=torch.load(best_path,map_location=device,weights_only=False);model.load_state_dict(best_state['model']);model.eval()
++    best_state,final_recovery=store.load_latest(expected_contract=contract,map_location=device)
++    if best_state is None:raise RuntimeError('No verified current/best checkpoint exists.')
++    save_learning_curve(folder/'learning_curve.csv',best_state['history'])
++    final_commit=store.save(best_state,pin=True)
++    model.load_state_dict(best_state['best_model']);model.eval()
++    save_checkpoint(best_path,dict(best_state,model=best_state['best_model']))
++    if callable(CHECKPOINT_EVENT_CALLBACK):
++        CHECKPOINT_EVENT_CALLBACK({'epoch':int(best_state['epoch'])+1,'final':True,'seed_folder':str(folder),'commit':final_commit})
+     validation,produced=predict_neural(model,val_loader,bundle,preprocessing,device,model_name,condition,seed,signature,mode)
+     validation.to_parquet(folder/'validation_predictions.parquet',index=False)
+     prediction_metrics(validation).to_csv(folder/'validation_metrics.csv',index=False)
+@@ -278,12 +313,14 @@
+             np.save(folder/'adaptive_adjacency.npy',adaptive)
+             bundle['nodes'].to_csv(folder/'adaptive_node_order.csv',index=False,encoding='utf-8-sig')
+     summary={'model':model_name,'graph':spec['graph'],'adaptive_mode':spec.get('adaptive_mode','none'),'seed':seed,'mode':mode,
+-        'best_epoch':int(best_state['epoch'])+1,'trained_epochs':len(history),'validation_rmse_h6':float(best_state['best']),
++        'best_epoch':int(best_state['best_epoch']),'trained_epochs':len(best_state['history']),'validation_rmse_h6':float(best_state['best']),
+         'architecture':architecture,'checkpoint':str(best_path),'checkpoint_sha256':file_digest(best_path),
+         'data_signature':signature,'graph_signature':graph_hash,'parameter_count':sum(p.numel() for p in model.parameters()),
+         'session_training_seconds':time.perf_counter()-begin,'device':str(device),'test_scored':False,
+         'sampling_labels_used_only_in_training':bool(getattr(model,'use_curriculum_learning',False)),
+         'effective_batch_size':effective,'micro_batch_size':micro,'gradient_accumulation_steps':accumulation,
++        'checkpoint_storage_schema':'self-contained-verified-generations',
++        'checkpoint_policy':policy,'checkpoint_recovery':final_recovery,
+         'batchnorm_microbatch_statistics_note':'BatchNorm, if present, observes micro batch, not effective batch.'}
+     save_json(folder/'run_summary.json',summary)
+     return model,summary,validation
+@@ -400,12 +437,29 @@
+         model_dir=source/'Models'
+         if not model_dir.is_dir():raise FileNotFoundError('Selected resume run has no Models checkpoints: '+str(source))
+         copied=[]
+-        for name in ('last.pt','best.pt','contract.json','preprocessing.json','learning_curve.csv'):
+-            for path in model_dir.rglob(name):
+-                destination=root/'Models'/path.relative_to(model_dir)
+-                destination.resolve().relative_to(root.resolve())
+-                destination.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(path,destination)
+-                copied.append({'source':str(path),'new_path':str(destination),'sha256':file_digest(destination)})
++        # Copy only fully committed immutable generations, then copy informational
++        # contracts. Independent best.pt/last.pt are regenerated from verified state.
++        seed_folders=sorted({p.parent for p in model_dir.rglob('Checkpoints') if p.is_dir()})
++        if not seed_folders:
++            raise ValueError('Resume source has no verified VastAI generations. Original Runpod last.pt requires its original runner.')
++        policy=config.get('checkpoint_policy',{})
++        for source_seed in seed_folders:
++            destination=root/'Models'/source_seed.relative_to(model_dir)
++            source_store=CheckpointStore(source_seed,
++                snapshot_every=int(policy.get('snapshot_every_epochs',5)),
++                keep_recent=int(policy.get('keep_recent',2)))
++            previous,previous_info=source_store.load_latest(None)
++            if previous is None:
++                report={'source_seed_folder':str(source_seed),'destination_seed_folder':str(destination),
++                        'status':'fresh_restart_no_completed_epoch','source_files_modified':False}
++                print('[checkpoint resume] no completed epoch in empty store; restarting this seed: '+str(source_seed),flush=True)
++            else:
++                report=source_store.copy_to(destination)
++            copied.append(report)
++            for name in ('contract.json','preprocessing.json','learning_curve.csv'):
++                path=source_seed/name
++                if path.is_file():
++                    destination.mkdir(parents=True,exist_ok=True);shutil.copy2(path,destination/name)
+         save_json(root/'resume_copy_manifest.json',{'source_run':str(source),'source_files_modified':False,'copied':copied})
+         local_config['resume']=True
+     state={'status':'running','mode':config.get('mode'),'run_final_test':bool(config.get('run_final_test',False)),

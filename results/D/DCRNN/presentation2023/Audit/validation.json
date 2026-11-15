@@ -1,0 +1,121 @@
+{
+  "source": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\DCRNN\\Results\\VastAI_H48_Review_20261112_112814_114930\\Results\\Tables\\validation_condition_metrics.csv",
+  "source_sha256": "4877284b2cce661145f1ef906b5d4506b27b655398e5143c5d92cd18ea744d39",
+  "source_unchanged": true,
+  "all_sources_sha256": {
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\DCRNN\\Results\\VastAI_H48_Review_20261112_112814_114930\\Results\\Tables\\validation_condition_metrics.csv": "4877284b2cce661145f1ef906b5d4506b27b655398e5143c5d92cd18ea744d39",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\DCRNN\\Results\\VastAI_H48_Review_20261112_112814_114930\\Results\\Tables\\validation_predeclared_condition_comparisons.csv": "a6099258728fc8db5e165a2a8924fbfd018ad10e67c65507106f8fbb9c12fa0f",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\DCRNN\\Results\\VastAI_H48_Review_20261112_112814_114930\\Results\\Tables\\validation_rmse_matrix.csv": "229b1f7567e8d9c65849e9b01ca5bb4509f1353092b97ae6978c9000d7b932e1"
+  },
+  "split": "validation",
+  "evaluation_year": 2023,
+  "seed": 11,
+  "metric_matrix_crosscheck": true,
+  "visible_caption": "D DCRNN, 2023 validation. RMSE (\u00b5g/m\u00b3) across M1\u2013M4T input conditions.",
+  "seed_displayed_in_figure": false,
+  "raw_RMSE": {
+    "M1": {
+      "3": 5.960920077176205,
+      "6": 8.36560498555838,
+      "12": 10.625878362737222,
+      "24": 12.135804502406918
+    },
+    "M2": {
+      "3": 5.953877521483961,
+      "6": 8.389306636959624,
+      "12": 11.041093762455665,
+      "24": 12.717064793690184
+    },
+    "M3": {
+      "3": 5.955397378272413,
+      "6": 8.347318286680403,
+      "12": 10.67098272180946,
+      "24": 12.175018827413702
+    },
+    "M4": {
+      "3": 5.968748224571963,
+      "6": 8.441032579202309,
+      "12": 10.818400787969026,
+      "24": 12.256542739060798
+    },
+    "M3T": {
+      "3": 6.273308620185528,
+      "6": 8.59186347148786,
+      "12": 11.223672560501203,
+      "24": 12.9683320584981
+    },
+    "M4T": {
+      "3": 6.265214784295311,
+      "6": 8.596368524553206,
+      "12": 12.056732169723093,
+      "24": 13.249941987897971
+    }
+  },
+  "horizons": [
+    3,
+    6,
+    12,
+    24
+  ],
+  "colors": {
+    "M1": "#C73535",
+    "M2": "#D48B2C",
+    "M3": "#2E8B57",
+    "M4": "#2866B2",
+    "M3T": "#168C91",
+    "M4T": "#7E57A2"
+  },
+  "markers": {
+    "M1": "o",
+    "M2": "^",
+    "M3": "s",
+    "M4": "D",
+    "M3T": "P",
+    "M4T": "X"
+  },
+  "y_limits": [
+    5.5,
+    13.5
+  ],
+  "y_tick_spacing": 0.1,
+  "numeric_y_label_spacing": 0.5,
+  "numeric_y_label_count": 17,
+  "total_tick_count": 81,
+  "aspect_ratio": "16:9",
+  "figure_size_inches": [
+    12.0,
+    6.75
+  ],
+  "minor_y_labels_visible": false,
+  "minimum_tick_label_gap_pixels_at_180dpi": 23.827709960937455,
+  "axis_count": 1,
+  "detail_axes": false,
+  "axis_breaks": false,
+  "masking": false,
+  "best_condition_by_horizon": {
+    "3": "M2",
+    "6": "M3",
+    "12": "M1",
+    "24": "M1"
+  },
+  "planned_comparisons_3_24h": 28,
+  "significant_input_improvements_3_24h": 0,
+  "significant_input_worsenings_3_24h": 0,
+  "original_holm_family_size_per_split": 84,
+  "adjusted_p_values_recomputed": false,
+  "summary_feature_rmse_increases_are_descriptive_not_significant": true,
+  "outputs": [
+    {
+      "file": "dcrnn_validation2023_rmse_wide_3_24h.png",
+      "sha256": "10f46dd61d92ff71e65d75f7574e1ecc3cae7336756059fdaa1c4e112e7c361d"
+    },
+    {
+      "file": "dcrnn_validation2023_rmse_wide_3_24h.svg",
+      "sha256": "cabcff906fed503dd9eb6cb1cdbeaed5061dccb582055507a5f4cbd9b0656d95"
+    },
+    {
+      "file": "dcrnn_validation2023_rmse_wide_3_24h.pdf",
+      "sha256": "dda75960b6834457e60283125ef77c71d082142e08dae87bb4b6b5464bdb1732"
+    }
+  ]
+}

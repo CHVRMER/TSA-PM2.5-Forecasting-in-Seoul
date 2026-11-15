@@ -1,0 +1,25 @@
+{
+  "maps": [
+    {
+      "file": "01_national_expansion_before_international_additions.png",
+      "png_pixels": [
+        1650,
+        1650
+      ],
+      "visually_reviewed": true,
+      "legend_and_footnotes_inside_canvas": true
+    },
+    {
+      "file": "02_national_expansion_with_planned_regions.png",
+      "png_pixels": [
+        1650,
+        1650
+      ],
+      "visually_reviewed": true,
+      "legend_and_footnotes_inside_canvas": true
+    }
+  ],
+  "same_candidate_keys": true,
+  "same_trajectory_sample": true,
+  "new_station_points_in_second_map": 0
+}

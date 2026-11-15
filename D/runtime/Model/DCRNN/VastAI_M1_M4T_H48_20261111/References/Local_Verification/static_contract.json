@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "static_checks": 16,
+  "failures": 0,
+  "errors": 0,
+  "model_sha256": "480cc1bb9b88a90918b4dac81ccf060b58a1d90d644e79380a48ee94c84f1a7e",
+  "runtime_horizons": [
+    3,
+    6,
+    12,
+    24,
+    36,
+    48
+  ],
+  "runtime_decoder_steps": 48,
+  "vendor_original_defaults_preserved": true,
+  "numerical_forward_backward_tested": false,
+  "checkpoint_tensor_roundtrip_tested": false,
+  "gpu_training_tested": false,
+  "next_step": "Run verify_dcrnn_runtime.py in the prepared PyTorch environment."
+}

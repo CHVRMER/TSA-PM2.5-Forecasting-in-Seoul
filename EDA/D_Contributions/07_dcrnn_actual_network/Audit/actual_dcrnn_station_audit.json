@@ -1,0 +1,160 @@
+{
+  "verification": "Actual archived DCRNN node order/coordinates matched to current F634 configuration",
+  "source_batch": "20261112_003040_429483_85af4013",
+  "registry": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional_Experiments_20261109\\station_registry.csv",
+  "registry_sha256": "85f195a6297d78e6415a8b33e65e1d4ad5aedd8d5c9b1f3227055f64e00f3398",
+  "experiment_config": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional_Experiments_20261109\\experiments.json",
+  "experiment_config_sha256": "0d597753ba35769958eed886d24d3fa41404ff3d3f254f4c78381f918654a466",
+  "conditions": {
+    "M1": {
+      "node_order_path": "output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Conditions\\M1\\20261112_003126_560548_ca827404\\node_order.csv",
+      "node_order_sha256": "10c1f2625d4746d33db32df2bbbe3d08de863fcef468b578c780f326a83bdad5",
+      "nodes": 635,
+      "external_keys_match_current_F634": true,
+      "external_coordinates_match_current_registry": true,
+      "maximum_coordinate_absolute_difference_deg": 0.0,
+      "node_order_equal_across_conditions": true,
+      "active_training_pm_nodes": 515,
+      "masked_training_pm_nodes": 120,
+      "active_external_training_pm_country_counts": {
+        "KR": 514
+      },
+      "masked_training_pm_country_counts": {
+        "CN": 77,
+        "JP": 42,
+        "MN": 1
+      },
+      "graph_sha256": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "graph_nodes": 635
+    },
+    "M2": {
+      "node_order_path": "output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Conditions\\M2\\20261112_014136_019069_5e8056cb\\node_order.csv",
+      "node_order_sha256": "10c1f2625d4746d33db32df2bbbe3d08de863fcef468b578c780f326a83bdad5",
+      "nodes": 635,
+      "external_keys_match_current_F634": true,
+      "external_coordinates_match_current_registry": true,
+      "maximum_coordinate_absolute_difference_deg": 0.0,
+      "node_order_equal_across_conditions": true,
+      "active_training_pm_nodes": 536,
+      "masked_training_pm_nodes": 99,
+      "active_external_training_pm_country_counts": {
+        "KR": 514,
+        "CN": 21
+      },
+      "masked_training_pm_country_counts": {
+        "CN": 56,
+        "JP": 42,
+        "MN": 1
+      },
+      "graph_sha256": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "graph_nodes": 635
+    },
+    "M3": {
+      "node_order_path": "output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Conditions\\M3\\20261112_030823_542407_4a6535ef\\node_order.csv",
+      "node_order_sha256": "10c1f2625d4746d33db32df2bbbe3d08de863fcef468b578c780f326a83bdad5",
+      "nodes": 635,
+      "external_keys_match_current_F634": true,
+      "external_coordinates_match_current_registry": true,
+      "maximum_coordinate_absolute_difference_deg": 0.0,
+      "node_order_equal_across_conditions": true,
+      "active_training_pm_nodes": 592,
+      "masked_training_pm_nodes": 43,
+      "active_external_training_pm_country_counts": {
+        "KR": 514,
+        "CN": 77
+      },
+      "masked_training_pm_country_counts": {
+        "JP": 42,
+        "MN": 1
+      },
+      "graph_sha256": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "graph_nodes": 635
+    },
+    "M4": {
+      "node_order_path": "output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Conditions\\M4\\20261112_042737_919977_b92f28a6\\node_order.csv",
+      "node_order_sha256": "10c1f2625d4746d33db32df2bbbe3d08de863fcef468b578c780f326a83bdad5",
+      "nodes": 635,
+      "external_keys_match_current_F634": true,
+      "external_coordinates_match_current_registry": true,
+      "maximum_coordinate_absolute_difference_deg": 0.0,
+      "node_order_equal_across_conditions": true,
+      "active_training_pm_nodes": 635,
+      "masked_training_pm_nodes": 0,
+      "active_external_training_pm_country_counts": {
+        "KR": 514,
+        "CN": 77,
+        "JP": 42,
+        "MN": 1
+      },
+      "masked_training_pm_country_counts": {},
+      "graph_sha256": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "graph_nodes": 635
+    },
+    "M3T": {
+      "node_order_path": "output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Conditions\\M3T\\20261112_052749_444764_451ad383\\node_order.csv",
+      "node_order_sha256": "10c1f2625d4746d33db32df2bbbe3d08de863fcef468b578c780f326a83bdad5",
+      "nodes": 635,
+      "external_keys_match_current_F634": true,
+      "external_coordinates_match_current_registry": true,
+      "maximum_coordinate_absolute_difference_deg": 0.0,
+      "node_order_equal_across_conditions": true,
+      "active_training_pm_nodes": 592,
+      "masked_training_pm_nodes": 43,
+      "active_external_training_pm_country_counts": {
+        "KR": 514,
+        "CN": 77
+      },
+      "masked_training_pm_country_counts": {
+        "JP": 42,
+        "MN": 1
+      },
+      "graph_sha256": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "graph_nodes": 635
+    },
+    "M4T": {
+      "node_order_path": "output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Conditions\\M4T\\20261112_062203_791477_db0ae1f8\\node_order.csv",
+      "node_order_sha256": "10c1f2625d4746d33db32df2bbbe3d08de863fcef468b578c780f326a83bdad5",
+      "nodes": 635,
+      "external_keys_match_current_F634": true,
+      "external_coordinates_match_current_registry": true,
+      "maximum_coordinate_absolute_difference_deg": 0.0,
+      "node_order_equal_across_conditions": true,
+      "active_training_pm_nodes": 635,
+      "masked_training_pm_nodes": 0,
+      "active_external_training_pm_country_counts": {
+        "KR": 514,
+        "CN": 77,
+        "JP": 42,
+        "MN": 1
+      },
+      "masked_training_pm_country_counts": {},
+      "graph_sha256": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "graph_nodes": 635
+    }
+  },
+  "external_total": 634,
+  "target_total": 1,
+  "nodes_total": 635,
+  "external_country_counts": {
+    "KR": 514,
+    "CN": 77,
+    "JP": 42,
+    "MN": 1
+  },
+  "korea_legacy67": 67,
+  "korea_national_added447": 447,
+  "map_group_counts": {
+    "KR_ADDED447": 447,
+    "KR_OLD67": 67,
+    "CN_STATIONS48": 48,
+    "JP_WEST24": 24,
+    "JP_EAST18": 18,
+    "CN_EAST_CITY16": 16,
+    "CN_BORDER_CITY13": 13,
+    "TARGET": 1,
+    "MN1": 1
+  },
+  "explanation": "M4 and M4T expose all634 external PM series. M1 exposes only514 domestic PM series plus target; all635 graph nodes and120 masked foreign latent relays remain fixed.",
+  "source_modified": false,
+  "torch_weight_deserialization": false
+}

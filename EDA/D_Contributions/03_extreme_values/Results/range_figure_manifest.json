@@ -1,0 +1,321 @@
+{
+  "source_profile_sha256": {
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\outlier_rangeplot_20261115\\Results\\region_box_stats.json": "0985578c03e129e863a2f95da51d706523571eebec6a9e4e9ee69d4c43b4db4b",
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\outlier_rangeplot_20261115\\Results\\station_box_stats.json": "a5e7a9fb637fdcead0e48150d735d9af9361e6a5acd5c5ca6abc481c02810e19"
+  },
+  "figures": [
+    {
+      "file_stem": "pm25_percentile_range_regions",
+      "groups": [
+        {
+          "id": "KR_CHUNGCHEONG",
+          "p01": 1.0,
+          "q1": 9.0,
+          "q3": 25.0,
+          "p99": 75.0,
+          "maximum": 589.0
+        },
+        {
+          "id": "KR_DAEGYEONG",
+          "p01": 1.0,
+          "q1": 8.0,
+          "q3": 21.0,
+          "p99": 58.0,
+          "maximum": 803.0
+        },
+        {
+          "id": "CN_SHANDONG",
+          "p01": 2.0,
+          "q1": 12.0,
+          "q3": 39.0,
+          "p99": 148.0,
+          "maximum": 883.0
+        },
+        {
+          "id": "CN_BTH",
+          "p01": 2.0,
+          "q1": 12.0,
+          "q3": 46.0,
+          "p99": 165.0,
+          "maximum": 9985.0
+        },
+        {
+          "id": "CN_LIAONING",
+          "p01": 2.0,
+          "q1": 12.0,
+          "q3": 40.0,
+          "p99": 152.0,
+          "maximum": 2204.0
+        },
+        {
+          "id": "CN_JILIN",
+          "p01": 2.0,
+          "q1": 10.0,
+          "q3": 31.0,
+          "p99": 127.0,
+          "maximum": 1781.0
+        },
+        {
+          "id": "CN_HEILONGJIANG",
+          "p01": 4.0,
+          "q1": 11.0,
+          "q3": 31.0,
+          "p99": 127.0,
+          "maximum": 1765.0
+        },
+        {
+          "id": "CN_INNER_MONGOLIA",
+          "p01": 2.0,
+          "q1": 11.0,
+          "q3": 29.0,
+          "p99": 128.0,
+          "maximum": 1853.0
+        },
+        {
+          "id": "MN",
+          "p01": 1.0,
+          "q1": 10.0,
+          "q3": 74.0,
+          "p99": 459.0,
+          "maximum": 952.0
+        }
+      ],
+      "red_points": 9,
+      "red_point_means": "maximum, not confirmed error",
+      "full_data_statistics": true,
+      "display_scale": "log1p",
+      "footer": "2021–2024 hourly observations",
+      "files": [
+        {
+          "file": "pm25_percentile_range_regions.png",
+          "sha256": "9d39ff8f114bad64704cc57c2377d7d39c39a1b6891640155bb63530f5e5cb7b"
+        },
+        {
+          "file": "pm25_percentile_range_regions.svg",
+          "sha256": "d35efc287b97af4009939249b23089d032a76d76acd3832b651c7003891ff83e"
+        },
+        {
+          "file": "pm25_percentile_range_regions.pdf",
+          "sha256": "6b51084fa115ee3f55d0e9dabb32e57f18569f6d726ac3fbc2eae06c8685460e"
+        }
+      ]
+    },
+    {
+      "file_stem": "pm25_percentile_range_representative_stations",
+      "groups": [
+        {
+          "id": "CN:3578A",
+          "p01": 2.0,
+          "q1": 17.0,
+          "q3": 54.0,
+          "p99": 185.0,
+          "maximum": 9985.0
+        },
+        {
+          "id": "CN:1751A",
+          "p01": 3.0,
+          "q1": 17.0,
+          "q3": 50.0,
+          "p99": 179.72000000000116,
+          "maximum": 1976.0
+        },
+        {
+          "id": "KR:437421",
+          "p01": 1.0,
+          "q1": 6.0,
+          "q3": 17.0,
+          "p99": 49.0,
+          "maximum": 803.0
+        },
+        {
+          "id": "MN:UB1010001",
+          "p01": 1.0,
+          "q1": 10.0,
+          "q3": 74.0,
+          "p99": 459.0,
+          "maximum": 952.0
+        }
+      ],
+      "red_points": 4,
+      "red_point_means": "maximum, not confirmed error",
+      "full_data_statistics": true,
+      "display_scale": "log1p",
+      "footer": "2021–2024 hourly observations",
+      "files": [
+        {
+          "file": "pm25_percentile_range_representative_stations.png",
+          "sha256": "efa3c77babe927b35202be905d34f881ac11ccf0c417a65b0d51d89cd561acdb"
+        },
+        {
+          "file": "pm25_percentile_range_representative_stations.svg",
+          "sha256": "6ed6b2b7675e65c9b071bd7986949ae72d91b3b3caafa9c535447c125e6e06e4"
+        },
+        {
+          "file": "pm25_percentile_range_representative_stations.pdf",
+          "sha256": "cad15faa3e1fd44c082aee1909d3bbe921977b3088ac96cdbe791b8b45e86710"
+        }
+      ]
+    },
+    {
+      "file_stem": "pm25_percentile_range_all_17_regions",
+      "groups": [
+        {
+          "id": "KR_CAPITAL",
+          "p01": 0.0,
+          "q1": 9.0,
+          "q3": 25.0,
+          "p99": 79.0,
+          "maximum": 302.0
+        },
+        {
+          "id": "KR_GANGWON",
+          "p01": 1.0,
+          "q1": 7.0,
+          "q3": 20.0,
+          "p99": 59.0,
+          "maximum": 431.0
+        },
+        {
+          "id": "KR_CHUNGCHEONG",
+          "p01": 1.0,
+          "q1": 9.0,
+          "q3": 25.0,
+          "p99": 75.0,
+          "maximum": 589.0
+        },
+        {
+          "id": "KR_HONAM",
+          "p01": 1.0,
+          "q1": 8.0,
+          "q3": 21.0,
+          "p99": 65.0,
+          "maximum": 302.0
+        },
+        {
+          "id": "KR_DAEGYEONG",
+          "p01": 1.0,
+          "q1": 8.0,
+          "q3": 21.0,
+          "p99": 58.0,
+          "maximum": 803.0
+        },
+        {
+          "id": "KR_DONGNAM",
+          "p01": 1.0,
+          "q1": 8.0,
+          "q3": 20.0,
+          "p99": 53.0,
+          "maximum": 290.0
+        },
+        {
+          "id": "KR_JEJU",
+          "p01": 0.0,
+          "q1": 7.0,
+          "q3": 17.0,
+          "p99": 52.0,
+          "maximum": 251.0
+        },
+        {
+          "id": "CN_SHANDONG",
+          "p01": 2.0,
+          "q1": 12.0,
+          "q3": 39.0,
+          "p99": 148.0,
+          "maximum": 883.0
+        },
+        {
+          "id": "CN_BTH",
+          "p01": 2.0,
+          "q1": 12.0,
+          "q3": 46.0,
+          "p99": 165.0,
+          "maximum": 9985.0
+        },
+        {
+          "id": "CN_LIAONING",
+          "p01": 2.0,
+          "q1": 12.0,
+          "q3": 40.0,
+          "p99": 152.0,
+          "maximum": 2204.0
+        },
+        {
+          "id": "CN_JILIN",
+          "p01": 2.0,
+          "q1": 10.0,
+          "q3": 31.0,
+          "p99": 127.0,
+          "maximum": 1781.0
+        },
+        {
+          "id": "CN_HEILONGJIANG",
+          "p01": 4.0,
+          "q1": 11.0,
+          "q3": 31.0,
+          "p99": 127.0,
+          "maximum": 1765.0
+        },
+        {
+          "id": "CN_INNER_MONGOLIA",
+          "p01": 2.0,
+          "q1": 11.0,
+          "q3": 29.0,
+          "p99": 128.0,
+          "maximum": 1853.0
+        },
+        {
+          "id": "CN_OTHER",
+          "p01": 4.0,
+          "q1": 16.0,
+          "q3": 43.0,
+          "p99": 139.0,
+          "maximum": 438.0
+        },
+        {
+          "id": "JP_WEST",
+          "p01": 0.0,
+          "q1": 5.0,
+          "q3": 13.0,
+          "p99": 33.0,
+          "maximum": 176.0
+        },
+        {
+          "id": "JP_EAST",
+          "p01": 0.0,
+          "q1": 4.0,
+          "q3": 11.0,
+          "p99": 26.0,
+          "maximum": 404.0
+        },
+        {
+          "id": "MN",
+          "p01": 1.0,
+          "q1": 10.0,
+          "q3": 74.0,
+          "p99": 459.0,
+          "maximum": 952.0
+        }
+      ],
+      "red_points": 17,
+      "red_point_means": "maximum, not confirmed error",
+      "full_data_statistics": true,
+      "display_scale": "log1p",
+      "footer": "2021–2024 hourly observations",
+      "files": [
+        {
+          "file": "pm25_percentile_range_all_17_regions.png",
+          "sha256": "490a79583bea2c9e1148849c9272f2945b293dca144a929c11e2600321610edb"
+        },
+        {
+          "file": "pm25_percentile_range_all_17_regions.svg",
+          "sha256": "fee6d9f336a08e45c6dff9c4e1fda1166457e55c1ffbdf18f54cde9521174155"
+        },
+        {
+          "file": "pm25_percentile_range_all_17_regions.pdf",
+          "sha256": "7d3bcce7cdb1eaea2bc16c1c1c8af4d3b1c0d01b8300fe2588b6c19590aff67e"
+        }
+      ]
+    }
+  ],
+  "source_data_unchanged": true
+}

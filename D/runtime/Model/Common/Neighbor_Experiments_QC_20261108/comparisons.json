@@ -1,0 +1,118 @@
+{
+  "schema_version": "neighbor-factorial-qc-v1.0.0",
+  "primary_horizon": 6,
+  "horizons": [
+    3,
+    6,
+    12,
+    24
+  ],
+  "metric": "RMSE",
+  "loss_units": "ug/m3",
+  "comparisons": [
+    {
+      "id": "china_east__F600_W24__F616_CNE_W24",
+      "factor": "china_east",
+      "priority": "primary",
+      "better_condition": "F616_CNE_W24",
+      "reference_condition": "F600_W24",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "china_east__F618_JPE_W24__F634_BOTH_W24",
+      "factor": "china_east",
+      "priority": "secondary_factorial",
+      "better_condition": "F634_BOTH_W24",
+      "reference_condition": "F618_JPE_W24",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "china_east__F601_W25__F617_CNE_W25",
+      "factor": "china_east",
+      "priority": "secondary_factorial",
+      "better_condition": "F617_CNE_W25",
+      "reference_condition": "F601_W25",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "china_east__F619_JPE_W25__F635_BOTH_W25",
+      "factor": "china_east",
+      "priority": "secondary_factorial",
+      "better_condition": "F635_BOTH_W25",
+      "reference_condition": "F619_JPE_W25",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "japan_east__F600_W24__F618_JPE_W24",
+      "factor": "japan_east",
+      "priority": "primary",
+      "better_condition": "F618_JPE_W24",
+      "reference_condition": "F600_W24",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "japan_east__F616_CNE_W24__F634_BOTH_W24",
+      "factor": "japan_east",
+      "priority": "secondary_factorial",
+      "better_condition": "F634_BOTH_W24",
+      "reference_condition": "F616_CNE_W24",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "japan_east__F601_W25__F619_JPE_W25",
+      "factor": "japan_east",
+      "priority": "secondary_factorial",
+      "better_condition": "F619_JPE_W25",
+      "reference_condition": "F601_W25",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "japan_east__F617_CNE_W25__F635_BOTH_W25",
+      "factor": "japan_east",
+      "priority": "secondary_factorial",
+      "better_condition": "F635_BOTH_W25",
+      "reference_condition": "F617_CNE_W25",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "west_reselection__F600_W24__F601_W25",
+      "factor": "west_reselection",
+      "priority": "primary",
+      "better_condition": "F601_W25",
+      "reference_condition": "F600_W24",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "west_reselection__F616_CNE_W24__F617_CNE_W25",
+      "factor": "west_reselection",
+      "priority": "secondary_factorial",
+      "better_condition": "F617_CNE_W25",
+      "reference_condition": "F616_CNE_W24",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "west_reselection__F618_JPE_W24__F619_JPE_W25",
+      "factor": "west_reselection",
+      "priority": "secondary_factorial",
+      "better_condition": "F619_JPE_W25",
+      "reference_condition": "F618_JPE_W24",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "west_reselection__F634_BOTH_W24__F635_BOTH_W25",
+      "factor": "west_reselection",
+      "priority": "secondary_factorial",
+      "better_condition": "F635_BOTH_W25",
+      "reference_condition": "F634_BOTH_W24",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    },
+    {
+      "id": "joint_additions_old24",
+      "factor": "joint_additions",
+      "priority": "primary",
+      "better_condition": "F634_BOTH_W24",
+      "reference_condition": "F600_W24",
+      "positive_gain_definition": "RMSE(reference)-RMSE(better)"
+    }
+  ]
+}

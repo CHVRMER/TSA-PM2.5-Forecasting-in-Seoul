@@ -1,0 +1,77 @@
+{
+  "status": "installed_verified",
+  "created_utc": "2026-11-10T04:57:03.231472+00:00",
+  "destination": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\EDA\\Station_Regions_17_Separate_Maps_20261110",
+  "run_folder": "Run_20261110_135541_150521_8dffa483",
+  "installed_files": 13,
+  "source_inputs_and_attached_originals_unchanged": true,
+  "heatmap_trajectory_layers_are_separate": true,
+  "model_training": false,
+  "files": [
+    {
+      "path": "README.txt",
+      "bytes": 2673,
+      "sha256": "d4d70c0f8e7b99513e46e36d451c31e799182f6e15a66cf85b9585a9f5ffdf7f"
+    },
+    {
+      "path": "Codes/matching_map_reference.py",
+      "bytes": 20758,
+      "sha256": "32ee12f8af78f6cfe79e9de6cf4fd38f200adf6a20ff45269e444ac0a083253e"
+    },
+    {
+      "path": "Codes/plot_separate_region_maps.py",
+      "bytes": 13005,
+      "sha256": "dbdc80f571dacd4e1e7e17a9e996ec4554e800362c7507ebeb8305555a632548"
+    },
+    {
+      "path": "Codes/region_color_scheme.csv",
+      "bytes": 868,
+      "sha256": "7e9cf4530cf094d21daab9f56d20226bad6bbcde11783a2dfb97a655d3e3545d"
+    },
+    {
+      "path": "Codes/assets/ne_110m_admin_0_countries.geojson",
+      "bytes": 838726,
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    },
+    {
+      "path": "Results/Run_20261110_135541_150521_8dffa483/plotted_observations_634.csv",
+      "bytes": 53138,
+      "sha256": "51912369214aac5431d659a9455edeed93777a0a1d29634eb8d1504de389fb11"
+    },
+    {
+      "path": "Results/Run_20261110_135541_150521_8dffa483/region_counts_and_colors_17.csv",
+      "bytes": 868,
+      "sha256": "7e9cf4530cf094d21daab9f56d20226bad6bbcde11783a2dfb97a655d3e3545d"
+    },
+    {
+      "path": "Results/Run_20261110_135541_150521_8dffa483/sampled_arrivals_192.csv",
+      "bytes": 5205,
+      "sha256": "29222fcbf47b51c8952079fd0a4d2d46a8c23e062e3cb2f0eef015d83ea6e351"
+    },
+    {
+      "path": "Results/Run_20261110_135541_150521_8dffa483/station_regions_17_heatmap.png",
+      "bytes": 554042,
+      "sha256": "ef3b8c6080b29b5515217c8a7a99e48e5d832fa0dfaadc2d69282534140a0711"
+    },
+    {
+      "path": "Results/Run_20261110_135541_150521_8dffa483/station_regions_17_heatmap.svg",
+      "bytes": 412681,
+      "sha256": "53f61e0620042091235d82583e6c114c704579665d1680b69f893b2498f3e7c5"
+    },
+    {
+      "path": "Results/Run_20261110_135541_150521_8dffa483/station_regions_17_trajectory_sample.png",
+      "bytes": 1264751,
+      "sha256": "d00c7ed5fc7253da7020c59ae633b5b5a489c82e577454798bb13ab1aa82eff8"
+    },
+    {
+      "path": "Results/Run_20261110_135541_150521_8dffa483/station_regions_17_trajectory_sample.svg",
+      "bytes": 615564,
+      "sha256": "e7f2af21ef7d3f23d828a9cdfb33a68d489071d1074fc0d88761a3c81762e4b6"
+    },
+    {
+      "path": "Results/Run_20261110_135541_150521_8dffa483/visualization_verification.json",
+      "bytes": 4097,
+      "sha256": "45ed5c82eeee11c39cc649eb780022c8bca7d3db778612736e5d8ba199279269"
+    }
+  ]
+}

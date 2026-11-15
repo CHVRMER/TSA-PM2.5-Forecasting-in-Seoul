@@ -1,0 +1,42 @@
+test_bidirectional_receiver_by_sender_support_orientation (__main__.DCRNNTrainingContracts.test_bidirectional_receiver_by_sender_support_orientation) ... ok
+test_checkpoint_contract_mismatch_cannot_be_silent_fallback (__main__.DCRNNTrainingContracts.test_checkpoint_contract_mismatch_cannot_be_silent_fallback) ... ok
+test_current_and_best_weights_optimizer_scheduler_rng_all_saved (__main__.DCRNNTrainingContracts.test_current_and_best_weights_optimizer_scheduler_rng_all_saved) ... ok
+test_curriculum_entry_is_restricted_to_training_update (__main__.DCRNNTrainingContracts.test_curriculum_entry_is_restricted_to_training_update) ... ok
+test_decoder_feedback_only_uses_available_junggu_label (__main__.DCRNNTrainingContracts.test_decoder_feedback_only_uses_available_junggu_label) ... ok
+test_full_mode_cannot_accept_pilot_sample_restrictions (__main__.DCRNNTrainingContracts.test_full_mode_cannot_accept_pilot_sample_restrictions) ... ok
+test_inference_forward_has_no_label_arguments (__main__.DCRNNTrainingContracts.test_inference_forward_has_no_label_arguments) ... ok
+test_inference_loader_targets_are_not_model_inputs (__main__.DCRNNTrainingContracts.test_inference_loader_targets_are_not_model_inputs) ... ok
+test_nonfinite_original_unit_loss_fails_without_clipping (__main__.DCRNNTrainingContracts.test_nonfinite_original_unit_loss_fails_without_clipping) ... ok
+test_original_stacked_encoder_decoder_defaults (__main__.DCRNNTrainingContracts.test_original_stacked_encoder_decoder_defaults) ... ok
+test_preserved_model_source_is_exact (__main__.DCRNNTrainingContracts.test_preserved_model_source_is_exact) ... ok
+test_restore_and_trainer_versions_match (__main__.DCRNNTrainingContracts.test_restore_and_trainer_versions_match) ... ok
+test_runner_uses_six_horizon_override_and_h48_namespace (__main__.DCRNNTrainingContracts.test_runner_uses_six_horizon_override_and_h48_namespace) ... ok
+test_saved_state_restores_optimizer_scheduler_and_rng (__main__.DCRNNTrainingContracts.test_saved_state_restores_optimizer_scheduler_and_rng) ... ok
+test_train_only_sparse_sampling_rejects_eval (__main__.DCRNNTrainingContracts.test_train_only_sparse_sampling_rejects_eval) ... ok
+test_validation_selection_defaults_h6_allows_declared_h24_and_test_is_explicit (__main__.DCRNNTrainingContracts.test_validation_selection_defaults_h6_allows_declared_h24_and_test_is_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.081s
+
+OK
+{
+  "status": "passed",
+  "static_checks": 16,
+  "failures": 0,
+  "errors": 0,
+  "model_sha256": "480cc1bb9b88a90918b4dac81ccf060b58a1d90d644e79380a48ee94c84f1a7e",
+  "runtime_horizons": [
+    3,
+    6,
+    12,
+    24,
+    36,
+    48
+  ],
+  "runtime_decoder_steps": 48,
+  "vendor_original_defaults_preserved": true,
+  "numerical_forward_backward_tested": false,
+  "checkpoint_tensor_roundtrip_tested": false,
+  "gpu_training_tested": false,
+  "next_step": "Run verify_dcrnn_runtime.py in the prepared PyTorch environment."
+}

@@ -1,0 +1,41 @@
+{
+  "period": "2021-2022 training only",
+  "windows": [
+    "01-48",
+    "07-48",
+    "13-48"
+  ],
+  "main_association_window": "07-48",
+  "current_bins": "[0,15),[15,35),[35,75),[75,infinity); unknown separate",
+  "high_threshold": 35.0,
+  "high_definition": "hourly research category, not official alert",
+  "minimum_pass_and_nonpass_per_common_stratum": 10,
+  "bootstrap_reps": 500,
+  "bootstrap_calendar_block_hours": 168,
+  "bootstrap_calendar_block_slots": 56,
+  "bootstrap_seed": 20261107,
+  "bootstrap_fixed_original_support": true,
+  "minimum_valid_bootstrap_fraction_for_CI": 0.8,
+  "common_support_target": "pooled eligible current-observed training stratum frequencies restricted and renormalized per region",
+  "different_regions_may_have_different_standardization_population": true,
+  "no_formal_region_ranking_or_causal_test": true,
+  "status": "passed",
+  "origins": 5840,
+  "regions": 20,
+  "current_missing_origins": 77,
+  "training_target_eligible_counts": {
+    "3": 5762,
+    "6": 5761,
+    "12": 5759,
+    "24": 5755
+  },
+  "input_hashes": {
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Evaluation_Contract_20261107\\evaluation_grid.parquet": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Korea_National_2021_2024\\korea_national_pm25_hourly_2021_2024_kst.parquet": "580f762c362dd62540f74dd8955b38a4c8e7e37c51fd0df5a4df299c7d05e764",
+    "output\\geographic_route_eda_20261107\\staging\\EDA\\Geographic_Region_Future_PM25_Training_2021_2022\\Results\\origin_visits.parquet": "202a5464ee3490028548e1842977c92c462c2a16892bdfde6d5b364109087b26"
+  },
+  "no_2023_2024_targets_used": true,
+  "no_target_imputation": true,
+  "no_model_training": true,
+  "elapsed_seconds": 9.905999999959022
+}

@@ -1,0 +1,112 @@
+{
+  "source_sha256": {
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\EDA\\Future_Work_Input_Balance_20261115_141822_400024\\Results\\country_series_counts_by_scope.csv": "34ac96815c8dc1913aa053c2586116f87306a62a72ca10857b74205eed6ca823",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\EDA\\Future_Work_Input_Balance_20261115_141822_400024\\Audit\\figure_validation.json": "0846b7aaae4fac119015923e61cdaa8392a2650236357ca3c787628af27542bd"
+  },
+  "figures": [
+    {
+      "scope": "eda650",
+      "actual_counts": {
+        "KR": 514,
+        "CN": 77,
+        "JP": 58,
+        "MN": 1
+      },
+      "foreign_total": 136,
+      "display_bar_widths_in_axis_units": {
+        "KR": 514,
+        "CN": 77,
+        "JP": 58,
+        "MN": 3.0
+      },
+      "visible_x_ranges": [
+        [
+          0.0,
+          150.0
+        ],
+        [
+          490.0,
+          535.0
+        ]
+      ],
+      "omitted_x_range": [
+        150.0,
+        490.0
+      ],
+      "equal_pixels_per_visible_unit": true,
+      "mongolia_minimum_display_width_disclosed": true,
+      "actual_data_unchanged": true,
+      "countries_use_red_then_identical_gray": true,
+      "exports": [
+        {
+          "file": "input_series_eda650_red_gray_broken_axis.png",
+          "bytes": 85302,
+          "sha256": "2cf17fdf5400de5b9c75d59ecaec66c8a35f2664b57ef6d270427a34db468b12"
+        },
+        {
+          "file": "input_series_eda650_red_gray_broken_axis.svg",
+          "bytes": 30796,
+          "sha256": "46b953572c36d6332faf81b37a33460d8c747bba92df8aff029641350fdbec2e"
+        },
+        {
+          "file": "input_series_eda650_red_gray_broken_axis.pdf",
+          "bytes": 43642,
+          "sha256": "cbe6c8a9c862063f46055bc0c61afa364490e3f4c47da7ca754f3bdd982d9cbc"
+        }
+      ]
+    },
+    {
+      "scope": "dcrnn634",
+      "actual_counts": {
+        "KR": 514,
+        "CN": 77,
+        "JP": 42,
+        "MN": 1
+      },
+      "foreign_total": 120,
+      "display_bar_widths_in_axis_units": {
+        "KR": 514,
+        "CN": 77,
+        "JP": 42,
+        "MN": 3.0
+      },
+      "visible_x_ranges": [
+        [
+          0.0,
+          150.0
+        ],
+        [
+          490.0,
+          535.0
+        ]
+      ],
+      "omitted_x_range": [
+        150.0,
+        490.0
+      ],
+      "equal_pixels_per_visible_unit": true,
+      "mongolia_minimum_display_width_disclosed": true,
+      "actual_data_unchanged": true,
+      "countries_use_red_then_identical_gray": true,
+      "exports": [
+        {
+          "file": "input_series_dcrnn634_red_gray_broken_axis.png",
+          "bytes": 84177,
+          "sha256": "7104c21f354b573623e4ed1c9a76fcfa5adf143da257e2c6000fe9a92f76171c"
+        },
+        {
+          "file": "input_series_dcrnn634_red_gray_broken_axis.svg",
+          "bytes": 30794,
+          "sha256": "cb4f4d0ab6c54dd7a17307de264d6c5cb80f933fbc4f85b6c895a2f37510345a"
+        },
+        {
+          "file": "input_series_dcrnn634_red_gray_broken_axis.pdf",
+          "bytes": 42200,
+          "sha256": "8c98d9d896e7ba70b3e85d313e5269d93c826c22ee471858c4990162f08ab251"
+        }
+      ]
+    }
+  ],
+  "target_seoul_junggu_excluded": true,
+  "scope_note": "EDA650 includes16 western-Japan series not used by the executed DCRNN634 input set."
+}

@@ -1,0 +1,72 @@
+{
+  "historical_822_path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\EDA\\Matching_Candidates_National_Neighbors_2021_2024\\Results\\plotted_candidate_registry.csv",
+  "historical_822_sha256": "ad3d72f6ab102ab958f3781ab6bf96b5cd98feb285347225575d127d9f7148e2",
+  "historical_external_candidates": 822,
+  "historical_country_counts": {
+    "KR": 572,
+    "JP": 188,
+    "CN": 61,
+    "MN": 1
+  },
+  "historical_map_group_counts": {
+    "KR_NEW": 505,
+    "JP": 188,
+    "KR_OLD": 67,
+    "CN": 48,
+    "CN_RU": 7,
+    "CN_MN": 6,
+    "MN": 1
+  },
+  "historical_network_counts": {
+    "도시대기 측정망": 533,
+    "교외대기 측정망": 28,
+    "국가배경농도(도서) 측정망": 11
+  },
+  "v5_zip": "C:\\Users\\kimjy\\Downloads\\Dataset_11_07_regions_v5.zip",
+  "v5_member": "Dataset/Trajectory_Matching_Regions_v5/station_registry.csv",
+  "v5_external_candidates": 693,
+  "v5_country_counts": {
+    "KR": 572,
+    "CN": 77,
+    "JP": 43,
+    "MN": 1
+  },
+  "current_model_registry_path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional_Experiments_20261109\\station_registry.csv",
+  "current_registry_sha256": "85f195a6297d78e6415a8b33e65e1d4ad5aedd8d5c9b1f3227055f64e00f3398",
+  "current_external_series": 634,
+  "current_model_nodes_including_target": 635,
+  "current_country_counts": {
+    "KR": 514,
+    "CN": 77,
+    "JP": 42,
+    "MN": 1
+  },
+  "v5_not_current_count": 74,
+  "v5_not_current_country_counts": {
+    "KR": 58,
+    "JP": 16
+  },
+  "current_not_v5_count": 15,
+  "current_not_v5_country_counts": {
+    "JP": 15
+  },
+  "jp_west_old24_vs_v5new25_overlap": 9,
+  "net_candidate_count_difference": 59,
+  "japan_selection_difference_explanation": "V5 uses reselection25; currentF634 uses original balanced24. Nine overlap.16 v5JP drop and15 originalJP return. It is not a single-station removal.",
+  "later_added_international_count": 34,
+  "later_added_country_counts": {
+    "JP": 18,
+    "CN": 16
+  },
+  "japan_candidate_pool_before_34_addition": 188,
+  "japan_kept_after_addition_in_attached_image": 25,
+  "additional_japan_faded_background_not_in693": 163,
+  "old822_removed_when_selecting_v5": {
+    "total": 163,
+    "countries": {
+      "JP": 163
+    }
+  },
+  "roadside_measurements_included": false,
+  "recommended_stage1": "Historical candidate pool822: national Korea572+China61+JapanWest188+Mongolia1, target separate. Do not apply later Japan25 keep/drop selection retroactively."
+}

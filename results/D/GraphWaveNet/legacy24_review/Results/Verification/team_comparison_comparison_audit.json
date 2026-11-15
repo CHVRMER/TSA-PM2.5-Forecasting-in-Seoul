@@ -1,0 +1,94 @@
+{
+  "GWN_archive": "C:\\Users\\kimjy\\Downloads\\VastAI-20261111T003043Z-1-001.zip",
+  "DCRNN_archive": "C:\\Users\\kimjy\\Downloads\\Regional12_Seed11_20261109-20261110T090404Z-1-001.zip",
+  "GWN_batch": "VastAI/20261111_014538_406520_eaa72758/",
+  "grid_path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Evaluation_Contract_20261107\\evaluation_grid.parquet",
+  "grid_sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db",
+  "method": "Post-hoc exploratory paired review; same complete eligible grid; no intersection dropping; squared-loss calendar HAC h/3-1; 7-day calendar bootstrap, 1000 draws seed0. Holm4 per M4-vs-F, Holm8 sensitivity including domestic comparison; not original planned inferential family.",
+  "scorer_path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\score.py",
+  "sources": {
+    "GWN_validation": {
+      "member": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0/score_rows.parquet",
+      "sha256": "5e918cb1339d186ccdf0b362473d7913b022d1ae3796c880fecafe12dcbd9e1d"
+    },
+    "DCRNN_F_validation": {
+      "member": "Regional12_Seed11_20261109/Jobs/F/DCRNN/full/20261109_124426_736220_fbbcd99e/Training/20261109_124427_531225_0da133aa/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "76f079d309c9bf8a1daf477f3f8e3f3e3a156817776256a4944e77577cfb9a87"
+    },
+    "DCRNN_DN_validation": {
+      "member": "Regional12_Seed11_20261109/Jobs/DN/DCRNN/full/20261109_100522_407529_80d6fdeb/Training/20261109_100532_946023_5580d655/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "650f509414f459a9d1e0b2ecd44e3d72e93518a6c80b975576b122c3b44b91d6"
+    },
+    "GWN_test": {
+      "member": "VastAI/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8/score_rows.parquet",
+      "sha256": "2b99610be57144d421ba39ca8d7d31d9e56693950aa38474b3760afd6ad4aebb"
+    },
+    "DCRNN_F_test": {
+      "member": "Regional12_Seed11_20261109/Jobs/F/DCRNN/full/20261109_124426_736220_fbbcd99e/Training/20261109_124427_531225_0da133aa/Exports/test_predictions_by_seed.parquet",
+      "sha256": "b5a2447c01355f13441ad6afe4e4715751152f58e9ac0c4d2c1cdc0088c3af5d"
+    },
+    "DCRNN_DN_test": {
+      "member": "Regional12_Seed11_20261109/Jobs/DN/DCRNN/full/20261109_100522_407529_80d6fdeb/Training/20261109_100532_946023_5580d655/Exports/test_predictions_by_seed.parquet",
+      "sha256": "a7785966111da6fd67dd874ea98a5ef3bd12f7014a3cc6f262e9d9cb0414ab94"
+    }
+  },
+  "comparisons": {
+    "GWN_M4_vs_DCRNN_F_validation": {
+      "rows_match": true,
+      "targets_match": true,
+      "n_by_horizon": {
+        "3": 2531,
+        "6": 2530,
+        "12": 2528,
+        "24": 2524
+      },
+      "primary_review_family": 4
+    },
+    "GWN_M1_vs_DCRNN_DN_validation": {
+      "rows_match": true,
+      "targets_match": true,
+      "n_by_horizon": {
+        "3": 2531,
+        "6": 2530,
+        "12": 2528,
+        "24": 2524
+      },
+      "primary_review_family": 4
+    },
+    "GWN_M4_vs_local_LightGBM_F634_seed11_validation": {
+      "rows_match": true,
+      "targets_match": true,
+      "n_by_horizon": {
+        "3": 2531,
+        "6": 2530,
+        "12": 2528,
+        "24": 2524
+      },
+      "primary_review_family": 4
+    },
+    "GWN_M4_vs_DCRNN_F_test": {
+      "rows_match": true,
+      "targets_match": true,
+      "n_by_horizon": {
+        "3": 2874,
+        "6": 2873,
+        "12": 2871,
+        "24": 2867
+      },
+      "primary_review_family": 4
+    },
+    "GWN_M1_vs_DCRNN_DN_test": {
+      "rows_match": true,
+      "targets_match": true,
+      "n_by_horizon": {
+        "3": 2874,
+        "6": 2873,
+        "12": 2871,
+        "24": 2867
+      },
+      "primary_review_family": 4
+    }
+  },
+  "all_review_sensitivity_family": 20,
+  "GWN_M4_vs_DCRNN_F_test12_holm20": 0.036079078669359915
+}

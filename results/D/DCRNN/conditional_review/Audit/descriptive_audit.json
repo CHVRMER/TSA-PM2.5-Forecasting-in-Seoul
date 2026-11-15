@@ -1,0 +1,163 @@
+{
+  "purpose": "Post-hoc descriptive stability, not confirmatory hypothesis testing or source attribution. No p-values computed here.",
+  "main_join_keys": [
+    "split",
+    "condition_type",
+    "condition_value",
+    "horizon",
+    "candidate",
+    "reference"
+  ],
+  "source_grid": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\Verification\\rebuilt_evaluation_grid.parquet",
+  "source_grid_sha256": "e1ed0a6434e0679e7c445979a7632e0d8365c7c7a9c2a501190f4483c7f5e9d0",
+  "sources": {
+    "validation": {
+      "path": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Common_Scoring\\Combined\\validation\\20261112_071639_664630_1f71ac6a\\score_rows.parquet",
+      "sha256": "6b4fc995eb995ab7c608958d5706d248e5876c893833bdd35fbcf2d31233a33d"
+    },
+    "test": {
+      "path": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Common_Scoring\\Combined\\test\\20261112_071643_599025_364259e5\\score_rows.parquet",
+      "sha256": "196b3f2534b7a9f706fb44b65d661851f3e524caa6a63e0c216d06f29f84eb63"
+    }
+  },
+  "checks": {
+    "validation_M1": {
+      "fixed_rows_exact": true,
+      "targets_exact": true,
+      "conditions_exact": true,
+      "n": 10088
+    },
+    "validation_M2": {
+      "fixed_rows_exact": true,
+      "targets_exact": true,
+      "conditions_exact": true,
+      "n": 10088
+    },
+    "validation_M3": {
+      "fixed_rows_exact": true,
+      "targets_exact": true,
+      "conditions_exact": true,
+      "n": 10088
+    },
+    "test_M1": {
+      "fixed_rows_exact": true,
+      "targets_exact": true,
+      "conditions_exact": true,
+      "n": 11460
+    },
+    "test_M2": {
+      "fixed_rows_exact": true,
+      "targets_exact": true,
+      "conditions_exact": true,
+      "n": 11460
+    },
+    "test_M3": {
+      "fixed_rows_exact": true,
+      "targets_exact": true,
+      "conditions_exact": true,
+      "n": 11460
+    }
+  },
+  "current_pm_rule": "persistence_y_hat only when persistence_age_hours==0 and persistence_fallback_kind==exact_observation; all fallback observations remain NaN here.",
+  "n_definition": "Fixed eligible 3-hour arrival rows, not independent events. n_days and contiguous_runs show temporal concentration; runs break at absent/nonselected 3-hour slots.",
+  "season_definition": "Original season at origin_time_kst (DJF/MAM/JJA/SON), including Dec/Jan/Feb within each calendar year; not target-time season.",
+  "route_definition": "Original route_group derived from current arrival trajectory history, not future target-time trajectory.",
+  "comparisons": [
+    [
+      "M3",
+      "M1",
+      "primary"
+    ],
+    [
+      "M2",
+      "M1",
+      "supporting_only"
+    ],
+    [
+      "M3",
+      "M2",
+      "supporting_only"
+    ]
+  ],
+  "uncertainty": "Parent computes time-block CI and multiplicity-adjusted inference separately; these tables contain descriptive point estimates only.",
+  "row_counts": {
+    "main": 192,
+    "route_season": 384,
+    "stability": 96
+  },
+  "main_M3_M1_both_years_lower": [
+    {
+      "condition_type": "route_group",
+      "condition_value": "east",
+      "horizon": 24,
+      "candidate": "M3",
+      "reference": "M1",
+      "comparison_role": "primary",
+      "RMSE_improvement_pct_2023": 1.0000749666532305,
+      "RMSE_improvement_pct_2024": 2.132020407437607,
+      "n_2023": 642.0,
+      "n_2024": 745.0
+    },
+    {
+      "condition_type": "route_group",
+      "condition_value": "local",
+      "horizon": 24,
+      "candidate": "M3",
+      "reference": "M1",
+      "comparison_role": "primary",
+      "RMSE_improvement_pct_2023": 6.016173079693243,
+      "RMSE_improvement_pct_2024": 12.356343084034538,
+      "n_2023": 30.0,
+      "n_2024": 65.0
+    },
+    {
+      "condition_type": "season",
+      "condition_value": "MAM",
+      "horizon": 12,
+      "candidate": "M3",
+      "reference": "M1",
+      "comparison_role": "primary",
+      "RMSE_improvement_pct_2023": 0.2493675988004873,
+      "RMSE_improvement_pct_2024": 0.5255527060063825,
+      "n_2023": 730.0,
+      "n_2024": 727.0
+    },
+    {
+      "condition_type": "season",
+      "condition_value": "SON",
+      "horizon": 24,
+      "candidate": "M3",
+      "reference": "M1",
+      "comparison_role": "primary",
+      "RMSE_improvement_pct_2023": 3.9700818182491937,
+      "RMSE_improvement_pct_2024": 3.6033011376957247,
+      "n_2023": 719.0,
+      "n_2024": 720.0
+    },
+    {
+      "condition_type": "season",
+      "condition_value": "SON",
+      "horizon": 36,
+      "candidate": "M3",
+      "reference": "M1",
+      "comparison_role": "primary",
+      "RMSE_improvement_pct_2023": 1.2080602898075776,
+      "RMSE_improvement_pct_2024": 0.9599684930050367,
+      "n_2023": 719.0,
+      "n_2024": 720.0
+    },
+    {
+      "condition_type": "season",
+      "condition_value": "SON",
+      "horizon": 48,
+      "candidate": "M3",
+      "reference": "M1",
+      "comparison_role": "primary",
+      "RMSE_improvement_pct_2023": 1.152075005679043,
+      "RMSE_improvement_pct_2024": 3.0467700403511766,
+      "n_2023": 720.0,
+      "n_2024": 720.0
+    }
+  ],
+  "confounding_warning": "Season and route are correlated; route-group aggregate differences mix season, current PM concentration, future PM variability and weather. See per-row season fractions, current PM summaries and route×season cells. Current PM is summary only, not an adjusted causal estimate. Serially adjacent rows are not independent events."
+}

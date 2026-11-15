@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "raw_rows_independently_recomputed": 480,
+  "adjusted_rows_independently_recomputed": 240,
+  "passage_rate_rows_independently_recomputed": 60,
+  "adjusted_point_estimates_max_absolute_difference": 4.263256414560601e-14,
+  "raw_count_mean_high_rate_mismatches": 0,
+  "geography_pass_rate_mismatches": 0,
+  "current_pm_exact_observation_not_baseline_fallback": true,
+  "current_unknown_origins": 77,
+  "training_origins": 5840,
+  "time_boundaries_and_target_eligibility_reproduced": true,
+  "standardization_minimum_per_side": 10,
+  "unknown_current_excluded_from_adjustment_not_raw": true,
+  "region_specific_common_support_and_pooled_weights_reproduced": true,
+  "no_support_is_NA_not_zero_effect": true,
+  "bootstrap_explicit_calendar_indices_match_cumulative_sums": true,
+  "bootstrap_missing_calendar_slots_not_compressed": true,
+  "bootstrap_80pct_finite_threshold_boundary_checked": true,
+  "bootstrap_real_examples_independently_recomputed": [
+    {
+      "region_id": "KR_GANGWON",
+      "window": "07-48",
+      "horizon": 6,
+      "support_strata": 12,
+      "mean": {
+        "valid_replicates": 434,
+        "ci95": [
+          -3.439679206633322,
+          -0.5885929636661731
+        ],
+        "max_error": 8.881784197001252e-16
+      },
+      "high": {
+        "valid_replicates": 434,
+        "ci95": [
+          -5.014012575646936,
+          2.169167500679168
+        ],
+        "max_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "region_id": "CN_SHANDONG",
+      "window": "07-48",
+      "horizon": 6,
+      "support_strata": 11,
+      "mean": {
+        "valid_replicates": 497,
+        "ci95": [
+          1.9387613857630857,
+          4.614663059754075
+        ],
+        "max_error": 0.0
+      },
+      "high": {
+        "valid_replicates": 497,
+        "ci95": [
+          0.465932632966839,
+          7.19317500204216
+        ],
+        "max_error": 1.6653345369377348e-16
+      }
+    }
+  ],
+  "bootstrap_support_and_weights_fixed_to_original_sample": true
+}

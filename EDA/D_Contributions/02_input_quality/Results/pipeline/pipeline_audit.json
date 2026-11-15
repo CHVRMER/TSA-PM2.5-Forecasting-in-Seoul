@@ -1,0 +1,162 @@
+{
+  "status": "completed",
+  "sources_unchanged": true,
+  "no_training_performed": true,
+  "no_qc_rules_applied": true,
+  "trajectory": {
+    "rows": 2559672,
+    "columns": 25,
+    "time_alignment_errors": 0,
+    "range_checks": {
+      "pass_after_arrival": 0,
+      "invalid_latitude": 0,
+      "invalid_longitude": 0,
+      "negative_height_agl": 0,
+      "negative_mixdepth": 0,
+      "zero_mixdepth": 0,
+      "rh_below0": 0,
+      "rh_above100": 0,
+      "negative_rain_rate": 0,
+      "negative_wind_speed": 0,
+      "wind_speed_uv_mismatch": 0
+    }
+  },
+  "feature_tables": [
+    {
+      "dataset": "Origin_Features_2021_2024/origin_features_2021_2024_kst.parquet",
+      "rows": 11688,
+      "columns": 2318,
+      "columns_with_infinite_stats": [],
+      "all_null_columns": []
+    },
+    {
+      "dataset": "Origin_Features_2021_2024_v3/origin_features_2021_2024_kst.parquet",
+      "rows": 11688,
+      "columns": 5678,
+      "columns_with_infinite_stats": [],
+      "all_null_columns": [
+        "pm25_jp_b01_06_mean",
+        "pm25_jp_b01_06_std",
+        "pm25_jp_b01_06_max",
+        "pm25_jp_b01_06_inside_mix_mean",
+        "pm25_jp_b01_06_above_mix_mean",
+        "pm10_jp_b01_06_mean",
+        "pm25_mn_b01_06_mean",
+        "pm25_mn_b01_06_std",
+        "pm25_mn_b01_06_max",
+        "pm25_mn_b01_06_inside_mix_mean",
+        "pm25_mn_b01_06_above_mix_mean",
+        "pm10_mn_b01_06_mean",
+        "pm10_jp_b07_12_mean",
+        "pm25_mn_b07_12_mean",
+        "pm25_mn_b07_12_std",
+        "pm25_mn_b07_12_max",
+        "pm25_mn_b07_12_inside_mix_mean",
+        "pm25_mn_b07_12_above_mix_mean",
+        "pm10_mn_b07_12_mean",
+        "pm10_jp_b13_24_mean",
+        "pm25_mn_b13_24_mean",
+        "pm25_mn_b13_24_std",
+        "pm25_mn_b13_24_max",
+        "pm25_mn_b13_24_inside_mix_mean",
+        "pm25_mn_b13_24_above_mix_mean",
+        "pm10_mn_b13_24_mean",
+        "pm10_jp_b25_48_mean",
+        "pm10_mn_b25_48_mean"
+      ]
+    },
+    {
+      "dataset": "National_Station_History_2021_2024/national_additional_station_history.parquet",
+      "rows": 11688,
+      "columns": 8081,
+      "columns_with_infinite_stats": [],
+      "all_null_columns": [
+        "obs_kr_437371_pm25_now",
+        "obs_kr_437371_pm25_lag01h",
+        "obs_kr_437371_pm25_lag03h",
+        "obs_kr_437371_pm25_lag06h",
+        "obs_kr_437371_pm25_lag12h",
+        "obs_kr_437371_pm25_lag24h",
+        "obs_kr_437371_pm25_mean6h",
+        "obs_kr_437371_pm25_std6h",
+        "obs_kr_437371_pm25_mean24h",
+        "obs_kr_437371_pm25_std24h",
+        "obs_kr_437371_pm25_change3h",
+        "obs_kr_437371_pm25_change6h",
+        "obs_kr_437371_pm25_age_since_valid_h"
+      ]
+    },
+    {
+      "dataset": "Neighbors_Expansion_QC_20261108/station_history_qc_2021_2024.parquet",
+      "rows": 11688,
+      "columns": 545,
+      "columns_with_infinite_stats": [],
+      "all_null_columns": []
+    }
+  ],
+  "actual_dcrnn": {
+    "nodes": 635,
+    "country_counts": {
+      "KR": 515,
+      "CN": 77,
+      "JP": 42,
+      "MN": 1
+    },
+    "hourly_shape": [
+      35112,
+      635
+    ],
+    "tensor_finite": {
+      "hourly_x": true,
+      "context_x": true,
+      "y_z": true
+    },
+    "fit_start": "2021-01-01T00:00:00+09:00",
+    "fit_end_exclusive": "2023-01-01T00:00:00+09:00",
+    "target_labels_from_exact_raw_hour_verified_by_loader": true,
+    "evaluation_grid_checks": [
+      {
+        "horizon": 3,
+        "rows": 11688,
+        "target_values_match": true,
+        "eligibility_matches": true,
+        "timestamps_exact": true
+      },
+      {
+        "horizon": 6,
+        "rows": 11688,
+        "target_values_match": true,
+        "eligibility_matches": true,
+        "timestamps_exact": true
+      },
+      {
+        "horizon": 12,
+        "rows": 11688,
+        "target_values_match": true,
+        "eligibility_matches": true,
+        "timestamps_exact": true
+      },
+      {
+        "horizon": 24,
+        "rows": 11688,
+        "target_values_match": true,
+        "eligibility_matches": true,
+        "timestamps_exact": true
+      }
+    ],
+    "china_9985": {
+      "present_in_actual_loader": true,
+      "time_kst": "2021-03-15 16:00:00+09:00",
+      "value": 9985.0,
+      "normalized_log_value": 6.269654273986816,
+      "training_origin_windows_containing_value": 16,
+      "train_log_mean_original": 3.3771241442701454,
+      "train_log_mean_without_one_value": 3.3767753306301667,
+      "train_log_std_original": 0.9301653605037785,
+      "train_log_std_without_one_value": 0.929099031033427,
+      "counterfactual_normalizer_only_no_file_change_no_training": true
+    },
+    "context_dimensions": 106
+  },
+  "elapsed_seconds": 63.73556730011478
+}

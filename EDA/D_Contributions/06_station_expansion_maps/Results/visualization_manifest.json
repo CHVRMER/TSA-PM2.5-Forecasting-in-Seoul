@@ -1,0 +1,58 @@
+{
+  "created_kst": "2026-11-15T13:53:32.866571+09:00",
+  "historical_stage": "After nationwide Korean expansion, before China_East16/Japan_East18 and Japan-west reselection",
+  "same_candidates_and_trajectories_in_both_maps": true,
+  "no_raw_data_or_models_modified": true,
+  "candidate_group_counts": {
+    "KR_OLD": 67,
+    "KR_NEW": 505,
+    "CN": 48,
+    "CN_BORDER": 13,
+    "JP": 188,
+    "MN": 1
+  },
+  "maps": [
+    {
+      "file_stem": "01_national_expansion_before_international_additions",
+      "candidate_count": 822,
+      "candidate_keys_sha256": "be6cfa461aaa8370b9ac8484843db2d646465638bdbb5d91f3e65f242b5c24ef",
+      "planned_area_count": 0,
+      "new_international_points_drawn": 0,
+      "axes_bounds": [
+        0.05709999999999999,
+        0.16,
+        0.9168000000000001,
+        0.764
+      ],
+      "trajectory_count": 192,
+      "png_pixels": [
+        1650,
+        1650
+      ]
+    },
+    {
+      "file_stem": "02_national_expansion_with_planned_regions",
+      "candidate_count": 822,
+      "candidate_keys_sha256": "be6cfa461aaa8370b9ac8484843db2d646465638bdbb5d91f3e65f242b5c24ef",
+      "planned_area_count": 2,
+      "new_international_points_drawn": 0,
+      "axes_bounds": [
+        0.05709999999999999,
+        0.16,
+        0.9168000000000001,
+        0.764
+      ],
+      "trajectory_count": 192,
+      "png_pixels": [
+        1650,
+        1650
+      ]
+    }
+  ],
+  "input_sha256": {
+    "Results\\plotted_candidates_822.csv": "b70276e16740a80c62b871edfd6cb7a48695ba201852f01f87dcf2e3b3eeabff",
+    "Results\\display_trajectory_sample.parquet": "09f2b0e9bae19ee71be00c443d3acadb1ed209189365a1b567d80fb53cfbb6bd",
+    "Results\\planned_region_boundaries.geojson": "90aa60290cd45f021370304b6b04ec02991bdac9286e622dc8ca66aa0bb28b83",
+    "Codes\\assets\\countries.geojson": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+  }
+}

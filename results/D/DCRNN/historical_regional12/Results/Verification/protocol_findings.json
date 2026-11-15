@@ -1,0 +1,25 @@
+{
+  "checked_model_source": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\DCRNN\\Training_Update_20261109\\Codes\\dcrnn_model.py",
+  "checked_model_source_sha256": "480cc1bb9b88a90918b4dac81ccf060b58a1d90d644e79380a48ee94c84f1a7e",
+  "matches_archived_source_hash": true,
+  "main_limitations": [
+    "12 declared conditions are not all complete: Mongolia failed nonfinite original-unit training loss; all-12 regional combined scorer deliberately skipped.",
+    "Only seed11; time-block forecast significance, if computed, does not include training seed uncertainty.",
+    "DN is weak vs persistence at short horizons. Incremental information gains relative to this baseline cannot be generalized to a well-tuned domestic forecaster.",
+    "Large finite loss/validation spikes (Full train loss9958.25; Mongolia firstloss6.269e9) indicate unstable optimization; no proof these are caused solely by raw-data anomalies.",
+    "Curriculum probability remains above99.9% throughout completed runs; true available training Junggu h3/h6/h12 labels are virtually always injected in training but absent at inference.",
+    "HYSPLIT graph is fixed and identical across12 conditions. Comparison tests added observed PM information; not physical source contribution, not dynamic graph superiority, not HYSPLIT vs distance graph effect.",
+    "Excluded observations are masked but excluded graph nodes remain latent relays. Domestic-only refers to raw PM input availability, not removal of overseas graph topology.",
+    "All best checkpoints chosen on validation h6, even h3/h12/h24 forecasts; other horizons were not separately optimized.",
+    "Config/scoring protocol explicitly admits test2024_previously_inspected; do not claim a newly untouched test set.",
+    "Per-seed run_summary.test_scored=false is a stale summary field: completion.json and test predictions show test inference/scoring was performed for completed conditions."
+  ],
+  "recommended_validation_checks": [
+    "Fix/retest Mongolia loss overflow and verify best existing epochs before declaring all12 completed.",
+    "Predeclare complete-family regional contrasts; if reporting available11, label exploratory and retain full planned Holm family accounting rather than silently treating droppedarm as negative evidence.",
+    "Lowerlearningrate comparison and loss/gradient diagnosis; change one training factor at a time using2023.",
+    "Compare direct multi-horizon head vs24step sparse-supervision decoder, or calibrate curriculum decay to local optimizer update count.",
+    "Confirm persistence/residual skip strongly anchors h3/h6 currenttarget. Include domesticGRU/LightGBM as robust input-information reference.",
+    "Replicate a small frozen critical set with additional seeds, especially DN,F,BTH/CN_OTHER, before broader country claims."
+  ]
+}

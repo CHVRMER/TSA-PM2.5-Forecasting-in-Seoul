@@ -1,0 +1,40 @@
+{
+  "created_kst": "2026-11-15T14:00:59.162307+09:00",
+  "model_universe": "F634_BOTH_W24",
+  "executed_batch_reference": "20261112_003040_429483_85af4013",
+  "external_series": 634,
+  "target_nodes": 1,
+  "total_nodes": 635,
+  "country_external_counts": {
+    "KR": 514,
+    "CN": 77,
+    "JP": 42,
+    "MN": 1
+  },
+  "plot_group_counts": {
+    "KR_OLD": 67,
+    "KR_NEW": 447,
+    "CN": 48,
+    "CN_BORDER": 13,
+    "CN_EAST": 16,
+    "JP_WEST": 24,
+    "JP_EAST": 18,
+    "MN": 1
+  },
+  "external_keys_sha256": "6f7a46fa4882d06ed558db23bd9142a07eb200494348704bdf12123c96d8f844",
+  "no_excluded_background_stations": true,
+  "png_pixels": [
+    1650,
+    1650
+  ],
+  "axes_bounds": [
+    0.05709999999999999,
+    0.16,
+    0.9168000000000001,
+    0.764
+  ],
+  "trajectory_sample_count": 192,
+  "display_path_sha256": "09f2b0e9bae19ee71be00c443d3acadb1ed209189365a1b567d80fb53cfbb6bd",
+  "node_file_sha256": "8880e31f41af78f8a2219d5fc79f405819ca6ac07cf19a53da2323b5bef7e2b2",
+  "original_data_or_model_modified": false
+}

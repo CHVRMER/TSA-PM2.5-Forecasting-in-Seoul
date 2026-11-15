@@ -1,0 +1,112 @@
+{
+  "schema_version": "gwn-vast-m1-m4t-checkpoint-v1",
+  "data": {
+    "lookback_hours": 48,
+    "near_china_km": 600,
+    "trajectory_radius_km": 75,
+    "trajectory_sigma_km": 50
+  },
+  "execution": {
+    "conditions": [
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M3T",
+      "M4T"
+    ],
+    "seeds": [
+      11
+    ]
+  },
+  "model": {
+    "architecture_profile": "paper",
+    "graph": "distance",
+    "graph_mode": "fixed_plus_adaptive",
+    "residual_channels": 32,
+    "dilation_channels": 32,
+    "skip_channels": 256,
+    "end_channels": 512,
+    "kernel_size": 2,
+    "blocks": 4,
+    "layers": 2,
+    "diffusion_steps": 2,
+    "dropout": 0.3,
+    "embedding_dim": 10,
+    "embedding_init": "normal"
+  },
+  "training": {
+    "max_epochs": 50,
+    "patience": 10,
+    "micro_batch_size": 8,
+    "effective_batch_size": 64,
+    "eval_batch_size": 8,
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "optimizer_epsilon": 1e-08,
+    "weight_decay": 0.0001,
+    "exclude_bias_norm_from_decay": false,
+    "scheduler": "none",
+    "max_grad_norm": 5.0,
+    "loss": "mae_original",
+    "min_delta": 0.0,
+    "use_amp": false
+  },
+  "pilot": {
+    "epochs": 2,
+    "max_train_origins": 64,
+    "max_val_origins": 32,
+    "max_train_batches": 8
+  },
+  "scoring": {
+    "bootstrap_reps": 1000,
+    "bootstrap_seed": 0
+  },
+  "notes": [
+    "2021-2022 train, 2023 validation; 2024 final requires explicit --final-test.",
+    "Single seed11 by default; this does not establish seed-to-seed robustness.",
+    "All six arms keep 635 nodes and one distance+adaptive architecture; only permitted observations/context vary.",
+    "Paper temporal receptive field is 13h. project48 is a separate architecture experiment, not a silent default.",
+    "75km matching geometry is reused; current neighbors cannot support a larger radius.",
+    "Current processed QC inputs are preserved; known suspicious Chinese readings are not silently recleaned.",
+    "No original GDAS, ERA5, HYSPLIT executables or DCRNN training outputs are needed."
+  ],
+  "checkpoint": {
+    "snapshot_every_epochs": 5,
+    "keep_recent": 2
+  },
+  "backup": {
+    "enabled": true,
+    "required_for_full": true,
+    "backup_in_pilot": false,
+    "remote": "gdrive:Colab_Notebooks/TSA/Result/GraphWaveNet/VastAI",
+    "binary": "rclone",
+    "timeout_seconds": 600,
+    "retries": 2
+  },
+  "model_resolved": {
+    "residual_channels": 32,
+    "dilation_channels": 32,
+    "skip_channels": 256,
+    "end_channels": 512,
+    "kernel_size": 2,
+    "blocks": 4,
+    "layers": 2,
+    "diffusion_steps": 2,
+    "dropout": 0.3,
+    "embedding_dim": 10,
+    "embedding_init": "normal",
+    "architecture_profile": "paper"
+  },
+  "selected_conditions": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M3T",
+    "M4T"
+  ],
+  "seeds_resolved": [
+    11
+  ]
+}

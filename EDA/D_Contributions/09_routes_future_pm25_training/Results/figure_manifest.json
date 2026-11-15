@@ -1,0 +1,76 @@
+{
+  "primary_window": "07-48",
+  "training_years": [
+    2021,
+    2022
+  ],
+  "geographic_order": [
+    "KR_CAPITAL",
+    "KR_GANGWON",
+    "KR_CHUNGCHEONG",
+    "KR_HONAM",
+    "KR_DAEGYEONG",
+    "KR_DONGNAM",
+    "KR_JEJU",
+    "CN_SHANDONG",
+    "CN_BTH",
+    "CN_LIAONING",
+    "CN_JILIN",
+    "CN_HEILONGJIANG",
+    "CN_INNER_MONGOLIA",
+    "CN_OTHER",
+    "JP",
+    "MN",
+    "RU",
+    "KP",
+    "OTHER_LAND",
+    "SEA_OR_UNCLASSIFIED"
+  ],
+  "figures": [
+    {
+      "file": "regional_passage_rates.png",
+      "sha256": "288800ee521cc9121793a8021d3e548cd5404e006c9c50e14edc8c941c6712a6"
+    },
+    {
+      "file": "regional_passage_rates.svg",
+      "sha256": "4a700238334c193b5dcb0d87d97c1bd523f7005c44f8de061d89b08992b7ad5d"
+    },
+    {
+      "file": "raw_future_outcomes_by_region.png",
+      "sha256": "3dbf80d30435005198997ff4221bf8c694b62a5e068f4fceefd077d14ac05aab"
+    },
+    {
+      "file": "raw_future_outcomes_by_region.svg",
+      "sha256": "7ec31afcfd390ef42f7b3d2029256bcf3f6f233e6195403386d73d06baced5f9"
+    },
+    {
+      "file": "adjusted_h6_region_contrasts.png",
+      "sha256": "46bab3e366e5160a8e79f1db51fae4d95955de612b7377cae9a6eaeec0449baf"
+    },
+    {
+      "file": "adjusted_h6_region_contrasts.svg",
+      "sha256": "3c572ed0e65012835644b252d9995e300c2780fdcd071049d8e9323e08316491"
+    },
+    {
+      "file": "seasonal_raw_h6_outcomes.png",
+      "sha256": "69da834aec2e766811de826761c5479b3cf6e8607f628555885b909d1a7d83f1"
+    },
+    {
+      "file": "seasonal_raw_h6_outcomes.svg",
+      "sha256": "740ffae1a37d2fd45cc87e966fa5febeabab53247635494c7db02da78fd6eecc"
+    },
+    {
+      "file": "geographic_regions_and_training_paths.png",
+      "sha256": "88eceeb7c85f8be2b8bf91f0b00d16708424be42e5d6de63f32c7433a71ff36d"
+    },
+    {
+      "file": "geographic_regions_and_training_paths.svg",
+      "sha256": "db1b85a1c6154f1621b64468a23daa686d12731d77c42797c164196c0b3f2e05"
+    }
+  ],
+  "notes": [
+    "Raw descriptive and standardized associational results are kept distinct.",
+    "Adjusted populations may differ by region; figure rows are not an effect ranking.",
+    "No source mass or causal country contribution is estimated."
+  ]
+}

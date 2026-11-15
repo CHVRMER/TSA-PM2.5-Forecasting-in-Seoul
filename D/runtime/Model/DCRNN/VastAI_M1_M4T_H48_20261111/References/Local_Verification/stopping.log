@@ -1,0 +1,12 @@
+test_changed_limits_never_copy (__main__.StrictStoppingTests.test_changed_limits_never_copy) ... ok
+test_copy_preserves_source_metadata (__main__.StrictStoppingTests.test_copy_preserves_source_metadata) ... ok
+test_identical_settings_allowed (__main__.StrictStoppingTests.test_identical_settings_allowed) ... ok
+test_invalid_limits_rejected (__main__.StrictStoppingTests.test_invalid_limits_rejected) ... ok
+test_limit_reductions_and_increases_rejected (__main__.StrictStoppingTests.test_limit_reductions_and_increases_rejected) ... ok
+test_no_completed_epoch_records_fresh_restart (__main__.StrictStoppingTests.test_no_completed_epoch_records_fresh_restart) ... ok
+test_optimizer_and_lr_changes_rejected (__main__.StrictStoppingTests.test_optimizer_and_lr_changes_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.019s
+
+OK

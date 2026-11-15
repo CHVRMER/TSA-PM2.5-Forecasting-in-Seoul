@@ -1,0 +1,3 @@
+epoch,train_loss,loss_kind,validation_rmse_h6,learning_rate_used,learning_rate_next,bad_epochs,global_step,seconds,teacher_forcing_probability
+1,6269140289.489152,mae_original,12.568296511688429,0.01,0.01,0,92,384.3178077359989,0.9996564041877658
+2,8.283140560531098,mae_original,12.88985888505434,0.01,0.01,1,184,385.8095707850007,0.9996457078098162

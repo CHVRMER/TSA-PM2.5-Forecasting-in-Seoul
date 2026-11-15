@@ -1,0 +1,1 @@
+﻿split,horizon,model,input_condition,prediction_kind,seed,run_id,ensemble_size,ensemble_rule,data_version,n,RMSE,MSE,MAE,MBE,R2,persistence_RMSE,persistence_MAE,RMSE_improvement_pct,MAE_improvement_pct,negative_predictions_clipped,fixed_eligible_rows,persistence_fallback_n,seasonal_fallback_n

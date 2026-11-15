@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "Synthetic full29 scoring-contract fixture; no actual forecasting performance",
+  "inspected": [
+    "DCRNN_drop_rmse_gain.png",
+    "GraphWaveNet_add_rmse_gain.png"
+  ],
+  "checks": {
+    "all_17_drop_and_10_add_region_labels_readable": true,
+    "four_horizons_and_units_present": true,
+    "positive_gain_sign_explicit": true,
+    "zero_centered_shared_per_panel_scale": true,
+    "no_clipped_labels_or_title_overlap": true
+  },
+  "real_model_training_performed": false
+}

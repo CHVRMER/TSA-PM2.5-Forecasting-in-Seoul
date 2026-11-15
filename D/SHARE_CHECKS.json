@@ -1,0 +1,75 @@
+{
+  "created_kst": "2026-11-15T21:34:37.147183+09:00",
+  "source_files_checked_unchanged": 740,
+  "source_changes": [],
+  "static_checks": {
+    "python": 161,
+    "json": 166,
+    "notebooks": 0,
+    "shell": 15,
+    "syntax_errors": [],
+    "secret_matches": [],
+    "oversized": [],
+    "broken_document_links": [],
+    "shell_crlf": [],
+    "new_document_count": 22,
+    "document_links_checked": 92,
+    "passed": true
+  },
+  "reproduced_jobs": [
+    {
+      "job": "validation_curve",
+      "png": [
+        "Results/dcrnn_validation2023_rmse_wide_3_24h.png"
+      ]
+    },
+    {
+      "job": "pre_east_counts",
+      "png": [
+        "Results/input_series_pre_east_F600_red_gray_broken_axis.png"
+      ]
+    },
+    {
+      "job": "current_counts",
+      "png": [
+        "Results/input_series_dcrnn634_red_gray_broken_axis.png"
+      ]
+    },
+    {
+      "job": "seasonal_concept",
+      "png": [
+        "Results/seasonal_input_selection_concept.png"
+      ]
+    },
+    {
+      "job": "outlier_ranges",
+      "png": [
+        "Results/pm25_percentile_range_all_17_regions.png",
+        "Results/pm25_percentile_range_regions.png",
+        "Results/pm25_percentile_range_representative_stations.png"
+      ]
+    },
+    {
+      "job": "actual_network",
+      "png": [
+        "Results/dcrnn_final_network_634_external_635_nodes.png"
+      ]
+    },
+    {
+      "job": "expansion_stages",
+      "png": [
+        "Results/01_national_expansion_before_international_additions.png",
+        "Results/02_national_expansion_with_planned_regions.png"
+      ]
+    }
+  ],
+  "dcrnn_cpu_checks": 7,
+  "gwn_cpu_checks": 8,
+  "checkpoint_tests": 12,
+  "actual_gpu_training_rerun": false,
+  "dataset_included": false,
+  "checkpoint_weights_included": false,
+  "credentials_included": false,
+  "known_fix": "DCRNN optional 24h checkpoint score validation; shared copy only",
+  "all_checks_passed": true
+}

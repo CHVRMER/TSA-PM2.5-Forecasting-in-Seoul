@@ -1,0 +1,3443 @@
+{
+  "latest_batch_path": "Regional12_Seed11_20261109/Batches/full_regional12_seed11/20261110_092130_530130_68df2b1d/batch_status.json",
+  "latest_batch_status": "partial_failed",
+  "regional_scoring": [
+    {
+      "status": "skipped",
+      "reason": "Regional comparison requires all 12 declared conditions and DCRNN; incomplete/subset jobs were not dropped."
+    }
+  ],
+  "regional_comparison_complete": false,
+  "invariant_agreement": {
+    "node_order_sha256": true,
+    "graph_sha256": true,
+    "target_observations_sha256": true,
+    "context_values_sha256": true,
+    "context_names_sha256": true,
+    "origin_grid_sha256": true,
+    "y_raw_sha256": true,
+    "eligible_sha256": true,
+    "origin_positions_sha256": true,
+    "source_universe_signature": true,
+    "target_context_preprocessing_sha256": true
+  },
+  "source_code_hashes_all_same": true,
+  "graphs": [
+    {
+      "condition": "DN",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    },
+    {
+      "condition": "F",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    },
+    {
+      "condition": "ADD_CN_SHANDONG",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    },
+    {
+      "condition": "ADD_CN_BTH",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    },
+    {
+      "condition": "ADD_CN_LIAONING",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    },
+    {
+      "condition": "ADD_CN_JILIN",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    },
+    {
+      "condition": "ADD_CN_HEILONGJIANG",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    },
+    {
+      "condition": "ADD_CN_INNER_MONGOLIA",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    },
+    {
+      "condition": "ADD_CN_OTHER",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    },
+    {
+      "condition": "ADD_JP_WEST",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    },
+    {
+      "condition": "ADD_JP_EAST",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    },
+    {
+      "condition": "ADD_MN",
+      "shape": [
+        635,
+        635
+      ],
+      "nonzero": 5942,
+      "sha256_file": "21a788937553c214c0c31a869720851f2dc3454d8835284d32d54adecb2178b8",
+      "sha256_raw": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80"
+    }
+  ],
+  "records": [
+    {
+      "condition": "DN",
+      "status": "reused",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/DN/DCRNN/full/20261109_100522_407529_80d6fdeb",
+      "allowed_external_series": 514,
+      "allowed_by_country": {
+        "KR": 514
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/DN/DCRNN/full/20261109_100522_407529_80d6fdeb/Training/20261109_100532_946023_5580d655",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "summary": {
+        "model": "DCRNN_trajectory_directed",
+        "graph": "trajectory_directed",
+        "adaptive_mode": "none",
+        "seed": 11,
+        "mode": "full",
+        "best_epoch": 13,
+        "trained_epochs": 23,
+        "validation_rmse_h6": 12.353285849664656,
+        "architecture": {
+          "implementation": "dcrnn-seoul-paper-aligned-v2",
+          "input_dim": 2,
+          "hidden_dim": 64,
+          "diffusion_steps": 2,
+          "horizons": [
+            3,
+            6,
+            12,
+            24
+          ],
+          "context_dim": 106,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "decoder_layers": 2,
+          "decoder_steps": 24,
+          "decoder_start": "zeros",
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "teacher_forcing": "training-only sparse available Junggu labels; never other-node targets",
+          "supervised_node": 0,
+          "support_orientation": "A[source,destination]; receiver-by-sender supports",
+          "support_self_loops": true,
+          "per_support_recurrence_reset": true,
+          "paper_benchmark_reproduction": false
+        },
+        "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/DN/DCRNN/full/20261109_100522_407529_80d6fdeb/Training/20261109_100532_946023_5580d655/Models/DCRNN_trajectory_directed/seed11/best.pt",
+        "checkpoint_sha256": "1a313c59e4506344fa3f4aa97a1f89159cad770fef0d36455c2311b02fdc76e6",
+        "data_signature": "97b17dcb17c68ef2911263a91882e979121442935ff6e19f3a08a7269f76c53b",
+        "graph_signature": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80",
+        "parameter_count": 380421,
+        "session_training_seconds": 9446.088774514,
+        "device": "cuda",
+        "test_scored": false,
+        "sampling_labels_used_only_in_training": true,
+        "effective_batch_size": 64,
+        "micro_batch_size": 8,
+        "gradient_accumulation_steps": 8,
+        "batchnorm_microbatch_statistics_note": "BatchNorm, if present, observes micro batch, not effective batch."
+      },
+      "best_sha_matches": true,
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 23,
+        "first_epoch": 1,
+        "last_epoch": 23,
+        "continuous": true,
+        "best_epoch_recomputed": 13,
+        "best_h6_recomputed": 12.353285849664656,
+        "last_bad_epochs": 10,
+        "lr_distinct": [
+          0.001,
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 9.523074784680553,
+            "validation_rmse_h6": 12.826003485766076
+          },
+          {
+            "epoch": 2,
+            "train_loss": 7.905661267754824,
+            "validation_rmse_h6": 12.437823199276275
+          },
+          {
+            "epoch": 3,
+            "train_loss": 8.317671225446722,
+            "validation_rmse_h6": 13.233401440603448
+          },
+          {
+            "epoch": 4,
+            "train_loss": 7.884042876570121,
+            "validation_rmse_h6": 12.840400698504617
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 20,
+            "train_loss": 7.247320329365523,
+            "validation_rmse_h6": 12.688684497377
+          },
+          {
+            "epoch": 21,
+            "train_loss": 6.842222393206928,
+            "validation_rmse_h6": 12.391982454708916
+          },
+          {
+            "epoch": 22,
+            "train_loss": 6.628706577031509,
+            "validation_rmse_h6": 12.67057772259951
+          },
+          {
+            "epoch": 23,
+            "train_loss": 6.507030558003032,
+            "validation_rmse_h6": 12.581077167256849
+          }
+        ]
+      },
+      "completion": {
+        "status": "passed",
+        "mode": "full",
+        "runs": 1,
+        "automatic_common_scoring": true,
+        "test_scored": true,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "scoring_locations": {
+          "validation": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/DN/DCRNN/20261109_100522_407529_80d6fdeb/20261109_100532_946023_5580d655/validation/20261109_124417_603631_f7abd45f",
+          "test": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/DN/DCRNN/20261109_100522_407529_80d6fdeb/20261109_100532_946023_5580d655/test/20261109_124421_631732_97ac5670"
+        }
+      },
+      "execution_status": {
+        "status": "passed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "completed_runs": 1
+      },
+      "seed11_resume_audit": {
+        "version": "regional12-seed-resume-20261109-v1",
+        "status": "no_compatible_source",
+        "resume_source_run": null,
+        "condition": "DN",
+        "model": "DCRNN_trajectory_directed",
+        "seed": 11,
+        "rejected_candidates": [
+          {
+            "seed_folder": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional_Experiments_20261109/Jobs/DN/DCRNN/full/20261109_031131_067196_4af44333/Training/20261109_031131_098894_5a5e7329/Models/DCRNN_trajectory_directed/seed11",
+            "reason": "Actual training setting changed: max_epochs"
+          }
+        ]
+      },
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261109_100532_946023_5580d655",
+        "resume_source_run": null
+      }
+    },
+    {
+      "condition": "F",
+      "status": "reused",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/F/DCRNN/full/20261109_124426_736220_fbbcd99e",
+      "allowed_external_series": 634,
+      "allowed_by_country": {
+        "KR": 514,
+        "CN": 77,
+        "JP": 42,
+        "MN": 1
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/F/DCRNN/full/20261109_124426_736220_fbbcd99e/Training/20261109_124427_531225_0da133aa",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "summary": {
+        "model": "DCRNN_trajectory_directed",
+        "graph": "trajectory_directed",
+        "adaptive_mode": "none",
+        "seed": 11,
+        "mode": "full",
+        "best_epoch": 2,
+        "trained_epochs": 12,
+        "validation_rmse_h6": 9.828338923960406,
+        "architecture": {
+          "implementation": "dcrnn-seoul-paper-aligned-v2",
+          "input_dim": 2,
+          "hidden_dim": 64,
+          "diffusion_steps": 2,
+          "horizons": [
+            3,
+            6,
+            12,
+            24
+          ],
+          "context_dim": 106,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "decoder_layers": 2,
+          "decoder_steps": 24,
+          "decoder_start": "zeros",
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "teacher_forcing": "training-only sparse available Junggu labels; never other-node targets",
+          "supervised_node": 0,
+          "support_orientation": "A[source,destination]; receiver-by-sender supports",
+          "support_self_loops": true,
+          "per_support_recurrence_reset": true,
+          "paper_benchmark_reproduction": false
+        },
+        "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/F/DCRNN/full/20261109_124426_736220_fbbcd99e/Training/20261109_124427_531225_0da133aa/Models/DCRNN_trajectory_directed/seed11/best.pt",
+        "checkpoint_sha256": "111f9cd9c18258e046968647ab5741eb9fd34c9374c83c134fb1b6e92bbd0793",
+        "data_signature": "d7b299660ce994a4f334afc6516ac8f05439c85b9a7ec0d814076e8eb34cb83f",
+        "graph_signature": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80",
+        "parameter_count": 380421,
+        "session_training_seconds": 4917.589976195,
+        "device": "cuda",
+        "test_scored": false,
+        "sampling_labels_used_only_in_training": true,
+        "effective_batch_size": 64,
+        "micro_batch_size": 8,
+        "gradient_accumulation_steps": 8,
+        "batchnorm_microbatch_statistics_note": "BatchNorm, if present, observes micro batch, not effective batch."
+      },
+      "best_sha_matches": true,
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 12,
+        "first_epoch": 1,
+        "last_epoch": 12,
+        "continuous": true,
+        "best_epoch_recomputed": 2,
+        "best_h6_recomputed": 9.828338923960406,
+        "last_bad_epochs": 10,
+        "lr_distinct": [
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 8.598396917400153,
+            "validation_rmse_h6": 10.72667402875507
+          },
+          {
+            "epoch": 2,
+            "train_loss": 7.207384472631889,
+            "validation_rmse_h6": 9.828338923960406
+          },
+          {
+            "epoch": 3,
+            "train_loss": 9958.246565641592,
+            "validation_rmse_h6": 12.407568018654612
+          },
+          {
+            "epoch": 4,
+            "train_loss": 8.503086255296417,
+            "validation_rmse_h6": 13.259987586031004
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 9,
+            "train_loss": 7.711213918807714,
+            "validation_rmse_h6": 50.79369975533857
+          },
+          {
+            "epoch": 10,
+            "train_loss": 7.571238121584706,
+            "validation_rmse_h6": 13.428317428691615
+          },
+          {
+            "epoch": 11,
+            "train_loss": 7.603497318275597,
+            "validation_rmse_h6": 43.23262289460631
+          },
+          {
+            "epoch": 12,
+            "train_loss": 7.512549020997856,
+            "validation_rmse_h6": 12.628750426640988
+          }
+        ]
+      },
+      "completion": {
+        "status": "passed",
+        "mode": "full",
+        "runs": 1,
+        "automatic_common_scoring": true,
+        "test_scored": true,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "scoring_locations": {
+          "validation": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/F/DCRNN/20261109_124426_736220_fbbcd99e/20261109_124427_531225_0da133aa/validation/20261109_140732_781561_ce9a1d23",
+          "test": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/F/DCRNN/20261109_124426_736220_fbbcd99e/20261109_124427_531225_0da133aa/test/20261109_140736_710237_66d7500c"
+        }
+      },
+      "execution_status": {
+        "status": "passed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "completed_runs": 1
+      },
+      "seed11_resume_audit": {
+        "version": "regional12-seed-resume-20261109-v1",
+        "status": "no_compatible_source",
+        "resume_source_run": null,
+        "condition": "F",
+        "model": "DCRNN_trajectory_directed",
+        "seed": 11,
+        "rejected_candidates": []
+      },
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261109_124427_531225_0da133aa",
+        "resume_source_run": null
+      }
+    },
+    {
+      "condition": "ADD_CN_SHANDONG",
+      "status": "reused",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_SHANDONG/DCRNN/full/20261109_185723_640729_afe2f398",
+      "allowed_external_series": 525,
+      "allowed_by_country": {
+        "KR": 514,
+        "CN": 11
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_SHANDONG/DCRNN/full/20261109_185723_640729_afe2f398/Training/20261109_185723_673715_46f27fec",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "summary": {
+        "model": "DCRNN_trajectory_directed",
+        "graph": "trajectory_directed",
+        "adaptive_mode": "none",
+        "seed": 11,
+        "mode": "full",
+        "best_epoch": 10,
+        "trained_epochs": 20,
+        "validation_rmse_h6": 10.726741534260539,
+        "architecture": {
+          "implementation": "dcrnn-seoul-paper-aligned-v2",
+          "input_dim": 2,
+          "hidden_dim": 64,
+          "diffusion_steps": 2,
+          "horizons": [
+            3,
+            6,
+            12,
+            24
+          ],
+          "context_dim": 106,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "decoder_layers": 2,
+          "decoder_steps": 24,
+          "decoder_start": "zeros",
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "teacher_forcing": "training-only sparse available Junggu labels; never other-node targets",
+          "supervised_node": 0,
+          "support_orientation": "A[source,destination]; receiver-by-sender supports",
+          "support_self_loops": true,
+          "per_support_recurrence_reset": true,
+          "paper_benchmark_reproduction": false
+        },
+        "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_CN_SHANDONG/DCRNN/full/20261109_185723_640729_afe2f398/Training/20261109_185723_673715_46f27fec/Models/DCRNN_trajectory_directed/seed11/best.pt",
+        "checkpoint_sha256": "0bcfee69e3cee5d129b215280ba853dc62d91eae5a87f62c9aab88e671d562a8",
+        "data_signature": "aa1a01d48027fc27e59a978ebf0815e014cff6e4d4fc9b8cb7182c2cc011d599",
+        "graph_signature": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80",
+        "parameter_count": 380421,
+        "session_training_seconds": 1706.5469674180001,
+        "device": "cuda",
+        "test_scored": false,
+        "sampling_labels_used_only_in_training": true,
+        "effective_batch_size": 64,
+        "micro_batch_size": 8,
+        "gradient_accumulation_steps": 8,
+        "batchnorm_microbatch_statistics_note": "BatchNorm, if present, observes micro batch, not effective batch."
+      },
+      "best_sha_matches": true,
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 20,
+        "first_epoch": 1,
+        "last_epoch": 20,
+        "continuous": true,
+        "best_epoch_recomputed": 10,
+        "best_h6_recomputed": 10.72674153426054,
+        "last_bad_epochs": 10,
+        "lr_distinct": [
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 8.791320902173934,
+            "validation_rmse_h6": 12.084906198476704
+          },
+          {
+            "epoch": 2,
+            "train_loss": 8.437815075011358,
+            "validation_rmse_h6": 12.83307085185417
+          },
+          {
+            "epoch": 3,
+            "train_loss": 7.675795352653317,
+            "validation_rmse_h6": 10.979381580787546
+          },
+          {
+            "epoch": 4,
+            "train_loss": 7.412228887171849,
+            "validation_rmse_h6": 11.344101585397963
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 17,
+            "train_loss": 7.972333051912162,
+            "validation_rmse_h6": 13.129954145301916
+          },
+          {
+            "epoch": 18,
+            "train_loss": 7.628296161475389,
+            "validation_rmse_h6": 12.658307931195212
+          },
+          {
+            "epoch": 19,
+            "train_loss": 7.776522307616213,
+            "validation_rmse_h6": 12.674328994219524
+          },
+          {
+            "epoch": 20,
+            "train_loss": 7.625751905143261,
+            "validation_rmse_h6": 12.47544359789668
+          }
+        ]
+      },
+      "completion": {
+        "status": "passed",
+        "mode": "full",
+        "runs": 1,
+        "automatic_common_scoring": true,
+        "test_scored": true,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "scoring_locations": {
+          "validation": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_SHANDONG/DCRNN/20261109_185723_640729_afe2f398/20261109_185723_673715_46f27fec/validation/20261109_192709_130092_57f3f3d7",
+          "test": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_SHANDONG/DCRNN/20261109_185723_640729_afe2f398/20261109_185723_673715_46f27fec/test/20261109_192713_216321_b3196b51"
+        }
+      },
+      "execution_status": {
+        "status": "passed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "completed_runs": 1
+      },
+      "seed11_resume_audit": null,
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261109_185723_673715_46f27fec",
+        "resume_source_run": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_CN_SHANDONG/DCRNN/full/20261109_153747_585835_8a220f90/Training/20261109_153747_627565_d1590ce9"
+      }
+    },
+    {
+      "condition": "ADD_CN_BTH",
+      "status": "reused",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_BTH/DCRNN/full/20261109_224735_777800_a50617cd",
+      "allowed_external_series": 523,
+      "allowed_by_country": {
+        "KR": 514,
+        "CN": 9
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_BTH/DCRNN/full/20261109_224735_777800_a50617cd/Training/20261109_224735_830437_1481d01e",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "summary": {
+        "model": "DCRNN_trajectory_directed",
+        "graph": "trajectory_directed",
+        "adaptive_mode": "none",
+        "seed": 11,
+        "mode": "full",
+        "best_epoch": 16,
+        "trained_epochs": 26,
+        "validation_rmse_h6": 9.731360215948968,
+        "architecture": {
+          "implementation": "dcrnn-seoul-paper-aligned-v2",
+          "input_dim": 2,
+          "hidden_dim": 64,
+          "diffusion_steps": 2,
+          "horizons": [
+            3,
+            6,
+            12,
+            24
+          ],
+          "context_dim": 106,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "decoder_layers": 2,
+          "decoder_steps": 24,
+          "decoder_start": "zeros",
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "teacher_forcing": "training-only sparse available Junggu labels; never other-node targets",
+          "supervised_node": 0,
+          "support_orientation": "A[source,destination]; receiver-by-sender supports",
+          "support_self_loops": true,
+          "per_support_recurrence_reset": true,
+          "paper_benchmark_reproduction": false
+        },
+        "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_CN_BTH/DCRNN/full/20261109_224735_777800_a50617cd/Training/20261109_224735_830437_1481d01e/Models/DCRNN_trajectory_directed/seed11/best.pt",
+        "checkpoint_sha256": "a1c77f3ace7ce958ccfea520bf2cbb0a70640ed985d291769e0045207b8b88e4",
+        "data_signature": "e223647fc807c45e43b8292769fbbb768b5bd3898b6fde2170939306fe0caacd",
+        "graph_signature": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80",
+        "parameter_count": 380421,
+        "session_training_seconds": 2483.0107258529997,
+        "device": "cuda",
+        "test_scored": false,
+        "sampling_labels_used_only_in_training": true,
+        "effective_batch_size": 64,
+        "micro_batch_size": 8,
+        "gradient_accumulation_steps": 8,
+        "batchnorm_microbatch_statistics_note": "BatchNorm, if present, observes micro batch, not effective batch."
+      },
+      "best_sha_matches": true,
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 26,
+        "first_epoch": 1,
+        "last_epoch": 26,
+        "continuous": true,
+        "best_epoch_recomputed": 16,
+        "best_h6_recomputed": 9.731360215948968,
+        "last_bad_epochs": 10,
+        "lr_distinct": [
+          0.001,
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 96.25935471349436,
+            "validation_rmse_h6": 11.97987182631022
+          },
+          {
+            "epoch": 2,
+            "train_loss": 7.351344458110955,
+            "validation_rmse_h6": 10.852105548581156
+          },
+          {
+            "epoch": 3,
+            "train_loss": 7.142591932221599,
+            "validation_rmse_h6": 10.738793872993828
+          },
+          {
+            "epoch": 4,
+            "train_loss": 7.248904454319374,
+            "validation_rmse_h6": 19.50385789755172
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 23,
+            "train_loss": 11.876567867786989,
+            "validation_rmse_h6": 16.35891617608355
+          },
+          {
+            "epoch": 24,
+            "train_loss": 11.445265604102094,
+            "validation_rmse_h6": 16.067533743251023
+          },
+          {
+            "epoch": 25,
+            "train_loss": 11.41511860554633,
+            "validation_rmse_h6": 15.99434687303423
+          },
+          {
+            "epoch": 26,
+            "train_loss": 11.520174844109494,
+            "validation_rmse_h6": 15.637039306115254
+          }
+        ]
+      },
+      "completion": {
+        "status": "passed",
+        "mode": "full",
+        "runs": 1,
+        "automatic_common_scoring": true,
+        "test_scored": true,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "scoring_locations": {
+          "validation": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_BTH/DCRNN/20261109_224735_777800_a50617cd/20261109_224735_830437_1481d01e/validation/20261109_233021_333954_3558b76e",
+          "test": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_BTH/DCRNN/20261109_224735_777800_a50617cd/20261109_224735_830437_1481d01e/test/20261109_233025_127826_18c34b19"
+        }
+      },
+      "execution_status": {
+        "status": "passed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "completed_runs": 1
+      },
+      "seed11_resume_audit": null,
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261109_224735_830437_1481d01e",
+        "resume_source_run": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_CN_BTH/DCRNN/full/20261109_224212_773863_3627c53e/Training/20261109_224212_803441_dec03101"
+      }
+    },
+    {
+      "condition": "ADD_CN_LIAONING",
+      "status": "reused",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_LIAONING/DCRNN/full/20261110_015452_544000_7ececdb3",
+      "allowed_external_series": 532,
+      "allowed_by_country": {
+        "KR": 514,
+        "CN": 18
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_LIAONING/DCRNN/full/20261110_015452_544000_7ececdb3/Training/20261110_015452_591932_cddd0a8b",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "summary": {
+        "model": "DCRNN_trajectory_directed",
+        "graph": "trajectory_directed",
+        "adaptive_mode": "none",
+        "seed": 11,
+        "mode": "full",
+        "best_epoch": 1,
+        "trained_epochs": 11,
+        "validation_rmse_h6": 10.606979112770102,
+        "architecture": {
+          "implementation": "dcrnn-seoul-paper-aligned-v2",
+          "input_dim": 2,
+          "hidden_dim": 64,
+          "diffusion_steps": 2,
+          "horizons": [
+            3,
+            6,
+            12,
+            24
+          ],
+          "context_dim": 106,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "decoder_layers": 2,
+          "decoder_steps": 24,
+          "decoder_start": "zeros",
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "teacher_forcing": "training-only sparse available Junggu labels; never other-node targets",
+          "supervised_node": 0,
+          "support_orientation": "A[source,destination]; receiver-by-sender supports",
+          "support_self_loops": true,
+          "per_support_recurrence_reset": true,
+          "paper_benchmark_reproduction": false
+        },
+        "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_CN_LIAONING/DCRNN/full/20261110_015452_544000_7ececdb3/Training/20261110_015452_591932_cddd0a8b/Models/DCRNN_trajectory_directed/seed11/best.pt",
+        "checkpoint_sha256": "7a67c0aef9334b7e55c9190463b881dbeb9cb8751feaeeda8ae9b2b6fbfc2cc9",
+        "data_signature": "30cdf342657cffdaa4ff39d1ba839bfd262453bee92b9d18324d109325c7a2e3",
+        "graph_signature": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80",
+        "parameter_count": 380421,
+        "session_training_seconds": 2746.011156011,
+        "device": "cuda",
+        "test_scored": false,
+        "sampling_labels_used_only_in_training": true,
+        "effective_batch_size": 64,
+        "micro_batch_size": 8,
+        "gradient_accumulation_steps": 8,
+        "batchnorm_microbatch_statistics_note": "BatchNorm, if present, observes micro batch, not effective batch."
+      },
+      "best_sha_matches": true,
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 11,
+        "first_epoch": 1,
+        "last_epoch": 11,
+        "continuous": true,
+        "best_epoch_recomputed": 1,
+        "best_h6_recomputed": 10.606979112770102,
+        "last_bad_epochs": 10,
+        "lr_distinct": [
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 10145.085595431536,
+            "validation_rmse_h6": 10.606979112770102
+          },
+          {
+            "epoch": 2,
+            "train_loss": 7.629695574226587,
+            "validation_rmse_h6": 13.610408921763288
+          },
+          {
+            "epoch": 3,
+            "train_loss": 8.223259711719077,
+            "validation_rmse_h6": 13.32669313292406
+          },
+          {
+            "epoch": 4,
+            "train_loss": 8.085433248916399,
+            "validation_rmse_h6": 11.616676667435945
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 8,
+            "train_loss": 7.767461743043817,
+            "validation_rmse_h6": 12.939163104185276
+          },
+          {
+            "epoch": 9,
+            "train_loss": 7.955431058031062,
+            "validation_rmse_h6": 11.46460054242825
+          },
+          {
+            "epoch": 10,
+            "train_loss": 7.505088637380497,
+            "validation_rmse_h6": 11.51667561671383
+          },
+          {
+            "epoch": 11,
+            "train_loss": 7.458445377,
+            "validation_rmse_h6": 11.755573764673928
+          }
+        ]
+      },
+      "completion": {
+        "status": "passed",
+        "mode": "full",
+        "runs": 1,
+        "automatic_common_scoring": true,
+        "test_scored": true,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "scoring_locations": {
+          "validation": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_LIAONING/DCRNN/20261110_015452_544000_7ececdb3/20261110_015452_591932_cddd0a8b/validation/20261110_024151_204021_c5078c16",
+          "test": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_LIAONING/DCRNN/20261110_015452_544000_7ececdb3/20261110_015452_591932_cddd0a8b/test/20261110_024154_956732_3dc3f4dc"
+        }
+      },
+      "execution_status": {
+        "status": "passed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "completed_runs": 1
+      },
+      "seed11_resume_audit": null,
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261110_015452_591932_cddd0a8b",
+        "resume_source_run": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_CN_LIAONING/DCRNN/full/20261109_233030_348150_c78cfb3e/Training/20261109_233032_232279_eae3ee7d"
+      }
+    },
+    {
+      "condition": "ADD_CN_JILIN",
+      "status": "reused",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_JILIN/DCRNN/full/20261110_024200_149857_fec38df9",
+      "allowed_external_series": 523,
+      "allowed_by_country": {
+        "KR": 514,
+        "CN": 9
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_JILIN/DCRNN/full/20261110_024200_149857_fec38df9/Training/20261110_024203_074959_83f25a83",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "summary": {
+        "model": "DCRNN_trajectory_directed",
+        "graph": "trajectory_directed",
+        "adaptive_mode": "none",
+        "seed": 11,
+        "mode": "full",
+        "best_epoch": 13,
+        "trained_epochs": 23,
+        "validation_rmse_h6": 11.163785732679631,
+        "architecture": {
+          "implementation": "dcrnn-seoul-paper-aligned-v2",
+          "input_dim": 2,
+          "hidden_dim": 64,
+          "diffusion_steps": 2,
+          "horizons": [
+            3,
+            6,
+            12,
+            24
+          ],
+          "context_dim": 106,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "decoder_layers": 2,
+          "decoder_steps": 24,
+          "decoder_start": "zeros",
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "teacher_forcing": "training-only sparse available Junggu labels; never other-node targets",
+          "supervised_node": 0,
+          "support_orientation": "A[source,destination]; receiver-by-sender supports",
+          "support_self_loops": true,
+          "per_support_recurrence_reset": true,
+          "paper_benchmark_reproduction": false
+        },
+        "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_CN_JILIN/DCRNN/full/20261110_024200_149857_fec38df9/Training/20261110_024203_074959_83f25a83/Models/DCRNN_trajectory_directed/seed11/best.pt",
+        "checkpoint_sha256": "a8864081aa626de073d6961aeae37cfa83f9f1740b5bf27af3146c0719d161db",
+        "data_signature": "ba39340a4887d4dc35e5fed79963f298b2fdd3ac9bdc7a0a252ecc428482d041",
+        "graph_signature": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80",
+        "parameter_count": 380421,
+        "session_training_seconds": 8944.207028521,
+        "device": "cuda",
+        "test_scored": false,
+        "sampling_labels_used_only_in_training": true,
+        "effective_batch_size": 64,
+        "micro_batch_size": 8,
+        "gradient_accumulation_steps": 8,
+        "batchnorm_microbatch_statistics_note": "BatchNorm, if present, observes micro batch, not effective batch."
+      },
+      "best_sha_matches": true,
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 23,
+        "first_epoch": 1,
+        "last_epoch": 23,
+        "continuous": true,
+        "best_epoch_recomputed": 13,
+        "best_h6_recomputed": 11.163785732679631,
+        "last_bad_epochs": 10,
+        "lr_distinct": [
+          0.001,
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 116915494565.21762,
+            "validation_rmse_h6": 2211.6271425727823
+          },
+          {
+            "epoch": 2,
+            "train_loss": 532.8320170472498,
+            "validation_rmse_h6": 12.277688075510824
+          },
+          {
+            "epoch": 3,
+            "train_loss": 8.000915538033713,
+            "validation_rmse_h6": 12.778412690151448
+          },
+          {
+            "epoch": 4,
+            "train_loss": 7.96280053290336,
+            "validation_rmse_h6": 12.871112839786102
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 20,
+            "train_loss": 7.535446934401989,
+            "validation_rmse_h6": 12.45798629806272
+          },
+          {
+            "epoch": 21,
+            "train_loss": 7.225004236011402,
+            "validation_rmse_h6": 12.4795312529013
+          },
+          {
+            "epoch": 22,
+            "train_loss": 7.237704621708912,
+            "validation_rmse_h6": 12.502797723441908
+          },
+          {
+            "epoch": 23,
+            "train_loss": 7.216158542620099,
+            "validation_rmse_h6": 12.472527505593812
+          }
+        ]
+      },
+      "completion": {
+        "status": "passed",
+        "mode": "full",
+        "runs": 1,
+        "automatic_common_scoring": true,
+        "test_scored": true,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "scoring_locations": {
+          "validation": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_JILIN/DCRNN/20261110_024200_149857_fec38df9/20261110_024203_074959_83f25a83/validation/20261110_051205_307297_d1c69111",
+          "test": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_JILIN/DCRNN/20261110_024200_149857_fec38df9/20261110_024203_074959_83f25a83/test/20261110_051209_007981_a7352fcc"
+        }
+      },
+      "execution_status": {
+        "status": "passed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "completed_runs": 1
+      },
+      "seed11_resume_audit": {
+        "version": "regional12-seed-resume-20261109-v1",
+        "status": "no_compatible_source",
+        "resume_source_run": null,
+        "condition": "ADD_CN_JILIN",
+        "model": "DCRNN_trajectory_directed",
+        "seed": 11,
+        "rejected_candidates": []
+      },
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261110_024203_074959_83f25a83",
+        "resume_source_run": null
+      }
+    },
+    {
+      "condition": "ADD_CN_HEILONGJIANG",
+      "status": "reused",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_HEILONGJIANG/DCRNN/full/20261110_051214_105188_a6aa6279",
+      "allowed_external_series": 520,
+      "allowed_by_country": {
+        "KR": 514,
+        "CN": 6
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_HEILONGJIANG/DCRNN/full/20261110_051214_105188_a6aa6279/Training/20261110_051214_952148_e9e41388",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "summary": {
+        "model": "DCRNN_trajectory_directed",
+        "graph": "trajectory_directed",
+        "adaptive_mode": "none",
+        "seed": 11,
+        "mode": "full",
+        "best_epoch": 2,
+        "trained_epochs": 12,
+        "validation_rmse_h6": 10.314530341100065,
+        "architecture": {
+          "implementation": "dcrnn-seoul-paper-aligned-v2",
+          "input_dim": 2,
+          "hidden_dim": 64,
+          "diffusion_steps": 2,
+          "horizons": [
+            3,
+            6,
+            12,
+            24
+          ],
+          "context_dim": 106,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "decoder_layers": 2,
+          "decoder_steps": 24,
+          "decoder_start": "zeros",
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "teacher_forcing": "training-only sparse available Junggu labels; never other-node targets",
+          "supervised_node": 0,
+          "support_orientation": "A[source,destination]; receiver-by-sender supports",
+          "support_self_loops": true,
+          "per_support_recurrence_reset": true,
+          "paper_benchmark_reproduction": false
+        },
+        "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_CN_HEILONGJIANG/DCRNN/full/20261110_051214_105188_a6aa6279/Training/20261110_051214_952148_e9e41388/Models/DCRNN_trajectory_directed/seed11/best.pt",
+        "checkpoint_sha256": "8e110032b2785484a09ceae03d7abe25218b8c3d29fb7f7b288603b888e88836",
+        "data_signature": "b87ea12876ce5519d849de69268f25c27d4932e18cd6b9b1ad5a30c635c8df57",
+        "graph_signature": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80",
+        "parameter_count": 380421,
+        "session_training_seconds": 4698.500654680998,
+        "device": "cuda",
+        "test_scored": false,
+        "sampling_labels_used_only_in_training": true,
+        "effective_batch_size": 64,
+        "micro_batch_size": 8,
+        "gradient_accumulation_steps": 8,
+        "batchnorm_microbatch_statistics_note": "BatchNorm, if present, observes micro batch, not effective batch."
+      },
+      "best_sha_matches": true,
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 12,
+        "first_epoch": 1,
+        "last_epoch": 12,
+        "continuous": true,
+        "best_epoch_recomputed": 2,
+        "best_h6_recomputed": 10.314530341100063,
+        "last_bad_epochs": 10,
+        "lr_distinct": [
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 9.343234139616074,
+            "validation_rmse_h6": 11.894472048428224
+          },
+          {
+            "epoch": 2,
+            "train_loss": 7.491522984336251,
+            "validation_rmse_h6": 10.314530341100063
+          },
+          {
+            "epoch": 3,
+            "train_loss": 7.402369371574858,
+            "validation_rmse_h6": 10.457762123562228
+          },
+          {
+            "epoch": 4,
+            "train_loss": 7.349948782635772,
+            "validation_rmse_h6": 11.130624356567475
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 9,
+            "train_loss": 7.996551209493823,
+            "validation_rmse_h6": 11.965218709745857
+          },
+          {
+            "epoch": 10,
+            "train_loss": 7.784922532413317,
+            "validation_rmse_h6": 13.24383855406806
+          },
+          {
+            "epoch": 11,
+            "train_loss": 7.846188589282658,
+            "validation_rmse_h6": 12.09502884076448
+          },
+          {
+            "epoch": 12,
+            "train_loss": 7.6285703791224435,
+            "validation_rmse_h6": 12.64033292379865
+          }
+        ]
+      },
+      "completion": {
+        "status": "passed",
+        "mode": "full",
+        "runs": 1,
+        "automatic_common_scoring": true,
+        "test_scored": true,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "scoring_locations": {
+          "validation": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_HEILONGJIANG/DCRNN/20261110_051214_105188_a6aa6279/20261110_051214_952148_e9e41388/validation/20261110_063132_049594_ed187d66",
+          "test": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_HEILONGJIANG/DCRNN/20261110_051214_105188_a6aa6279/20261110_051214_952148_e9e41388/test/20261110_063135_901103_14d75b7d"
+        }
+      },
+      "execution_status": {
+        "status": "passed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "completed_runs": 1
+      },
+      "seed11_resume_audit": {
+        "version": "regional12-seed-resume-20261109-v1",
+        "status": "no_compatible_source",
+        "resume_source_run": null,
+        "condition": "ADD_CN_HEILONGJIANG",
+        "model": "DCRNN_trajectory_directed",
+        "seed": 11,
+        "rejected_candidates": []
+      },
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261110_051214_952148_e9e41388",
+        "resume_source_run": null
+      }
+    },
+    {
+      "condition": "ADD_CN_INNER_MONGOLIA",
+      "status": "reused",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_INNER_MONGOLIA/DCRNN/full/20261110_063141_093529_a611dc9c",
+      "allowed_external_series": 526,
+      "allowed_by_country": {
+        "KR": 514,
+        "CN": 12
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_INNER_MONGOLIA/DCRNN/full/20261110_063141_093529_a611dc9c/Training/20261110_063141_920736_9e9c0f11",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "summary": {
+        "model": "DCRNN_trajectory_directed",
+        "graph": "trajectory_directed",
+        "adaptive_mode": "none",
+        "seed": 11,
+        "mode": "full",
+        "best_epoch": 9,
+        "trained_epochs": 19,
+        "validation_rmse_h6": 12.133925875051562,
+        "architecture": {
+          "implementation": "dcrnn-seoul-paper-aligned-v2",
+          "input_dim": 2,
+          "hidden_dim": 64,
+          "diffusion_steps": 2,
+          "horizons": [
+            3,
+            6,
+            12,
+            24
+          ],
+          "context_dim": 106,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "decoder_layers": 2,
+          "decoder_steps": 24,
+          "decoder_start": "zeros",
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "teacher_forcing": "training-only sparse available Junggu labels; never other-node targets",
+          "supervised_node": 0,
+          "support_orientation": "A[source,destination]; receiver-by-sender supports",
+          "support_self_loops": true,
+          "per_support_recurrence_reset": true,
+          "paper_benchmark_reproduction": false
+        },
+        "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_CN_INNER_MONGOLIA/DCRNN/full/20261110_063141_093529_a611dc9c/Training/20261110_063141_920736_9e9c0f11/Models/DCRNN_trajectory_directed/seed11/best.pt",
+        "checkpoint_sha256": "61d2bfbe62356f45a06f3f7a46e821a919cf1cf521fb5447af3abb4b206fe950",
+        "data_signature": "7aa4666a56eba5deaa137b5b6e6a1e7c699fedebe37f78419cf42c1adfe52b83",
+        "graph_signature": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80",
+        "parameter_count": 380421,
+        "session_training_seconds": 7399.894624697001,
+        "device": "cuda",
+        "test_scored": false,
+        "sampling_labels_used_only_in_training": true,
+        "effective_batch_size": 64,
+        "micro_batch_size": 8,
+        "gradient_accumulation_steps": 8,
+        "batchnorm_microbatch_statistics_note": "BatchNorm, if present, observes micro batch, not effective batch."
+      },
+      "best_sha_matches": true,
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 19,
+        "first_epoch": 1,
+        "last_epoch": 19,
+        "continuous": true,
+        "best_epoch_recomputed": 9,
+        "best_h6_recomputed": 12.133925875051562,
+        "last_bad_epochs": 10,
+        "lr_distinct": [
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 9.803099624812605,
+            "validation_rmse_h6": 13.519538171861818
+          },
+          {
+            "epoch": 2,
+            "train_loss": 11.779295664118685,
+            "validation_rmse_h6": 13.51415301285289
+          },
+          {
+            "epoch": 3,
+            "train_loss": 8.42900176540665,
+            "validation_rmse_h6": 13.048473208084186
+          },
+          {
+            "epoch": 4,
+            "train_loss": 8.198968679360721,
+            "validation_rmse_h6": 13.026818796804742
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 16,
+            "train_loss": 7.600685863391213,
+            "validation_rmse_h6": 12.783253081101437
+          },
+          {
+            "epoch": 17,
+            "train_loss": 7.385337523144225,
+            "validation_rmse_h6": 12.907737644917008
+          },
+          {
+            "epoch": 18,
+            "train_loss": 7.355814674950165,
+            "validation_rmse_h6": 12.692565841768882
+          },
+          {
+            "epoch": 19,
+            "train_loss": 7.455382419345171,
+            "validation_rmse_h6": 12.96146173935692
+          }
+        ]
+      },
+      "completion": {
+        "status": "passed",
+        "mode": "full",
+        "runs": 1,
+        "automatic_common_scoring": true,
+        "test_scored": true,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "scoring_locations": {
+          "validation": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_INNER_MONGOLIA/DCRNN/20261110_063141_093529_a611dc9c/20261110_063141_920736_9e9c0f11/validation/20261110_083600_638421_0c2b10a5",
+          "test": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_INNER_MONGOLIA/DCRNN/20261110_063141_093529_a611dc9c/20261110_063141_920736_9e9c0f11/test/20261110_083604_273386_8b1b0a55"
+        }
+      },
+      "execution_status": {
+        "status": "passed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "completed_runs": 1
+      },
+      "seed11_resume_audit": {
+        "version": "regional12-seed-resume-20261109-v1",
+        "status": "no_compatible_source",
+        "resume_source_run": null,
+        "condition": "ADD_CN_INNER_MONGOLIA",
+        "model": "DCRNN_trajectory_directed",
+        "seed": 11,
+        "rejected_candidates": []
+      },
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261110_063141_920736_9e9c0f11",
+        "resume_source_run": null
+      }
+    },
+    {
+      "condition": "ADD_CN_OTHER",
+      "status": "passed",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_OTHER/DCRNN/full/20261110_092412_040119_1e703ad2",
+      "allowed_external_series": 526,
+      "allowed_by_country": {
+        "KR": 514,
+        "CN": 12
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_CN_OTHER/DCRNN/full/20261110_092412_040119_1e703ad2/Training/20261110_092412_069566_3376cb15",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "summary": {
+        "model": "DCRNN_trajectory_directed",
+        "graph": "trajectory_directed",
+        "adaptive_mode": "none",
+        "seed": 11,
+        "mode": "full",
+        "best_epoch": 4,
+        "trained_epochs": 14,
+        "validation_rmse_h6": 9.523138223664905,
+        "architecture": {
+          "implementation": "dcrnn-seoul-paper-aligned-v2",
+          "input_dim": 2,
+          "hidden_dim": 64,
+          "diffusion_steps": 2,
+          "horizons": [
+            3,
+            6,
+            12,
+            24
+          ],
+          "context_dim": 106,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "decoder_layers": 2,
+          "decoder_steps": 24,
+          "decoder_start": "zeros",
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "teacher_forcing": "training-only sparse available Junggu labels; never other-node targets",
+          "supervised_node": 0,
+          "support_orientation": "A[source,destination]; receiver-by-sender supports",
+          "support_self_loops": true,
+          "per_support_recurrence_reset": true,
+          "paper_benchmark_reproduction": false
+        },
+        "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_CN_OTHER/DCRNN/full/20261110_092412_040119_1e703ad2/Training/20261110_092412_069566_3376cb15/Models/DCRNN_trajectory_directed/seed11/best.pt",
+        "checkpoint_sha256": "5261cf1c47d5cb7371272892fe9ab60e5c4918a4b2c774ee6732bcf2e1a42bd2",
+        "data_signature": "0ef2ab3aee58f8c58ac365bbdaa09df940cc233aafe24ce88054dd3852cd1208",
+        "graph_signature": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80",
+        "parameter_count": 380421,
+        "session_training_seconds": 3146.865716094999,
+        "device": "cuda",
+        "test_scored": false,
+        "sampling_labels_used_only_in_training": true,
+        "effective_batch_size": 64,
+        "micro_batch_size": 8,
+        "gradient_accumulation_steps": 8,
+        "batchnorm_microbatch_statistics_note": "BatchNorm, if present, observes micro batch, not effective batch."
+      },
+      "best_sha_matches": true,
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 14,
+        "first_epoch": 1,
+        "last_epoch": 14,
+        "continuous": true,
+        "best_epoch_recomputed": 4,
+        "best_h6_recomputed": 9.523138223664905,
+        "last_bad_epochs": 10,
+        "lr_distinct": [
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 9.442508617497008,
+            "validation_rmse_h6": 11.772514479436053
+          },
+          {
+            "epoch": 2,
+            "train_loss": 7.490294872418694,
+            "validation_rmse_h6": 10.04861474081276
+          },
+          {
+            "epoch": 3,
+            "train_loss": 7.755077240583689,
+            "validation_rmse_h6": 11.355569191293284
+          },
+          {
+            "epoch": 4,
+            "train_loss": 7.483380317687988,
+            "validation_rmse_h6": 9.523138223664905
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 11,
+            "train_loss": 8.379376451930273,
+            "validation_rmse_h6": 11.723570055262757
+          },
+          {
+            "epoch": 12,
+            "train_loss": 8.845257854008157,
+            "validation_rmse_h6": 11.708431514783625
+          },
+          {
+            "epoch": 13,
+            "train_loss": 8.153537950438002,
+            "validation_rmse_h6": 11.60682779677121
+          },
+          {
+            "epoch": 14,
+            "train_loss": 7.976121091972226,
+            "validation_rmse_h6": 11.542727041795157
+          }
+        ]
+      },
+      "completion": {
+        "status": "passed",
+        "mode": "full",
+        "runs": 1,
+        "automatic_common_scoring": true,
+        "test_scored": true,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "scoring_locations": {
+          "validation": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_OTHER/DCRNN/20261110_092412_040119_1e703ad2/20261110_092412_069566_3376cb15/validation/20261110_101748_487855_1457e514",
+          "test": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_CN_OTHER/DCRNN/20261110_092412_040119_1e703ad2/20261110_092412_069566_3376cb15/test/20261110_101752_337236_c1374b95"
+        }
+      },
+      "execution_status": {
+        "status": "passed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "completed_runs": 1
+      },
+      "seed11_resume_audit": null,
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261110_092412_069566_3376cb15",
+        "resume_source_run": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_CN_OTHER/DCRNN/full/20261110_083609_445332_fb0c6c6e/Training/20261110_083610_816203_5806fa60"
+      }
+    },
+    {
+      "condition": "ADD_JP_WEST",
+      "status": "passed",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_JP_WEST/DCRNN/full/20261110_101757_811778_88549b50",
+      "allowed_external_series": 538,
+      "allowed_by_country": {
+        "KR": 514,
+        "JP": 24
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_JP_WEST/DCRNN/full/20261110_101757_811778_88549b50/Training/20261110_101758_880060_44c6d388",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "summary": {
+        "model": "DCRNN_trajectory_directed",
+        "graph": "trajectory_directed",
+        "adaptive_mode": "none",
+        "seed": 11,
+        "mode": "full",
+        "best_epoch": 2,
+        "trained_epochs": 12,
+        "validation_rmse_h6": 12.117872434173055,
+        "architecture": {
+          "implementation": "dcrnn-seoul-paper-aligned-v2",
+          "input_dim": 2,
+          "hidden_dim": 64,
+          "diffusion_steps": 2,
+          "horizons": [
+            3,
+            6,
+            12,
+            24
+          ],
+          "context_dim": 106,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "decoder_layers": 2,
+          "decoder_steps": 24,
+          "decoder_start": "zeros",
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "teacher_forcing": "training-only sparse available Junggu labels; never other-node targets",
+          "supervised_node": 0,
+          "support_orientation": "A[source,destination]; receiver-by-sender supports",
+          "support_self_loops": true,
+          "per_support_recurrence_reset": true,
+          "paper_benchmark_reproduction": false
+        },
+        "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_JP_WEST/DCRNN/full/20261110_101757_811778_88549b50/Training/20261110_101758_880060_44c6d388/Models/DCRNN_trajectory_directed/seed11/best.pt",
+        "checkpoint_sha256": "19cc34214f985d581b043429e3166929a09187f8bcafafc45cffbfcf26e548eb",
+        "data_signature": "7b0c3d9800e747c7e8cc177a23cf2e2a9dbf0bf23b17bb9f489ea193caae5bd7",
+        "graph_signature": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80",
+        "parameter_count": 380421,
+        "session_training_seconds": 4685.740150963,
+        "device": "cuda",
+        "test_scored": false,
+        "sampling_labels_used_only_in_training": true,
+        "effective_batch_size": 64,
+        "micro_batch_size": 8,
+        "gradient_accumulation_steps": 8,
+        "batchnorm_microbatch_statistics_note": "BatchNorm, if present, observes micro batch, not effective batch."
+      },
+      "best_sha_matches": true,
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 12,
+        "first_epoch": 1,
+        "last_epoch": 12,
+        "continuous": true,
+        "best_epoch_recomputed": 2,
+        "best_h6_recomputed": 12.117872434173057,
+        "last_bad_epochs": 10,
+        "lr_distinct": [
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 9.45808663316395,
+            "validation_rmse_h6": 13.3574598575054
+          },
+          {
+            "epoch": 2,
+            "train_loss": 8.173456014174482,
+            "validation_rmse_h6": 12.117872434173057
+          },
+          {
+            "epoch": 3,
+            "train_loss": 8.130081407077935,
+            "validation_rmse_h6": 12.463896618049334
+          },
+          {
+            "epoch": 4,
+            "train_loss": 7.905950943412988,
+            "validation_rmse_h6": 27.17434899280464
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 9,
+            "train_loss": 7.591147321721782,
+            "validation_rmse_h6": 12.180836407263625
+          },
+          {
+            "epoch": 10,
+            "train_loss": 7.660954916930717,
+            "validation_rmse_h6": 12.989633991418184
+          },
+          {
+            "epoch": 11,
+            "train_loss": 7.543068846930629,
+            "validation_rmse_h6": 12.521609947876406
+          },
+          {
+            "epoch": 12,
+            "train_loss": 7.454822479706744,
+            "validation_rmse_h6": 12.489048618906349
+          }
+        ]
+      },
+      "completion": {
+        "status": "passed",
+        "mode": "full",
+        "runs": 1,
+        "automatic_common_scoring": true,
+        "test_scored": true,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "scoring_locations": {
+          "validation": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_JP_WEST/DCRNN/20261110_101757_811778_88549b50/20261110_101758_880060_44c6d388/validation/20261110_113703_373948_b1981b99",
+          "test": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_JP_WEST/DCRNN/20261110_101757_811778_88549b50/20261110_101758_880060_44c6d388/test/20261110_113707_244209_aaa2d1e5"
+        }
+      },
+      "execution_status": {
+        "status": "passed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "completed_runs": 1
+      },
+      "seed11_resume_audit": {
+        "version": "regional12-seed-resume-20261109-v1",
+        "status": "no_compatible_source",
+        "resume_source_run": null,
+        "condition": "ADD_JP_WEST",
+        "model": "DCRNN_trajectory_directed",
+        "seed": 11,
+        "rejected_candidates": []
+      },
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261110_101758_880060_44c6d388",
+        "resume_source_run": null
+      }
+    },
+    {
+      "condition": "ADD_JP_EAST",
+      "status": "passed",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_JP_EAST/DCRNN/full/20261110_113712_579417_2449ec5a",
+      "allowed_external_series": 532,
+      "allowed_by_country": {
+        "KR": 514,
+        "JP": 18
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_JP_EAST/DCRNN/full/20261110_113712_579417_2449ec5a/Training/20261110_113713_222017_44a187fd",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "summary": {
+        "model": "DCRNN_trajectory_directed",
+        "graph": "trajectory_directed",
+        "adaptive_mode": "none",
+        "seed": 11,
+        "mode": "full",
+        "best_epoch": 10,
+        "trained_epochs": 20,
+        "validation_rmse_h6": 11.920933017538738,
+        "architecture": {
+          "implementation": "dcrnn-seoul-paper-aligned-v2",
+          "input_dim": 2,
+          "hidden_dim": 64,
+          "diffusion_steps": 2,
+          "horizons": [
+            3,
+            6,
+            12,
+            24
+          ],
+          "context_dim": 106,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "decoder_layers": 2,
+          "decoder_steps": 24,
+          "decoder_start": "zeros",
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "teacher_forcing": "training-only sparse available Junggu labels; never other-node targets",
+          "supervised_node": 0,
+          "support_orientation": "A[source,destination]; receiver-by-sender supports",
+          "support_self_loops": true,
+          "per_support_recurrence_reset": true,
+          "paper_benchmark_reproduction": false
+        },
+        "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/DCRNN/Regional12_Seed11_20261109/Jobs/ADD_JP_EAST/DCRNN/full/20261110_113712_579417_2449ec5a/Training/20261110_113713_222017_44a187fd/Models/DCRNN_trajectory_directed/seed11/best.pt",
+        "checkpoint_sha256": "4b14a47e86ec8aa31bf8a1a0cab1008b9f6871cf831feb8f49f3466ce753c778",
+        "data_signature": "da424c9a1ad55177a888a123ef15a841f8cf266617fd78aceeafe2cd5a85b2bd",
+        "graph_signature": "a86bac2ea6182fdc57994b4ae1ebb3c7c0d93043efc88204beac52b7db01ce80",
+        "parameter_count": 380421,
+        "session_training_seconds": 7773.417393988002,
+        "device": "cuda",
+        "test_scored": false,
+        "sampling_labels_used_only_in_training": true,
+        "effective_batch_size": 64,
+        "micro_batch_size": 8,
+        "gradient_accumulation_steps": 8,
+        "batchnorm_microbatch_statistics_note": "BatchNorm, if present, observes micro batch, not effective batch."
+      },
+      "best_sha_matches": true,
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 20,
+        "first_epoch": 1,
+        "last_epoch": 20,
+        "continuous": true,
+        "best_epoch_recomputed": 10,
+        "best_h6_recomputed": 11.920933017538738,
+        "last_bad_epochs": 10,
+        "lr_distinct": [
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 9.68382092597692,
+            "validation_rmse_h6": 12.848488227878484
+          },
+          {
+            "epoch": 2,
+            "train_loss": 8.192614365531051,
+            "validation_rmse_h6": 13.273159442374096
+          },
+          {
+            "epoch": 3,
+            "train_loss": 8.110501816415269,
+            "validation_rmse_h6": 14.055511575311712
+          },
+          {
+            "epoch": 4,
+            "train_loss": 7.925697273210339,
+            "validation_rmse_h6": 12.182225885595782
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 17,
+            "train_loss": 7.239616777909839,
+            "validation_rmse_h6": 12.497237168555902
+          },
+          {
+            "epoch": 18,
+            "train_loss": 7.277728307830251,
+            "validation_rmse_h6": 12.455266697027207
+          },
+          {
+            "epoch": 19,
+            "train_loss": 7.244929239801738,
+            "validation_rmse_h6": 12.355809692627991
+          },
+          {
+            "epoch": 20,
+            "train_loss": 7.112126989209133,
+            "validation_rmse_h6": 12.626825231120876
+          }
+        ]
+      },
+      "completion": {
+        "status": "passed",
+        "mode": "full",
+        "runs": 1,
+        "automatic_common_scoring": true,
+        "test_scored": true,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "scoring_locations": {
+          "validation": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_JP_EAST/DCRNN/20261110_113712_579417_2449ec5a/20261110_113713_222017_44a187fd/validation/20261110_134745_131365_a0631799",
+          "test": "/content/drive/MyDrive/Colab_Notebooks/TSA/Result/Common_Scoring/Regional12_Individual/ADD_JP_EAST/DCRNN/20261110_113712_579417_2449ec5a/20261110_113713_222017_44a187fd/test/20261110_134748_860536_6c232c84"
+        }
+      },
+      "execution_status": {
+        "status": "passed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "completed_runs": 1
+      },
+      "seed11_resume_audit": {
+        "version": "regional12-seed-resume-20261109-v1",
+        "status": "no_compatible_source",
+        "resume_source_run": null,
+        "condition": "ADD_JP_EAST",
+        "model": "DCRNN_trajectory_directed",
+        "seed": 11,
+        "rejected_candidates": []
+      },
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261110_113713_222017_44a187fd",
+        "resume_source_run": null
+      }
+    },
+    {
+      "condition": "ADD_MN",
+      "status": "failed",
+      "job_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_MN/DCRNN/full/20261110_134754_139286_2acb77c9",
+      "allowed_external_series": 515,
+      "allowed_by_country": {
+        "KR": 514,
+        "MN": 1
+      },
+      "training_configuration": {
+        "model_family": "DCRNN",
+        "mode": "full",
+        "seeds": [
+          11
+        ],
+        "max_epochs": 30,
+        "patience": 10,
+        "micro_batch_size": 8,
+        "effective_batch_size": 64,
+        "eval_batch_size": 8,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "optimizer_epsilon": 0.001,
+        "weight_decay": 0.0,
+        "exclude_bias_norm_from_decay": false,
+        "scheduler": "multistep",
+        "lr_milestones": [
+          20,
+          30,
+          40,
+          50
+        ],
+        "lr_gamma": 0.1,
+        "lr_patience": 5,
+        "min_learning_rate": 2e-06,
+        "max_grad_norm": 5.0,
+        "loss": "mae_original",
+        "min_delta": 0.0,
+        "use_amp": false,
+        "model_configuration": {
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "diffusion_steps": 2,
+          "dropout": 0.0,
+          "use_curriculum_learning": true,
+          "cl_decay_steps": 3000.0,
+          "decoder_start": "zeros"
+        },
+        "comparison_pairs": [],
+        "cross_model_pairs": [],
+        "architecture_profile": "paper_aligned",
+        "regularization_profile": "paper",
+        "bootstrap_reps": 1000
+      },
+      "run_zip_path": "Regional12_Seed11_20261109/Jobs/ADD_MN/DCRNN/full/20261110_134754_139286_2acb77c9/Training/20261110_134754_796808_3155a8a3",
+      "preprocessing_keys": [
+        "fit_start_inclusive",
+        "fit_end_exclusive",
+        "pm_mean",
+        "pm_std",
+        "pm_valid_count",
+        "context_mean",
+        "context_std",
+        "context_valid_count",
+        "node_order",
+        "context_names",
+        "transform",
+        "std_ddof",
+        "minimum_std"
+      ],
+      "context_names": [
+        "asos108_temperature_now",
+        "asos108_rh_now",
+        "asos108_pressure_now",
+        "asos108_wind_speed_now",
+        "asos108_wind_u_now",
+        "asos108_wind_v_now",
+        "asos108_precip_reported_now",
+        "asos108_temperature_mean6h",
+        "asos108_rh_mean6h",
+        "asos108_pressure_mean6h",
+        "asos108_wind_speed_mean6h",
+        "asos108_wind_u_mean6h",
+        "asos108_wind_v_mean6h",
+        "asos108_temperature_coverage6h",
+        "asos108_rh_coverage6h",
+        "asos108_pressure_coverage6h",
+        "asos108_wind_speed_coverage6h",
+        "asos108_wind_vector_coverage6h",
+        "asos108_precip_reported_count6h",
+        "asos108_precip_reported_max6h",
+        "asos108_wind_calm_now",
+        "asos108_wind_direction_unknown_now",
+        "asos108_history_rows_fraction6h",
+        "asos102_temperature_now",
+        "asos102_rh_now",
+        "asos102_pressure_now",
+        "asos102_wind_speed_now",
+        "asos102_wind_u_now",
+        "asos102_wind_v_now",
+        "asos102_precip_reported_now",
+        "asos102_temperature_mean6h",
+        "asos102_rh_mean6h",
+        "asos102_pressure_mean6h",
+        "asos102_wind_speed_mean6h",
+        "asos102_wind_u_mean6h",
+        "asos102_wind_v_mean6h",
+        "asos102_temperature_coverage6h",
+        "asos102_rh_coverage6h",
+        "asos102_pressure_coverage6h",
+        "asos102_wind_speed_coverage6h",
+        "asos102_wind_vector_coverage6h",
+        "asos102_precip_reported_count6h",
+        "asos102_precip_reported_max6h",
+        "asos102_wind_calm_now",
+        "asos102_wind_direction_unknown_now",
+        "asos102_history_rows_fraction6h",
+        "cal_hour_sin",
+        "cal_hour_cos",
+        "cal_weekday",
+        "cal_annual_sin1",
+        "cal_annual_cos1",
+        "cal_annual_sin2",
+        "cal_annual_cos2"
+      ],
+      "error": "Traceback (most recent call last):\n  File \"regional_runner\", line 256, in run_regional_experiments\n  File \"/tmp/ipykernel_23807/3303618693.py\", line 415, in run_neural_experiment\n    summaries=_run_neural_experiment(bundle,graphs,preprocessing,arrays,model_specs,local_config,root,model_factory,api,project_root,common_dir)\n  File \"/tmp/ipykernel_23807/3303618693.py\", line 352, in _run_neural_experiment\n    model,summary,validation=train_one_neural_run(bundle,arrays,preprocessing,adjacency,spec,local,root,model_factory,api)\n                             ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_23807/3303618693.py\", line 247, in train_one_neural_run\n    if len(window)==accumulation:update(window);window=[]\n                                 ~~~~~~^^^^^^^^\n  File \"/tmp/ipykernel_23807/3303618693.py\", line 236, in update\n    sums=masked_loss_sums(prediction,y,m,preprocessing,cfg.get('loss','mae_original'))\n  File \"/tmp/ipykernel_23807/3303618693.py\", line 124, in masked_loss_sums\n    if not torch.isfinite(p).all():raise FloatingPointError('Nonfinite original-unit training loss; no silent clipping.')\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFloatingPointError: Nonfinite original-unit training loss; no silent clipping.\n",
+      "curve": {
+        "columns": [
+          "epoch",
+          "train_loss",
+          "loss_kind",
+          "validation_rmse_h6",
+          "learning_rate_used",
+          "learning_rate_next",
+          "bad_epochs",
+          "global_step",
+          "seconds",
+          "teacher_forcing_probability"
+        ],
+        "epochs": 2,
+        "first_epoch": 1,
+        "last_epoch": 2,
+        "continuous": true,
+        "best_epoch_recomputed": 1,
+        "best_h6_recomputed": 12.568296511688429,
+        "last_bad_epochs": 1,
+        "lr_distinct": [
+          0.01
+        ],
+        "first_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 6269140289.489152,
+            "validation_rmse_h6": 12.568296511688429
+          },
+          {
+            "epoch": 2,
+            "train_loss": 8.283140560531098,
+            "validation_rmse_h6": 12.88985888505434
+          }
+        ],
+        "last_losses": [
+          {
+            "epoch": 1,
+            "train_loss": 6269140289.489152,
+            "validation_rmse_h6": 12.568296511688429
+          },
+          {
+            "epoch": 2,
+            "train_loss": 8.283140560531098,
+            "validation_rmse_h6": 12.88985888505434
+          }
+        ]
+      },
+      "completion": null,
+      "execution_status": {
+        "status": "failed",
+        "mode": "full",
+        "run_final_test": true,
+        "previous_completion_retained": false,
+        "training_version": "seoul-neural-training-20261109-v1",
+        "error_type": "FloatingPointError",
+        "error_message": "Nonfinite original-unit training loss; no silent clipping."
+      },
+      "seed11_resume_audit": {
+        "version": "regional12-seed-resume-20261109-v1",
+        "status": "no_compatible_source",
+        "resume_source_run": null,
+        "condition": "ADD_MN",
+        "model": "DCRNN_trajectory_directed",
+        "seed": 11,
+        "rejected_candidates": []
+      },
+      "execution_protocol": {
+        "mode": "full",
+        "resume": true,
+        "run_final_test": true,
+        "test2024_previously_inspected": true,
+        "device": "cuda",
+        "training_settings_unchanged_on_test_toggle": true,
+        "execution_id": "20261110_134754_796808_3155a8a3",
+        "resume_source_run": null
+      }
+    }
+  ]
+}

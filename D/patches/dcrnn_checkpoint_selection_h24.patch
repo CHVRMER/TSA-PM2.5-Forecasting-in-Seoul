@@ -1,0 +1,19 @@
+--- a/Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/checkpoint_store.py
++++ b/Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/checkpoint_store.py
+@@ -109,7 +109,15 @@
+         raise ValueError('History must cover every completed epoch exactly once.')
+     if [row.get('epoch') for row in history] != list(range(1, epoch+2)):
+         raise ValueError('History epoch labels must be one-based and contiguous.')
+-    if 'validation_rmse_h6' in history[best_epoch-1] and float(history[best_epoch-1]['validation_rmse_h6']) != float(state['best']):
++    selected_row = history[best_epoch-1]
++    selection_horizon = int(state['contract'].get('training', {}).get('selection_horizon', 6))
++    if 'selection_horizon' in selected_row and int(selected_row['selection_horizon']) != selection_horizon:
++        raise ValueError('Selected horizon differs between checkpoint contract and history.')
++    score_key = ('validation_selection_score' if 'validation_selection_score' in selected_row
++                 else 'validation_rmse_h6')
++    if selection_horizon != 6 and score_key != 'validation_selection_score':
++        raise ValueError('A non-6h selection requires its explicit validation selection score.')
++    if score_key in selected_row and float(selected_row[score_key]) != float(state['best']):
+         raise ValueError('Best score does not match the selected epoch in learning history.')
+     if 'global_step' in history[-1] and history[-1]['global_step'] != state['global_step']:
+         raise ValueError('Global optimizer step does not match the completed learning history.')

@@ -1,0 +1,491 @@
+{
+  "protocol_version": "fixed-calendar-seed-v1.0.0",
+  "split": "validation",
+  "fixed_eligible_by_horizon": {
+    "3": 2531,
+    "6": 2530,
+    "12": 2528,
+    "24": 2524
+  },
+  "fixed_calendar_slots_by_horizon": {
+    "3": 2920,
+    "6": 2920,
+    "12": 2920,
+    "24": 2920
+  },
+  "rows_selected_using_predictions": false,
+  "model_prediction_intersection_used": false,
+  "negative_prediction_rule": "clip each scored forecast at zero; count per run and horizon",
+  "seed_score_summary_is_not_prediction_ensemble": true,
+  "ensemble_rule": "raw-unit arithmetic mean, then nonnegative clip",
+  "hac_default": "max(horizon/3-1,0), Bartlett, exact elapsed-time slots, gaps retained",
+  "hac_lag_override": null,
+  "bootstrap": "moving 7-day=56 calendar-slot blocks; gaps remain inside blocks",
+  "bootstrap_reps": 1000,
+  "bootstrap_seed": 0,
+  "holm_family": "all finite p-values in this declared scoring invocation (all included horizons/runs/pairs)",
+  "test_guard": false,
+  "does_not_train_models": true,
+  "inference_caveat": "Overlap minimum HAC lag need not capture all additional serial dependence; predeclare lag/block sensitivity, do not tune on significance.",
+  "written_kst": "2026-11-11T04:35:22.802210+09:00",
+  "grid_path": "/workspace/TSA/Dataset/Evaluation_Contract_20261107/evaluation_grid.parquet",
+  "grid_sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db",
+  "prediction_sources": [
+    {
+      "path": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "5bf6b94ac66c7429a593aeea30f4d305fe72488ccdb780937d75ee670aaa2e2b",
+      "sidecar": {
+        "model_family": "GraphWaveNet",
+        "input_condition": "M1",
+        "seeds": [
+          11
+        ],
+        "data_version": "7940942c6ccc62a2af9c3dd302436d805fd5c94f56532466af6fe638e400a96f",
+        "training_configuration": {
+          "model_family": "GraphWaveNet",
+          "input_condition": "M1",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 1e-08,
+          "weight_decay": 0.0001,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "none",
+          "min_learning_rate": 0.0,
+          "max_grad_norm": 5.0,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "residual_channels": 32,
+            "dilation_channels": 32,
+            "skip_channels": 256,
+            "end_channels": 512,
+            "kernel_size": 2,
+            "blocks": 4,
+            "layers": 2,
+            "diffusion_steps": 2,
+            "dropout": 0.3,
+            "embedding_dim": 10,
+            "embedding_init": "normal",
+            "architecture_profile": "paper"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "paper",
+          "bootstrap_reps": 1000,
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089",
+          "resume_source_run": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_010911_738330_5b7fa64b/Conditions/M1/20261111_010951_069890_7868421c",
+          "execution_id": "20261111_014618_388001_02cb2089",
+          "data_signature": "7940942c6ccc62a2af9c3dd302436d805fd5c94f56532466af6fe638e400a96f"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "5bf6b94ac66c7429a593aeea30f4d305fe72488ccdb780937d75ee670aaa2e2b",
+        "split": "validation"
+      }
+    },
+    {
+      "path": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "4c0883e0b31a1aac7515fac9c064c6c940b1bf7c58ed57ba0fe8b671f35d1566",
+      "sidecar": {
+        "model_family": "GraphWaveNet",
+        "input_condition": "M2",
+        "seeds": [
+          11
+        ],
+        "data_version": "9ac2713daba7ce70b7a78a8eb6bbf316b96f3bea1685c079715db1d8f9f772a2",
+        "training_configuration": {
+          "model_family": "GraphWaveNet",
+          "input_condition": "M2",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 1e-08,
+          "weight_decay": 0.0001,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "none",
+          "min_learning_rate": 0.0,
+          "max_grad_norm": 5.0,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "residual_channels": 32,
+            "dilation_channels": 32,
+            "skip_channels": 256,
+            "end_channels": 512,
+            "kernel_size": 2,
+            "blocks": 4,
+            "layers": 2,
+            "diffusion_steps": 2,
+            "dropout": 0.3,
+            "embedding_dim": 10,
+            "embedding_init": "normal",
+            "architecture_profile": "paper"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "paper",
+          "bootstrap_reps": 1000,
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158",
+          "resume_source_run": null,
+          "execution_id": "20261111_014935_383800_27d7d158",
+          "data_signature": "9ac2713daba7ce70b7a78a8eb6bbf316b96f3bea1685c079715db1d8f9f772a2"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "4c0883e0b31a1aac7515fac9c064c6c940b1bf7c58ed57ba0fe8b671f35d1566",
+        "split": "validation"
+      }
+    },
+    {
+      "path": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "74061936b5921839cdc065ececa9f70147cd933ebb0d74053e1d39da4bba31c8",
+      "sidecar": {
+        "model_family": "GraphWaveNet",
+        "input_condition": "M3",
+        "seeds": [
+          11
+        ],
+        "data_version": "6542d1767fffb427bbdc6c4326590779596ae72ed39e872788c6b176b9b4e2ff",
+        "training_configuration": {
+          "model_family": "GraphWaveNet",
+          "input_condition": "M3",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 1e-08,
+          "weight_decay": 0.0001,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "none",
+          "min_learning_rate": 0.0,
+          "max_grad_norm": 5.0,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "residual_channels": 32,
+            "dilation_channels": 32,
+            "skip_channels": 256,
+            "end_channels": 512,
+            "kernel_size": 2,
+            "blocks": 4,
+            "layers": 2,
+            "diffusion_steps": 2,
+            "dropout": 0.3,
+            "embedding_dim": 10,
+            "embedding_init": "normal",
+            "architecture_profile": "paper"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "paper",
+          "bootstrap_reps": 1000,
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b",
+          "resume_source_run": null,
+          "execution_id": "20261111_024323_770244_c1e7059b",
+          "data_signature": "6542d1767fffb427bbdc6c4326590779596ae72ed39e872788c6b176b9b4e2ff"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "74061936b5921839cdc065ececa9f70147cd933ebb0d74053e1d39da4bba31c8",
+        "split": "validation"
+      }
+    },
+    {
+      "path": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "36f32746a4cd5ff4f029f438c3e3a080b07882a557d669e72294fdae7c687c0f",
+      "sidecar": {
+        "model_family": "GraphWaveNet",
+        "input_condition": "M4",
+        "seeds": [
+          11
+        ],
+        "data_version": "f73ad013fe32dacd06a7170b0da5be6604211681a0466b1fc0f8ba1db04d74a6",
+        "training_configuration": {
+          "model_family": "GraphWaveNet",
+          "input_condition": "M4",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 1e-08,
+          "weight_decay": 0.0001,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "none",
+          "min_learning_rate": 0.0,
+          "max_grad_norm": 5.0,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "residual_channels": 32,
+            "dilation_channels": 32,
+            "skip_channels": 256,
+            "end_channels": 512,
+            "kernel_size": 2,
+            "blocks": 4,
+            "layers": 2,
+            "diffusion_steps": 2,
+            "dropout": 0.3,
+            "embedding_dim": 10,
+            "embedding_init": "normal",
+            "architecture_profile": "paper"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "paper",
+          "bootstrap_reps": 1000,
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c",
+          "resume_source_run": null,
+          "execution_id": "20261111_032229_054176_431f4f2c",
+          "data_signature": "f73ad013fe32dacd06a7170b0da5be6604211681a0466b1fc0f8ba1db04d74a6"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "36f32746a4cd5ff4f029f438c3e3a080b07882a557d669e72294fdae7c687c0f",
+        "split": "validation"
+      }
+    },
+    {
+      "path": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "5596b7adbdea3905aeb983c7fcd86d5681ff76e7051f3e162a9f167bca572fac",
+      "sidecar": {
+        "model_family": "GraphWaveNet",
+        "input_condition": "M3T",
+        "seeds": [
+          11
+        ],
+        "data_version": "b3675ba61d13922514b64abe41e6884e39c7a2ed1605f22d9f08e61e67dbf771",
+        "training_configuration": {
+          "model_family": "GraphWaveNet",
+          "input_condition": "M3T",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 1e-08,
+          "weight_decay": 0.0001,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "none",
+          "min_learning_rate": 0.0,
+          "max_grad_norm": 5.0,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "residual_channels": 32,
+            "dilation_channels": 32,
+            "skip_channels": 256,
+            "end_channels": 512,
+            "kernel_size": 2,
+            "blocks": 4,
+            "layers": 2,
+            "diffusion_steps": 2,
+            "dropout": 0.3,
+            "embedding_dim": 10,
+            "embedding_init": "normal",
+            "architecture_profile": "paper"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "paper",
+          "bootstrap_reps": 1000,
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672",
+          "resume_source_run": null,
+          "execution_id": "20261111_035759_507592_eed12672",
+          "data_signature": "b3675ba61d13922514b64abe41e6884e39c7a2ed1605f22d9f08e61e67dbf771"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "5596b7adbdea3905aeb983c7fcd86d5681ff76e7051f3e162a9f167bca572fac",
+        "split": "validation"
+      }
+    },
+    {
+      "path": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231/Exports/validation_predictions_by_seed.parquet",
+      "sha256": "064dad634c9758cee869fa1f15e5062a7c3894341635a11d7a04be582b5df928",
+      "sidecar": {
+        "model_family": "GraphWaveNet",
+        "input_condition": "M4T",
+        "seeds": [
+          11
+        ],
+        "data_version": "0fd272e2483940ba1826fcdab1318c9c0c61db5ed5b039283fb36a2134c14c99",
+        "training_configuration": {
+          "model_family": "GraphWaveNet",
+          "input_condition": "M4T",
+          "mode": "full",
+          "seeds": [
+            11
+          ],
+          "max_epochs": 50,
+          "patience": 10,
+          "micro_batch_size": 8,
+          "effective_batch_size": 64,
+          "eval_batch_size": 8,
+          "optimizer": "adam",
+          "learning_rate": 0.001,
+          "optimizer_epsilon": 1e-08,
+          "weight_decay": 0.0001,
+          "exclude_bias_norm_from_decay": false,
+          "scheduler": "none",
+          "min_learning_rate": 0.0,
+          "max_grad_norm": 5.0,
+          "loss": "mae_original",
+          "min_delta": 0.0,
+          "resume": true,
+          "run_final_test": true,
+          "device": "cuda",
+          "use_amp": false,
+          "model_configuration": {
+            "residual_channels": 32,
+            "dilation_channels": 32,
+            "skip_channels": 256,
+            "end_channels": 512,
+            "kernel_size": 2,
+            "blocks": 4,
+            "layers": 2,
+            "diffusion_steps": 2,
+            "dropout": 0.3,
+            "embedding_dim": 10,
+            "embedding_init": "normal",
+            "architecture_profile": "paper"
+          },
+          "comparison_pairs": [],
+          "architecture_profile": "paper",
+          "bootstrap_reps": 1000,
+          "checkpoint_policy": {
+            "snapshot_every_epochs": 5,
+            "keep_recent": 2
+          },
+          "library_versions": {
+            "python": "3.12.3",
+            "torch": "2.14.0a0+4fdf77b940.nv26.08",
+            "numpy": "2.1.0",
+            "pandas": "2.3.3"
+          },
+          "scoring_output_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231",
+          "resume_source_run": null,
+          "execution_id": "20261111_041721_668206_3d893231",
+          "data_signature": "0fd272e2483940ba1826fcdab1318c9c0c61db5ed5b039283fb36a2134c14c99"
+        },
+        "experiment_mode": "full",
+        "validation_selects_best_epoch": true,
+        "validation_not_independent_final_test": true,
+        "prediction_kind": "seed",
+        "prediction_sha256": "064dad634c9758cee869fa1f15e5062a7c3894341635a11d7a04be582b5df928",
+        "split": "validation"
+      }
+    }
+  ]
+}

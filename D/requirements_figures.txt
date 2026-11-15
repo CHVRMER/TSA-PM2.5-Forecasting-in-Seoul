@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15
+matplotlib>=3.8
+scipy>=1.11
+shapely>=2.0
+geopandas>=1.0
+tzdata

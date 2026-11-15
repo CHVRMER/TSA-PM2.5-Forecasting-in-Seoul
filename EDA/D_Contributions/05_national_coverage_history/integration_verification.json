@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "candidate_count": 822,
+  "new_kr_candidates": 505,
+  "scanned_neighbor_rows": 16769834,
+  "sampled_independent_distance_checks": 816,
+  "sampled_exact_raw_pm25_checks": 56,
+  "excluded_roadside_unique_codes": 64,
+  "roadside_measurements_added": false,
+  "point_counts_reproduced_from_complete_neighbor_stream": true,
+  "historical_pass_times_verified": true,
+  "geometric_and_observed_masks_reproduced": true,
+  "legacy_data_untouched": true,
+  "all_three_map_png_svg_rendered_and_visually_reviewed": true,
+  "model_training_or_2024_performance_evaluation": false
+}

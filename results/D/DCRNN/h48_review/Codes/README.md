@@ -1,0 +1,1 @@
+감사에 사용한 코드 기록입니다. 원본 ZIP, 기존 프로젝트의 공통 채점기·기준선 격자·이전 모델 결과가 필요합니다. 파일 상단의 WORK/PROJECT/SCORER 등 경로는 이번 로컬 감사 위치를 가리킵니다. 모델 가중치를 역직렬화하거나 학습하지 않았습니다. prepare_review → training_audit/effects_analysis/comparison_analysis/verification_analysis → plot_review → build_report 순서이며, 기존 출력과 겹치지 않는 새 작업 위치에서 재현하세요.

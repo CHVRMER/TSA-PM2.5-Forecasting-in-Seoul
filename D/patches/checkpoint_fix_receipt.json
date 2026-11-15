@@ -1,0 +1,9 @@
+{
+  "source_relative_path": "Model/DCRNN/VastAI_M1_M4T_H48_20261111/Codes/checkpoint_store.py",
+  "original_sha256": "529f60cf1edbc45fb5522cc76d9fd235f0cf60da5ad1699bb0e8a25fe5ed4aa2",
+  "shared_sha256": "56e0122ebd8e46968ebc84f61c4785c4b5880c033e3c875c63f84be9de4c9804",
+  "source_original_unchanged": true,
+  "scope": "checkpoint payload validation for optional selection_horizon=24",
+  "model_architecture_changed": false,
+  "existing_reported_results_changed": false
+}

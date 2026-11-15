@@ -1,0 +1,189 @@
+{
+  "period_start_inclusive_kst": "2021-01-01T00:00:00+09:00",
+  "period_end_exclusive_kst": "2025-01-01T00:00:00+09:00",
+  "hourly_grid_hours": 35064,
+  "external_series": 634,
+  "regions": 17,
+  "country_counts": {
+    "KR": 514,
+    "CN": 77,
+    "JP": 42,
+    "MN": 1
+  },
+  "expected_station_hours": 22230576,
+  "valid_station_hours": 21191507,
+  "missing_station_hours": 1039069,
+  "source_files": {
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional_Experiments_20261109\\station_registry.csv": {
+      "sha256": "85f195a6297d78e6415a8b33e65e1d4ad5aedd8d5c9b1f3227055f64e00f3398",
+      "bytes": 306007
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional_Experiments_20261109\\regions.json": {
+      "sha256": "6bf20cb67be92bf89f5e2cc8161220bc9f91e6d07fd1abfd605f696af26ef8e1",
+      "bytes": 17180
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Korea_Air\\korea_34stations_hourly_2021_2024_kst.parquet": {
+      "sha256": "26e96a0202414ef9540a17b65b1886325ed8a68dce94026af656fbb7accbc6e4",
+      "bytes": 6673430
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Korea_East_Candidates\\korea_east_36stations_hourly_2021_2024_kst.parquet": {
+      "sha256": "66f5ea75e6335be904e9333054400080b9875db6d6be855cfc36bd6aa91da581",
+      "bytes": 6811715
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Korea_National_2021_2024\\korea_national_pm25_hourly_2021_2024_kst.parquet": {
+      "sha256": "580f762c362dd62540f74dd8955b38a4c8e7e37c51fd0df5a4df299c7d05e764",
+      "bytes": 18716296
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\China\\china_48stations_hourly_2021_2024_kst.parquet": {
+      "sha256": "deac609b362b19bbf06f08440708ab1ef16bdeb671d087837e476835db2a96c9",
+      "bytes": 17879256
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\China_Border_Proxy\\china_border_cities_hourly_2021_2024_kst.parquet": {
+      "sha256": "163bfdc7db0291e9b66f22c617663b8e69de50ded843b06b802a7e8adea56120",
+      "bytes": 1576833
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Neighbors_Expansion_QC_20261108\\china_east_hourly_qc_2021_2024_kst.parquet": {
+      "sha256": "2271d90b79de76e521eca160afa4bd49993e7ee6d39d8d3a1bb39e48363ac803",
+      "bytes": 9408059
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Japan\\japan_west_hourly_2021_2024_kst.parquet": {
+      "sha256": "0925d636ab7a55e6d9bdcdbb79a13516e82697c04c40307a924822018b67bfec",
+      "bytes": 23369486
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Neighbors_Expansion_QC_20261108\\japan_east18_hourly_2021_2024_kst.parquet": {
+      "sha256": "d801b60a988daa8546ab762f83e877e43353d1b50f000282a5006c2ec4c62305",
+      "bytes": 1936862
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Mongolia\\mongolia_ub_embassy_hourly_2021_2024_kst.parquet": {
+      "sha256": "10dd4d0010b1d3757871a5940c1c8cf0e0d70d94a241fd2e42764e20b833da5e",
+      "bytes": 748517
+    }
+  },
+  "all_source_sha256_unchanged_after_profiling": true,
+  "source_audit": {
+    "Korea_Air": {
+      "path": "Korea_Air/korea_34stations_hourly_2021_2024_kst.parquet",
+      "selected_series": 33,
+      "period_rows": 1157112,
+      "valid_rows": 1059299,
+      "duplicate_station_hours": 0,
+      "invalid_flag_zero": 0
+    },
+    "Korea_East_Candidates": {
+      "path": "Korea_East_Candidates/korea_east_36stations_hourly_2021_2024_kst.parquet",
+      "selected_series": 34,
+      "period_rows": 1192176,
+      "valid_rows": 1123461,
+      "duplicate_station_hours": 0,
+      "invalid_flag_zero": 0
+    },
+    "Korea_National": {
+      "path": "Korea_National_2021_2024/korea_national_pm25_hourly_2021_2024_kst.parquet",
+      "selected_series": 447,
+      "period_rows": 15635869,
+      "valid_rows": 14935206,
+      "duplicate_station_hours": 0,
+      "invalid_flag_zero": 0
+    },
+    "China": {
+      "path": "China/china_48stations_hourly_2021_2024_kst.parquet",
+      "selected_series": 48,
+      "period_rows": 1683072,
+      "valid_rows": 1631291,
+      "duplicate_station_hours": 0,
+      "invalid_flag_zero": 0
+    },
+    "China_Border_Proxy": {
+      "path": "China_Border_Proxy/china_border_cities_hourly_2021_2024_kst.parquet",
+      "selected_series": 13,
+      "period_rows": 455832,
+      "valid_rows": 450848,
+      "duplicate_station_hours": 0,
+      "invalid_flag_zero": 0
+    },
+    "China_East_QC": {
+      "path": "Neighbors_Expansion_QC_20261108/china_east_hourly_qc_2021_2024_kst.parquet",
+      "selected_series": 16,
+      "period_rows": 561024,
+      "valid_rows": 556654,
+      "duplicate_station_hours": 0,
+      "invalid_flag_zero": 0
+    },
+    "Japan": {
+      "path": "Japan/japan_west_hourly_2021_2024_kst.parquet",
+      "selected_series": 24,
+      "period_rows": 841536,
+      "valid_rows": 816613,
+      "duplicate_station_hours": 0,
+      "invalid_flag_zero": 0
+    },
+    "Japan_East": {
+      "path": "Neighbors_Expansion_QC_20261108/japan_east18_hourly_2021_2024_kst.parquet",
+      "selected_series": 18,
+      "period_rows": 631152,
+      "valid_rows": 595885,
+      "duplicate_station_hours": 0,
+      "invalid_flag_zero": 0
+    },
+    "Mongolia": {
+      "path": "Mongolia/mongolia_ub_embassy_hourly_2021_2024_kst.parquet",
+      "selected_series": 1,
+      "period_rows": 35064,
+      "valid_rows": 22250,
+      "duplicate_station_hours": 0,
+      "invalid_flag_zero": 0
+    }
+  },
+  "red_highlight_threshold_ug_m3_exclusive": 500.0,
+  "red_highlight_is_error_classification": false,
+  "red_highlight_note": ">500 is a visualization threshold, not an automatic data-QC rule.",
+  "quartile_method": "numpy.quantile linear",
+  "whiskers": "Most extreme observed values inside Q1-1.5IQR to Q3+1.5IQR",
+  "observation_weighting": "Each valid station-hour receives equal weight within its region.",
+  "representative_station_keys": [
+    "CN:3578A",
+    "CN:1751A",
+    "KR:437421",
+    "MN:UB1010001"
+  ],
+  "regions_gt500": [
+    "KR_CHUNGCHEONG",
+    "KR_DAEGYEONG",
+    "CN_SHANDONG",
+    "CN_BTH",
+    "CN_LIAONING",
+    "CN_JILIN",
+    "CN_HEILONGJIANG",
+    "CN_INNER_MONGOLIA",
+    "MN"
+  ],
+  "n_observations_gt500": 664,
+  "quarantined_china_east_checks": [
+    {
+      "station_key": "CN:city_lianyungang",
+      "time_kst": "2021-03-15T20:00:00+09:00",
+      "raw_value": 1500,
+      "analysis_value": null,
+      "analysis_flag": 20,
+      "quarantined_in_current_input": true
+    },
+    {
+      "station_key": "CN:city_linyi",
+      "time_kst": "2021-03-17T17:00:00+09:00",
+      "raw_value": 1451,
+      "analysis_value": null,
+      "analysis_flag": 20,
+      "quarantined_in_current_input": true
+    },
+    {
+      "station_key": "CN:city_yancheng",
+      "time_kst": "2021-03-23T17:00:00+09:00",
+      "raw_value": 1689,
+      "analysis_value": null,
+      "analysis_flag": 20,
+      "quarantined_in_current_input": true
+    }
+  ],
+  "target_seoul_junggu_excluded": true,
+  "inputs_transformed_or_overwritten": false
+}

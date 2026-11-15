@@ -1,0 +1,45 @@
+{
+  "sources": {
+    "output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Conditions\\M4\\20261112_042737_919977_b92f28a6\\node_order.csv": {
+      "bytes": 253751,
+      "sha256": "10c1f2625d4746d33db32df2bbbe3d08de863fcef468b578c780f326a83bdad5"
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional_Experiments_20261109\\station_registry.csv": {
+      "bytes": 306007,
+      "sha256": "85f195a6297d78e6415a8b33e65e1d4ad5aedd8d5c9b1f3227055f64e00f3398"
+    },
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional_Experiments_20261109\\experiments.json": {
+      "bytes": 386358,
+      "sha256": "0d597753ba35769958eed886d24d3fa41404ff3d3f254f4c78381f918654a466"
+    },
+    "output\\station_stage_maps_20261115\\Results\\display_trajectory_sample.parquet": {
+      "bytes": 98464,
+      "sha256": "09f2b0e9bae19ee71be00c443d3acadb1ed209189365a1b567d80fb53cfbb6bd"
+    },
+    "output\\station_stage_maps_20261115\\Results\\planned_region_boundaries.geojson": {
+      "bytes": 2472,
+      "sha256": "90aa60290cd45f021370304b6b04ec02991bdac9286e622dc8ca66aa0bb28b83"
+    },
+    "output\\station_stage_maps_20261115\\Codes\\assets\\countries.geojson": {
+      "bytes": 838726,
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    }
+  },
+  "executed_node_list_exactly_matches_current_registry": true,
+  "model_batch": "20261112_003040_429483_85af4013",
+  "reference_condition": "M4",
+  "external_series": 634,
+  "nodes": 635,
+  "map_group_counts": {
+    "KR_NEW": 447,
+    "KR_OLD": 67,
+    "CN": 48,
+    "JP_WEST": 24,
+    "JP_EAST": 18,
+    "CN_EAST": 16,
+    "CN_BORDER": 13,
+    "TARGET": 1,
+    "MN": 1
+  },
+  "same_192_paths_as_previous_stage_maps": true
+}

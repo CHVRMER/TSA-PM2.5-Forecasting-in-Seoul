@@ -1,0 +1,17 @@
+﻿dataset,candidate_kind,station_id,time_kst,time_cst,pm25,pm25_flag,pm10,pm10_flag,pm25_source_id,pm10_source_id,station_key,used_in_current_F634,cst_date,is_cny_cst_date,prev_hour_pm25,next_hour_pm25,surrounding6_median,uses_future_context,diagnostic_only,source_id,pm25_raw,pm25_raw_flag,pm25_qc_reason_bits
+china_48,symmetric_isolated_peak_review_only,1099A,2023-12-26 11:00:00+09:00,2023-12-26 10:00:00+08:00,122.0,0,,1,1095.0,1095.0,CN:1099A,True,2023-12-26,False,33.0,23.0,21.0,True,True,,,,
+china_48,symmetric_isolated_peak_review_only,1771A,2021-12-03 10:00:00+09:00,2021-12-03 09:00:00+08:00,153.0,0,113.0,0,342.0,342.0,CN:1771A,True,2021-12-03,False,34.0,47.0,15.0,True,True,,,,
+china_48,symmetric_isolated_peak_review_only,2191A,2024-05-13 18:00:00+09:00,2024-05-13 17:00:00+08:00,105.0,0,,1,1234.0,1234.0,CN:2191A,True,2024-05-13,False,10.0,7.0,7.5,True,True,,,,
+china_48,symmetric_isolated_peak_review_only,2209A,2023-04-23 03:00:00+09:00,2023-04-23 02:00:00+08:00,191.0,0,127.0,0,848.0,848.0,CN:2209A,True,2023-04-23,False,35.0,30.0,22.5,True,True,,,,
+china_48,symmetric_isolated_peak_review_only,2236A,2023-02-06 00:00:00+09:00,2023-02-05 23:00:00+08:00,302.0,0,390.0,0,771.0,771.0,CN:2236A,True,2023-02-05,False,66.0,33.0,50.5,True,True,,,,
+china_48,symmetric_isolated_peak_review_only,2236A,2023-04-04 08:00:00+09:00,2023-04-04 07:00:00+08:00,262.0,0,271.0,0,829.0,829.0,CN:2236A,True,2023-04-04,False,26.0,64.0,45.0,True,True,,,,
+china_48,symmetric_isolated_peak_review_only,3035A,2021-04-27 04:00:00+09:00,2021-04-27 03:00:00+08:00,463.0,0,2782.0,0,122.0,122.0,CN:3035A,True,2021-04-27,False,140.0,66.0,37.5,True,True,,,,
+china_48,symmetric_isolated_peak_review_only,3035A,2024-01-15 10:00:00+09:00,2024-01-15 09:00:00+08:00,107.0,0,114.0,0,1115.0,1115.0,CN:3035A,True,2024-01-15,False,24.0,16.0,20.0,True,True,,,,
+china_48,symmetric_isolated_peak_review_only,3706A,2022-05-19 22:00:00+09:00,2022-05-19 21:00:00+08:00,217.0,0,68.0,0,509.0,509.0,CN:3706A,True,2022-05-19,False,23.0,25.0,22.5,True,True,,,,
+china_48,symmetric_isolated_peak_review_only,3706A,2023-05-06 22:00:00+09:00,2023-05-06 21:00:00+08:00,112.0,0,171.0,0,861.0,861.0,CN:3706A,True,2023-05-06,False,22.0,29.0,21.5,True,True,,,,
+china_48,symmetric_isolated_peak_review_only,3706A,2023-05-20 20:00:00+09:00,2023-05-20 19:00:00+08:00,283.0,0,510.0,0,875.0,875.0,CN:3706A,True,2023-05-20,False,69.0,28.0,53.5,True,True,,,,
+china_48,symmetric_isolated_peak_review_only,3706A,2023-05-21 13:00:00+09:00,2023-05-21 12:00:00+08:00,198.0,0,101.0,0,876.0,876.0,CN:3706A,True,2023-05-21,False,26.0,29.0,30.0,True,True,,,,
+china_border_13,symmetric_isolated_peak_review_only,city_heihe,2024-03-28 12:00:00+09:00,2024-03-28 11:00:00+08:00,133.0,0,465.0,0,,,CN:city_heihe,True,2024-03-28,False,21.0,27.0,24.0,True,True,1186.0,,,
+china_border_13,symmetric_isolated_peak_review_only,city_xilingol,2023-04-08 15:00:00+09:00,2023-04-08 14:00:00+08:00,394.0,0,137.0,0,,,CN:city_xilingol,True,2023-04-08,False,7.0,20.0,13.5,True,True,831.0,,,
+china_border_13,symmetric_isolated_peak_review_only,city_xilingol,2023-07-14 22:00:00+09:00,2023-07-14 21:00:00+08:00,432.0,0,5.0,0,,,CN:city_xilingol,True,2023-07-14,False,12.0,4.0,7.0,True,True,928.0,,,
+china_east_30_qc,symmetric_isolated_peak_review_only,city_hefei,2021-03-22 17:00:00+09:00,2021-03-22 16:00:00+08:00,109.0,0,85.0,0,,,CN:city_hefei,True,2021-03-22,False,15.0,13.0,15.5,True,True,84.0,109.0,0.0,0.0

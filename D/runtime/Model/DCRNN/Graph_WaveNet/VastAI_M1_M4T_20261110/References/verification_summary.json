@@ -1,0 +1,55 @@
+{
+  "checked_kst": "2026-11-10T15:05:51.221972+09:00",
+  "checkpoint_store": {
+    "checkpoint_store_tests": "passed",
+    "tests_run": 12,
+    "failures": 0,
+    "errors": 0,
+    "hard_process_crash_stages": 6,
+    "actual_optimizer_rng_resume_equivalence": true,
+    "paid_resources_used": false,
+    "real_pm25_model_training_tested": false
+  },
+  "actual_trainer_8_epochs_vs_interrupt3_resume8": "bitwise weights, optimizer, scheduler, RNG, history and predictions equal",
+  "actual_635node_cpu_pilot": {
+    "conditions": [
+      "M1",
+      "M3T"
+    ],
+    "epochs": 2,
+    "train_origins": 4,
+    "validation_origins": 4,
+    "status": "passed"
+  },
+  "best_model_coherence": {
+    "M1_best_epoch": 1,
+    "M1_completed_epochs": 2,
+    "final_predictions_exactly_match_original_epoch1_best": true
+  },
+  "drive_backup_offline_failure_and_published_marker_tests": "passed",
+  "drive_restore_verified_manifest_test": "passed",
+  "model_architecture_code_sha256_unchanged": "8d320e2ee4aa14570392d32904acb3568eb2e87bd27ce56d7f1cf0ff77f5af29",
+  "model_optimizer_data_settings_unchanged": true,
+  "common_score_grid_neural_evaluation_untouched": true,
+  "compiled_files": [
+    "Codes/checkpoint_store.py",
+    "Codes/data_experiments.py",
+    "Codes/drive_backup.py",
+    "Codes/restore_verified_backup.py",
+    "Codes/run_experiments.py",
+    "Codes/trajectory_features.py",
+    "Codes/verify_checkpoint_store.py",
+    "Codes/verify_combined_score_synthetic.py",
+    "Codes/verify_data_synthetic.py",
+    "Codes/verify_drive_backup.py",
+    "Codes/verify_restore_verified_backup.py",
+    "Codes/verify_training_resume.py",
+    "Codes/verify_upload.py",
+    "Codes/vendor/graph_wavenet_model.py",
+    "Codes/vendor/neural_training.py"
+  ],
+  "actual_google_oauth_completed": false,
+  "actual_drive_transfer_executed": false,
+  "actual_vast_gpu_training_executed": false,
+  "paid_resources_created": false
+}

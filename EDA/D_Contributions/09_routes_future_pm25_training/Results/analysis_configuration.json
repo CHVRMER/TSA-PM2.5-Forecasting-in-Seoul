@@ -1,0 +1,22 @@
+{
+  "period": "2021-2022 training only",
+  "windows": [
+    "01-48",
+    "07-48",
+    "13-48"
+  ],
+  "main_association_window": "07-48",
+  "current_bins": "[0,15),[15,35),[35,75),[75,infinity); unknown separate",
+  "high_threshold": 35.0,
+  "high_definition": "hourly research category, not official alert",
+  "minimum_pass_and_nonpass_per_common_stratum": 10,
+  "bootstrap_reps": 500,
+  "bootstrap_calendar_block_hours": 168,
+  "bootstrap_calendar_block_slots": 56,
+  "bootstrap_seed": 20261107,
+  "bootstrap_fixed_original_support": true,
+  "minimum_valid_bootstrap_fraction_for_CI": 0.8,
+  "common_support_target": "pooled eligible current-observed training stratum frequencies restricted and renormalized per region",
+  "different_regions_may_have_different_standardization_population": true,
+  "no_formal_region_ranking_or_causal_test": true
+}

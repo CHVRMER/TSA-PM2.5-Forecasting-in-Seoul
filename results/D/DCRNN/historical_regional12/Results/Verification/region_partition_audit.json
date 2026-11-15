@@ -1,0 +1,23 @@
+{
+  "domestic_count": 514,
+  "full_count": 634,
+  "foreign_count": 120,
+  "individual_foreign_groups": {
+    "ADD_CN_SHANDONG": 11,
+    "ADD_CN_BTH": 9,
+    "ADD_CN_LIAONING": 18,
+    "ADD_CN_JILIN": 9,
+    "ADD_CN_HEILONGJIANG": 6,
+    "ADD_CN_INNER_MONGOLIA": 12,
+    "ADD_CN_OTHER": 12,
+    "ADD_JP_WEST": 24,
+    "ADD_JP_EAST": 18,
+    "ADD_MN": 1
+  },
+  "foreign_groups_disjoint": true,
+  "foreign_groups_exhaustive_of_full": true,
+  "all_add_arms_preserve_domestic": true,
+  "all_completed_parameter_counts": [
+    380421
+  ]
+}

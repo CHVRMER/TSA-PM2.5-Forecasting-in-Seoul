@@ -1,0 +1,99 @@
+{
+  "conditions": {
+    "M1": {
+      "allowed": 514,
+      "T_allowed": 0,
+      "hourly_shape": [
+        35112,
+        635,
+        2
+      ],
+      "context_shape": [
+        11688,
+        750
+      ],
+      "contract": "3ad07d73ed60a69a1e5993e95f4c0624f5e87c7005b15662d1adbd7c5c4f91aa"
+    },
+    "M2": {
+      "allowed": 535,
+      "T_allowed": 0,
+      "hourly_shape": [
+        35112,
+        635,
+        2
+      ],
+      "context_shape": [
+        11688,
+        750
+      ],
+      "contract": "40c6aa456583f9d3b1453eb7719d8e84e7d22cc069261622e1fd07ce07189db3"
+    },
+    "M3": {
+      "allowed": 591,
+      "T_allowed": 0,
+      "hourly_shape": [
+        35112,
+        635,
+        2
+      ],
+      "context_shape": [
+        11688,
+        750
+      ],
+      "contract": "9c4ea67d9da0eac0c796914149057a5a266c5e9107722ee642b1e6c0854d7b9e"
+    },
+    "M4": {
+      "allowed": 634,
+      "T_allowed": 0,
+      "hourly_shape": [
+        35112,
+        635,
+        2
+      ],
+      "context_shape": [
+        11688,
+        750
+      ],
+      "contract": "93c6b1cdf099e93029b0d6b421fb0e2cc7c7d92406b43334c7f3b2e18348d997"
+    },
+    "M3T": {
+      "allowed": 591,
+      "T_allowed": 218,
+      "hourly_shape": [
+        35112,
+        635,
+        2
+      ],
+      "context_shape": [
+        11688,
+        750
+      ],
+      "contract": "e6e2faabcd9892cbb6d0456d16902f17bdab83e5628cb1acd66cfd2afe82a368"
+    },
+    "M4T": {
+      "allowed": 634,
+      "T_allowed": 322,
+      "hourly_shape": [
+        35112,
+        635,
+        2
+      ],
+      "context_shape": [
+        11688,
+        750
+      ],
+      "contract": "3df06a4f582aee74d8b6b9d036418ca3c8d583ed5058cf89c9534927e2a4bf9a"
+    }
+  },
+  "T_diagnostics": {
+    "saved_neighbor_rows_read": 16776750,
+    "selected_neighbor_rows": 15710620,
+    "raw_rejoined_valid_rows": 14988213,
+    "saved_pm_vs_current_raw_mismatches": 0,
+    "negative_raw_pm25": 0,
+    "future_pass_rows": 0
+  },
+  "T_cache": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\gwn_runpod_20261110\\validation_cache\\trajectory\\trajectory_a473c098f68be8113592882e_9a856860",
+  "source_signature": "ce53261cea6a3ac39164bdd34006e7945a75e18b4c3c2d41816961076e657cd8",
+  "seconds": 58.44063060032204
+}

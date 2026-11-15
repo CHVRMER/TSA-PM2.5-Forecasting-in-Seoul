@@ -1,0 +1,68 @@
+{
+  "protocol_sha256": "15dae6f51501166659857f232cbce461ee6b68504a2bfe6a20321598f6325527",
+  "bootstrap_implementation_tests": [
+    {
+      "block_slots": 1,
+      "passed": true,
+      "repetitions": 37
+    },
+    {
+      "block_slots": 3,
+      "passed": true,
+      "repetitions": 37
+    },
+    {
+      "block_slots": 5,
+      "passed": true,
+      "repetitions": 37
+    },
+    {
+      "block_slots": 11,
+      "passed": true,
+      "repetitions": 37
+    },
+    {
+      "block_slots": 20,
+      "passed": true,
+      "repetitions": 37
+    }
+  ],
+  "source_hashes": {
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\Verification\\rebuilt_evaluation_grid.parquet": "e1ed0a6434e0679e7c445979a7632e0d8365c7c7a9c2a501190f4483c7f5e9d0",
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Common_Scoring\\Combined\\validation\\20261112_071639_664630_1f71ac6a\\score_rows.parquet": "6b4fc995eb995ab7c608958d5706d248e5876c893833bdd35fbcf2d31233a33d",
+    "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\dcrnn_h48_results_review_20261112\\extracted\\20261112_003040_429483_85af4013\\Common_Scoring\\Combined\\test\\20261112_071643_599025_364259e5\\score_rows.parquet": "196b3f2534b7a9f706fb44b65d661851f3e524caa6a63e0c216d06f29f84eb63"
+  },
+  "scorer_sha256": "10dfb6644d888a64b0b86cda13a5067b2353ae4ee8e8d7afc3e9ed58d53fad8c",
+  "splits": {
+    "validation": {
+      "fixed_eligible_rows_exact": true,
+      "truth_and_target_time_exact": true,
+      "conditions_exact": true,
+      "model_count": 2,
+      "seed_count": 1,
+      "source_rows": 10088
+    },
+    "test": {
+      "fixed_eligible_rows_exact": true,
+      "truth_and_target_time_exact": true,
+      "conditions_exact": true,
+      "model_count": 2,
+      "seed_count": 1,
+      "source_rows": 11460
+    }
+  },
+  "family_size": 64,
+  "results_summary": {
+    "exploratory_improved": 0,
+    "exploratory_worsened": 0,
+    "robust_improved": 0,
+    "robust_worsened": 0,
+    "small_sample_cells": 11,
+    "both_year_point_improvement_cells": 6,
+    "ci7d_benefit_cells": 4,
+    "ci7d_harm_cells": 4
+  },
+  "all_bootstrap_repetitions_valid": false,
+  "models_or_sources_modified": false,
+  "elapsed_seconds": 5.385199899785221
+}

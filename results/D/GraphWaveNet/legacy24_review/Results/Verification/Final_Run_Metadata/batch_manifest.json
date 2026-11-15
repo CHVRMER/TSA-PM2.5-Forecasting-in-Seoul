@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "mode": "full",
+  "conditions": {
+    "M1": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M1/20261111_014618_388001_02cb2089",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/validation/20261111_014817_352842_b6a6c5a1",
+        "test": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M1/20261111_014618_388001_02cb2089/test/20261111_014818_983635_20009085"
+      },
+      "seconds": 196.94790754001588
+    },
+    "M2": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M2/20261111_014935_383800_27d7d158",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/validation/20261111_024205_354513_81bc278c",
+        "test": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M2/20261111_014935_383800_27d7d158/test/20261111_024206_668206_e70aadd2"
+      },
+      "seconds": 3228.4017545059323
+    },
+    "M3": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M3/20261111_024323_770244_c1e7059b",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/validation/20261111_032109_635887_cb5e2a9a",
+        "test": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M3/20261111_024323_770244_c1e7059b/test/20261111_032110_886703_d990e2b2"
+      },
+      "seconds": 2345.332723190775
+    },
+    "M4": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M4/20261111_032229_054176_431f4f2c",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/validation/20261111_035636_269537_d1acb0b0",
+        "test": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M4/20261111_032229_054176_431f4f2c/test/20261111_035637_523250_c1252c2d"
+      },
+      "seconds": 2130.455609550001
+    },
+    "M3T": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M3T/20261111_035759_507592_eed12672",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/validation/20261111_041554_916656_5818fae4",
+        "test": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M3T/20261111_035759_507592_eed12672/test/20261111_041556_165963_ec17cd53"
+      },
+      "seconds": 1162.1663269361015
+    },
+    "M4T": {
+      "status": "passed",
+      "run_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Conditions/M4T/20261111_041721_668206_3d893231",
+      "scoring_locations": {
+        "validation": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/validation/20261111_043349_236159_60800b9f",
+        "test": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/M4T/20261111_041721_668206_3d893231/test/20261111_043350_554603_2d0fa447"
+      },
+      "seconds": 1078.9222765748855
+    }
+  },
+  "selected_conditions": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M3T",
+    "M4T"
+  ],
+  "seeds": [
+    11
+  ],
+  "final_test": true,
+  "validate_only": false,
+  "resume_source": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_010911_738330_5b7fa64b",
+  "batch_root": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758",
+  "cache_root": "/workspace/TSA/Model/DCRNN/Graph_WaveNet/VastAI_M1_M4T_20261110/Cache",
+  "started_kst": "2026-11-11T01:45:38.406621+09:00",
+  "combined_scoring": {
+    "validation": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/Combined/validation/20261111_043520_212385_814a11f0",
+    "test": "/workspace/TSA/Result/GraphWaveNet/VastAI/full/20261111_014538_406520_eaa72758/Common_Scoring/Combined/test/20261111_043522_824994_2d5748a8"
+  },
+  "failed_conditions": [],
+  "elapsed_seconds": 10186.957554196008
+}

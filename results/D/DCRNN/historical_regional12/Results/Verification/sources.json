@@ -1,0 +1,37 @@
+[
+  {
+    "path": "C:\\Users\\kimjy\\Downloads\\Regional12_Seed11_20261109-20261110T090404Z-1-001.zip",
+    "bytes": 166845232,
+    "sha256": "c524164a3756d7eca6967ab88f0d9d819853b6a5fb1df6efd8d7436f110771b8"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\Downloads\\팀공유_계획A_결과.pdf",
+    "bytes": 659849,
+    "sha256": "b712760fe535ede7154e1b187ef7a5c115045637edbda6afa4e002564ae54545"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\Downloads\\Team06_진행보고_20261109.docx",
+    "bytes": 1881000,
+    "sha256": "7104355a4519bbd77d18929372d226b64ba91c7fdf8157a067cfc800c7fdc8c8"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\.codex\\attachments\\a5ce9bac-7d59-4905-aefa-21fb9ef1a55c\\붙여넣은 텍스트.txt",
+    "bytes": 85160,
+    "sha256": "390c3a40f77a7b9974c664eae348b67915a62c82e27c58e6981514d4827bb0c2"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\LightGBM\\Neighbor_Expansion_QC_20261108\\Results\\Validation_Reference_20261108\\Common_Score\\score_rows.parquet",
+    "bytes": 7664363,
+    "sha256": "b1b047e9266a31381aa559f0392ea34d3315caf577687ec39d2effcdbe12822f"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\score.py",
+    "bytes": 25597,
+    "sha256": "f231dfe9a15fa3f8e8577ef076b0efce7f92af3846d49bc60c7742d5aad8a755"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Evaluation_Contract_20261107\\evaluation_grid.parquet",
+    "bytes": 1417013,
+    "sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db"
+  }
+]

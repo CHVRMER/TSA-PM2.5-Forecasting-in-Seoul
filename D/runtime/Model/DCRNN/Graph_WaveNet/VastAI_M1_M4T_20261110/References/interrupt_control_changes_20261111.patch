@@ -1,0 +1,176 @@
+--- v1/full_run_control.py
++++ v2/full_run_control.py
+@@ -14,12 +14,13 @@
+ from pathlib import Path
+ import shlex
+ import shutil
++import signal
+ import subprocess
+ import sys
+ import time
+ import uuid
+ 
+-VERSION = 'gwn-managed-full-v1'
++VERSION = 'gwn-managed-full-v2-interrupt'
+ HERE = Path(__file__).resolve().parent
+ BUNDLE = HERE.parent
+ MODEL = 'GraphWaveNet_distance_fixed_plus_adaptive'
+@@ -400,6 +401,91 @@
+     return os.name == 'posix' and Path('/proc').is_dir()
+ 
+ 
++def request_environment(request):
++    env = dict(os.environ, TSA_PROJECT_ROOT=request['project_root'], TSA_OUTPUT_ROOT=request['output_root'])
++    env.update(request.get('environment', {}))
++    if 'RCLONE_CONFIG' not in env:
++        candidate = Path.home() / '.config/rclone/tsa-vast.conf'
++        if candidate.is_file():
++            env['RCLONE_CONFIG'] = str(candidate)
++    return env
++
++
++def wait_for_training(command, cwd, env, project, on_stopping=None):
++    """Isolate tee/Bash from terminal SIGINT; stop only our actual Python runner.
++
++    The runner's existing SIGTERM handler performs interruption bookkeeping and
++    backup. Do not return until its wrapper/tee pipeline has fully finished.
++    """
++    stopped = False
++    notified = False
++    signaled = set()
++    previous = {number: signal.getsignal(number) for number in (signal.SIGINT, signal.SIGTERM)}
++
++    def request_stop(_number, _frame):
++        nonlocal stopped
++        stopped = True
++
++    for number in previous:
++        signal.signal(number, request_stop)
++    try:
++        child = subprocess.Popen(command, cwd=cwd, env=env, start_new_session=True)
++        while True:
++            if stopped:
++                if not notified:
++                    print('[stopping] Waiting for checkpoint bookkeeping/Drive backup. Please wait; no new training will start.', flush=True)
++                    if on_stopping is not None:
++                        try:
++                            on_stopping()
++                        except Exception as error:
++                            print('[stopping status warning] ' + str(error), file=sys.stderr, flush=True)
++                    notified = True
++                # A stop received during startup is kept until the runner appears.
++                for process in running_experiments(project):
++                    pid = process['pid']
++                    if pid not in signaled and child.pid in process_ancestors(pid):
++                        try:
++                            os.kill(pid, signal.SIGTERM)
++                            signaled.add(pid)
++                        except ProcessLookupError:
++                            pass
++            try:
++                code = child.wait(timeout=0.5)
++                return (130 if stopped else code), stopped
++            except subprocess.TimeoutExpired:
++                continue
++    finally:
++        for number, handler in previous.items():
++            signal.signal(number, handler)
++
++
++def configure_tmux_view(session):
++    # Session scope only: do not change unrelated tmux users/sessions.
++    tmux_call('set-option', '-t', session, 'mouse', 'on')
++    tmux_call('set-option', '-t', session, 'history-limit', '50000')
++
++
++def interactive_worker(request_path):
++    """Keep a usable shell after completion, interruption or a visible error."""
++    request = read_json(request_path)
++    try:
++        code = supervise(request_path)
++    except KeyboardInterrupt:
++        atomic_json(request['status_path'], dict(request, state='interrupted', exit_code=130))
++        code = 130
++    resume = ['bash', str(BUNDLE / 'start_full.sh')]
++    if request.get('final_test'):
++        resume.append('--final-test')
++    print('\n[worker] ' + ('Interrupted; review the backup status above.' if code == 130 else 'Finished with exit code ' + str(code) + '.')
++          + ' This pane now returns to a Bash prompt.\n'
++          + 'Resume/reconnect: ' + shlex.join(resume) + '\n'
++          + 'Scroll: mouse wheel or Ctrl+B then [; press q to leave copy mode.', flush=True)
++    if sys.stdin.isatty() and sys.stdout.isatty():
++        os.chdir(BUNDLE)
++        os.execvpe('/bin/bash', ['bash', '--noprofile', '--norc', '-i'], request_environment(request))
++    return code
++
++
+ def supervise(request_path):
+     request = read_json(request_path)
+     status_path = Path(request['status_path'])
+@@ -426,16 +512,17 @@
+         if request['final_test']:
+             command += ['--final-test']
+         atomic_json(status_path, dict(request, state='running', plan=plan, supervisor_pid=os.getpid()))
+-        env = dict(os.environ, TSA_PROJECT_ROOT=request['project_root'], TSA_OUTPUT_ROOT=request['output_root'])
+-        env.update(request.get('environment', {}))
+-        if 'RCLONE_CONFIG' not in env:
+-            candidate = Path.home() / '.config/rclone/tsa-vast.conf'
+-            if candidate.is_file():
+-                env['RCLONE_CONFIG'] = str(candidate)
+-        code = subprocess.run(command, cwd=BUNDLE, env=env).returncode
+-        atomic_json(status_path, dict(request, state='finished' if code == 0 else 'failed',
++        def stopping():
++            atomic_json(status_path, dict(request, state='stopping', plan=plan, supervisor_pid=os.getpid()))
++        code, stopped = wait_for_training(command, BUNDLE, request_environment(request),
++                                         request['project_root'], on_stopping=stopping)
++        atomic_json(status_path, dict(request, state='interrupted' if stopped else ('finished' if code == 0 else 'failed'),
+                                      plan=plan, exit_code=code))
+         return code
++    except KeyboardInterrupt:
++        atomic_json(status_path, dict(request, state='interrupted', exit_code=130))
++        print('[interrupted] Stopped before training startup; no new model was launched.', flush=True)
++        return 130
+     except Exception as error:
+         atomic_json(status_path, dict(request, state='failed', exit_code=1, error=str(error)))
+         print('[controller ERROR] ' + str(error), file=sys.stderr, flush=True)
+@@ -488,7 +575,7 @@
+                     raise RuntimeError('tmux session name is owned by another task; refusing to replace it: ' + session)
+                 previous = read_json(control / 'tmux_status.json')
+                 pane = tmux_call('list-panes', '-t', session, '-F', '#{pane_dead}').stdout.strip()
+-                if previous.get('state') in ('launching', 'running') and pane == '0':
++                if previous.get('state') in ('launching', 'running', 'stopping') and pane == '0':
+                     target_session = session
+                 else:
+                     # Keep the old pane and its history; allocate a new owned name.
+@@ -510,7 +597,7 @@
+                 atomic_json(request_path, request)
+                 atomic_json(control / 'tmux_status.json', request)
+                 command = shlex.join([sys.executable, str(HERE / 'full_run_control.py'),
+-                                      'supervise', '--request', str(request_path)])
++                                      'worker', '--request', str(request_path)])
+                 result = tmux_call('new-session', '-d', '-s', session, '-c', BUNDLE, command)
+                 if result.returncode:
+                     atomic_json(control / 'tmux_status.json', dict(request, state='failed', error=result.stderr))
+@@ -522,6 +609,7 @@
+     finally:
+         lease.release()
+     if target_session:
++        configure_tmux_view(target_session)
+         attach(target_session, args.detached)
+     return 0
+ 
+@@ -540,9 +628,13 @@
+     launch.add_argument('--detached', action='store_true')
+     worker = sub.add_parser('supervise')
+     worker.add_argument('--request', required=True, type=Path)
++    interactive = sub.add_parser('worker')
++    interactive.add_argument('--request', required=True, type=Path)
+     args = parser.parse_args(argv)
+     try:
+-        return start(args) if args.operation == 'start' else supervise(args.request)
++        if args.operation == 'start':
++            return start(args)
++        return interactive_worker(args.request) if args.operation == 'worker' else supervise(args.request)
+     except Exception as error:
+         print('[controller ERROR] ' + str(error), file=sys.stderr, flush=True)
+         return 1

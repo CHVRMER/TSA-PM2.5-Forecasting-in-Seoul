@@ -1,0 +1,68 @@
+{
+  "week_shape": [
+    56,
+    322
+  ],
+  "diagnostics": {
+    "saved_neighbor_rows_read": 31575,
+    "selected_neighbor_rows": 30259,
+    "raw_rejoined_valid_rows": 29040,
+    "saved_pm_vs_current_raw_mismatches": 0,
+    "negative_raw_pm25": 0,
+    "future_pass_rows": 0
+  },
+  "conditions": {
+    "M1": {
+      "allowed": 514,
+      "hourly_shape": [
+        35112,
+        635,
+        2
+      ],
+      "context_shape": [
+        11688,
+        750
+      ],
+      "contract": "644831dc181ef4a5e8d8c364055751f1ce7827624fe6973b1c7edaf85661689b"
+    },
+    "M2": {
+      "allowed": 535,
+      "hourly_shape": [
+        35112,
+        635,
+        2
+      ],
+      "context_shape": [
+        11688,
+        750
+      ],
+      "contract": "58c6d5203952f2e5ec444921c5091de0aaef7d32cdac525eb179ffdc56b7c9d6"
+    },
+    "M3": {
+      "allowed": 591,
+      "hourly_shape": [
+        35112,
+        635,
+        2
+      ],
+      "context_shape": [
+        11688,
+        750
+      ],
+      "contract": "4d9462d1d9b24f1d96e5fb55808897b2364a1b32e18a9f8985943eef59d8bd5c"
+    },
+    "M4": {
+      "allowed": 634,
+      "hourly_shape": [
+        35112,
+        635,
+        2
+      ],
+      "context_shape": [
+        11688,
+        750
+      ],
+      "contract": "f57a7d8fc937cc50e3c26b6fd2b5ffc532c8f420e5ff299c90acd0a564339147"
+    }
+  }
+}

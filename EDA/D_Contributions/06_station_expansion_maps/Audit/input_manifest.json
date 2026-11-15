@@ -1,0 +1,40 @@
+{
+  "national_stage_candidates.csv": {
+    "source": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\EDA\\Matching_Candidates_National_Neighbors_2021_2024\\Results\\plotted_candidate_registry.csv",
+    "bytes": 255002,
+    "sha256": "ad3d72f6ab102ab958f3781ab6bf96b5cd98feb285347225575d127d9f7148e2"
+  },
+  "new34_candidates.csv": {
+    "source": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\EDA\\Neighbor_Regions_v5_Review_20261108\\Results\\new34_selected_series_and_matching.csv",
+    "bytes": 12232,
+    "sha256": "6e4ab039e8f46a71b6bfd0bc4cf89f773ecfb052e99fb6883dfba64ab5a19ddf"
+  },
+  "countries.geojson": {
+    "source": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\EDA\\Matching_Candidates_National_Neighbors_2021_2024\\Codes\\assets\\ne_110m_admin_0_countries.geojson",
+    "bytes": 838726,
+    "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+  },
+  "reference_attachment.png": {
+    "source": "C:\\Users\\kimjy\\Desktop\\관측소 plot.png",
+    "bytes": 543217,
+    "sha256": "ab5c75921d24dd37191ca4b313cdd0a8fe0c572298940a12469219ee4e9fb014"
+  },
+  "original_plot_regions_1107.py": {
+    "source": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\v5_integration_20261108\\staging\\Trash\\Neighbors_Expansion_20261108_originals\\Dataset\\Codes\\Regions_1107\\plot_regions_1107.py",
+    "bytes": 5608,
+    "sha256": "e11ef740cb6647f4c1ff9b7c78dc073dd8229d0af2cfca4b5788a1da5bd3fb07"
+  },
+  "original_build_regions_1107.py": {
+    "source": "C:\\Users\\kimjy\\.codex\\.chatgpt-projects\\g-p-6ac1f926d2208191acea97fababe2a07\\output\\v5_integration_20261108\\staging\\Trash\\Neighbors_Expansion_20261108_originals\\Dataset\\Codes\\Regions_1107\\build_regions_1107.py",
+    "bytes": 7445,
+    "sha256": "b0d48d5ff2eaf4da18fb45ae8f0a0eb050b24ad25874f1296902d0d154dc0eb0"
+  },
+  "trajectories": {
+    "source": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Trajectories\\trajectory_points_2021_2024.parquet",
+    "bytes": 74482595,
+    "sha256": "c9cf10c3ae0063e5dae9e0c2b96d95daa84ed1baf1258fde841ee252c7fcc839",
+    "filtered_arrivals": 11688,
+    "sample_arrivals": 192,
+    "sample_rule": "Original figure rule: first monthly arrival and every floor(month_count/4)-th arrival, first four."
+  }
+}

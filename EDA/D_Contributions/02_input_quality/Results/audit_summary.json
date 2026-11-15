@@ -1,0 +1,83 @@
+{
+  "status": "audit_completed_issues_found",
+  "data_and_models_modified": false,
+  "model_training_performed": false,
+  "evaluation_rows_modified": false,
+  "current_model": "DCRNN Regional12 seed11; F634 plus target=635",
+  "current_model_scope_quality": [
+    {
+      "scope": "CN",
+      "stations": 77,
+      "cells": 2699928,
+      "missing": 61135,
+      "missing_pct": 2.2643196411163555,
+      "max_analysis_pm25": 9985.0
+    },
+    {
+      "scope": "JP",
+      "stations": 42,
+      "cells": 1472688,
+      "missing": 60190,
+      "missing_pct": 4.087084297556577,
+      "max_analysis_pm25": 404.0
+    },
+    {
+      "scope": "KR",
+      "stations": 514,
+      "cells": 18022896,
+      "missing": 904930,
+      "missing_pct": 5.021002174123404,
+      "max_analysis_pm25": 803.0
+    },
+    {
+      "scope": "MN",
+      "stations": 1,
+      "cells": 35064,
+      "missing": 12814,
+      "missing_pct": 36.544604152407025,
+      "max_analysis_pm25": 952.0
+    }
+  ],
+  "severe_suspect_cell": {
+    "present_in_actual_loader": true,
+    "time_kst": "2021-03-15 16:00:00+09:00",
+    "value": 9985.0,
+    "normalized_log_value": 6.269654273986816,
+    "training_origin_windows_containing_value": 16,
+    "train_log_mean_original": 3.3771241442701454,
+    "train_log_mean_without_one_value": 3.3767753306301667,
+    "train_log_std_original": 0.9301653605037785,
+    "train_log_std_without_one_value": 0.929099031033427,
+    "counterfactual_normalizer_only_no_file_change_no_training": true
+  },
+  "china48_repeated_value_3_hours": 3493,
+  "china48_repeated_all_ge24_observations_hours": 3741,
+  "target_long_gap": {
+    "start_kst": "2023-01-09T12:00:00+09:00",
+    "end_kst": "2023-02-22T20:00:00+09:00",
+    "hours": 1065
+  },
+  "japan_guidance": "Valid small negative hourly measurements should not be automatically set to zero; evaluate instrument validity and choose a separate signed-measurement transform policy.",
+  "official_sources": [
+    {
+      "title": "Japanese Ministry of Environment PM2.5 negative hourly values guidance",
+      "url": "https://www.env.go.jp/content/900403710.pdf"
+    },
+    {
+      "title": "NIES hourly data format",
+      "url": "https://tenbou.nies.go.jp/download/TJ_manu.pdf"
+    },
+    {
+      "title": "US EPA ambient air monitoring data validation best practices",
+      "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1013CPT.TXT"
+    }
+  ],
+  "scope_limitations": [
+    "Local processed source values audited; not certification of every original instrument measurement.",
+    "Feature-table null/infinity screen uses Parquet metadata; this is not full recomputation of every derived feature.",
+    "Full 2021-2024 quality audit is descriptive; no thresholds were optimized on2024 target performance.",
+    "A/B/C teammate implementations were described, not supplied; actual imputation settings cannot be independently certified.",
+    "High values, repeats and symmetric spikes are review candidates, not automatic deletion labels.",
+    "Japan source ZIP unavailable locally; preserved signed negatives and official format were checked."
+  ]
+}

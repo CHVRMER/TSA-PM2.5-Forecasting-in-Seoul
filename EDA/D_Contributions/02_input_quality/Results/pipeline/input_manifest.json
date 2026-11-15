@@ -1,0 +1,37 @@
+[
+  {
+    "path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Trajectories\\trajectory_points_2021_2024.parquet",
+    "bytes": 74482595,
+    "sha256": "c9cf10c3ae0063e5dae9e0c2b96d95daa84ed1baf1258fde841ee252c7fcc839"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Origin_Features_2021_2024\\origin_features_2021_2024_kst.parquet",
+    "bytes": 87579871,
+    "sha256": "ff0d02f7169d1706d053556557637d505332bf2571d763472df213b5ee5e2670"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Origin_Features_2021_2024_v3\\origin_features_2021_2024_kst.parquet",
+    "bytes": 194937923,
+    "sha256": "fd0c9c3c746b41a07956c3612218d6596170b6ca6f17b547884dc3de9e6ae1ec"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\National_Station_History_2021_2024\\national_additional_station_history.parquet",
+    "bytes": 91872456,
+    "sha256": "ff0ebc9e35e61217f21b2e7d18a2f9d6bb080f65be5b0e116e358093893bdd18"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Neighbors_Expansion_QC_20261108\\station_history_qc_2021_2024.parquet",
+    "bytes": 6419648,
+    "sha256": "d0f789914f6c76b3996f0762c4d8f34aa10c81cc5a3f2da839bbed462e44408e"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\DCRNN\\Regional12_Seed11_20261109\\Seoul_PM25_Regional12_DCRNN_Seed11_Colab.ipynb",
+    "bytes": 289804,
+    "sha256": "0af4a37a4acf4135086a58b2864b6d58ec011ff5e7db08c468003af3d6f2d6bc"
+  },
+  {
+    "path": "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Dataset\\Evaluation_Contract_20261107\\evaluation_grid.parquet",
+    "bytes": 1417013,
+    "sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db"
+  }
+]

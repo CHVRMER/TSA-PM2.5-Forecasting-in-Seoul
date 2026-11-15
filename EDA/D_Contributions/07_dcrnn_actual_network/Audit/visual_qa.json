@@ -1,0 +1,14 @@
+{
+  "png_pixels": [
+    1650,
+    1650
+  ],
+  "external_series": 634,
+  "target": 1,
+  "total_nodes": 635,
+  "visually_checked": true,
+  "same_base_map_extent_colors_markers_and_192_paths_as_stage_maps": true,
+  "excluded_candidates_drawn": 0,
+  "legends_and_footnotes_inside_canvas": true,
+  "nodes_and_coordinates_match_executed_run": true
+}

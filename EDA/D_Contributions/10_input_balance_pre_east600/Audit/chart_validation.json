@@ -1,0 +1,77 @@
+{
+  "source_sha256": {
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Neighbor_Experiments_QC_20261108\\experiments.json": "25915f86bfd53b437bad4ecd869fa0f9cfedc7504055dfc9e9b7ee74e9a966e1",
+    "C:\\Users\\kimjy\\Desktop\\Time Series Analysis\\Project\\Revised_Project\\Model\\Common\\Regional_Experiments_20261107\\experiments.json": "179283f3a2643bf17ca6e66d6889410fc2c6d47f278c415892197ad1e9dfda55"
+  },
+  "figures": [
+    {
+      "scope": "pre_east_F600",
+      "actual_counts": {
+        "KR": 514,
+        "CN": 61,
+        "JP": 24,
+        "MN": 1
+      },
+      "foreign_total": 86,
+      "display_bar_widths_in_axis_units": {
+        "KR": 514,
+        "CN": 61,
+        "JP": 24,
+        "MN": 3.0
+      },
+      "visible_x_ranges": [
+        [
+          0.0,
+          150.0
+        ],
+        [
+          490.0,
+          535.0
+        ]
+      ],
+      "omitted_x_range": [
+        150.0,
+        490.0
+      ],
+      "equal_pixels_per_visible_unit": true,
+      "mongolia_minimum_display_width_disclosed": true,
+      "actual_data_unchanged": true,
+      "countries_use_red_then_identical_gray": true,
+      "exports": [
+        {
+          "file": "input_series_pre_east_F600_red_gray_broken_axis.png",
+          "bytes": 86977,
+          "sha256": "e620f87659c3babca56b75c2f4f25cc71514765506a61e60227a54ecafaddff0"
+        },
+        {
+          "file": "input_series_pre_east_F600_red_gray_broken_axis.svg",
+          "bytes": 30798,
+          "sha256": "83bbb44f709496834c891d789ff14b893c31b6af7ab48118eb103b01dcddc0a4"
+        },
+        {
+          "file": "input_series_pre_east_F600_red_gray_broken_axis.pdf",
+          "bytes": 43096,
+          "sha256": "9676734a9369ad45eaf7ac44a9d29753a5b01e9491d954eddc0174f01e24161b"
+        }
+      ]
+    }
+  ],
+  "target_seoul_junggu_excluded": true,
+  "scope_note": "Original F600_W24 before China East16 and Japan East18 additions; old Japan West24 retained.",
+  "source_files_unchanged": true,
+  "factors": {
+    "china_east": false,
+    "japan_east": false,
+    "west_selection": "old24"
+  },
+  "external_total": 600,
+  "foreign_total": 86,
+  "nodes_including_seoul_target": 601,
+  "station_order_matches_legacy_F": true,
+  "country_display_names": [
+    "Domestic",
+    "China",
+    "Japan",
+    "Mongolia"
+  ]
+}

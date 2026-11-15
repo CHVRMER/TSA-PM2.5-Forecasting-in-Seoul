@@ -1,0 +1,78 @@
+{
+  "schema_version": "neighbor-factorial-qc-v1.0.0",
+  "status": "passed",
+  "built_utc": "2026-11-07T16:59:05.987890+00:00",
+  "files": {
+    "Dataset/Origin_Features_2021_2024_v3/origin_features_2021_2024_kst.parquet": {
+      "bytes": 194937923,
+      "sha256": "fd0c9c3c746b41a07956c3612218d6596170b6ca6f17b547884dc3de9e6ae1ec"
+    },
+    "Dataset/National_Station_History_2021_2024/national_additional_station_history.parquet": {
+      "bytes": 91872456,
+      "sha256": "ff0ebc9e35e61217f21b2e7d18a2f9d6bb080f65be5b0e116e358093893bdd18"
+    },
+    "Dataset/Evaluation_Contract_20261107/evaluation_grid.parquet": {
+      "bytes": 1417013,
+      "sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db"
+    },
+    "Dataset/Neighbors_Expansion_QC_20261108/station_history_qc_2021_2024.parquet": {
+      "bytes": 6419648,
+      "sha256": "d0f789914f6c76b3996f0762c4d8f34aa10c81cc5a3f2da839bbed462e44408e"
+    },
+    "Dataset/Neighbors_Expansion_QC_20261108/feature_dictionary.csv": {
+      "bytes": 342842,
+      "sha256": "628167e523d59d0c65c43b0733161fb7ace61a304736d6ff309f8eeacff7bac5"
+    },
+    "Dataset/Neighbors_Expansion_QC_20261108/added_station_registry.csv": {
+      "bytes": 13135,
+      "sha256": "76e71c802a3a4ce90a47fbbd5272fda25b99bd96f9f9717b21c84208b294182b"
+    },
+    "Model/Common/Regional_Experiments_20261107/experiments.json": {
+      "bytes": 323650,
+      "sha256": "179283f3a2643bf17ca6e66d6889410fc2c6d47f278c415892197ad1e9dfda55"
+    },
+    "Model/Common/Regional_Experiments_20261107/feature_sets.json": {
+      "bytes": 8377541,
+      "sha256": "34f31c96c8f1ca4e0f41f121431a0b58e2a29d0abf1ceb0812ab75422e005ef0"
+    },
+    "Model/Common/Regional_Experiments_20261107/feature_registry.csv": {
+      "bytes": 2181962,
+      "sha256": "5279986d17f540ae72cdf2f6bc101c9c5447369d164d3f0f122b1c378f09668d"
+    },
+    "Model/Common/Regional_Experiments_20261107/station_registry.csv": {
+      "bytes": 205371,
+      "sha256": "252dba7aed4ed7fa695752b016984862505ab68a9f7fc02e8f06a7a4af7a9c1e"
+    },
+    "Model/Common/Regional_Experiments_20261107/regions.json": {
+      "bytes": 16230,
+      "sha256": "d8b41283c0e0d2a52d55f3574ba5e47485d86cfa8161c946c9b4ec85cc9db0a5"
+    },
+    "Dataset/Trajectory_Matching_National_v4/station_registry.csv": {
+      "bytes": 250199,
+      "sha256": "f8a4b54fdd25990d9f6696e83ebeae1a56b6b3b796e5943403082f08d45893dc"
+    },
+    "Dataset/Origin_Features_2021_2024_v3/feature_dictionary.csv": {
+      "bytes": 3874804,
+      "sha256": "c463f3cdaa195c093fb50a8463eacd82f3b961513562a5966be7cdc26f128732"
+    }
+  },
+  "archive": {
+    "path": "C:\\Users\\kimjy\\Downloads\\Dataset_11_07_regions_v5.zip",
+    "bytes": 1202550341,
+    "sha256": "4e244c20b54259bac0fdf749faac67ca98039ce0e2c69ca8531fef4f0b7bd2a1"
+  },
+  "conditions": 8,
+  "primary_conditions": 5,
+  "secondary_factorial_conditions": 3,
+  "external_catalog_series": 650,
+  "feature_catalog_columns": 10470,
+  "baseline_exact_legacy_F": true,
+  "japan_old24_new25_common": 9,
+  "japan_old24_removed": 15,
+  "japan_newwest_selected": 16,
+  "newChina16": 16,
+  "newJapanEast18": 18,
+  "code_sha256": "f2369c309f32d856574d8823a913d27efd34d5b685b7d46a3c0c5b630b4a62eb",
+  "geographic_and_source_blocks_not_conflated": true,
+  "no_data_or_DCRNN_files_modified": true
+}

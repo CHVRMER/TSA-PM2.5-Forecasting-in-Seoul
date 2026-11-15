@@ -1,0 +1,71 @@
+--- previous/run_experiments.py
++++ updated/run_experiments.py
+@@ -108,30 +108,9 @@
+ 
+ 
+ def checkpoint_run_from_source(source, condition, selected_count):
+-    """Resolve only this condition's prior checkpoint; never borrow another M arm."""
+-    if source is None:
+-        return None
+-    source=Path(source).resolve()
+-    if not source.is_dir():
+-        raise FileNotFoundError('Resume source is not a directory: '+str(source))
+-    if (source/'Models').is_dir():
+-        if selected_count != 1:
+-            raise ValueError('A single training-run resume source requires exactly one --conditions entry.')
+-        contract=source/'experiment_config.json'
+-        if contract.is_file():
+-            record=json.loads(contract.read_text(encoding='utf-8-sig'))
+-            actual=record.get('training',{}).get('input_condition')
+-            if actual != condition:
+-                raise ValueError(f'Resume condition mismatch: {actual} != {condition}')
+-        return source
+-    parent=source/'Conditions'/condition
+-    if not parent.is_dir():
+-        # An interrupted batch may not yet have reached this condition.
+-        if (source/'batch_manifest.json').is_file():
+-            return None
+-        raise ValueError('Resume source is neither a previous batch nor a condition training run.')
+-    options=sorted(p for p in parent.iterdir() if p.is_dir() and (p/'Models').is_dir())
+-    return options[-1] if options else None
++    """Resolve the same condition across resumed-batch lineage, never another arm."""
++    from full_run_control import resolve_condition_source
++    return resolve_condition_source(source, condition, selected_count)
+ 
+ 
+ def latest_training_run(condition_base):
+@@ -223,18 +202,18 @@
+     assert len(comparison_run_pairs(CONDITIONS,[11,22,33]))==24
+     assert not comparison_run_pairs(['M4T'],[11])
+     with tempfile.TemporaryDirectory() as name:
+-        batch=Path(name);atomic_json(batch/'batch_manifest.json',{})
++        batch=Path(name);atomic_json(batch/'batch_manifest.json',{'mode':'full'})
+         assert checkpoint_run_from_source(batch,'M1',6) is None
+         run=batch/'Conditions/M2/20260101_000000_a';(run/'Models').mkdir(parents=True)
+         atomic_json(run/'experiment_config.json',{'training':{'input_condition':'M2'}})
+-        assert checkpoint_run_from_source(batch,'M2',6)==run
++        assert checkpoint_run_from_source(batch,'M2',6) is None  # No completed epoch exists yet.
+         try:checkpoint_run_from_source(run,'M1',1)
+         except ValueError:pass
+         else:raise AssertionError('Cross-condition resume must fail.')
+     print(json.dumps({'runner_helper_tests':'passed','full_training_tested':False}),flush=True)
+ 
+ 
+-def main(argv=None):
++def _main(argv=None):
+     ap=argparse.ArgumentParser(description=__doc__)
+     ap.add_argument('--mode',choices=('pilot','full'),default='pilot')
+     ap.add_argument('--conditions',nargs='+',default=None)
+@@ -404,5 +383,12 @@
+             atomic_json(batch/'batch_manifest.json',state);traceback.print_exc();return 1
+ 
+ 
++def main(argv=None):
++    from full_run_control import runner_lease
++    arguments = list(sys.argv[1:] if argv is None else argv)
++    with runner_lease(arguments) as acquired:
++        return _main(arguments) if acquired else 0
++
++
+ if __name__=='__main__':
+     raise SystemExit(main())

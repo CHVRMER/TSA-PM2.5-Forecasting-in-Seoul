@@ -31,6 +31,9 @@ CONDITIONS = {
     "X_W": ["KR_west_coast"], "X_N": ["CN_near"], "X_F": ["CN_far"],
     "X_WN": ["KR_west_coast", "CN_near"], "X_WF": ["KR_west_coast", "CN_far"], "X_NF": ["CN_near", "CN_far"],
     "X_WNF": ["KR_west_coast", "CN_near", "CN_far"],
+    # team M1-M4 station sets (feature_sets.json model_B_M1..M4), one mean per station group
+    "M1": ["KR_all"], "M2": ["KR_all", "CN_near"], "M3": ["KR_all", "CN_all"],
+    "M4": ["KR_all", "CN_all", "JP_balanced", "MN"],
 }
 OUT = RESULTS / "sarimax_ablation"
 

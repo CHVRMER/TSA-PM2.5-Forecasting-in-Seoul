@@ -1,16 +1,16 @@
-# Model A 최종: SARIMAX M1–M4 (팀 공통 입력 조건)
+# Model A 수정: SARIMAX M1–M4 (팀 공통 입력 조건)
 
-**Model A의 최종 결과는 이 폴더입니다.** 같은 `results/A/`에 있는 `ModelA_3region_results.zip`, `ModelA_regional12_results.zip`, PDF 2개, PNG 2개는 그 전에 한 실험(3권역, Regional12)이며 참고용으로 남겨 둡니다.
+**팀 M1–M4 조건으로 수정한 Model A 결과는 이 폴더입니다.** 같은 `results/A/`에 있는 `ModelA_3region_results.zip`, `ModelA_regional12_results.zip`, PDF 2개, PNG 2개는 수정 전 실험(3권역, Regional12) 결과입니다.
 
 | 구분 | 입력 조건 | 위치 |
 |---|---|---|
-| **최종** | 팀 M1–M4 (`feature_sets.json`의 `model_B_M1`–`M4`와 같은 관측소) | `results/A/ModelA_M1_M4/` (이 폴더) |
-| 이전 1차 | 3권역(서해안·가까운 중국·먼 중국) + 나라별, Granger | `results/A/ModelA_3region_results.zip` |
-| 이전 2차 | Regional12 (DN, F, ADD 10개), 3–48시간 | `results/A/ModelA_regional12_results.zip` |
+| **수정** | 팀 M1–M4 (`feature_sets.json`의 `model_B_M1`–`M4`와 같은 관측소) | `results/A/ModelA_M1_M4/` (이 폴더) |
+| 수정 전 1차 | 3권역(서해안·가까운 중국·먼 중국) + 나라별, Granger | `results/A/ModelA_3region_results.zip` |
+| 수정 전 2차 | Regional12 (DN, F, ADD 10개), 3–48시간 | `results/A/ModelA_regional12_results.zip` |
 
-## 최종(M1–M4)에 쓰인 코드 (`A/` 폴더)
+## 수정한 결과(M1–M4)에 쓰인 코드 (`A/` 폴더)
 
-`A/`에는 이전 실험 코드도 함께 있습니다. 최종 결과에 쓰인 파일은 아래 코드 11개와 실행 노트북 1개입니다.
+`A/`에는 수정 전 실험 코드도 함께 있습니다. 수정한 결과에 쓰인 파일은 아래 코드 11개와 실행 노트북 1개입니다.
 
 | 역할 | 파일 |
 |---|---|
@@ -22,7 +22,7 @@
 | 그림 | `make_fig_M.py`, `make_fig_M_heat.py` |
 | 실행 노트북 | `ModelA_SARIMAX_M1_M4_colab.ipynb` (위 코드를 순서대로 실행, 결과 표·그림 출력 포함) |
 
-나머지(`a_granger.py`, `run_score.py`, `r12_data.py`, `grid_ext.py`, `a_r12.py`, `score_r12.py`, `check_*.py`, `ModelA_SARIMAX_colab.ipynb`)는 이전 실험(3권역, Regional12)용입니다.
+나머지(`a_granger.py`, `run_score.py`, `r12_data.py`, `grid_ext.py`, `a_r12.py`, `score_r12.py`, `check_*.py`, `ModelA_SARIMAX_colab.ipynb`)는 수정 전 실험(3권역, Regional12)용입니다.
 
 ## 입력 조건
 

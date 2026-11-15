@@ -1,0 +1,24 @@
+{
+ "model": "A_SARIMAX__M1",
+ "written_kst": "2026-11-15T23:27:17+09:00",
+ "features_version": "origin-features-3.0.0",
+ "features_created_kst": "2026-11-05T00:01:49.263670+09:00",
+ "features_rows": 11688,
+ "features_columns": 5678,
+ "order": [
+  2,
+  1,
+  2
+ ],
+ "condition": "M1",
+ "exog_groups": [
+  "KR_all"
+ ],
+ "seed": null,
+ "lag_by_horizon": {
+  "3": 3,
+  "6": 6,
+  "12": 12,
+  "24": 24
+ }
+}

@@ -1,0 +1,171 @@
+{
+ "protocol_version": "fixed-calendar-seed-v1.0.0",
+ "split": "validation",
+ "fixed_eligible_by_horizon": {
+  "3": 2531,
+  "6": 2530,
+  "12": 2528,
+  "24": 2524
+ },
+ "fixed_calendar_slots_by_horizon": {
+  "3": 2920,
+  "6": 2920,
+  "12": 2920,
+  "24": 2920
+ },
+ "rows_selected_using_predictions": false,
+ "model_prediction_intersection_used": false,
+ "negative_prediction_rule": "clip each scored forecast at zero; count per run and horizon",
+ "seed_score_summary_is_not_prediction_ensemble": true,
+ "ensemble_rule": "raw-unit arithmetic mean, then nonnegative clip",
+ "hac_default": "max(horizon/3-1,0), Bartlett, exact elapsed-time slots, gaps retained",
+ "hac_lag_override": null,
+ "bootstrap": "moving 7-day=56 calendar-slot blocks; gaps remain inside blocks",
+ "bootstrap_reps": 1000,
+ "bootstrap_seed": 0,
+ "holm_family": "all finite p-values in this declared scoring invocation (all included horizons/runs/pairs)",
+ "test_guard": false,
+ "does_not_train_models": true,
+ "inference_caveat": "Overlap minimum HAC lag need not capture all additional serial dependence; predeclare lag/block sensitivity, do not tune on significance.",
+ "written_kst": "2026-11-15T23:40:45.743388+09:00",
+ "grid_path": "TSA\\Dataset\\Evaluation_Contract_20261107\\evaluation_grid.parquet",
+ "grid_sha256": "6a7dac480d621745a8211b85ba4138a90953ad2a2ff5d417ee0a1aaf348e13db",
+ "prediction_sources": [
+  {
+   "path": "planA\\predictions\\A_SARIMA.parquet",
+   "sha256": "4fefc306b2371b3a640c87fd837525999db5be7f215f4a65ab39ca1c4221f4d2",
+   "sidecar": {
+    "model": "A_SARIMA",
+    "written_kst": "2026-11-09T02:24:20+09:00",
+    "features_version": "origin-features-3.0.0",
+    "features_created_kst": "2026-11-05T00:01:49.263670+09:00",
+    "features_rows": 11688,
+    "features_columns": 5678,
+    "order": [
+     2,
+     1,
+     2
+    ],
+    "exog": "daily+annual Fourier (2 harmonics)",
+    "seed": null
+   }
+  },
+  {
+   "path": "planA\\predictions\\A_SARIMAX__M1.parquet",
+   "sha256": "485ce3405ece0a9389191d0391ed9ba410f8d0de90b4e5ec30ff749fea1235d7",
+   "sidecar": {
+    "model": "A_SARIMAX__M1",
+    "written_kst": "2026-11-15T23:27:17+09:00",
+    "features_version": "origin-features-3.0.0",
+    "features_created_kst": "2026-11-05T00:01:49.263670+09:00",
+    "features_rows": 11688,
+    "features_columns": 5678,
+    "order": [
+     2,
+     1,
+     2
+    ],
+    "condition": "M1",
+    "exog_groups": [
+     "KR_all"
+    ],
+    "seed": null,
+    "lag_by_horizon": {
+     "3": 3,
+     "6": 6,
+     "12": 12,
+     "24": 24
+    }
+   }
+  },
+  {
+   "path": "planA\\predictions\\A_SARIMAX__M2.parquet",
+   "sha256": "b67d2067063a41a59bbfeb926af5ff61a0473532be9e45b7f2afb9f6df8eea21",
+   "sidecar": {
+    "model": "A_SARIMAX__M2",
+    "written_kst": "2026-11-15T23:29:53+09:00",
+    "features_version": "origin-features-3.0.0",
+    "features_created_kst": "2026-11-05T00:01:49.263670+09:00",
+    "features_rows": 11688,
+    "features_columns": 5678,
+    "order": [
+     2,
+     1,
+     2
+    ],
+    "condition": "M2",
+    "exog_groups": [
+     "KR_all",
+     "CN_near"
+    ],
+    "seed": null,
+    "lag_by_horizon": {
+     "3": 3,
+     "6": 6,
+     "12": 12,
+     "24": 24
+    }
+   }
+  },
+  {
+   "path": "planA\\predictions\\A_SARIMAX__M3.parquet",
+   "sha256": "3a6abdcc815d39f9c3e05bcacd63a3d563a061e68d41427b62f0cd5345ddfaac",
+   "sidecar": {
+    "model": "A_SARIMAX__M3",
+    "written_kst": "2026-11-15T23:39:05+09:00",
+    "features_version": "origin-features-3.0.0",
+    "features_created_kst": "2026-11-05T00:01:49.263670+09:00",
+    "features_rows": 11688,
+    "features_columns": 5678,
+    "order": [
+     2,
+     1,
+     2
+    ],
+    "condition": "M3",
+    "exog_groups": [
+     "KR_all",
+     "CN_all"
+    ],
+    "seed": null,
+    "lag_by_horizon": {
+     "3": 3,
+     "6": 6,
+     "12": 12,
+     "24": 24
+    }
+   }
+  },
+  {
+   "path": "planA\\predictions\\A_SARIMAX__M4.parquet",
+   "sha256": "64e4cf4f76bc72a66cbfa1f3e298fe823674872c94c35b7776408337f0fb462f",
+   "sidecar": {
+    "model": "A_SARIMAX__M4",
+    "written_kst": "2026-11-15T23:40:12+09:00",
+    "features_version": "origin-features-3.0.0",
+    "features_created_kst": "2026-11-05T00:01:49.263670+09:00",
+    "features_rows": 11688,
+    "features_columns": 5678,
+    "order": [
+     2,
+     1,
+     2
+    ],
+    "condition": "M4",
+    "exog_groups": [
+     "KR_all",
+     "CN_all",
+     "JP_balanced",
+     "MN"
+    ],
+    "seed": null,
+    "lag_by_horizon": {
+     "3": 3,
+     "6": 6,
+     "12": 12,
+     "24": 24
+    }
+   }
+  }
+ ]
+}
